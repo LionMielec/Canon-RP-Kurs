@@ -1,0 +1,17 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+node_modules/
+dist/
+coverage/
+*.log
+
+# Materiały i prywatne zdjęcia wymagają osobnej decyzji przed dodaniem do Git.
+materials/**/*
+!materials/**/
+!materials/**/*.md
+!materials/**/.gitkeep
