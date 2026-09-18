@@ -1,6 +1,6 @@
 # Architektura aplikacji — wymagania i kierunek
 
-Status: opis koncepcyjny. Nie wybrano frameworka, hostingu, bazy danych ani sposobu logowania. Nie ma kodu aplikacji.
+Status: od 18.09.2026 istnieje zatwierdzony minimalny szkielet aplikacji internetowej (D-18). Statyczne HTML/CSS/JavaScript i prywatny hosting Sites, bez frameworka, bazy i własnego logowania. Pozostałe wymagania poniżej opisują przyszły rozwój, nie obecne możliwości. Szczegóły: [13 — Pierwsza aplikacja](13_PIERWSZA_APLIKACJA.md).
 
 ## Kierunek z rozmowy
 
@@ -28,3 +28,7 @@ Przepływ docelowy: Ania → aplikacja → serwer z kontrolą dostępu i kosztó
 8. Technologia i hosting dopasowane do zatwierdzonego zakresu.
 
 Nie budujemy na tym etapie wielu usług, systemu agentów, wyszukiwarki wektorowej, rozbudowanego panelu administracyjnego ani automatycznego routingu modeli. Ich potrzeba nie wynika z uzgodnionego celu.
+
+## Pierwszy projekt wizualny — ustalenie 18.09.2026
+
+Zaczynamy od widoku lekcji na telefonie. Urządzenie Ani: iPhone 17 Pro Max. Urządzenie użytkownika do prób: iPhone 15 Pro Max. Projekt należy dopasować do obu telefonów; test na jednym nie zastępuje sprawdzenia na drugim. To ustalenie urządzeń docelowych dla pierwszego projektu, bez wyboru technologii, hostingu lub zatwierdzenia implementacji. Wygląd i sposób nawigacji pozostają do wspólnego przeglądu.

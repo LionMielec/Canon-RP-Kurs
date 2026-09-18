@@ -4,7 +4,7 @@
 
 Prywatny, niekomercyjny kurs dla Ani, łączący naukę fotografii z obsługą jej aparatu. Zaczynamy od absolutnych podstaw i zostawiamy miejsce na kolejne poziomy.
 
-Etap: dokumentacja startowa, 17 września 2026. Aplikacja nie jest jeszcze implementowana.
+Etap: pierwsza prywatna aplikacja z dwiema lekcjami, 18 września 2026. Aktualny stan i następne kroki: [przekazanie sesji](docs/14_PRZEKAZANIE_SESJI.md). Kod opublikowanej aplikacji jest w osobnym checkoutcie Sites wskazanym w dokumencie 13; tutejszy `app/` pozostaje znacznikiem.
 
 Zacznij od [przewodnika po projekcie](docs/00_START_HERE.md). Przyjęte ustalenia i otwarte propozycje rozdziela [rejestr decyzji](docs/09_DECISIONS.md).
 

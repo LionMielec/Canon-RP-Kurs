@@ -1,6 +1,6 @@
 # Zadania i stan
 
-Aktualizacja: 17.09.2026.
+Aktualizacja: 18.09.2026.
 
 ## Dokumentacja startowa
 
@@ -23,7 +23,9 @@ Aktualizacja: 17.09.2026.
 - [ ] Porównać istotne dla lekcji różnice między polską i angielską instrukcją.
 - [ ] Opisać rzeczywiste główne strony menu.
 - [ ] Opracować i zatwierdzić kolejność lekcji Poziomu 1.
-- [ ] Przygotować jedną pełną lekcję wzorcową na zweryfikowanych materiałach.
+- [x] Przygotować pełny szkic [L1-01](L1-01_ROBIE_SWOJE_PIERWSZE_ZDJECIE.md) na podstawie sprawdzonych fragmentów instrukcji.
+- [x] Zatwierdzić formę L1-01 jako wzorzec kolejnych lekcji — D-15, 18.09.2026.
+- [ ] Uzupełnić L1-01 o własne materiały wizualne i sprawdzić przebieg na aparacie Ani.
 
 ## Przed przyszłą implementacją
 
@@ -45,3 +47,44 @@ Weryfikacja: 23 pliki, 12 dokumentów w `docs/`, poprawne odnośniki lokalne, br
 ## Baza materiałów — uzupełnienie 17.09.2026
 
 Dodano 2 instrukcje PDF (łącznie 61 035 389 bajtów), opis plików i katalog 17 odcinków online. Zweryfikowano liczbę stron, wybrane renderowane strony i sumy SHA-256. Pełny przegląd treści instrukcji jest kolejnym zadaniem. Historyczna liczba 23 plików powyżej dotyczy etapu startowej dokumentacji.
+
+## Pierwszy szkielet aplikacji — 18.09.2026
+
+- [x] Zatwierdzić minimalny zakres aplikacji na iPhone — D-18.
+- [x] Przygotować ekran startowy i dwie lekcje według wzorca D-15.
+- [x] Dodać fioletową ikonę i manifest uruchamiania z ekranu początkowego.
+- [x] Dodać próbne animowane zbliżenie z pauzą i powtórzeniem.
+- [x] Sprawdzić obie lekcje w przeglądarce przy szerokościach 320, 430, 440 i 1024 px, ograniczenie ruchu, pomoc i powiększony tekst.
+- [ ] Sprawdzić prywatny adres w Safari na iPhonie 15 Pro Max i uruchomienie z dodanej ikony.
+- [ ] Ocenić kolorystykę, długość kroków na telefonie i animację.
+- [ ] Ustalić dostęp dla Ani i sprawdzić jej iPhone 17 Pro Max.
+
+Szczegóły: [13 — Pierwsza aplikacja](13_PIERWSZA_APLIKACJA.md). Test przeglądarkowy nie zastępuje testu Safari ani aparatu Ani.
+
+## Następna sesja — priorytety po przeglądzie aplikacji
+
+- [x] Zapisać pozytywną ocenę wyglądu aplikacji przez użytkownika; finalny dobór odcieni nadal otwarty.
+- [ ] Dodać klikalny spis treści z wejściami do lekcji i bezpośrednio do ćwiczeń (D-20). Najpierw ustalić jego miejsce w mobilnym układzie.
+- [ ] Ustalić źródło i sposób wykonania jednej animacji „Włącz aparat”.
+- [ ] Przygotować i ocenić animację: obrót → zbliżenie → ruch przełącznika; automatyczny start, bez wymaganego przycisku „Odtwórz” (D-19).
+- [ ] Zastąpić duże kółko precyzyjnym obrysem/strzałką śledzącą właściwy element.
+- [ ] Potwierdzić instalację ikony i działanie z ekranu początkowego iPhone’a; użytkownik pozytywnie ocenił wygląd, ale nie potwierdził wprost tego testu.
+
+Na prośbę użytkownika kończymy sesję po dokumentacji. Powyższych zmian jeszcze nie wdrożono. Punkt wejścia do dalszej pracy: [14 — Przekazanie sesji](14_PRZEKAZANIE_SESJI.md).
+
+## Uzupełnienie po przeniesieniu pracy do Codex — 18.09.2026
+
+- [x] Zapisać intencję niespodzianki, oczekiwanie efektu „wow” i rolę animacji — D-21.
+- [x] Zapisać zdalny sposób zbierania zdjęć oraz niezależność pracy nad treścią — D-22.
+- [x] Użytkownik utworzył lokalny projekt Codex „Canon RP - Kurs” i potwierdził dodanie folderów dokumentacji oraz aplikacji.
+- [ ] Po zgłoszeniu gotowości 19.09.2026 poprowadzić Pawła i Anię przez zdjęcia aparatu, po jednym ujęciu, z oceną przesyłanych materiałów.
+- [ ] Nową rozmowę rozpocząć w lokalnym projekcie i odczytać zaktualizowane przekazanie sesji. Dotychczasowa rozmowa pozostaje powiązana z projektem ChatGPT.
+
+Priorytety D-19 i D-20 pozostają aktualne; sesja zdjęciowa nie stanowi zgody na zmianę aplikacji, publikację ani płatne generowanie. Najnowsze ustalenia uzupełniają starsze sekcje tego dokumentu; nie oznaczają zatwierdzenia całego programu Poziomu 1.
+
+## Treści kursu i nauczyciel AI — doprecyzowanie 18.09.2026
+
+- [x] Utrwalić proces: sprawdzenie źródeł → wyjaśnienie i ćwiczenie → zgodność z aparatem Ani (D-23, dokument 03).
+- [ ] Po zatwierdzeniu programu przygotować pozostałe lekcje według tego procesu. Dwie istniejące lekcje nie stanowią całego kursu; spis treści i animacje nie zastępują pracy nad treścią.
+- [x] Doprecyzować analizę nowych i wcześniejszych zdjęć Ani, również z innego sprzętu i bez EXIF, oraz współpracę przez pytania i kolejne próby (D-24, dokument 06).
+- [ ] W przyszłym zatwierdzonym etapie wdrożyć nauczyciela AI i przeprowadzić próby opisane w dokumencie 06. Moduł nie działa jeszcze w aplikacji.

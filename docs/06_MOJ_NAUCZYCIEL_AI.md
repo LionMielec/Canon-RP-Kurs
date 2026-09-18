@@ -6,6 +6,10 @@ Status: zaakceptowany moduł docelowego kursu. Implementacja jest późniejszym 
 
 Ania dodaje zdjęcie po ćwiczeniu albo własne zdjęcie niezależnie od lekcji. Nauczyciel pomaga zrozumieć wynik i wykonać lepszą kolejną próbę. Analizuje fotografię w kontekście zasad i treści kursu.
 
+**Doprecyzowanie 18.09.2026 (D-24):** Ania może dodawać zarówno nowe zdjęcia z Canon EOS RP, jak i swoje wcześniejsze fotografie, również wykonane innym aparatem lub telefonem. Zdjęcie nie musi pochodzić z ćwiczenia ani zawierać danych EXIF. Nie zakładamy, że zostało wykonane zestawem EOS RP + RF 50 mm F1.8 STM.
+
+To współpraca z nauczycielem AI: Ania pokazuje zdjęcie, może opowiedzieć o swoim zamiarze i dopytać o wskazówki. AI pomaga dostrzec, co działa, co przeszkadza w zamierzonym efekcie i czego warto spróbować. Może omówić kolejną próbę, jeśli Ania ją doda. Bez egzaminowania i narzucania jednego „poprawnego” gustu. Sposób prowadzenia rozmowy i przechowywania jej historii pozostaje do ustalenia przy implementacji.
+
 ## Wejście
 
 - Zdjęcie przygotowane do analizy.
@@ -15,6 +19,8 @@ Ania dodaje zdjęcie po ćwiczeniu albo własne zdjęcie niezależnie od lekcji.
 - Zasady języka nauczyciela oraz lista rzeczywiście istniejących, odpowiednich lekcji.
 
 Metadane odczytujemy przed usunięciem zbędnych danych z kopii wysyłanej do AI. Brak pola nie jest wartością zero. Metadane mogą być niepełne lub zmodyfikowane; nauczyciel mówi „według danych pliku”, gdy to istotne.
+
+Przy braku danych sprzętu i ustawień nadal omawiamy widoczną treść zdjęcia, np. kompozycję, światło i tło, w granicach jakości materiału. Nie odgadujemy modelu aparatu, parametrów ani pewnej przyczyny problemu. Wskazówki do kolejnej próby na Canonie Ani odróżniamy od ustaleń o tym, jak powstało wcześniejsze zdjęcie.
 
 ## Odpowiedź
 
@@ -36,3 +42,5 @@ Rozpoznawanie powtarzających się trudności, dobór kolejnego ćwiczenia i sam
 ## Próby akceptacyjne przed uruchomieniem
 
 Sprawdzimy zdjęcie z kompletnymi danymi, bez EXIF, z częściowymi danymi, nieostre lub bardzo małe, przypadek niejednoznaczny, brak powiązanej lekcji, brak internetu oraz wyczerpany budżet API. Nauczyciel ma zachować prosty język, granice wnioskowania i maksymalnie dwa zalecenia. Błąd usługi nie może oznaczać utraty postępu w kursie.
+
+Próby obejmą też wcześniejsze zdjęcie z innego aparatu lub telefonu, zdjęcie o nieznanym pochodzeniu sprzętowym oraz pytanie uzupełniające Ani. Sprawdzimy, czy AI uwzględnia jej zamiar, nie przypisuje zdjęciu sprzętu EOS RP bez danych i potrafi pomóc bez wymuszania związku z lekcją.

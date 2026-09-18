@@ -33,3 +33,20 @@ Nazwę fotograficzną wprowadzamy po zrozumieniu zjawiska. Film nie zastępuje c
 | Źródła i weryfikacja | Instrukcja, ekran, data, tryb i firmware |
 
 Ten wzór porządkuje treść; nie narzuca jeszcze schematu bazy ani technologii aplikacji. Numer „Lekcja 6” z przykładu w rozmowie nie jest przypisany do konkretnej lekcji.
+
+## Zaakceptowany wzorzec — 18.09.2026
+
+Użytkownik zaakceptował formę [L1-01 — Robię swoje pierwsze zdjęcie](L1-01_ROBIE_SWOJE_PIERWSZE_ZDJECIE.md) jako wzorzec kolejnych lekcji (decyzja D-15).
+
+Kolejne lekcje zachowują:
+
+1. Bezpośredni zwrot do Ani, prosty język, cel i orientacyjny czas.
+2. Krótkie przygotowanie i czytelny punkt startowy.
+3. Numerowane kroki „zrób → sprawdź”: działanie i oczekiwany rezultat.
+4. Krótkie wyjaśnienie po wykonaniu czynności.
+5. Praktyczne ćwiczenie z aparatem.
+6. Pomoc przy typowych trudnościach.
+7. Proste kryteria ukończenia oraz jedno zdanie do zapamiętania.
+8. Osobną kartę redakcyjną: źródła, materiały, stan weryfikacji i kontekst nauczyciela AI.
+
+Liczbę kroków i czas dostosowujemy do tematu; sześć kroków pierwszej lekcji nie jest sztywnym wymaganiem. Zdjęcia, animacje i porównania dołączamy zgodnie z potrzebą lekcji i dostępnością sprawdzonych materiałów. Akceptacja formy nie zastępuje testu instrukcji na aparacie ani nie zatwierdza technologii lub interfejsu aplikacji.

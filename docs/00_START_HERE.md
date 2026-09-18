@@ -1,5 +1,7 @@
 # Zacznij tutaj
 
+**Stan na koniec sesji 18.09.2026:** dwie lekcje i prywatna aplikacja są gotowe; dalsze ustalenia dotyczą animacji i klikalnego spisu treści. Zacznij od [przekazania sesji](14_PRZEKAZANIE_SESJI.md). Poniższy opis celu etapu startowego ma charakter historyczny.
+
 ## Cel tego etapu
 
 Utrwalić ustalenia, przygotować prywatne repo i miejsce na materiały. Ten etap nie obejmuje kodowania aplikacji, wyboru frameworka, uruchomienia API ani tworzenia animacji.
