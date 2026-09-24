@@ -1,136 +1,204 @@
-# Rejestr decyzji
+# Canon RP kurs — DECISIONS
 
-Data bazowa: 17.09.2026. Źródło: rozmowa „Planowanie kursu Canon RP” i polecenie rozpoczęcia dokumentacji oraz repo. Status odróżnia zaakceptowaną koncepcję od propozycji asystenta.
+Stan na: 2026-09-24
 
-## Ustalone
+Ten plik jest bieżącym rejestrem zatwierdzonych decyzji projektowych. Dokument `Canon-RP-kurs-REVIEW-BEFORE-CODEX-v4.md` oraz obowiązujący handoff pozostają źródłami szczegółowego kontekstu.
 
-| ID | Ustalenie | Uzasadnienie |
-| --- | --- | --- |
-| D-01 | Prywatny, niekomercyjny kurs dla Ani na Canon EOS RP | Konkretny odbiorca i egzemplarz |
-| D-02 | Nauka fotografii i aparatu w jednym kursie | Działanie ma prowadzić do efektu na zdjęciu |
-| D-03 | Rozwój od podstaw przez średni do zaawansowanego poziomu | Kurs ma rosnąć z umiejętnościami Ani |
-| D-04 | Zwykły język na każdym poziomie | Żargon nie ma odstraszać ani utrudniać nauki |
-| D-05 | Cel → aparat → ustawienie → efekt → ćwiczenie | Nauka przez praktykę |
-| D-06 | Prawdziwe polskie menu i zdjęcia egzemplarza | Zgodność instrukcji z tym, co widzi Ania |
-| D-07 | Animacja prowadzi po aparacie; menu pozostaje autentyczne | Czytelność i poprawność instruktażu |
-| D-08 | Osobny moduł „Mój nauczyciel / Analiza mojego zdjęcia” | Informacja zwrotna na własnych pracach |
-| D-09 | Dane zdjęcia odczytywane programowo; brak danych nie jest zgadywany | Uczciwa analiza i rozróżnienie faktów od hipotez |
-| D-10 | Krótka informacja zwrotna bez punktacji, najwyżej dwa zalecenia | Pomoc bez przytłaczania początkującej |
-| D-11 | Osobne prywatne repo Canon-RP-Kurs, najpierw dokumentacja | Zachowanie decyzji przed implementacją |
-| D-12 | Klucz API poza klientem i GitHubem; osobny projekt i budżet API | Bezpieczeństwo i kontrola kosztów |
-| D-13 | Na początek główne strony menu, Q, ekran fotografowania i firmware | Materiały potrzebne do planowania bez zbierania setek ekranów |
+## D-001 — Cel projektu
+Zatwierdzone: prywatny, niekomercyjny kurs dla Ani dotyczący Canon EOS RP i praktycznej fotografii; start od poziomu początkującego.
 
-## Kierunki robocze i decyzje otwarte
+## D-002 — Forma produktu
+Zatwierdzone: aplikacja webowa mobile-first, z iPhone 17 Pro Max jako głównym urządzeniem referencyjnym; interfejs responsywny również na tablet i komputer.
 
-| ID | Temat | Status |
-| --- | --- | --- |
-| P-01 | WWW/PWA zamiast aplikacji App Store | Preferowany kierunek; technologia i zakres offline nieustalone |
-| P-02 | Higgsfield do krótkich klipów | Rozważane narzędzie; brak prób i zakupu w tym etapie |
-| P-03 | GPT-6 Astra jako model referencyjny nauczyciela | Ostatnia propozycja z rozmowy; przed integracją ocena jakości, dostępności i kosztu |
-| P-04 | Saldo 5–10 USD i wyłączone automatyczne doładowanie | Przykład budżetu; nie jest zgodą na płatność ani zmianę konta |
-| P-05 | Lista i kolejność lekcji Poziomu 1 | Do opracowania i akceptacji |
-| P-06 | Obiektyw, firmware i dokładne polskie etykiety menu | Oczekuje na materiały egzemplarza |
-| P-07 | Hosting, logowanie, baza, synchronizacja postępów, retencja zdjęć | Do ustalenia przed implementacją |
+## D-003 — Zakres kursu
+Zatwierdzone: jeden system łączący obsługę Canon EOS RP z praktyczną nauką fotografii. Aparat jest narzędziem, fotografia celem.
 
-## Później
+## D-004 — Język i sposób tłumaczenia
+Zatwierdzone: język polski, prosty i naturalny; najpierw efekt lub sytuacja, potem wyjaśnienie, na końcu termin fachowy.
 
-Specjalizacje jako kolejny poziom, model aparatu obracany palcem, osiągnięcia, adaptacyjne ćwiczenia, niezależny nauczyciel fotografii i ewentualna optymalizacja modeli. Zachowanie pomysłu nie oznacza zatwierdzenia jego implementacji.
+## D-005 — Sposób nauki
+Zatwierdzone: nauka sytuacyjna, wizualna, praktyczna i krok po kroku; rytm: zobacz → ustaw → zrób zdjęcie → sprawdź efekt → porównaj → popraw → spróbuj ponownie.
 
-## Doprecyzowania po przeglądzie rozmowy
+## D-006 — Poziomy kursu
+Zatwierdzone: jedna ciągła ścieżka: początkujący → średnio zaawansowany → zaawansowany → ewentualne specjalizacje.
 
-- Linki do materiałów nie oznaczają pobranych plików. Początkowo nie mamy lokalnych zdjęć ani instrukcji.
-- Liczby stron menu są roboczym planem zbierania zdjęć, nie zweryfikowaną mapą egzemplarza.
-- Nazwy i numery lekcji użyte w przykładach nie ustanawiają programu kursu.
-- Budżet/alert API i egzekwowany twardy limit to różne ustawienia. Nawet twardy limit nie daje gwarancji rozliczenia co do centa; szczegóły w dokumencie 11.
-- Kwota za 42 zdjęcia była szacunkiem, nie wynikiem pomiaru. Nie stanowi gwarancji kosztu.
-- Wcześniejsza propozycja kilku modeli ustępuje prostszemu kierunkowi jednego modelu referencyjnego; wdrożenie nadal wymaga decyzji.
+## D-007 — Materiały z rzeczywistego Canon EOS RP
+Zatwierdzone: podstawą wizualną i techniczną są zdjęcia konkretnego aparatu Ani, rzeczywiste ekrany menu, zaakceptowane materiały projektowe i oficjalna dokumentacja Canona. Nie wolno zgadywać wyglądu ani działania aparatu i menu.
 
-## Jak dopisywać decyzje
+## D-008 — Wizualizacje i 3D: zasady użycia
+Zatwierdzone:
 
-Nowy wpis zawiera datę, ID, decyzję, status, uzasadnienie i wpływ na zakres. Zmiana wcześniejszej decyzji wskazuje, który wpis zastępuje. Decyzje produktowe podejmuje użytkownik; Codex implementuje zaakceptowany etap.
+- wizualizacja ma przede wszystkim uczyć, a nie ozdabiać,
+- animację stosujemy wtedy, gdy czytelniej pokazuje gdzie wykonać działanie, co nacisnąć, co przekręcić lub co powinno pojawić się na ekranie,
+- podstawą odwzorowania jest rzeczywisty Canon EOS RP Ani; nie wolno wymyślać elementów aparatu,
+- można stosować m.in. zbliżenia, obrót aparatu, podświetlenia, wskazania kierunku obrotu, wskazania miejsca dotknięcia i przejścia od całego aparatu do konkretnego elementu,
+- rzeczywiste menu musi pochodzić z aparatu Ani; animacja może jedynie wskazywać kroki i zaznaczać elementy,
+- materiały 3D są osobnymi zasobami lekcji i Codex ma je implementować, a nie wymyślać,
+- 3D nie jest obowiązkowe w każdej lekcji; prostsze materiały mają pierwszeństwo, jeśli równie dobrze wyjaśniają temat,
+- Higgsfield jest preferowanym obecnie narzędziem produkcyjnym, ale nie jest twardą zależnością aplikacji ani jedynym dozwolonym narzędziem.
 
-## D-14 — Lokalna baza instrukcji (17.09.2026)
+## D-009 — Wizualizacje i 3D: pipeline produkcyjny i odpowiedzialność
+Zatwierdzone:
 
-Na wyraźne polecenie użytkownika pobrano oryginalne PDF PL i EN do `materials/canon-official/` we właściwym repo. Pliki pozostają lokalne i ignorowane przez Git. Pochodzenie, daty i ograniczenia zapisano w rejestrze. Materiały wideo mają na razie tylko lokalny katalog i odnośnik do źródła; nie są dostępne offline. Decyzja nie obejmuje commit/push ani redystrybucji instrukcji.
+1. W ChatGPT powstaje zatwierdzona treść lekcji oraz decyzja, jaka wizualizacja jest potrzebna i czemu ma służyć.
+2. Określamy dokładnie potrzebne zdjęcia aparatu Ani, ekrany menu i inne materiały źródłowe.
+3. Na podstawie zweryfikowanych materiałów powstaje storyboard / precyzyjna instrukcja wykonania grafiki lub animacji.
+4. Materiał jest produkowany w Higgsfield albo w innym zaakceptowanym narzędziu odpowiednim do danego zadania.
+5. Gotowy materiał jest sprawdzany pod kątem zgodności z rzeczywistym Canon EOS RP Ani, prawidłowości pokazywanej czynności i zgodności z treścią lekcji.
+6. Właściciel projektu zatwierdza materiał przed implementacją.
+7. Zatwierdzony materiał trafia do `assets/` z jasnym przypisaniem do konkretnej lekcji i miejsca użycia.
+8. Codex osadza materiał w aplikacji i odpowiada za jego techniczne działanie, responsywność i integrację z lekcją.
 
-## D-15 — Forma kolejnych lekcji (18.09.2026)
+Codex nie produkuje samodzielnie finalnych animacji 3D i nie zleca ich automatycznie zewnętrznym narzędziom. Może zgłaszać potrzeby techniczne, ograniczenia formatu, problemy z wydajnością i propozycje sposobu osadzenia, ale produkcja i zatwierdzanie materiałów wizualnych pozostają częścią procesu projektowego w ChatGPT z właścicielem projektu.
 
-**Status: zaakceptowane przez użytkownika.** Forma [L1-01](L1-01_ROBIE_SWOJE_PIERWSZE_ZDJECIE.md) jest wzorcem kolejnych lekcji: bezpośredni język do Ani, przygotowanie, kroki „zrób → sprawdź”, krótkie wyjaśnienie, ćwiczenie, pomoc, kryteria ukończenia i zdanie podsumowania. Źródła i uwagi redakcyjne pozostają w osobnej części.
 
-Uzasadnienie: użytkownik pozytywnie ocenił pierwszą lekcję i wyraźnie zaakceptował jej formę. Decyzja doprecyzowuje strukturę z dokumentu 04. Nie oznacza sprawdzenia lekcji na egzemplarzu Ani ani zatwierdzenia całej listy lekcji lub implementacji aplikacji. Kolejne treści przygotowujemy w tym wzorcu w ramach zatwierdzanych prac.
+## D-010 — Hierarchia form wizualizacji w aplikacji
+Zatwierdzone:
 
-## D-16 — Telefon jako pierwszy widok kursu (18.09.2026)
+1. Zdjęcie lub rzeczywisty ekran menu jest formą podstawową, gdy wystarcza do jasnego wskazania elementu lub kroku.
+2. Gotowa krótka animacja 3D / animowany materiał jest formą preferowaną tam, gdzie ruch, obrót, zbliżenie lub wskazanie kierunku lepiej tłumaczy czynność.
+3. Rzeczywiste interaktywne 3D stosujemy wyjątkowo, tylko gdy interakcja daje konkretną wartość edukacyjną niedostępną w prostszej formie.
 
-**Status: zaakceptowane przez użytkownika.** Rozpoczynamy projektowanie wyglądu od lekcji na telefonie. Ania korzysta z iPhone’a 17 Pro Max, użytkownik ma do prób iPhone’a 15 Pro Max. Uzasadnienie: rozpoczęcie oceny formy wizualnej na rzeczywistych urządzeniach użytkowników. Wpływ: doprecyzowanie urządzeń dla pierwszego projektu; bez decyzji o technologii lub wdrożeniu aplikacji.
+Nie tworzymy interaktywnego modelu 3D całego Canon EOS RP jako obowiązkowej podstawy kursu. Obowiązuje zasada: **najprostsza forma, która skutecznie uczy; bardziej złożone 3D tylko wtedy, gdy realnie poprawia zrozumienie.** Rozwiązanie ma pozostać lekkie i wygodne przede wszystkim na iPhone 17 Pro Max Ani.
 
-## D-17 — Życzliwy humor w porównaniach (18.09.2026)
 
-**Status: zaakceptowane przez użytkownika.** W porównaniach można dodać odrobinę humoru, aby kurs był miły i przyjemny. Wpływ: uzupełnienie zasad języka w dokumencie 03; humor nie zastępuje precyzyjnych instrukcji ani nie ocenia Ani. Nie wymaga przebudowy zaakceptowanego wzorca lekcji.
+## D-011 — Analiza zdjęć przez AI: tryb związany z ćwiczeniem
+Zatwierdzone:
 
-## D-18 — Pierwszy szkielet aplikacji na iPhone (18.09.2026)
+- AI analizuje zdjęcie w kontekście konkretnej lekcji lub ćwiczenia i zna cel zadania,
+- analiza skupia się przede wszystkim na celu ćwiczenia, nie na pełnej krytyce fotografii,
+- do modelu mogą trafić: zdjęcie, identyfikator lekcji/ćwiczenia, cel zadania, zakres wiedzy już poznanej przez Anię oraz dostępne metadane zdjęcia,
+- agent najpierw ocenia, czy cel ćwiczenia został osiągnięty, bez arbitralnej skali punktowej,
+- odpowiedź ma prowadzić schematem: co wyszło dobrze → jedna najważniejsza rzecz do poprawienia → dlaczego → co zrobić na Canon EOS RP → kolejna próba,
+- AI nie może zgadywać parametrów ani twierdzić, że zna ustawienia, których nie da się potwierdzić,
+- AI nie powinno wyprzedzać programu kursu i ma bazować głównie na tym, czego Ania już się nauczyła,
+- analiza ma być krótka, praktyczna i zadaniowa.
 
-**Status: zaakceptowane przez użytkownika.** Użytkownik zatwierdził przejście od makiety do małej aplikacji internetowej z ikoną: nazwa „Canon RP — Kurs”, fioletowa ikona, ekran startowy, dwie lekcje, układ jeden krok naraz, lawenda/fiolet z delikatnym różem, próbne animowane zbliżenie z pauzą i adres do testu na iPhonie. Następnie polecił kontynuować.
+Zasada nadrzędna: **AI nie ocenia zdjęcia ogólnie „czy jest dobre”; sprawdza, czy Ania osiągnęła cel konkretnego ćwiczenia, wyjaśnia wynik i prowadzi do następnej próby.**
 
-Wykonano minimalny wariant statyczny na Sites, prywatny dla właściciela. Ikona i manifest pozwalają uruchamiać stronę z ekranu początkowego jako aplikację internetową; próbę na prawdziwym iPhonie wykonuje użytkownik. Bez API AI, synchronizacji, bazy danych i trybu offline. Animacja jest zbliżeniem prawdziwego zdjęcia, nie filmem fizycznego przełączania elementów. Wybór dostępu dla Ani pozostaje osobnym krokiem; nie publikować kursu publicznie bez zgody.
+Otwarte po D-011: zakres i sposób działania osobnej funkcji „Przeanalizuj moje zdjęcie” poza konkretną lekcją.
 
-Źródło aplikacji ma osobne repozytorium wymagane przez Sites. Szczegóły lokalizacji i wdrożenia zawiera dokument 13. Główne repo dokumentacji nie zostało w tym etapie automatycznie commitowane ani wypchnięte.
+## D-012 — AI ma tłumaczyć każdą poradę na konkretne działanie
+Zatwierdzone:
 
-## D-19 — Docelowe animacje i precyzyjne oznaczenia (18.09.2026)
+- AI nie może kończyć ważnej wskazówki na skrócie lub fachowym zaleceniu, które początkująca osoba musi sama przełożyć na działanie,
+- przy każdej kluczowej poprawce agent ma wyjaśnić: **co Ania ma zrobić fizycznie, co ma ustawić na Canon EOS RP (jeśli to potrzebne), gdzie ma to znaleźć oraz jaki efekt powinna zobaczyć**,
+- zalecenia dotyczące kadru, odległości, ustawienia osoby lub sceny mają być opisane jako proste czynności do wykonania,
+- zalecenia dotyczące aparatu mają być podawane w granicach materiału już poznanego w kursie i w formie prostej ścieżki działania,
+- agent preferuje jedną najważniejszą, wykonalną poprawkę na kolejną próbę zamiast wielu ogólnych porad.
 
-**Status: zaakceptowane przez użytkownika, niewdrożone.** Sekwencja: krótki obrót aparatu → zbliżenie na właściwy element → pokazanie działania, np. przełączenia na ON lub naciśnięcia spustu. Animacja rozpoczyna się sama po wejściu w krok, bez wymaganego przycisku „Odtwórz”. Aktualne powiększanie nieruchomego zdjęcia uruchamiane przyciskiem nie spełnia docelowego oczekiwania. Ustalenie zastępuje ten aspekt próbnej animacji z D-18.
+Zasada nadrzędna: **każda porada AI ma odpowiadać Ani na pytanie „co dokładnie mam teraz zrobić?”.**
 
-Wskazanie ma obejmować wyłącznie konkretny element: cienki dopasowany obrys albo krótka strzałka zamiast dużego kółka mieszczącego kilka elementów. Oznaczenie pozostaje przy elemencie podczas ruchu i zbliżenia. Najpierw jedna animacja wzorcowa „Włącz aparat”, do oceny na telefonie, potem kolejne.
 
-Technika wykonania nie została wybrana. Potrzebne jest prawdziwe nagranie albo zweryfikowany klip zachowujący geometrię aparatu i poprawne oznaczenia. Nie ma jeszcze gotowego klipu. Higgsfield jest rozważaną możliwością, nie zatwierdzonym zakupem. Menu musi pozostać autentyczne. Zachować możliwość zatrzymania ruchu i uwzględnić preferencję ograniczenia animacji; automatyczny start na iPhonie wymaga sprawdzenia podczas wdrożenia.
+## D-013 — Funkcja „Pokaż mi jak” w analizie AI
+Zatwierdzone:
 
-## D-20 — Klikalny spis treści (18.09.2026)
+- przy poradzie AI może być dostępna funkcja **„Pokaż mi jak”**,
+- funkcja prowadzi do zweryfikowanego materiału kursu pokazującego wykonanie zalecenia na Canon EOS RP albo w scenie fotograficznej,
+- materiałem może być fragment lekcji, zatwierdzone zdjęcie aparatu, rzeczywisty ekran menu, zatwierdzona animacja/3D lub krótka instrukcja krok po kroku,
+- „Pokaż mi jak” nie może generować ad hoc wyglądu aparatu, menu ani przebiegu czynności; korzysta z zatwierdzonych zasobów projektu,
+- jeśli właściwy materiał nie istnieje, brak ma zostać zgłoszony do uzupełnienia zamiast tworzenia zastępczego materiału z domysłu,
+- funkcja łączy analizę AI bezpośrednio z nauką w kursie: od „co poprawić” do „jak dokładnie to zrobić”.
 
-**Status: zaakceptowane wymaganie, niewdrożone.** Dodać klikalny spis treści prowadzący bezpośrednio do poszczególnych lekcji oraz ćwiczeń. Użytkownik ma móc wybrać potrzebny temat bez przechodzenia wszystkich wcześniejszych kroków. Miejsce spisu, sposób prezentacji i nawigację powrotną ustalić przy projekcie; nie są jeszcze zatwierdzonym interfejsem. Zachować prostą obsługę na telefonie. Obecne dwie karty lekcji na starcie nie stanowią docelowego spisu lekcji i ćwiczeń.
+## D-014 — Osobna funkcja „Przeanalizuj moje zdjęcie” — kierunek
+Zatwierdzone:
 
-## D-21 — Osobisty prezent i niespodzianka dla Ani (18.09.2026)
+- funkcja działa także poza konkretnym ćwiczeniem kursu,
+- AI analizuje zdjęcie szerzej, ale nadal w odniesieniu do wiedzy i umiejętności już poznanych przez Anię,
+- agent nie powinien wyprzedzać kursu ani zasypywać Ani tematami, których jeszcze nie zna,
+- funkcja ma prowadzić do jednej najważniejszej, praktycznej poprawki i może korzystać z „Pokaż mi jak”,
+- szczegółowy ekran, przebieg i porównywanie kolejnych prób pozostają do dopracowania.
 
-**Status: ustalone przez użytkownika.** Ania nie wie o powstającym kursie. Ma to być osobisty, piękny prezent z efektem „wow”, przy zachowaniu rzetelnej nauki fotografii. Ograniczamy jej udział w przygotowaniach do potrzebnych zdjęć aparatu; nie angażujemy jej w projektowanie ani ocenę aplikacji przed ujawnieniem niespodzianki. Wygląd, jej kolory, życzliwy język, lekki humor i płynne prowadzenie stanowią ważną część doświadczenia.
+## D-015 — Porównanie kolejnych prób „przed” i „po”
+Zatwierdzone:
 
-Doprecyzowanie D-19: animacje są częścią sposobu prowadzenia, nie tylko pomocą przy trudnych czynnościach. „Włącz aparat” pozostaje wzorcem jakości i stylu, choć samo przełączenie OFF → ON jest łatwe. Obowiązuje obrót → zbliżenie → pokazanie działania, automatyczny start i precyzyjne oznaczenie podążające za elementem, z możliwością zatrzymania. Nie redukować tej wizji do powiększania nieruchomego zdjęcia ani animowania wyłącznie trudniejszych operacji. Technika wykonania pozostaje otwarta; ta decyzja nie zatwierdza nowej infrastruktury ani płatnych usług.
+- po wskazówce AI i wykonaniu kolejnego zdjęcia aplikacja ma traktować zdjęcie wcześniejsze, udzieloną wskazówkę i nową próbę jako jedną serię nauki,
+- AI ma porównywać zdjęcie „przed” i „po” przede wszystkim pod kątem konkretnej zmiany, nad którą Ania właśnie pracowała, a nie wykonywać od nowa pełną krytykę fotografii,
+- wynik porównania ma prostym językiem wyjaśniać: **co konkretnie się zmieniło, czy zastosowana wskazówka przyniosła oczekiwany efekt oraz co zrobić dalej**,
+- AI nie ma używać ogólnego werdyktu „drugie zdjęcie jest lepsze/gorsze”; ma odnosić się do celu danej poprawki,
+- jeśli poprawa jest częściowa, agent ma to jasno powiedzieć i zaproponować jedną kolejną, wykonalną korektę,
+- jeśli warunki między zdjęciami zmieniły się tak bardzo, że nie da się wiarygodnie przypisać różnicy zastosowanej wskazówce, AI ma to zakomunikować i nie zgadywać przyczyny,
+- seria może obejmować więcej niż dwie próby, np. zdjęcie 1 → wskazówka → zdjęcie 2 → korekta → zdjęcie 3, tak aby Ania mogła zobaczyć postęp w czasie.
 
-## D-22 — Zdalne zbieranie materiałów i niezależna praca nad treścią (18.09.2026)
+Zasada nadrzędna: **porównanie kolejnych prób ma być elementem pętli uczenia, a nie osobną oceną zdjęcia: wskazówka → nowa próba → porównanie efektu → następny krok.**
 
-**Status: ustalone z użytkownikiem.** Paweł jest poza domem i może pomagać Ani wyłącznie telefonicznie lub przez wiadomości. Ania samodzielnie fotografuje aparat telefonem. Codex przygotowuje krótką instrukcję jednego ujęcia do przekazania przez Pawła; Ania przesyła zdjęcie Pawłowi, a on dodaje je do rozmowy do oceny. Kolejne ujęcie lub poprawka wynika z przeglądu otrzymanego materiału. Nie zakładać obecności drugiej osoby na miejscu ani obciążać Ani produkcją docelowych animacji.
 
-Sesję zdjęciową zaplanowano na następny dzień, 19.09.2026, po zgłoszeniu gotowości przez użytkownika. Przygotujemy kadry ogólne i zbliżenia potrzebne do istniejących lekcji, oceniając czytelność elementów i odbicia. Dobór dalszych nagrań i techniki animacji pozostaje osobnym ustaleniem; prostota zbierania materiałów nie obniża oczekiwań wobec końcowej aplikacji.
+## D-016 — Rozpoczęcie przekazania projektu do Codexa
+Zatwierdzone:
 
-Zdjęcia nie są warunkiem opracowania programu i treści lekcji. Można pisać je własnymi słowami na podstawie instrukcji Canona dla EOS RP + RF 50 mm F1.8 STM, oznaczając elementy wymagające testu jako „do sprawdzenia”. Zdjęcia służą ilustracjom i późniejszej weryfikacji egzemplarza. Katalog 17 filmów „In a Snap” nie zastępuje analizy filmów lub transkrypcji. Kolejność 14 lekcji nadal wymaga akceptacji; dzisiejsze doprecyzowanie nie jest poleceniem automatycznego napisania pozostałych lekcji.
+- nie czekamy z rozpoczęciem implementacji do przygotowania całego kursu; Codex może zacząć budowę na zatwierdzonych fundamentach projektu,
+- przed właściwym kodowaniem domykamy punkt 9 do poziomu gotowego do implementacji, definiujemy zakres MVP i minimalne decyzje techniczne potrzebne do startu,
+- nowy handoff dla Codexa ma być przygotowany jako kontynuacja wcześniejszego przekazania, a nie jako nowy projekt od zera,
+- przy przygotowaniu handoffu trzeba uwzględnić materiały i wiedzę, które Codex już wcześniej otrzymał, w szczególności istniejące dokumenty projektu takie jak `AGENTS.md`, `README.md`, `DECISIONS.md`, `PROJECT_SCOPE.md`, `CONTENT_MAP.md`, `ARCHITECTURE.md`, `ASSET_REQUIREMENTS.md`, `AI_PHOTO_REVIEW.md`, `STATUS.md` i `CODEX_START_PROMPT.md`,
+- nie wolno tworzyć równoległych, sprzecznych instrukcji; przed wdrożeniem nowego pakietu należy porównać go z aktualnym stanem projektu Codexa i jasno oznaczyć, które dokumenty są nadrzędne i które ustalenia zastępują wcześniejsze wersje,
+- Codex pozostaje wykonawcą technicznym: ma implementować zatwierdzone decyzje, treści i materiały, a nie samodzielnie zmieniać kierunek produktu,
+- nowe zdjęcia Ani mają zostać włączone do procesu jako zweryfikowane materiały źródłowe projektu po ich przeglądzie i przypisaniu do konkretnych potrzeb lekcji/UX.
 
-## D-23 — Sprawdzone źródła i kolejność tworzenia lekcji (18.09.2026)
+Zasada nadrzędna: **przejście do implementacji ma być kontrolowanym handoffem istniejącego projektu, z zachowaniem ciągłości wiedzy i bez resetowania wcześniejszego kontekstu Codexa.**
 
-**Status: zatwierdzone przez użytkownika.** Przed napisaniem lekcji sprawdzamy źródła, następnie układamy zrozumiałe wyjaśnienie i ćwiczenie, a na końcu kontrolujemy zgodność z aparatem Ani. Wiedza techniczna pochodzi wyłącznie ze sprawdzonych materiałów; język, porównania i ćwiczenia są autorskie. Konkretne źródła i zakres weryfikacji trafiają do karty redakcyjnej. Nieprzeczytane artykuły i nieprzeanalizowane filmy nie są potwierdzeniem informacji. Braki dotyczące egzemplarza oznaczamy „do sprawdzenia”.
+## D-017 — Nadrzędny priorytet edukacyjny kursu
+Zatwierdzone:
 
-Uzasadnienie: kurs ma być rzetelnym, godnym zaufania prezentem. Wpływ: utrwalenie procesu w dokumencie 03, bez automatycznej zgody na napisanie wszystkich lekcji lub zmianę aplikacji.
+- głównym celem kursu jest nauczenie Ani robienia zdjęć ze zrozumieniem przy użyciu jej Canon EOS RP,
+- rdzeniem produktu są pełne treści edukacyjne łączące praktyczną obsługę aparatu z nauką fotografowania,
+- każda lekcja ma prowadzić od konkretnego efektu lub sytuacji fotograficznej do właściwej obsługi aparatu, wykonania zdjęcia, sprawdzenia rezultatu i świadomej korekty,
+- treść kursu, ćwiczenia, źródła merytoryczne, rzeczywiste materiały aparatu i menu mają pierwszeństwo przed funkcjami AI, efektami wizualnymi i dodatkami technicznymi,
+- aplikacja jest sposobem wygodnego prowadzenia Ani przez naukę; nie jest celem samym w sobie,
+- AI pozostaje funkcją wspomagającą: może pomagać w analizie zdjęć, kierować do właściwych materiałów i wspierać kolejne próby, ale nie może wyznaczać głównej struktury ani priorytetów kursu,
+- Codex ma implementować zatwierdzoną treść edukacyjną i UX; nie ma zastępować procesu tworzenia programu i lekcji.
 
-## D-24 — Własne i wcześniejsze zdjęcia we współpracy z AI (18.09.2026)
+Zasada nadrzędna: **najpierw uczymy Ani świadomie fotografować Canonem EOS RP; technologia, AI i wizualizacje mają wyłącznie wspierać ten cel.**
 
-**Status: zatwierdzone doprecyzowanie docelowego modułu, niewdrożone.** Ania może dodawać nowe zdjęcia z EOS RP oraz swoje wcześniejsze zdjęcia, także z innego aparatu lub telefonu, niezależnie od lekcji i obecności EXIF. Nauczyciel AI omawia to, co wyszło dobrze, oraz najwyżej jedną lub dwie rzeczy do poprawy; uwzględnia zamiar Ani, odpowiada na pytania i pomaga przy kolejnych próbach. To współpraca, bez punktacji i zgadywania sprzętu, parametrów lub przyczyn.
+## D-018 — L1-01 „Robię swoje pierwsze zdjęcie” — zatwierdzona baza lekcji
+Zatwierdzone:
 
-Uzasadnienie: nauka ma obejmować własne fotografie Ani, nie tylko zadania kursowe. Wpływ: doprecyzowanie D-08–D-10 oraz dokumentu 06 i przyszłych prób akceptacyjnych. Interfejs rozmowy, retencja, model i budżet pozostają do ustalenia. Ten wpis nie uruchamia integracji, płatnych usług ani wysyłania zdjęć.
+- L1-01 pozostaje pierwszą lekcją Poziomu 1,
+- pełna wersja przygotowana 24.09.2026 jest przyjęta jako baza treści lekcji,
+- celem lekcji jest wykonanie pierwszego świadomego zdjęcia w trybie A+, z rozróżnieniem dwóch etapów naciskania spustu migawki i oczekiwaniem na wizualne potwierdzenie ustawienia ostrości przed wykonaniem zdjęcia,
+- ćwiczenie obejmuje trzy powtórzenia tego samego prostego cyklu: wyceluj → naciśnij spust do połowy → zobacz potwierdzenie ostrości → dociśnij spust do końca,
+- pierwsza lekcja nie jest oprowadzaniem po całym aparacie; kontrola akumulatora, karty i gotowości sprzętu jest warunkiem startowym, a nie główną treścią dydaktyczną,
+- główna ścieżka korzysta z tylnego ekranu; nauka wizjera może zostać wprowadzona później,
+- L1-01 kończy się przygotowaniem do L1-02, w której Ania będzie sprawdzać ostrość wykonanego zdjęcia.
 
-## D-25 — Standard produkcji każdej lekcji od L1-01 (24.09.2026)
+Zasada: **pierwsza lekcja ma od początku budować prawidłowy nawyk świadomego wykonania zdjęcia, a nie tylko nauczyć naciskania spustu.**
 
-**Status: zatwierdzone przez użytkownika.**
 
-Od pierwszej lekcji L1-01 każda lekcja ma powstawać równolegle jako:
-- finalna treść edukacyjna dla Ani,
-- ćwiczenie i sposób sprawdzenia efektu,
-- uporządkowane kroki z identyfikatorami,
-- notatki wizualno-produkcyjne,
-- przypisane zdjęcia, rzeczywiste ekrany, grafiki, animacje/3D i porównania,
-- statusy brakujących lub gotowych materiałów,
-- jednoznaczna instrukcja montażu dla Codexa.
+## D-019 — Notatki wizualno-produkcyjne dla każdej lekcji
+Zatwierdzone:
 
-Nie wprowadzamy tej zasady dopiero od L1-02. L1-01 również musi mieć pełną kartę produkcyjną.
+- każda pełna lekcja ma mieć osobną sekcję roboczą przeznaczoną dla zespołu projektowego, niewidoczną jako zwykła treść dla Ani,
+- sekcja ma wskazywać dokładnie, **gdzie w lekcji** potrzebny jest materiał wizualny, **jaki ma mieć format** oraz **czemu ma służyć dydaktycznie**,
+- dopuszczalne formaty obejmują przede wszystkim: rzeczywiste zdjęcie aparatu Ani, rzeczywisty ekran/menu aparatu, prostą grafikę objaśniającą, krótką animację, animację/ujęcie 3D oraz porównanie zdjęć,
+- dla każdego materiału zapisujemy: miejsce użycia w lekcji, cel edukacyjny, wymagane źródło, preferowaną formę, opis ujęcia/animacji oraz status: istnieje / trzeba przygotować / trzeba sfotografować / do weryfikacji,
+- materiał wizualny nie może być dekoracyjny; ma pokazywać konkretną czynność, element aparatu, zmianę efektu na zdjęciu albo różnicę, którą Ania ma zauważyć,
+- ostateczny dobór zdjęcia, grafiki lub animacji następuje podczas opracowywania konkretnej lekcji, a nie zbiorczo „na zapas”.
 
-Codex nie decyduje samodzielnie o miejscu, kolejności ani roli dydaktycznej materiałów i nie tworzy zastępczych wizualizacji aparatu/menu z domysłu. Brakujący materiał pozostaje jawnym zadaniem produkcyjnym.
+Zasada nadrzędna: **treść i warstwa wizualna powstają równolegle; każda lekcja ma od razu określać, co Ania ma zobaczyć w kluczowych momentach nauki.**
 
-Szczegółowy format opisuje `docs/15_STANDARD_PRODUKCJI_LEKCJI.md`. Pierwszym zastosowaniem jest `docs/L1-01_KARTA_WIZUALNO_PRODUKCYJNA.md`.
 
-Zasada nadrzędna: **od L1-01 każda lekcja jest projektowana jako komplet: treść + ćwiczenie + sprawdzenie efektu + warstwa wizualna + instrukcja dla Codexa.**
+## D-020 — Struktura lekcji i materiałów dla implementacji w Codexie
+Zatwierdzone:
 
+- każda pełna lekcja ma być przygotowywana jako uporządkowany pakiet treści, a nie jako sam tekst,
+- pakiet lekcji ma rozdzielać treść widoczną dla Ani od notatek produkcyjnych dla projektu,
+- każdy istotny fragment lekcji ma mieć stały identyfikator sekcji/kroku, aby Codex mógł jednoznacznie osadzić właściwy materiał w odpowiednim miejscu,
+- każdy materiał wizualny ma być opisany co najmniej przez: identyfikator, miejsce użycia, typ materiału (zdjęcie / ekran / grafika / animacja / 3D), cel dydaktyczny, źródło, status oraz powiązanie z konkretnym krokiem lekcji,
+- Codex nie może samodzielnie zgadywać, gdzie umieścić materiał ani zmieniać jego roli edukacyjnej; implementuje przypisania wynikające z zatwierdzonego pakietu lekcji,
+- jeżeli materiał nie jest jeszcze gotowy, w pakiecie pozostaje jawny placeholder produkcyjny z opisem czego brakuje, zamiast zastępowania go przypadkową grafiką lub wygenerowanym odpowiednikiem,
+- układ danych ma umożliwiać późniejszą wymianę zdjęcia, grafiki lub animacji bez przebudowy treści lekcji,
+- kolejność ekranów i elementów interaktywnych w aplikacji ma wynikać ze struktury lekcji i jej kroków, a nie z osobnych decyzji implementacyjnych Codexa.
+
+Zasada nadrzędna: **ChatGPT + właściciel projektu określają treść, kolejność i rolę materiałów; Codex składa z tego aplikację zgodnie z jednoznacznym planem lekcji.**
+
+
+## D-021 — Gotowy materiał dydaktyczny przed ćwiczeniem Ani
+Zatwierdzone:
+
+- Ania otrzymuje gotowy kurs z gotowymi przykładami dydaktycznymi; nie uczestniczy w produkcji materiałów, na których ma się dopiero uczyć,
+- gdy nowy temat wymaga przykładu wizualnego, kolejność jest następująca: gotowy materiał wzorcowy w kursie → wyjaśnienie, na co patrzeć → pokaz obsługi Canon EOS RP, jeśli potrzebny → ćwiczenie Ani na własnych zdjęciach,
+- własne zdjęcia Ani są materiałem ćwiczeniowym i rozwojowym, a nie obowiązkowym źródłem podstawowej demonstracji,
+- materiały wzorcowe przygotowują autorzy kursu wcześniej, z wykorzystaniem własnych zweryfikowanych materiałów, rzeczywistego aparatu lub legalnych i sprawdzonych źródeł zewnętrznych,
+- przy źródłach zewnętrznych zapisujemy pochodzenie i licencję w manifeście assetów,
+- rzeczywiste zdjęcia egzemplarza Ani pozostają podstawą do pokazywania fizycznej obsługi jej aparatu.
+
+Zasada nadrzędna: **najpierw gotowy przykład i zrozumienie, potem samodzielne ćwiczenie Ani.**

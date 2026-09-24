@@ -1,6 +1,20 @@
 # Zadania i stan
 
-Aktualizacja: 18.09.2026.
+Aktualizacja: 24.09.2026.
+
+## Aktualny stan — 24.09.2026
+- [x] Zatwierdzić nadrzędny priorytet edukacyjny kursu.
+- [x] Zatwierdzić bazę L1-01.
+- [x] Wykonać audyt wizualny L1-01.
+- [x] Wprowadzić standard produkcji lekcji od L1-01.
+- [x] Utworzyć wspólny manifest assetów.
+- [x] Przygotować pełny projekt L1-02.
+- [x] Skorygować L1-02: gotowe materiały dydaktyczne najpierw, własne ćwiczenie Ani później.
+- [ ] Następna sesja: wspólnie zatwierdzić albo skorygować L1-02.
+- [ ] Po zatwierdzeniu L1-02 przejść do L1-03.
+- [ ] Produkować brakujące assety L1-01/L1-02 etapami, bez materiałów „na zapas”.
+
+## Historia wcześniejszych zadań
 
 ## Dokumentacja startowa
 

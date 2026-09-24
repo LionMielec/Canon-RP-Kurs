@@ -1,5 +1,7 @@
 # Poziom 1 — Zaczynam fotografować
 
+**Stan przeglądu: 24.09.2026.** Cała lista 14 lekcji pozostaje programem roboczym. L1-01 ma zatwierdzoną bazę treści. L1-02 ma pełny projekt po korekcie dydaktycznej i czeka na akceptację. Pozostałe lekcje będą analizowane kolejno.
+
 Propozycja programu do akceptacji, 18.09.2026. Kurs dla Ani: Canon EOS RP z RF 50 mm F1.8 STM. Model obiektywu potwierdzono w poprzedniej rozmowie na podstawie zdjęć; starsza dokumentacja projektu jeszcze tego nie uwzględnia.
 
 ## Cel poziomu
@@ -16,33 +18,29 @@ Nie musi zapamiętać całego menu ani fotografować w trybie ręcznym. Tryby P,
 - Każda pełna lekcja otrzyma punkt startowy, wymagane ustawienia i listę ustawień przywracanych po ćwiczeniu. Zmiana trybu sama nie gwarantuje wyzerowania wcześniejszych ustawień.
 - Auto ISO wprowadzamy jako pomoc aparatu. Ręczne ustawianie ISO nie jest warunkiem rozpoczęcia nauki.
 - Ćwiczenia porównawcze mają zachować możliwie stały kadr, światło i miejsce ustawienia ostrości. Zmieniamy jeden wskazany czynnik; automatyka może równocześnie zmieniać parametry ekspozycji.
-- Zdjęcia i animacje dołączymy później. Nie zastępujemy ich wygenerowanymi ekranami menu.
+- Treść i warstwa wizualno-produkcyjna powstają równolegle od L1-01. Nie zastępujemy brakujących materiałów aparatu wygenerowanymi ekranami menu.
 
 ## Moduł 1. Oswajam aparat
 
-### L1-01. Robię swoje pierwsze zdjęcie
+### L1-01. Robię swoje pierwsze zdjęcie — ZATWIERDZONA BAZA
 
-**Cel:** włączyć przygotowany aparat, spokojnie go trzymać i wykonać zdjęcie.
+**Cel:** wykonać pierwsze świadome zdjęcie w A+, rozróżniając półnaciśnięcie i pełne naciśnięcie spustu oraz czekając na wizualne potwierdzenie ostrości.
 
-Zakres: krótka kontrola akumulatora i karty, zdjęty dekielek, ekran lub wizjer, automat A+, naciśnięcie spustu do połowy i do końca. Zakładamy zamontowany obiektyw; montaż będzie pomocą dodatkową, gdy okaże się potrzebny. Nie formatujemy karty jako rutynowego kroku.
+**Ćwiczenie:** trzy razy powtórzyć cykl: wyceluj → naciśnij spust do połowy → zobacz potwierdzenie ostrości → spokojnie dociśnij do końca.
 
-**Ćwiczenie:** sfotografuj nieruchomy przedmiot o wyraźnych krawędziach w jasnym miejscu, z odległości około metra. Zrób trzy próby, za każdym razem najpierw wciskając spust do połowy.
+Pełna treść: [L1-01](L1-01_ROBIE_SWOJE_PIERWSZE_ZDJECIE.md).  
+Warstwa wizualna: [karta L1-01](L1-01_KARTA_WIZUALNO_PRODUKCYJNA.md).
 
-**Sprawdzenie:** zdjęcie zostało zapisane, a Ania rozróżnia oba etapy naciśnięcia spustu. Nie uzależniamy sukcesu od sygnału dźwiękowego, który może być wyłączony.
+### L1-02. Sprawdzam, czy zdjęcie jest ostre — DO PRZEGLĄDU
 
-**Źródła:** PL, s. 40–46, 52–54, 68–70.
+**Cel:** najpierw nauczyć się na gotowych przykładach, co oznacza ostry ważny detal, a następnie otworzyć własne zdjęcie na EOS RP, powiększyć wybrany szczegół i sprawdzić jego wyrazistość.
 
-### L1-02. Sprawdzam, czy zdjęcie jest ostre
+**Kolejność dydaktyczna:** gotowy przykład w kursie → wyjaśnienie → obsługa odtwarzania/powiększenia na EOS RP → ćwiczenie na zdjęciach z L1-01.
 
-**Cel:** odnaleźć zapisane zdjęcie i obejrzeć istotny szczegół w powiększeniu.
+**Zakres:** odtwarzanie, wybór zdjęcia, lupa, główne pokrętło, przesuwanie powiększonego widoku i powrót do fotografowania. Nie diagnozujemy jeszcze przyczyn nieostrości i nie wprowadzamy ustawień AF.
 
-Zakres: odtwarzanie, przechodzenie między zdjęciami, powiększenie, powrót do fotografowania. Rozdzielamy ostrość oglądanego zdjęcia od ustawienia wizjera. Sama ramka potwierdzająca ustawienie ostrości nie gwarantuje ostrego zdjęcia.
-
-**Ćwiczenie:** obejrzyj trzy wcześniejsze zdjęcia. Porównaj ten sam szczegół, np. napis lub krawędź przedmiotu, przy podobnym powiększeniu.
-
-**Sprawdzenie:** Ania umie wskazać najbardziej czytelny szczegół i wrócić do fotografowania. Nie musi jeszcze ustalić przyczyny każdej nieostrości.
-
-**Źródła:** PL, s. 52–54, 296–299.
+Pełny projekt: [L1-02](L1-02_SPRAWDZAM_CZY_ZDJECIE_JEST_OSTRE.md).  
+Warstwa wizualna: [karta L1-02](L1-02_KARTA_WIZUALNO_PRODUKCYJNA.md).
 
 ### L1-03. Układam zdjęcie bez zmiany ustawień
 

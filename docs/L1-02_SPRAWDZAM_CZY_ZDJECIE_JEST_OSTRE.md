@@ -1,162 +1,136 @@
-# Lekcja 2. Sprawdzam, czy zdjęcie jest ostre
+# L1-02 — Sprawdzam, czy zdjęcie jest ostre
 
-**Około 10–15 minut · Canon EOS RP + RF 50 mm F1.8 STM**
+**Poziom 1 · Oglądam efekt**  
+**Status:** projekt po korekcie dydaktycznej — do wspólnego przeglądu  
+**Czas:** około 10–15 minut
 
-Zrobiłaś już pierwsze zdjęcia. Teraz przyjrzysz się im z bliska i sprawdzisz, czy napis na książce jest wyraźny. Nauczysz się powiększać zdjęcie, przesuwać oglądany fragment i porównywać swoje próby.
+## Cel lekcji
+Po tej lekcji Ania:
+- rozpoznaje na gotowych przykładach, jak wygląda detal ostry i mniej ostry,
+- wie, że ostrość sprawdza się na konkretnym szczególe, a nie po małym podglądzie całego zdjęcia,
+- potrafi otworzyć zdjęcie na Canon EOS RP, powiększyć ważny szczegół i sprawdzić go,
+- stosuje tę metodę do własnych zdjęć wykonanych w L1-01.
 
-## Przygotuj aparat i zdjęcia
+Główny nawyk:
 
-Potrzebujesz trzech zdjęć książki z pierwszej lekcji, zapisanych na karcie w aparacie. Jeśli ich nie masz, wróć do ćwiczenia z [lekcji 1](L1-01_ROBIE_SWOJE_PIERWSZE_ZDJECIE.md) i wykonaj trzy podobne zdjęcia.
+**najpierw wiem, czego szukam; potem powiększam ważny szczegół i sprawdzam, czy naprawdę jest wyraźny.**
 
-Włącz aparat i skieruj ekran w swoją stronę. Usiądź wygodnie w miejscu, gdzie światło nie odbija się mocno od ekranu. Możesz pozostawić tryb A+ — dzisiaj nie zmieniamy ustawień fotografowania.
+## L1-02-S01 — Najpierw zobacz, co znaczy „ostre”
 
-## 1. Odszukaj pierwszą próbę
+W kursie pojawiają się przygotowane wcześniej przykłady tego samego rodzaju sceny.
 
-Naciśnij przycisk z **trójkątem odtwarzania**, u dołu z tyłu aparatu, po prawej stronie ekranu.
+Na pierwszym przykładzie ważny element jest wyraźny: jego krawędzie są czytelne i łatwo zobaczyć drobne szczegóły.
 
-Użyj przycisków kierunkowych w lewo i w prawo, żeby odnaleźć zdjęcia książki. Wybierz pierwsze z trzech. Strzałka w lewo prowadzi do starszych zdjęć, a w prawo do nowszych.
+Na drugim przykładzie ostrość znajduje się w niewłaściwym miejscu. Ważny element wygląda miękko, mimo że inna część zdjęcia może być wyraźna.
 
-**Sprawdź:** oglądasz pojedynczą fotografię książki. Jeśli widzisz siatkę małych zdjęć, strzałkami zaznacz właściwe i naciśnij środkowy przycisk **Q/SET**.
+Nie uczymy się jeszcze nazw błędów ani ich przyczyn. Chodzi tylko o jedną rzecz:
 
-## 2. Przyjrzyj się zdjęciu z bliska
+**ostre zdjęcie to nie takie, na którym „cokolwiek” jest ostre. Ostry ma być ten element, który chcieliśmy pokazać wyraźnie.**
 
-Znajdź **przycisk z symbolem lupy**, z tyłu aparatu, wysoko po prawej stronie. To przycisk przy górnym prawym narożniku tylnej ścianki, a nie przycisk odtwarzania na dole.
+## L1-02-S02 — Mały podgląd może oszukiwać
 
-Naciśnij go. Następnie obracaj **pokrętło główne w prawo**, żeby powiększać obraz. To małe pokrętło na górze aparatu, tuż za spustem migawki — nie duże pokrętło z literami trybów.
+Kurs pokazuje teraz jedno zdjęcie w dwóch wersjach prezentacji:
 
-Zatrzymaj się, kiedy litery na okładce będą na tyle duże, żeby wygodnie obejrzeć ich krawędzie. Nie musisz dochodzić do największego powiększenia.
+1. całe zdjęcie,
+2. powiększony ważny szczegół.
 
-**Sprawdź:** widzisz mniejszy fragment zdjęcia, ale jego szczegóły są większe. Mały wskaźnik w prawym dolnym rogu pokazuje, który obszar oglądasz. Samo naciśnięcie lupy może dać różny widok początkowy — zależy to od ustawień aparatu.
+Na całym zdjęciu problem może być prawie niewidoczny. Dopiero po powiększeniu widać, czy drobne krawędzie i faktura są rzeczywiście wyraźne.
 
-## 3. Znajdź wybrany napis
+To właśnie będziesz za chwilę robiła na swoim Canonie.
 
-W powiększeniu naciskaj przyciski kierunkowe: w górę, w dół, w lewo lub w prawo. Przesuwaj oglądany fragment, aż znajdziesz wyraz na okładce.
+## L1-02-S03 — Otwórz zdjęcie na Canon EOS RP
 
-Wybierz jedną wyraźną literę albo krótki wyraz. To będzie Twój punkt porównania na wszystkich trzech zdjęciach.
+Na tylnej ściance aparatu znajdź przycisk z **niebieskim symbolem odtwarzania ▶**.
 
-**Sprawdź:** widzisz krawędzie liter. Przyjrzyj się, czy są czytelne, czy rozmyte i trudne do oddzielenia od tła. Jeszcze nie musisz ustalać przyczyny.
+Naciśnij go raz.
 
-## 4. Porównaj ten sam szczegół na drugim zdjęciu
+Na ekranie pojawi się ostatnio zapisane zdjęcie.
 
-Naciśnij ponownie **przycisk z lupą**, żeby wyjść z powiększenia.
+Do przechodzenia między zdjęciami użyj lewego i prawego kierunku na tylnym wybieraku.
 
-Dopiero teraz naciśnij strzałkę w prawo, żeby przejść do następnego zdjęcia. Ponownie użyj lupy i pokrętła głównego. Strzałkami odszukaj ten sam wyraz.
+Znajdź jedno z trzech zdjęć wykonanych w L1-01.
 
-Dopasuj powiększenie tak, żeby litery miały na ekranie podobną wielkość jak poprzednio. Zdjęcia z pierwszego ćwiczenia powinny mieć podobny kadr; jeśli mocno się różnią, potraktuj porównanie jako orientacyjne.
+## L1-02-S04 — Powiększ ważny szczegół
 
-**Sprawdź:** oceniasz ten sam szczegół na dwóch fotografiach. Na której łatwiej odróżnić krawędź litery od tła? Jeśli różnicy nie widać, to też poprawna obserwacja.
+Najpierw wybierz jeden konkretny element, który miał być wyraźny: literę, fragment logo, krawędź albo drobny wzór.
 
-## 5. Obejrzyj trzecią próbę i wybierz
+Na tylnej ściance aparatu znajdź przycisk oznaczony **niebieską lupą**.
 
-Tak samo sprawdź trzecie zdjęcie: wyjdź z powiększenia lupą, przejdź do następnego zdjęcia i znów obejrzyj wybrany wyraz.
+Naciśnij go podczas oglądania zdjęcia.
 
-Wybierz próbę z najbardziej czytelnym napisem. Możesz wracać do poprzednich zdjęć tyle razy, ile potrzebujesz. Nie musisz oznaczać wybranego zdjęcia w menu ani usuwać pozostałych.
+Następnie obróć **główne pokrętło przy spuście migawki**, aby zwiększyć lub zmniejszyć powiększenie.
 
-**Sprawdź:** potrafisz powiedzieć: „Na tym zdjęciu napis wygląda najczytelniej” albo „Te zdjęcia wyglądają równie wyraźnie”.
+Jeżeli wybrany detal nie znajduje się na środku ekranu, przesuń powiększony widok tylnym wybierakiem.
 
-## 6. Wróć do fotografowania
+Nie musisz powiększać maksymalnie. Powiększ tylko tyle, żeby dobrze widzieć krawędzie i drobne szczegóły.
 
-Lekko naciśnij **spust migawki do połowy**.
+## L1-02-S05 — Sprawdź swoje pierwsze zdjęcie
 
-**Sprawdź:** zamiast zapisanego zdjęcia widzisz aktualny obraz z obiektywu. Kiedy skierujesz aparat w inną stronę, obraz na ekranie się zmieni.
+Patrz tylko na wybrany detal.
 
-## Dlaczego oglądamy powiększenie?
+Porównaj go w myślach z gotowymi przykładami, które przed chwilą widziałaś w kursie.
 
-Całe zdjęcie mieści się na niewielkim ekranie. Drobne rozmycie może być wtedy trudne do zauważenia. Powiększenie pomaga obejrzeć szczegół, na którym Ci zależy — tutaj napis, a przy portrecie na przykład oko.
+Zapytaj:
 
-Powiększanie podczas oglądania **nie zmienia zapisanego zdjęcia**. Nie poprawia jego ostrości i go nie przycina. Pozwala tylko przyjrzeć mu się dokładniej.
+**„Czy ten element jest naprawdę wyraźny?”**
 
-Ważne jest też miejsce, które sprawdzasz. Wyraźne tło nie oznacza, że książka jest ostra. Rozmyte tło nie musi być błędem, jeśli to książka miała być głównym tematem.
+Jeżeli jego krawędzie są czytelne i drobne szczegóły łatwo rozpoznać — ten fragment wygląda ostro.
 
-## Twoje ćwiczenie: wybierz i uzasadnij
+Jeżeli jest miękki albo rozmazany — ten fragment jest mniej ostry.
 
-Przejdź przez trzy zdjęcia jeszcze raz, tym razem samodzielnie:
+Nie zgaduj jeszcze dlaczego. W tej lekcji uczysz się najpierw zauważać rezultat.
 
-**Zdjęcie → lupa → wybrany napis → ocena → wyjście z powiększenia → następne zdjęcie.**
+## L1-02-S06 — Sprawdź pozostałe dwa zdjęcia
 
-Porównuj ten sam wyraz przy podobnej wielkości liter na ekranie. Dokończ jedno z tych zdań:
+Przejdź do kolejnego zdjęcia z L1-01 i powiększ ten sam rodzaj szczegółu.
 
-- „Wybieram próbę numer…, ponieważ…”.
-- „Nie widzę wyraźnej różnicy między próbami”.
-- „Na wszystkich zdjęciach napis jest mało czytelny”.
+Zrób to samo z trzecim zdjęciem.
 
-Każda z tych odpowiedzi może być trafna. Celem jest zauważenie tego, co rzeczywiście widać, a nie znalezienie zwycięzcy za wszelką cenę.
+Porównaj tylko ostrość. Nie oceniaj teraz jasności, koloru, kadru ani tła.
 
-Jeśli wszystkie próby są mało czytelne, możesz powtórzyć pierwsze ćwiczenie w jaśniejszym miejscu. Zwróć uwagę na ramkę ostrości na książce i spokojne naciśnięcie spustu. Potem obejrzyj nową próbę w powiększeniu. Nie musisz teraz rozpoznawać dokładnej przyczyny rozmycia.
+Jeżeli wszystkie trzy są wyraźne, to dobrze — nie trzeba na siłę szukać błędu.
 
-## Gdy coś nie wychodzi
+## L1-02-S07 — Wróć do fotografowania
 
-**Strzałki przesuwają obraz zamiast zmieniać zdjęcie.** Nadal jesteś w powiększeniu. Naciśnij lupę, żeby z niego wyjść, i dopiero wtedy użyj strzałki w lewo lub w prawo.
+Po zakończeniu oglądania możesz ponownie nacisnąć przycisk odtwarzania albo nacisnąć spust migawki do połowy, aby wrócić do gotowości fotografowania.
 
-**Po naciśnięciu lupy obraz prawie się nie zmienił.** Początkowe powiększenie może być ustawione na 1×. Obróć pokrętło główne w prawo. Nie trzeba zmieniać ustawień menu.
+## Ćwiczenie
 
-**Widzę wiele małych zdjęć naraz.** Zmniejszanie powiększenia pokrętłem może doprowadzić do widoku miniatur. Zaznacz zdjęcie strzałkami i naciśnij Q/SET. Potem wróć do kroku 2.
+1. Najpierw obejrzyj w kursie gotowe przykłady ostrego i mniej ostrego detalu.
+2. Otwórz jedno ze swoich zdjęć z L1-01.
+3. Wybierz jeden ważny szczegół.
+4. Powiększ go na aparacie.
+5. Oceń tylko jego wyrazistość.
+6. Powtórz to dla dwóch pozostałych zdjęć.
+7. Wróć do fotografowania.
 
-**Powiększenie pokazuje zupełnie inne miejsce zdjęcia.** Przesuń widok strzałkami do wybranego napisu. Aparat nie zawsze rozpoczyna powiększenie w tym samym miejscu.
+## Kiedy lekcja jest ukończona?
 
-**Wszystko wygląda na miękkie przy bardzo dużym powiększeniu.** Zmniejsz powiększenie pokrętłem w lewo. Największy dostępny widok nie jest obowiązkowym testem jakości. Wróć do takiej wielkości liter, przy której wygodnie porównasz ich czytelność na każdej próbie.
+Lekcja jest ukończona, jeżeli potrafisz:
+- na gotowym przykładzie wskazać detal wyraźny i mniej wyraźny,
+- otworzyć własne zdjęcie na EOS RP,
+- powiększyć wybrany szczegół,
+- sprawdzić jego ostrość,
+- porównać ten sam rodzaj szczegółu na kilku zdjęciach.
 
-**Zdjęcie wygląda dobrze na ekranie, ale niewyraźnie przez wizjer.** Kontynuuj ocenę na ekranie. Ustawienie wizjera dla wzroku może wpływać na to, co widzisz przez niego, lecz nie zmienia zapisanego zdjęcia. Dopasowanie wizjera sprawdzimy osobno, jeśli będzie potrzebne.
+Nie musisz jeszcze znać przyczyn nieostrości.
 
-**Napis jest rozmyty, a coś za książką wygląda wyraźniej.** Ostrość mogła trafić na inny obiekt. To wskazówka do następnej próby, nie pewna diagnoza. Na tym etapie wystarczy zauważyć, że najważniejszy szczegół nie wyszedł tak, jak chciałaś.
+## Co zapamiętać
 
-## Gotowe na dziś
+**Najpierw wybieram, co miało być wyraźne. Potem powiększam właśnie ten szczegół i sprawdzam go.**
 
-Możesz zakończyć lekcję, jeśli:
+## Źródła dydaktycznych materiałów wizualnych
 
-- umiesz powiększyć zapisane zdjęcie i odnaleźć wybrany fragment;
-- umiesz wyjść z powiększenia i przejść do następnej fotografii;
-- porównujesz ten sam szczegół na różnych zdjęciach;
-- umiesz wrócić do fotografowania.
+Materiały wzorcowe są częścią gotowego kursu i są przygotowywane przez autorów kursu przed oddaniem aplikacji Ani.
 
-Wybranie idealnie ostrego zdjęcia nie jest warunkiem ukończenia. Uczysz się sprawdzania wyniku — również wtedy, gdy kolejna próba będzie potrzebna.
+Preferowane źródła dla L1-02:
+- zestaw `Correct.Focus.jpg` / `Front.Focus.jpg` / `Back.Focus.jpg`, autor Bautsch — materiały CC0 z Wikimedia Commons; pozwalają pokazać tę samą sytuację z prawidłowym i przesuniętym miejscem ostrości,
+- wysokorozdzielcze zdjęcie CC0 z wyraźnymi drobnymi detalami do demonstracji `całe zdjęcie → powiększony fragment`, np. `Chive flower close-up.jpg` z Wikimedia Commons,
+- rzeczywiste zdjęcia Canon EOS RP Ani, które już znajdują się w projekcie — wyłącznie do pokazania fizycznych przycisków i pokręteł aparatu.
 
-Jeśli kończysz pracę, wyłącz aparat. Zdjęcia zachowaj na karcie.
+Nie uzależniamy gotowości lekcji od tego, czy Ania wykona jakiekolwiek dodatkowe zdjęcia poza ćwiczeniem przewidzianym w samej lekcji.
 
-**Zapamiętaj: sprawdzam w powiększeniu ten szczegół, który miał być wyraźny.**
-
----
-
-## Karta redakcyjna — poza treścią dla Ani
-
-**ID:** L1-02. **Wersja:** 0.1, 18.09.2026. **Status:** pełny szkic według zaakceptowanego wzorca D-15; sprawdzony w instrukcji, do próby na egzemplarzu Ani. Firmware nieznany. Materiały wizualne nie są jeszcze dołączone.
-
-### Cel, wymagania i punkt startowy
-
-Umiejętność obejrzenia i porównania tego samego szczegółu zapisanych zdjęć. Wymagana L1-01 lub równoważna umiejętność wykonania zdjęcia i wejścia do odtwarzania. Trzy podobne fotografie książki na karcie, naładowany akumulator, ekran skierowany do użytkowniczki. Tryb fotografowania można pozostawić A+; nie warunkuje on oceny wcześniej zapisanych zdjęć. Bez zmian konfiguracji, kasowania zdjęć i potrzeby przywracania parametrów po ćwiczeniu.
-
-Wybrano jedną ścieżkę obsługi przyciskami i pokrętłem. Gesty dotykowe są dostępne, ale nie dokładamy drugiej równoległej instrukcji. Porównanie odbywa się po wyjściu z powiększenia; nie zakłada niezweryfikowanego skrótu zmiany zdjęć w powiększeniu.
-
-### Materiały do dołączenia
-
-| Miejsce | Własny materiał | Cel |
-| --- | --- | --- |
-| Kroki 1–2 | Tył i góra egzemplarza | Wskazanie odtwarzania, lupy, strzałek i pokrętła głównego |
-| Kroki 2–3 | Krótki klip prawdziwego ekranu | Powiększenie i przesunięcie widoku na napis |
-| Kroki 4–5 | Dwie własne fotografie tej samej książki | Porównanie tego samego fragmentu przy podobnej skali |
-| Wyjaśnienie | Cały kadr i zbliżenie tej samej fotografii | Pokazanie różnicy między widokiem całego zdjęcia a oceną szczegółu |
-
-Para porównawcza powinna mieć widoczną, rzeczywistą różnicę czytelności. Nie przypisywać przyczyny rozmycia bez danych z wykonania próby. Nie generować ekranu aparatu ani fikcyjnych przykładów przedstawianych jako zdjęcia Ani. Ilustracje porównawcze pozostają planem do realizacji.
-
-### Źródła i weryfikacja
-
-Polska instrukcja Canon EOS RP: lokalny plik `Canon-EOS-RP-Zaawansowana-instrukcja-PL-2019.pdf`, [oryginał Canona](https://gdlp01.c-wss.com/gds/2/0300034232/01/EOS_RP_Advanced_User_Guide_PL.pdf).
-
-- S. 31–33: położenie pokrętła głównego, lupy, strzałek i odtwarzania; ilustracje części sprawdzono przy przygotowaniu L1-01.
-- S. 52 i 54: regulacja wizjera oraz powrót do fotografowania przez naciśnięcie spustu do połowy.
-- S. 296–300: odtwarzanie, powiększanie, przesuwanie i miniatury. Odczytano cały ten zakres; obejrzano render strony 299, potwierdzając symbol lupy, kierunek obrotu pokrętła i wyjście z powiększenia.
-- S. 354–355: zależny od ustawień pierwszy wyświetlany obraz, początkowa skala i miejsce powiększenia. Lekcja uwzględnia tę zmienność bez zmieniania menu.
-
-Sposób ćwiczenia, czas, wybór napisu i kryteria ukończenia są autorską propozycją dydaktyczną. Nie przeprowadzono testu na aparacie Ani; nie korzystano z nieobejrzanych filmów „In a Snap”.
-
-### Próba na aparacie przed oznaczeniem jako zweryfikowana
-
-Sprawdzić odnajdywanie elementów po opisach, powiększanie pokrętłem, przesuwanie strzałkami, wyjście lupą, zmianę zdjęcia, wyjście z miniatur przez Q/SET i powrót spustem. Zanotować zastane początkowe powiększenie i firmware. Ocenić, czy porównywanie tej samej litery przy podobnej skali jest zrozumiałe. Nie zmieniać globalnych ustawień w celu dopasowania aparatu do lekcji.
-
-### Kontekst przyszłego nauczyciela AI
-
-Cel: ocena czytelności zamierzonego szczegółu. Najwyżej dwa priorytety: czy Ania porównuje właściwe miejsce oraz czy opisuje widoczną różnicę bez zgadywania przyczyny. Z samego przesłanego zdjęcia nie można potwierdzić opanowania obsługi lupy. Jeśli rozdzielczość pliku lub podglądu nie pozwala ocenić ostrości, powiedzieć to wprost. Nie wymuszać wyboru lepszego zdjęcia, gdy różnica jest niejednoznaczna.
-
-### Następny etap projektu
-
-Po tej lekcji użytkownik chce omówić formę wizualną kursu. Ten dokument nie zatwierdza wyglądu, interfejsu ani technologii aplikacji. Nie rozpoczynać automatycznie kolejnych lekcji ani implementacji.
+## Ograniczenia dydaktyczne L1-02
+- Nie wprowadzamy jeszcze nazw `front focus` i `back focus` do treści dla Ani; są tylko opisem źródeł produkcyjnych.
+- Nie uczymy jeszcze przyczyn nieostrości, ustawień AF, czasu migawki ani głębi ostrości.
+- Nie wymagamy rzeczywistego zrzutu ekranu odtwarzania EOS RP, jeśli nie wnosi on dodatkowej wartości; do obsługi aparatu pokazujemy zweryfikowane fizyczne elementy jej egzemplarza.

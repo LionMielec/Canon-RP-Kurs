@@ -34,3 +34,16 @@ W karcie redakcyjnej zapisujemy konkretne źródła, strony lub sekcje oraz zakr
 ## Delikatny humor — ustalenie 18.09.2026
 
 W porównaniach i krótkich objaśnieniach można stosować lekki, życzliwy humor, aby nauka była przyjemna. Porównanie powinno pomagać zrozumieć temat i zachować poprawność techniczną. Bez żartowania z Ani lub jej błędów, infantylizowania i dowcipu w każdym kroku. Konkretne instrukcje obsługi pozostają jednoznaczne. Przykłady robocze: „Tło może być miękkie jak kocyk. Oczy na portrecie wolimy jednak wyraźne” oraz „Lupa nie naprawia zdjęcia — tylko przygląda mu się jak detektyw”.
+
+
+## Gotowy materiał dydaktyczny przed ćwiczeniem — 24.09.2026
+
+Ania ma otrzymać **gotowy kurs**, a nie uczestniczyć w produkcji materiałów, na których dopiero ma się uczyć.
+
+Jeżeli nowy temat wymaga przykładu wizualnego, obowiązuje kolejność:
+1. gotowy materiał wzorcowy w kursie,
+2. wyjaśnienie, na co patrzeć,
+3. pokaz obsługi konkretnego EOS RP, jeśli potrzebny,
+4. dopiero potem ćwiczenie Ani na własnych zdjęciach.
+
+Zdjęcia Ani są materiałem ćwiczeniowym i rozwojowym, a nie obowiązkowym źródłem podstawowej demonstracji.
