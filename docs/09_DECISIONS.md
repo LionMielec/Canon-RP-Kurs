@@ -112,3 +112,25 @@ Uzasadnienie: kurs ma być rzetelnym, godnym zaufania prezentem. Wpływ: utrwale
 **Status: zatwierdzone doprecyzowanie docelowego modułu, niewdrożone.** Ania może dodawać nowe zdjęcia z EOS RP oraz swoje wcześniejsze zdjęcia, także z innego aparatu lub telefonu, niezależnie od lekcji i obecności EXIF. Nauczyciel AI omawia to, co wyszło dobrze, oraz najwyżej jedną lub dwie rzeczy do poprawy; uwzględnia zamiar Ani, odpowiada na pytania i pomaga przy kolejnych próbach. To współpraca, bez punktacji i zgadywania sprzętu, parametrów lub przyczyn.
 
 Uzasadnienie: nauka ma obejmować własne fotografie Ani, nie tylko zadania kursowe. Wpływ: doprecyzowanie D-08–D-10 oraz dokumentu 06 i przyszłych prób akceptacyjnych. Interfejs rozmowy, retencja, model i budżet pozostają do ustalenia. Ten wpis nie uruchamia integracji, płatnych usług ani wysyłania zdjęć.
+
+## D-25 — Standard produkcji każdej lekcji od L1-01 (24.09.2026)
+
+**Status: zatwierdzone przez użytkownika.**
+
+Od pierwszej lekcji L1-01 każda lekcja ma powstawać równolegle jako:
+- finalna treść edukacyjna dla Ani,
+- ćwiczenie i sposób sprawdzenia efektu,
+- uporządkowane kroki z identyfikatorami,
+- notatki wizualno-produkcyjne,
+- przypisane zdjęcia, rzeczywiste ekrany, grafiki, animacje/3D i porównania,
+- statusy brakujących lub gotowych materiałów,
+- jednoznaczna instrukcja montażu dla Codexa.
+
+Nie wprowadzamy tej zasady dopiero od L1-02. L1-01 również musi mieć pełną kartę produkcyjną.
+
+Codex nie decyduje samodzielnie o miejscu, kolejności ani roli dydaktycznej materiałów i nie tworzy zastępczych wizualizacji aparatu/menu z domysłu. Brakujący materiał pozostaje jawnym zadaniem produkcyjnym.
+
+Szczegółowy format opisuje `docs/15_STANDARD_PRODUKCJI_LEKCJI.md`. Pierwszym zastosowaniem jest `docs/L1-01_KARTA_WIZUALNO_PRODUKCYJNA.md`.
+
+Zasada nadrzędna: **od L1-01 każda lekcja jest projektowana jako komplet: treść + ćwiczenie + sprawdzenie efektu + warstwa wizualna + instrukcja dla Codexa.**
+
