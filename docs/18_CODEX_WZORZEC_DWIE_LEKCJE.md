@@ -1,6 +1,6 @@
 # Codex — wzorzec implementacji dwóch pierwszych lekcji
 
-Status: GOTOWE DO PRZEKAZANIA CODEXOWI  
+Status: WYKONANE I OPUBLIKOWANE — 25.09.2026  
 Data: 2026-09-25
 
 ## Cel
@@ -121,3 +121,11 @@ Nie commitować, nie pushować i nie publikować nowej wersji bez osobnej zgody 
 - Nie oznaczać tego pliku jako finalnie zatwierdzonego assetu.
 - Finalne źródło i kadry V01/V02 zostaną domknięte później w produkcji assetów.
 - Priorytet teraz: uruchomić wzorcowe dwie lekcje w istniejącej aplikacji i przeprowadzić test na iPhonie 15 Pro Max.
+
+## Wynik etapu
+- L1-01 i L1-02 zostały wdrożone w istniejącej aplikacji.
+- Zachowano ikonę, kolorystykę, istniejący Site i dostęp tylko dla właściciela.
+- Commit źródła aplikacji: `651b4f6e746f4a6cffac612812169afc74874545`.
+- Wersja została opublikowana i uruchomiona na iPhonie 15 Pro Max.
+- Ogólny kierunek został oceniony pozytywnie.
+- Następny etap: jedna runda drobnych korekt zebranych po teście na telefonie; dopiero po niej wzorzec zostanie formalnie zamknięty.
