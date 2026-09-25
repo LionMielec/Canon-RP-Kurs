@@ -1,7 +1,7 @@
 # L1-02 — Sprawdzam, czy zdjęcie jest ostre
 
 **Poziom 1 · Oglądam efekt**  
-**Status:** projekt po korekcie dydaktycznej — do wspólnego przeglądu  
+**Status:** ZATWIERDZONA — 25.09.2026  
 **Czas:** około 10–15 minut
 
 ## Cel lekcji
@@ -34,7 +34,7 @@ Kurs pokazuje teraz jedno zdjęcie w dwóch wersjach prezentacji:
 1. całe zdjęcie,
 2. powiększony ważny szczegół.
 
-Na całym zdjęciu problem może być prawie niewidoczny. Dopiero po powiększeniu widać, czy drobne krawędzie i faktura są rzeczywiście wyraźne.
+Na małym podglądzie trudno dokładnie ocenić drobne szczegóły. Po powiększeniu łatwiej zobaczyć, czy krawędzie i faktura są naprawdę wyraźne.
 
 To właśnie będziesz za chwilę robiła na swoim Canonie.
 
@@ -82,7 +82,7 @@ Nie zgaduj jeszcze dlaczego. W tej lekcji uczysz się najpierw zauważać rezult
 
 ## L1-02-S06 — Sprawdź pozostałe dwa zdjęcia
 
-Przejdź do kolejnego zdjęcia z L1-01 i powiększ ten sam rodzaj szczegółu.
+Przejdź do kolejnego zdjęcia z L1-01 i powiększ ten sam konkretny szczegół.
 
 Zrób to samo z trzecim zdjęciem.
 
@@ -124,7 +124,7 @@ Nie musisz jeszcze znać przyczyn nieostrości.
 Materiały wzorcowe są częścią gotowego kursu i są przygotowywane przez autorów kursu przed oddaniem aplikacji Ani.
 
 Preferowane źródła dla L1-02:
-- zestaw `Correct.Focus.jpg` / `Front.Focus.jpg` / `Back.Focus.jpg`, autor Bautsch — materiały CC0 z Wikimedia Commons; pozwalają pokazać tę samą sytuację z prawidłowym i przesuniętym miejscem ostrości,
+- `Correct.Focus.jpg` i `Front.Focus.jpg`, autor Bautsch — materiały CC0 z Wikimedia Commons; tworzą prostą parę `ważny element ostry` / `ostrość przesunięta gdzie indziej`,
 - wysokorozdzielcze zdjęcie CC0 z wyraźnymi drobnymi detalami do demonstracji `całe zdjęcie → powiększony fragment`, np. `Chive flower close-up.jpg` z Wikimedia Commons,
 - rzeczywiste zdjęcia Canon EOS RP Ani, które już znajdują się w projekcie — wyłącznie do pokazania fizycznych przycisków i pokręteł aparatu.
 
@@ -134,3 +134,7 @@ Nie uzależniamy gotowości lekcji od tego, czy Ania wykona jakiekolwiek dodatko
 - Nie wprowadzamy jeszcze nazw `front focus` i `back focus` do treści dla Ani; są tylko opisem źródeł produkcyjnych.
 - Nie uczymy jeszcze przyczyn nieostrości, ustawień AF, czasu migawki ani głębi ostrości.
 - Nie wymagamy rzeczywistego zrzutu ekranu odtwarzania EOS RP, jeśli nie wnosi on dodatkowej wartości; do obsługi aparatu pokazujemy zweryfikowane fizyczne elementy jej egzemplarza.
+
+## Weryfikacja techniczna po akceptacji
+- Obsługa powiększenia została zweryfikowana z instrukcją Canon EOS RP Advanced User Guide v1.6, sekcja `Magnifying Images` (strona 299 w przewodniku).
+- Przed finalną produkcją grafiki V04 należy zapisać w karcie produkcyjnej dokładne identyfikatory zdjęcia tyłu i zdjęcia góry egzemplarza Ani.
