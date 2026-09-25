@@ -39,7 +39,7 @@ Nie wracamy do ponownego analizowania zakończonych decyzji, nie przebudowujemy 
 
 ## Następny etap — po zatwierdzeniu
 
-- [ ] Przyjąć zdjęcia aparatu, obiektywu i menu.
+- [x] Przyjąć zdjęcia aparatu, obiektywu i menu — pakiet źródłowy 24.09.2026.
 - [ ] Zanotować faktyczny obiektyw, firmware i tryb zdjęć menu.
 - [x] Pobrać PL i EN z serwera Canona, potwierdzić model, język i liczbę stron, uzupełnić rejestr źródeł.
 - [ ] Pozyskać późniejsze polskie wydanie dla firmware 1.4.0; obecna kopia jest wydaniem początkowym.
@@ -78,8 +78,8 @@ Dodano 2 instrukcje PDF (łącznie 61 035 389 bajtów), opis plików i katalog 1
 - [x] Dodać fioletową ikonę i manifest uruchamiania z ekranu początkowego.
 - [x] Dodać próbne animowane zbliżenie z pauzą i powtórzeniem.
 - [x] Sprawdzić obie lekcje w przeglądarce przy szerokościach 320, 430, 440 i 1024 px, ograniczenie ruchu, pomoc i powiększony tekst.
-- [ ] Sprawdzić prywatny adres w Safari na iPhonie 15 Pro Max i uruchomienie z dodanej ikony.
-- [ ] Ocenić kolorystykę, długość kroków na telefonie i animację.
+- [x] Sprawdzić opublikowaną aplikację na rzeczywistym iPhonie 15 Pro Max — 25.09.2026.
+- [x] Ocenić ogólny kierunek, kolorystykę i działanie na iPhonie; drobne korekty UX przechodzą do jednej rundy następnej sesji.
 - [ ] Ustalić dostęp dla Ani i sprawdzić jej iPhone 17 Pro Max.
 
 Szczegóły: [13 — Pierwsza aplikacja](13_PIERWSZA_APLIKACJA.md). Test przeglądarkowy nie zastępuje testu Safari ani aparatu Ani.
@@ -87,13 +87,13 @@ Szczegóły: [13 — Pierwsza aplikacja](13_PIERWSZA_APLIKACJA.md). Test przegl�
 ## Następna sesja — priorytety po przeglądzie aplikacji
 
 - [x] Zapisać pozytywną ocenę wyglądu aplikacji przez użytkownika; finalny dobór odcieni nadal otwarty.
-- [ ] Dodać klikalny spis treści z wejściami do lekcji i bezpośrednio do ćwiczeń (D-20). Najpierw ustalić jego miejsce w mobilnym układzie.
+- [x] Dodać klikalny spis lekcji z wejściami do lekcji i bezpośrednio do ćwiczeń.
 - [ ] Ustalić źródło i sposób wykonania jednej animacji „Włącz aparat”.
 - [ ] Przygotować i ocenić animację: obrót → zbliżenie → ruch przełącznika; automatyczny start, bez wymaganego przycisku „Odtwórz” (D-19).
 - [ ] Zastąpić duże kółko precyzyjnym obrysem/strzałką śledzącą właściwy element.
-- [ ] Potwierdzić instalację ikony i działanie z ekranu początkowego iPhone’a; użytkownik pozytywnie ocenił wygląd, ale nie potwierdził wprost tego testu.
+- [x] Potwierdzić działanie aktualnej wersji z istniejącej ikony na iPhonie 15 Pro Max — 25.09.2026.
 
-Na prośbę użytkownika kończymy sesję po dokumentacji. Powyższych zmian jeszcze nie wdrożono. Punkt wejścia do dalszej pracy: [14 — Przekazanie sesji](14_PRZEKAZANIE_SESJI.md).
+Sekcja powyżej opisuje historię etapu z 18.09.2026. Część zadań została później wykonana; bieżące zadania są wyłącznie w sekcji „Aktualny stan — koniec sesji 25.09.2026”.
 
 ## Uzupełnienie po przeniesieniu pracy do Codex — 18.09.2026
 
