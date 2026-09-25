@@ -1,6 +1,6 @@
 # Poziom 1 — Zaczynam fotografować
 
-**Stan przeglądu: 24.09.2026.** Cała lista 14 lekcji pozostaje programem roboczym. L1-01 ma zatwierdzoną bazę treści. L1-02 ma pełny projekt po korekcie dydaktycznej i czeka na akceptację. Pozostałe lekcje będą analizowane kolejno.
+**Stan przeglądu: 24.09.2026.** Cała lista 14 lekcji pozostaje programem roboczym. L1-01 ma zatwierdzoną bazę treści. L1-02 została zatwierdzona 25.09.2026 po korekcie dydaktycznej. Pozostałe lekcje będą analizowane kolejno.
 
 Propozycja programu do akceptacji, 18.09.2026. Kurs dla Ani: Canon EOS RP z RF 50 mm F1.8 STM. Model obiektywu potwierdzono w poprzedniej rozmowie na podstawie zdjęć; starsza dokumentacja projektu jeszcze tego nie uwzględnia.
 
@@ -31,7 +31,7 @@ Nie musi zapamiętać całego menu ani fotografować w trybie ręcznym. Tryby P,
 Pełna treść: [L1-01](L1-01_ROBIE_SWOJE_PIERWSZE_ZDJECIE.md).  
 Warstwa wizualna: [karta L1-01](L1-01_KARTA_WIZUALNO_PRODUKCYJNA.md).
 
-### L1-02. Sprawdzam, czy zdjęcie jest ostre — DO PRZEGLĄDU
+### L1-02. Sprawdzam, czy zdjęcie jest ostre — ZATWIERDZONA
 
 **Cel:** najpierw nauczyć się na gotowych przykładach, co oznacza ostry ważny detal, a następnie otworzyć własne zdjęcie na EOS RP, powiększyć wybrany szczegół i sprawdzić jego wyrazistość.
 
