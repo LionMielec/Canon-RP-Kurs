@@ -66,7 +66,7 @@ Materiały mają pomóc Ani wykonać pierwszy świadomy cykl zdjęcia bez przeci
 - Status: `TO_CAPTURE`.
 
 ### L1-01-V06 — Gdy AF ma trudniej
-- Krok: `L1-01-S09` — „Jeśli aparat nie chce ustawić ostrości”.
+- Krok: `L1-01-S08` — „Jeśli aparat nie chce ustawić ostrości”.
 - Typ finalny: prosta grafika/porównanie czterech przykładów.
 - Cel: bez teorii pokazać różnicę między łatwym i trudnym celem AF.
 - Cztery przykłady: wyraźny napis/krawędź; jednolita powierzchnia; za ciemno; zbyt blisko.
