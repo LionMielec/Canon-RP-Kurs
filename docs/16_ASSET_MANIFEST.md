@@ -1,6 +1,6 @@
 # Canon RP kurs — ASSET MANIFEST
 
-Stan na: 2026-09-24
+Stan na: 2026-09-25
 
 Ten plik jest rejestrem materiałów wizualnych przypisanych do konkretnych lekcji. Nie jest magazynem wszystkich zdjęć projektu. Do manifestu trafiają materiały dopiero wtedy, gdy mają określone zastosowanie dydaktyczne.
 
@@ -15,8 +15,8 @@ Ten plik jest rejestrem materiałów wizualnych przypisanych do konkretnych lekc
 
 | ID | Zastosowanie | Typ | Źródło / brak | Docelowa ścieżka | Status |
 |---|---|---|---|---|---|
-| L1-01-V01 | Włącz aparat | zdjęcie/crop | wyłącznie `fbe2fd62-e8ab-465b-b340-b6d0b4458622.jpg` / `libfile_167abe23e1488191ba89b2d851b2155c` | `assets/lessons/l1-01/l1-01-v01-power-switch.jpg` | `SOURCE_SELECTED` |
-| L1-01-V02 | Ustaw A+ | zdjęcie/crop | wyłącznie `fbe2fd62-e8ab-465b-b340-b6d0b4458622.jpg` / `libfile_167abe23e1488191ba89b2d851b2155c` | `assets/lessons/l1-01/l1-01-v02-mode-a-plus.jpg` | `SOURCE_SELECTED` |
+| L1-01-V01 | Włącz aparat | zdjęcie/crop | wyłącznie `fbe2fd62-e8ab-465b-b340-b6d0b4458622.jpg` / `libfile_167abe23e1488191ba89b2d851b2155c` | `assets/lessons/l1-01/l1-01-v01-power-switch.jpg` | `PREPARED` + `APPROVAL_PENDING` |
+| L1-01-V02 | Ustaw A+ | zdjęcie/crop | wyłącznie `fbe2fd62-e8ab-465b-b340-b6d0b4458622.jpg` / `libfile_167abe23e1488191ba89b2d851b2155c` | `assets/lessons/l1-01/l1-01-v02-mode-a-plus.jpg` | `PREPARED` + `APPROVAL_PENDING` |
 | L1-01-V03 | Prawidłowe trzymanie | zdjęcie instruktażowe | brak — nowe ujęcie osoby z aparatem | `assets/lessons/l1-01/l1-01-v03-camera-hold.jpg` | `TO_CAPTURE` |
 | L1-01-V04 | Pół / pełne naciśnięcie spustu | animacja | brak finalnego źródła ruchu | `assets/lessons/l1-01/l1-01-v04-shutter-half-full.mp4` | `TO_CAPTURE` + `TO_ANIMATE` |
 | L1-01-V05 | Potwierdzenie AF | 2 ekrany / sekwencja | brak ekranu fotografowania z AF | `assets/lessons/l1-01/l1-01-v05-af-before.jpg`, `l1-01-v05-af-confirmed.jpg` | `TO_CAPTURE` |
@@ -28,7 +28,7 @@ Ten plik jest rejestrem materiałów wizualnych przypisanych do konkretnych lekc
 |---|---|---|---|---|---|
 | L1-02-V01 | Wzorzec: ważny element ostry / ostrość przesunięta | zestaw dydaktyczny | `Correct.Focus.jpg`, `Front.Focus.jpg` — Bautsch, Wikimedia Commons, CC0 | `assets/lessons/l1-02/l1-02-v01-focus-reference.*` | `SOURCE_IDENTIFIED` |
 | L1-02-V02 | Całe zdjęcie → powiększony detal | para edukacyjna | kandydat: `Chive flower close-up.jpg`, Wikimedia Commons, CC0 | `assets/lessons/l1-02/l1-02-v02-full-vs-detail.*` | `SOURCE_IDENTIFIED` + `TO_PREPARE` |
-| L1-02-V03 | Przycisk odtwarzania | zdjęcie/crop EOS RP Ani | `57652b89-ae48-4cd1-b998-e883aee8aa1f.jpg` / `libfile_eb4721328c288191bb5aa19d2aa13f7e` | `assets/lessons/l1-02/l1-02-v03-playback-button.jpg` | `SOURCE_SELECTED` + `TO_PREPARE` |
+| L1-02-V03 | Przycisk odtwarzania | zdjęcie/crop EOS RP Ani | `57652b89-ae48-4cd1-b998-e883aee8aa1f.jpg` / `libfile_eb4721328c288191bb5aa19d2aa13f7e` | `assets/lessons/l1-02/l1-02-v03-playback-button.jpg` | `PREPARED` + `APPROVAL_PENDING` |
 | L1-02-V04 | Lupa + główne pokrętło | grafika 2-kadrowa | istniejące zdjęcia tyłu i góry EOS RP Ani | `assets/lessons/l1-02/l1-02-v04-magnify-controls.jpg` | `SOURCE_SELECTED` + `TO_DESIGN` |
 | L1-02-V05 | Karta przypominająca wzorzec przy ćwiczeniu | karta UI | wycinki z V01/V02 | `assets/lessons/l1-02/l1-02-v05-sharpness-reference-card.*` | zależny od V01/V02 |
 
