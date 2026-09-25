@@ -1,6 +1,6 @@
 # Zacznij tutaj
 
-**Stan na koniec sesji 24.09.2026:** praca jest na Poziomie 1 i skupia się na rdzeniu edukacyjnym kursu. L1-01 ma zatwierdzoną bazę treści i wykonany audyt wizualny. L1-02 została gruntownie opracowana i skorygowana dydaktycznie, ale pozostaje do wspólnej akceptacji.
+**Stan 25.09.2026:** praca jest na Poziomie 1 i skupia się na rdzeniu edukacyjnym kursu. L1-01 ma zatwierdzoną bazę treści i wykonany audyt wizualny. L1-02 została zatwierdzona po korekcie dydaktycznej. Następny przegląd: L1-03.
 
 ## Najpierw przeczytaj
 1. [14 — najnowszy handoff](14_PRZEKAZANIE_SESJI.md)
@@ -16,5 +16,6 @@ Głównym celem jest nauczenie Ani świadomego fotografowania Canonem EOS RP. Tr
 
 ## Stan lekcji
 - L1-01 — zatwierdzona baza.
-- L1-02 — projekt po korekcie dydaktycznej; do wspólnego przeglądu.
-- L1-03–L1-14 — program roboczy, analizowany kolejno.
+- L1-02 — zatwierdzona 25.09.2026.
+- L1-03 — następna lekcja do wspólnego przeglądu.
+- L1-04–L1-14 — program roboczy, analizowany kolejno.
