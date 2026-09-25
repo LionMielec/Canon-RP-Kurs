@@ -1,6 +1,6 @@
 # Canon RP kurs — STATUS
 
-Stan na: 2026-09-24
+Stan na: 2026-09-25
 
 ## Etap projektu
 Trwa przygotowanie projektu do implementacji w Codexie oraz porządkowanie materiałów i treści kursu.
@@ -35,7 +35,7 @@ Punkt 8 — Wizualizacje i 3D:
 - **L1-01 „Robię swoje pierwsze zdjęcie” — ZATWIERDZONA baza lekcji.**
 - Przyjęty cel: pierwsze świadome zdjęcie w A+, z nauką dwustopniowego naciskania spustu i oczekiwania na wizualne potwierdzenie ostrości.
 - Ćwiczenie: trzy powtórzenia tego samego podstawowego cyklu wykonania zdjęcia.
-- L1-02 „Sprawdzam, czy zdjęcie jest ostre” — pełny projekt treści i karta produkcyjna przygotowane 24.09.2026; status: DO WSPÓLNEGO PRZEGLĄDU, jeszcze niezatwierdzone.
+- **L1-02 „Sprawdzam, czy zdjęcie jest ostre” — ZATWIERDZONA 25.09.2026 po korekcie dydaktycznej.**
 
 ## Następny krok
 Najpierw uporządkować **rdzeń edukacyjny Poziomu 1**: zatwierdzić program, przygotować plan produkcji lekcji, przypisać do każdej lekcji sprawdzone źródła, ćwiczenia i potrzebne materiały z aparatu Ani. Równolegle kontynuować kontrolowany handoff do Codexa i zdefiniować MVP aplikacji tak, aby implementacja obsługiwała zatwierdzoną strukturę kursu. Punkt 9 — Analiza zdjęć przez AI pozostaje zatwierdzonym modułem wspierającym, ale nie jest nadrzędnym priorytetem wobec treści edukacyjnej.
@@ -86,4 +86,5 @@ Od L1-01 każda pełna lekcja ma powstawać jako pakiet zawierający: treść dl
 - dla L1-02 znaleziono otwarte źródła CC0 do warstwy dydaktycznej: zestaw Bautsch `Correct.Focus` / `Front.Focus` / `Back.Focus` oraz kandydat wysokorozdzielczy `Chive flower close-up`,
 - rzeczywiste zdjęcia EOS RP Ani służą do wskazywania fizycznych przycisków i pokręteł,
 - po korekcie nie wymagamy zdjęć ekranu odtwarzania EOS RP ani osobnej produkcji zdjęć referencyjnych przez Anię lub właściciela projektu,
-- L1-02 pozostaje `DRAFT_FOR_REVIEW` do akceptacji treści po tej korekcie.
+- L1-02 została zatwierdzona 25.09.2026. Przyjęto uproszczenie wzorca V01 do dwóch przykładów, korektę opisu małego podglądu, porównywanie tego samego konkretnego szczegółu oraz obowiązek zapisania dokładnych źródeł V04 przed produkcją.
+- Następny krok: wspólny przegląd L1-03 „Układam zdjęcie bez zmiany ustawień”.
