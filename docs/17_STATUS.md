@@ -67,27 +67,12 @@ Od L1-01 każda pełna lekcja ma powstawać jako pakiet zawierający: treść dl
 - utworzono `/Canon-RP-kurs/docs/ASSET_MANIFEST.md` jako jeden wspólny rejestr assetów dla wszystkich lekcji,
 - braki wizualne L1-01 są dokładnie opisane i nie blokują opracowania L1-02.
 
-## L1-02 — stan roboczy 24.09.2026
-- wykonano research techniczny obsługi odtwarzania i powiększania zdjęć na Canon EOS RP,
-- główna ścieżka obsługi: przycisk odtwarzania → wybór zdjęcia → przycisk z lupą → główne pokrętło do powiększenia → wybierak do przesuwania widoku,
-- sprawdzenie ostrości opiera się na porównaniu tego samego konkretnego szczegółu na trzech zdjęciach,
-- lekcja celowo nie diagnozuje jeszcze pełnych przyczyn nieostrości i nie wprowadza ustawień AF,
-- przygotowano `/Canon-RP-kurs/docs/L1-02_LESSON.md`,
-- przygotowano `/Canon-RP-kurs/docs/L1-02_VISUAL_PRODUCTION.md`,
-- do `ASSET_MANIFEST.md` dopisano V01–V05 dla L1-02,
-- istniejące zdjęcia Ani wystarczają do V01 i V03; nowe materiały są potrzebne tylko dla realnego ekranu odtwarzania/powiększenia oraz kontrolowanego porównania detalu,
-- L1-02 nie jest jeszcze zatwierdzona; następny krok to wspólny przegląd treści i zakresu.
-
-
-
-## Korekta L1-02 — gotowy kurs
-- materiały dydaktyczne pokazujące ostrość są częścią gotowej aplikacji i powstają przed przekazaniem kursu Ani,
-- zdjęcia Ani są wykorzystywane dopiero w ćwiczeniu po demonstracji, nie jako źródło materiałów do nauczenia nowego pojęcia,
-- dla L1-02 znaleziono otwarte źródła CC0 do warstwy dydaktycznej: zestaw Bautsch `Correct.Focus` / `Front.Focus` / `Back.Focus` oraz kandydat wysokorozdzielczy `Chive flower close-up`,
-- rzeczywiste zdjęcia EOS RP Ani służą do wskazywania fizycznych przycisków i pokręteł,
-- po korekcie nie wymagamy zdjęć ekranu odtwarzania EOS RP ani osobnej produkcji zdjęć referencyjnych przez Anię lub właściciela projektu,
-- L1-02 została zatwierdzona 25.09.2026. Przyjęto uproszczenie wzorca V01 do dwóch przykładów, korektę opisu małego podglądu, porównywanie tego samego konkretnego szczegółu oraz obowiązek zapisania dokładnych źródeł V04 przed produkcją.
-- Następny krok: wspólny przegląd L1-03 „Układam zdjęcie bez zmiany ustawień”.
+## L1-02 — historia opracowania 24–25.09.2026
+- 24.09 wykonano research techniczny obsługi odtwarzania i powiększania zdjęć na Canon EOS RP.
+- Po korekcie dydaktycznej przyjęto zasadę: gotowy przykład → wyjaśnienie → obsługa aparatu → ćwiczenie Ani.
+- 25.09 L1-02 została zatwierdzona, wdrożona i opublikowana razem z L1-01.
+- Aktualny stan L1-02 jest opisany wyżej w sekcji „Poziom 1 — zatwierdzone lekcje” oraz w najnowszym handoffie.
+- Stare robocze statusy typu „do przeglądu” / „niezatwierdzona” nie obowiązują.
 
 ## Pakiet źródłowych zdjęć dla Codexa — 25.09.2026
 - przygotowano jeden lokalny pakiet materiałów z sesji zdjęciowej 24.09.2026,
