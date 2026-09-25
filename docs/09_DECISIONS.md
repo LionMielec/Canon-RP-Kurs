@@ -216,3 +216,14 @@ Zatwierdzone 25.09.2026:
 - przed finalną produkcją V04 trzeba zapisać dokładne identyfikatory zdjęcia tyłu i zdjęcia góry egzemplarza Ani.
 
 Zasada nadrzędna: **najpierw Ania uczy się rozpoznać rezultat i sprawdzić go na aparacie; diagnozowanie przyczyn przychodzi później.**
+
+## D-023 — Zachowanie obecnej identyfikacji wizualnej aplikacji
+Zatwierdzone 25.09.2026:
+
+- obecna ikona aplikacji jest właściwa i ma pozostać bez zmian,
+- obecna kolorystyka i ogólny kierunek wizualny aplikacji są zaakceptowane,
+- implementacja wzorcowych dwóch lekcji ma rozwijać istniejącą aplikację, a nie tworzyć nowej identyfikacji wizualnej,
+- aktualizacje mają być publikowane do istniejącego prywatnego Site pod tym samym adresem; nie tworzymy nowej aplikacji ani nowego Site.
+
+Zasada: **zmieniamy treść i strukturę lekcji, nie zaakceptowaną identyfikację wizualną aplikacji.**
+
