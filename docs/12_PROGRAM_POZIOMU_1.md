@@ -1,6 +1,6 @@
 # Poziom 1 — Zaczynam fotografować
 
-**Stan przeglądu: 24.09.2026.** Cała lista 14 lekcji pozostaje programem roboczym. L1-01 ma zatwierdzoną bazę treści. L1-02 została zatwierdzona 25.09.2026 po korekcie dydaktycznej. Pozostałe lekcje będą analizowane kolejno.
+**Stan przeglądu: 25.09.2026.** Cała lista 14 lekcji pozostaje programem roboczym. L1-01 i L1-02 są zatwierdzone, wdrożone i opublikowane; po pierwszym teście na iPhonie 15 Pro Max pozostaje jedna runda drobnych korekt wzorca. L1-03 i kolejne będą analizowane dopiero po jej zamknięciu.
 
 Propozycja programu do akceptacji, 18.09.2026. Kurs dla Ani: Canon EOS RP z RF 50 mm F1.8 STM. Model obiektywu potwierdzono w poprzedniej rozmowie na podstawie zdjęć; starsza dokumentacja projektu jeszcze tego nie uwzględnia.
 
