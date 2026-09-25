@@ -237,3 +237,13 @@ Zatwierdzone 25.09.2026:
 - następnym krokiem jest uruchomienie wersji testowej na iPhonie 15 Pro Max i ocena wzorca lekcji.
 
 Zasada: **brak finalnego assetu nie może blokować oceny konstrukcji lekcji, jeżeli jest jawnie oznaczony jako roboczy.**
+
+## D-025 — Jedno źródło dla L1-01 V01/V02
+Zatwierdzone 25.09.2026:
+
+- jedynym dozwolonym źródłem dla L1-01-V01 i L1-01-V02 jest `fbe2fd62-e8ab-465b-b340-b6d0b4458622.jpg`,
+- Library ID: `libfile_167abe23e1488191ba89b2d851b2155c`,
+- `camera-top.jpeg` ani inne zdjęcie nie może być użyte jako finalne źródło tych dwóch assetów,
+- z tego jednego mastera przygotowujemy osobno kadr włącznika ON/OFF oraz kadr pokrętła A+.
+
+Zasada: **dla V01/V02 nie wybieramy już między zdjęciami; źródło jest zamknięte.**
