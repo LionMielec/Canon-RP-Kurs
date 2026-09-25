@@ -88,3 +88,11 @@ Od L1-01 każda pełna lekcja ma powstawać jako pakiet zawierający: treść dl
 - po korekcie nie wymagamy zdjęć ekranu odtwarzania EOS RP ani osobnej produkcji zdjęć referencyjnych przez Anię lub właściciela projektu,
 - L1-02 została zatwierdzona 25.09.2026. Przyjęto uproszczenie wzorca V01 do dwóch przykładów, korektę opisu małego podglądu, porównywanie tego samego konkretnego szczegółu oraz obowiązek zapisania dokładnych źródeł V04 przed produkcją.
 - Następny krok: wspólny przegląd L1-03 „Układam zdjęcie bez zmiany ustawień”.
+
+## Pakiet źródłowych zdjęć dla Codexa — 25.09.2026
+- przygotowano jeden lokalny pakiet materiałów z sesji zdjęciowej 24.09.2026,
+- pakiet zawiera 27 unikalnych JPG po usunięciu ponownych kopii,
+- dołączono manifest: nazwa, Library ID, wymiary, rozmiar, SHA-256 i znane przypisanie projektowe,
+- L1-01-V01/V02 mają w pakiecie jednoznaczny master `fbe2fd62-e8ab-465b-b340-b6d0b4458622.jpg`,
+- L1-02-V03 ma master `57652b89-ae48-4cd1-b998-e883aee8aa1f.jpg`,
+- pakiet ma zostać rozpakowany lokalnie pod `materials/camera-source-pack-2026-09-24/`; nie trafia do GitHub.
