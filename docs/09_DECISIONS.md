@@ -227,3 +227,13 @@ Zatwierdzone 25.09.2026:
 
 Zasada: **zmieniamy treść i strukturę lekcji, nie zaakceptowaną identyfikację wizualną aplikacji.**
 
+## D-024 — Nie blokować prototypu przez niegotowy asset V01/V02
+Zatwierdzone 25.09.2026:
+
+- nie zatrzymujemy implementacji i testu dwóch pierwszych lekcji z powodu rozbieżności identyfikatora zdjęcia góry aparatu,
+- obecny `camera-top.jpeg` pozostaje roboczym podglądem w wersji testowej,
+- nie jest przez to uznany za finalnie zatwierdzony asset,
+- finalne źródło, crop i oznaczenia V01/V02 zostaną domknięte później,
+- następnym krokiem jest uruchomienie wersji testowej na iPhonie 15 Pro Max i ocena wzorca lekcji.
+
+Zasada: **brak finalnego assetu nie może blokować oceny konstrukcji lekcji, jeżeli jest jawnie oznaczony jako roboczy.**
