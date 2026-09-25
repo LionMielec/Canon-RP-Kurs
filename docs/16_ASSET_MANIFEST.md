@@ -26,7 +26,7 @@ Ten plik jest rejestrem materiałów wizualnych przypisanych do konkretnych lekc
 
 | ID | Zastosowanie | Typ | Źródło / brak | Docelowa ścieżka | Status |
 |---|---|---|---|---|---|
-| L1-02-V01 | Wzorzec: ważny element ostry / ostrość przesunięta | zestaw dydaktyczny | `Correct.Focus.jpg`, `Front.Focus.jpg`, `Back.Focus.jpg` — Bautsch, Wikimedia Commons, CC0 | `assets/lessons/l1-02/l1-02-v01-focus-reference.*` | `SOURCE_IDENTIFIED` |
+| L1-02-V01 | Wzorzec: ważny element ostry / ostrość przesunięta | zestaw dydaktyczny | `Correct.Focus.jpg`, `Front.Focus.jpg` — Bautsch, Wikimedia Commons, CC0 | `assets/lessons/l1-02/l1-02-v01-focus-reference.*` | `SOURCE_IDENTIFIED` |
 | L1-02-V02 | Całe zdjęcie → powiększony detal | para edukacyjna | kandydat: `Chive flower close-up.jpg`, Wikimedia Commons, CC0 | `assets/lessons/l1-02/l1-02-v02-full-vs-detail.*` | `SOURCE_IDENTIFIED` + `TO_PREPARE` |
 | L1-02-V03 | Przycisk odtwarzania | zdjęcie/crop EOS RP Ani | `57652b89-ae48-4cd1-b998-e883aee8aa1f.jpg` / `libfile_eb4721328c288191bb5aa19d2aa13f7e` | `assets/lessons/l1-02/l1-02-v03-playback-button.jpg` | `SOURCE_SELECTED` + `TO_PREPARE` |
 | L1-02-V04 | Lupa + główne pokrętło | grafika 2-kadrowa | istniejące zdjęcia tyłu i góry EOS RP Ani | `assets/lessons/l1-02/l1-02-v04-magnify-controls.jpg` | `SOURCE_SELECTED` + `TO_DESIGN` |
