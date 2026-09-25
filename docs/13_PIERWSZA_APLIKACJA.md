@@ -1,6 +1,6 @@
 # Pierwsza aplikacja — wersja do prób
 
-Aktualizacja: 18.09.2026. Publikacja zakończona powodzeniem.
+Aktualizacja: 25.09.2026. Aktualna wersja dwóch zatwierdzonych lekcji została opublikowana i sprawdzona na iPhonie 15 Pro Max.
 
 [Otwórz Canon RP — Kurs](https://canon-rp-kurs-ani.pawel-s-mielec.chatgpt.site)
 
@@ -27,8 +27,8 @@ Minimalna statyczna aplikacja HTML/CSS/JavaScript. Źródło i publikowane pliki
 Główny folder `/Users/pawelsiedleczka/Documents/ChatGPT/Canon-RP-Kurs` nadal przechowuje dokumentację. Jego `app/` nie jest aktualnym checkoutem opublikowanej strony. Nie tworzyć drugiego Site ani niezależnej kopii kodu przy kontynuacji; pracować w folderze powyżej i używać istniejącego identyfikatora.
 
 - Site: `appgprj_6aad16a482e48191a0f623f9a51b32a9`.
-- Wersja: 1.
-- Commit źródła: `c71aebd8f7dabe4da6103bdee1c784817a140dfc`.
+- Aktualna wersja testowa dwóch lekcji opublikowana 25.09.2026.
+- Commit źródła aplikacji: `651b4f6e746f4a6cffac612812169afc74874545`.
 - Wersja Sites: `appgprj_6aad16a482e48191a0f623f9a51b32a9~appgver_09c57ada50d481918184f7856f723080`.
 - Wdrożenie: `appgdep_6aad1c2b41948191bd519751858b555a`, status `succeeded`.
 
@@ -42,7 +42,7 @@ Pozostaje rzeczywista próba Safari, logowania i ikony na iPhonie. Testy przegl�
 
 ## Następny krok
 
-Ocenić wygląd na telefonie: czytelność, przewijanie, kolory i animowane zbliżenie. Użytkownik decyduje o zmianach. Nie rozbudowywać automatycznie kolejnych lekcji, AI ani infrastruktury.
+Pierwszy rzeczywisty test na iPhonie 15 Pro Max został wykonany 25.09.2026. Ogólny kierunek aplikacji został oceniony pozytywnie. Następna sesja ma zebrać wszystkie drobne niedociągnięcia i uzupełnienia w jeden pakiet korekt, wdrożyć je oraz ponownie sprawdzić na iPhonie. Dopiero po zamknięciu tej rundy uznajemy układ dwóch pierwszych lekcji za wzorzec kolejnych.
 
 ## Ocena i korekty po publikacji — 18.09.2026
 
@@ -51,3 +51,12 @@ Użytkownik pozytywnie ocenił wygląd aplikacji. Nie potwierdził jednoznacznie
 Docelowa animacja została doprecyzowana w D-19: obrót, zbliżenie, pokazanie działania, start automatyczny bez przycisku „Odtwórz”. Duże kółko zastąpi precyzyjny obrys lub strzałka. Wersja 1 nadal ma dotychczasowy przycisk i powiększenie zdjęcia; nie wdrożono jeszcze korekt.
 
 D-20 dodaje wymaganie klikalnego spisu lekcji i ćwiczeń. Obecne karty dwóch lekcji są punktem wyjścia; spis z bezpośrednimi wejściami do ćwiczeń pozostaje do przygotowania.
+
+
+## Publikacja i test wzorca — 25.09.2026
+
+- L1-01 i L1-02 zostały wdrożone w istniejącej aplikacji i opublikowane pod tym samym adresem Site.
+- Zachowano dotychczasową ikonę, kolorystykę, konfigurację i dostęp tylko dla właściciela.
+- Lokalny pakiet zdjęć źródłowych pozostał poza publikowaną aplikacją; opublikowane zostały tylko przygotowane kadry.
+- Test na rzeczywistym iPhonie 15 Pro Max: ogólnie pozytywny, pozostaje kilka drobnych niedociągnięć do zebrania i poprawienia w jednej rundzie.
+- Nie przechodzimy jeszcze do implementacji L1-03.
