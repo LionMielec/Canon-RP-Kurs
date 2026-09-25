@@ -259,3 +259,15 @@ Zatwierdzone 25.09.2026:
 - Codex nie ma wybierać samodzielnie materiałów z pakietu; używa wyłącznie źródeł wskazanych przez ASSET_MANIFEST lub kartę produkcyjną.
 
 Zasada: **dokumentacja wskazuje źródło, a Codex musi mieć fizyczny lokalny plik źródłowy — identyfikator Library nie zastępuje pliku na dysku.**
+
+## D-027 — Jedna runda korekt przed kolejnymi lekcjami
+Zatwierdzone 25.09.2026:
+
+- opublikowana wersja L1-01 i L1-02 została sprawdzona na rzeczywistym iPhonie 15 Pro Max,
+- ogólny kierunek aplikacji, kolorystyka, ikona i sposób prowadzenia lekcji są akceptowane,
+- przed uznaniem tego układu za wzorzec kolejnych lekcji wykonujemy jedną zamkniętą rundę drobnych korekt i uzupełnień,
+- w następnej sesji najpierw zbieramy wszystkie zauważone niedociągnięcia, a następnie przekazujemy je Codexowi jako jeden pakiet zmian,
+- nie przechodzimy jeszcze do L1-03 ani nie przebudowujemy aplikacji od zera,
+- po ponownym pozytywnym teście na iPhonie wzorzec L1-01/L1-02 zostaje zamknięty i dalsza praca ma skupiać się na tworzeniu kolejnych lekcji według tego modelu.
+
+Zasada: **najpierw domykamy wzorzec, potem skalujemy go na kolejne lekcje.**
