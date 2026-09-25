@@ -1,7 +1,7 @@
 # L1-02 — karta wizualno-produkcyjna
 
 Lekcja: **Sprawdzam, czy zdjęcie jest ostre**  
-Status treści: `DRAFT_FOR_REVIEW`  
+Status treści: `APPROVED`  
 Korekta dydaktyczna: 2026-09-24
 
 ## Zasada nadrzędna
@@ -9,9 +9,9 @@ Ania otrzymuje **gotową lekcję z gotowymi materiałami wzorcowymi**. Jej włas
 
 ## L1-02-V01 — Co znaczy „ostre we właściwym miejscu”
 - Krok: `L1-02-S01`.
-- Typ: zestaw dydaktyczny 2–3 kadrów.
-- Źródło preferowane: `Correct.Focus.jpg`, `Front.Focus.jpg`, `Back.Focus.jpg`, autor Bautsch, Wikimedia Commons, CC0.
-- Prezentacja dla Ani: bez terminów front/back focus; etykiety np. `ważny element ostry` / `ostrość przesunięta gdzie indziej`.
+- Typ: zestaw dydaktyczny 2 kadrów.
+- Źródło preferowane: `Correct.Focus.jpg` i `Front.Focus.jpg`, autor Bautsch, Wikimedia Commons, CC0.
+- Prezentacja dla Ani: dwa przykłady z jednoznacznym wskazaniem elementu, który miał być ostry; etykiety `ważny element ostry` / `ostrość przesunięta gdzie indziej`. Bez terminów front/back focus.
 - Cel: nauczyć, że ważny jest konkretny element, a nie samo występowanie ostrości gdziekolwiek w kadrze.
 - Status: `SOURCE_IDENTIFIED` → pobrać oryginały → przygotować układ → `APPROVAL_PENDING`.
 
@@ -33,7 +33,7 @@ Ania otrzymuje **gotową lekcję z gotowymi materiałami wzorcowymi**. Jej włas
 ## L1-02-V04 — Jak powiększyć na EOS RP
 - Krok: `L1-02-S04`.
 - Typ: grafika dwukadrowa `lupa → główne pokrętło`.
-- Źródła: zdjęcie tyłu aparatu Ani + zdjęcie góry aparatu Ani.
+- Źródła: zdjęcie tyłu aparatu Ani + zdjęcie góry aparatu Ani. Przed produkcją należy wpisać dokładne identyfikatory obu plików źródłowych.
 - Cel: pokazać czynność bez potrzeby reprodukowania ekranu menu/odtwarzania.
 - Status: `SOURCE_SELECTED` + `TO_DESIGN`.
 
@@ -48,6 +48,9 @@ Ania otrzymuje **gotową lekcję z gotowymi materiałami wzorcowymi**. Jej włas
 - nie wymagamy ekranu EOS RP po powiększeniu,
 - nie wymagamy, aby Ania lub właściciel projektu wykonywali serię zdjęć referencyjnych specjalnie do nauki ostrości,
 - nie generujemy z domysłu interfejsu EOS RP.
+
+## Źródło techniczne
+- Canon EOS RP Advanced User Guide v1.6, sekcja `Magnifying Images` — weryfikacja przycisku powiększenia, głównego pokrętła i przesuwania powiększonego widoku.
 
 ## Instrukcja montażu dla Codexa
 1. V01 i V02 są częścią gotowej warstwy edukacyjnej i pojawiają się **zanim** aplikacja poprosi Anię o dotknięcie aparatu.
