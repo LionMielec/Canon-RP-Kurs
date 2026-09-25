@@ -29,8 +29,10 @@ Główny folder `/Users/pawelsiedleczka/Documents/ChatGPT/Canon-RP-Kurs` nadal p
 - Site: `appgprj_6aad16a482e48191a0f623f9a51b32a9`.
 - Aktualna wersja testowa dwóch lekcji opublikowana 25.09.2026.
 - Commit źródła aplikacji: `651b4f6e746f4a6cffac612812169afc74874545`.
-- Wersja Sites: `appgprj_6aad16a482e48191a0f623f9a51b32a9~appgver_09c57ada50d481918184f7856f723080`.
-- Wdrożenie: `appgdep_6aad1c2b41948191bd519751858b555a`, status `succeeded`.
+- Identyfikatory wersji Sites i wdrożenia zapisane niżej dotyczą pierwszej publikacji z 18.09.2026 i są historyczne:
+  - wersja Sites: `appgprj_6aad16a482e48191a0f623f9a51b32a9~appgver_09c57ada50d481918184f7856f723080`,
+  - wdrożenie: `appgdep_6aad1c2b41948191bd519751858b555a`, status `succeeded`.
+- Aktualna publikacja z 25.09.2026 jest identyfikowana przez commit źródła `651b4f6e746f4a6cffac612812169afc74874545`; nie podmieniamy historycznych identyfikatorów na niezweryfikowane wartości.
 
 Kod zapisano i przesłano do osobnego prywatnego repo źródłowego Sites. Repo dokumentacji nie było automatycznie commitowane ani wypychane w tym etapie. W plikach nie zapisano danych dostępu do hostingu.
 
