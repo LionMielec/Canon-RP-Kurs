@@ -3,7 +3,7 @@
 Stan na: 2026-09-25
 
 ## Etap projektu
-Trwa przygotowanie projektu do implementacji w Codexie oraz porządkowanie materiałów i treści kursu.
+Dwie pierwsze zatwierdzone lekcje zostały wdrożone, opublikowane i sprawdzone na iPhonie 15 Pro Max. Projekt jest na etapie domknięcia jednej rundy drobnych korekt wzorca implementacyjnego przed rozpoczęciem kolejnych lekcji.
 
 ## Nadrzędny priorytet projektu
 Głównym celem jest nauczenie Ani robienia zdjęć ze zrozumieniem przy użyciu Canon EOS RP. Rdzeniem projektu są treści edukacyjne łączące naukę fotografii z praktyczną obsługą konkretnego aparatu. Aplikacja, wizualizacje i AI są warstwami wspierającymi i nie mogą wyprzedzać ani zastępować programu, lekcji, ćwiczeń i zweryfikowanych źródeł.
@@ -38,7 +38,7 @@ Punkt 8 — Wizualizacje i 3D:
 - **L1-02 „Sprawdzam, czy zdjęcie jest ostre” — ZATWIERDZONA 25.09.2026 po korekcie dydaktycznej.**
 
 ## Następny krok
-Najpierw uporządkować **rdzeń edukacyjny Poziomu 1**: zatwierdzić program, przygotować plan produkcji lekcji, przypisać do każdej lekcji sprawdzone źródła, ćwiczenia i potrzebne materiały z aparatu Ani. Równolegle kontynuować kontrolowany handoff do Codexa i zdefiniować MVP aplikacji tak, aby implementacja obsługiwała zatwierdzoną strukturę kursu. Punkt 9 — Analiza zdjęć przez AI pozostaje zatwierdzonym modułem wspierającym, ale nie jest nadrzędnym priorytetem wobec treści edukacyjnej.
+W następnej sesji zebrać wszystkie drobne niedociągnięcia zauważone w rzeczywistym teście na iPhonie 15 Pro Max, połączyć je w jeden pakiet korekt i wdrożyć bez rozszerzania zakresu. Po ponownym teście i pozytywnym wyniku formalnie uznać układ L1-01/L1-02 za wzorzec implementacyjny kolejnych lekcji. Dopiero wtedy rozpocząć L1-03.
 
 ## Pozostałe otwarte decyzje
 - konkretny framework webowy,
