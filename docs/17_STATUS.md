@@ -103,3 +103,9 @@ Od L1-01 każda pełna lekcja ma powstawać jako pakiet zawierający: treść dl
 - zachowano ten sam adres Site, ikonę, kolorystykę, konfigurację i dostęp tylko dla właściciela,
 - lokalny pakiet zdjęć źródłowych pozostał poza publikowaną aplikacją; opublikowano wyłącznie przygotowane kadry,
 - następny krok: test rzeczywisty na iPhonie 15 Pro Max.
+
+## Test na iPhonie 15 Pro Max — 25.09.2026
+- pierwsza opublikowana wersja wzorcowych dwóch lekcji została uruchomiona na rzeczywistym iPhonie 15 Pro Max,
+- ogólna ocena użytkownika: kierunek i działanie są dobre,
+- przed uznaniem implementacji za wzorzec dla kolejnych lekcji pozostaje jedna runda drobnych korekt i uzupełnień,
+- do czasu ich domknięcia nie przechodzimy do implementacji L1-03.
