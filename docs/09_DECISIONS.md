@@ -202,3 +202,17 @@ Zatwierdzone:
 - rzeczywiste zdjęcia egzemplarza Ani pozostają podstawą do pokazywania fizycznej obsługi jej aparatu.
 
 Zasada nadrzędna: **najpierw gotowy przykład i zrozumienie, potem samodzielne ćwiczenie Ani.**
+
+## D-022 — L1-02 „Sprawdzam, czy zdjęcie jest ostre” — zatwierdzona
+Zatwierdzone 25.09.2026:
+
+- L1-02 pozostaje drugą lekcją Poziomu 1,
+- kolejność dydaktyczna: gotowy wzorzec → wyjaśnienie, na co patrzeć → obsługa odtwarzania i powiększenia na EOS RP → ćwiczenie na własnych zdjęciach z L1-01,
+- wzorzec V01 zostaje uproszczony do dwóch przykładów: ważny element ostry / ostrość przesunięta gdzie indziej,
+- S02 wyjaśnia, że mały podgląd utrudnia ocenę drobnych szczegółów, a powiększenie ułatwia ocenę krawędzi i faktury,
+- przy porównaniu trzech zdjęć Ania sprawdza ten sam konkretny szczegół,
+- lekcja nie wprowadza jeszcze przyczyn nieostrości, ustawień AF, czasu migawki ani głębi ostrości,
+- obsługa powiększenia została zweryfikowana z Canon EOS RP Advanced User Guide v1.6, sekcja `Magnifying Images`,
+- przed finalną produkcją V04 trzeba zapisać dokładne identyfikatory zdjęcia tyłu i zdjęcia góry egzemplarza Ani.
+
+Zasada nadrzędna: **najpierw Ania uczy się rozpoznać rezultat i sprawdzić go na aparacie; diagnozowanie przyczyn przychodzi później.**
