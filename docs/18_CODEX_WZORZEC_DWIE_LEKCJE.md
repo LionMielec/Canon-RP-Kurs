@@ -114,3 +114,10 @@ Po wykonaniu pracy Codex ma zwrócić:
 Po lokalnej implementacji i weryfikacji zatrzymać się.
 
 Nie commitować, nie pushować i nie publikować nowej wersji bez osobnej zgody właściciela projektu.
+
+## Decyzja o nieblokowaniu testu przez źródło V01/V02
+- Rozbieżność nazwy/identyfikatora zdjęcia góry aparatu nie blokuje wersji testowej.
+- Obecne `dist/camera-top.jpeg` może pozostać roboczym podglądem V01/V02 w wersji testowej.
+- Nie oznaczać tego pliku jako finalnie zatwierdzonego assetu.
+- Finalne źródło i kadry V01/V02 zostaną domknięte później w produkcji assetów.
+- Priorytet teraz: uruchomić wzorcowe dwie lekcje w istniejącej aplikacji i przeprowadzić test na iPhonie 15 Pro Max.
