@@ -1,18 +1,27 @@
 # Zadania i stan
 
-Aktualizacja: 24.09.2026.
+Aktualizacja: 25.09.2026.
 
-## Aktualny stan — 24.09.2026
-- [x] Zatwierdzić nadrzędny priorytet edukacyjny kursu.
+## Aktualny stan — koniec sesji 25.09.2026
 - [x] Zatwierdzić bazę L1-01.
-- [x] Wykonać audyt wizualny L1-01.
-- [x] Wprowadzić standard produkcji lekcji od L1-01.
-- [x] Utworzyć wspólny manifest assetów.
-- [x] Przygotować pełny projekt L1-02.
-- [x] Skorygować L1-02: gotowe materiały dydaktyczne najpierw, własne ćwiczenie Ani później.
-- [ ] Następna sesja: wspólnie zatwierdzić albo skorygować L1-02.
-- [ ] Po zatwierdzeniu L1-02 przejść do L1-03.
-- [ ] Produkować brakujące assety L1-01/L1-02 etapami, bez materiałów „na zapas”.
+- [x] Zatwierdzić L1-02 po korekcie dydaktycznej.
+- [x] Przygotować standard produkcji lekcji i wspólny manifest assetów.
+- [x] Przygotować lokalny pakiet zdjęć aparatu/menu dla Codexa.
+- [x] Wdrożyć L1-01 i L1-02 w istniejącej aplikacji.
+- [x] Zachować obecną ikonę, kolorystykę i istniejący Site.
+- [x] Opublikować wersję dwóch lekcji.
+- [x] Przeprowadzić pierwszy rzeczywisty test na iPhonie 15 Pro Max.
+- [x] Potwierdzić, że ogólny kierunek aplikacji i sposobu prowadzenia lekcji jest dobry.
+- [ ] **Następna sesja:** zebrać wszystkie drobne niedociągnięcia z testu na iPhonie w jeden pakiet.
+- [ ] Wdrożyć jedną rundę korekt bez rozszerzania zakresu.
+- [ ] Ponownie sprawdzić skorygowaną wersję na iPhonie 15 Pro Max.
+- [ ] Po pozytywnym teście formalnie uznać L1-01/L1-02 za wzorzec implementacyjny kolejnych lekcji.
+- [ ] Dopiero potem rozpocząć wspólny przegląd L1-03.
+- [ ] Produkować brakujące finalne assety L1-01/L1-02 według potrzeb, bez materiałów „na zapas”.
+- [ ] Docelowo sprawdzić kurs również na iPhonie 17 Pro Max Ani.
+
+## Zasada na następną sesję
+Nie wracamy do ponownego analizowania zakończonych decyzji, nie przebudowujemy aplikacji od zera i nie otwieramy nowych modułów. Najpierw domykamy zauważone niedociągnięcia w istniejącym wzorcu dwóch lekcji.
 
 ## Historia wcześniejszych zadań
 
