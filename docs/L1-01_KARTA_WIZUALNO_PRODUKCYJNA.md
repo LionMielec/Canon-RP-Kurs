@@ -22,7 +22,7 @@ Materiały mają pomóc Ani wykonać pierwszy świadomy cykl zdjęcia bez przeci
 - Krok: `L1-01-S01` — „Włącz aparat”.
 - Typ finalny: rzeczywiste zdjęcie Canon EOS RP Ani, z delikatnym oznaczeniem przełącznika `ON/OFF`; opcjonalnie później mikroanimacja ruchu.
 - Cel: pokazać dokładnie gdzie i jak włączyć aparat.
-- **Wybrane źródło:** `fbe2fd62-e8ab-465b-b340-b6d0b4458622.jpg`.
+- **JEDYNE DOZWOLONE ŹRÓDŁO:** `fbe2fd62-e8ab-465b-b340-b6d0b4458622.jpg`.
 - Library source: `libfile_167abe23e1488191ba89b2d851b2155c`.
 - Dlaczego: czytelne ujęcie z góry, dobrze widoczny przełącznik `ON/OFF`, pokrętło trybów i układ górnej części aparatu.
 - Docelowy asset: `assets/lessons/l1-01/l1-01-v01-power-switch.jpg`.
@@ -32,7 +32,7 @@ Materiały mają pomóc Ani wykonać pierwszy świadomy cykl zdjęcia bez przeci
 - Krok: `L1-01-S02` — „Ustaw A+”.
 - Typ finalny: rzeczywiste zdjęcie pokrętła trybów Ani z czytelnym wskazaniem `A+`.
 - Cel: natychmiastowe rozpoznanie pozycji A+.
-- **Wybrane źródło:** ten sam master co V01: `fbe2fd62-e8ab-465b-b340-b6d0b4458622.jpg`.
+- **JEDYNE DOZWOLONE ŹRÓDŁO:** ten sam master co V01: `fbe2fd62-e8ab-465b-b340-b6d0b4458622.jpg`.
 - Library source: `libfile_167abe23e1488191ba89b2d851b2155c`.
 - Docelowy asset: `assets/lessons/l1-01/l1-01-v02-mode-a-plus.jpg`.
 - Status: `SOURCE_SELECTED` → do przygotowania crop/oznaczenia → `APPROVAL_PENDING`.
@@ -79,6 +79,9 @@ Materiały mają pomóc Ani wykonać pierwszy świadomy cykl zdjęcia bez przeci
 - zdjęcie tyłu aparatu z odchylonym ekranem — przydatne później do obsługi ekranu i przycisków,
 - zdjęcia przodu, boków i spodu — referencje sprzętu oraz przyszłych lekcji,
 - ekrany SHOOT/PLAY/SET UP — wartościowe do kolejnych lekcji, szczególnie L1-02 i lekcji AF, ale nie zastępują ekranu fotografowania wymaganego w V05.
+
+## Twarda decyzja źródłowa V01/V02
+Dla V01 i V02 obowiązuje wyłącznie master `fbe2fd62-e8ab-465b-b340-b6d0b4458622.jpg` / `libfile_167abe23e1488191ba89b2d851b2155c`. Nie używać `camera-top.jpeg` ani żadnego innego pliku jako finalnego źródła V01/V02.
 
 ## Minimalna lista nowych materiałów potrzebnych do domknięcia L1-01
 Nie robimy nowych zdjęć „na zapas”. Do L1-01 potrzebujemy tylko:
