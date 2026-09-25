@@ -55,6 +55,12 @@ Celem jest możliwość dodania kolejnej zatwierdzonej lekcji bez ręcznego budo
 
 Nie tworzyć rozbudowanego frameworka ani systemu na przyszłość. Zastosować najmniejszą trwałą strukturę, która wystarczy do dalszych lekcji Poziomu 1.
 
+### 3a. Zachować zatwierdzony wygląd aplikacji
+- Zachować obecną ikonę aplikacji bez zmian.
+- Zachować obecną kolorystykę i ogólny kierunek wizualny aplikacji; użytkownik ocenia je jako właściwe.
+- Aktualizacja dwóch lekcji nie może tworzyć nowej identyfikacji wizualnej ani nowej ikony.
+- Kontynuować pracę na tym samym istniejącym Site i tym samym adresie.
+
 ### 4. Nawigacja
 Zachować istniejący kierunek wizualny aplikacji jako punkt wyjścia.
 
