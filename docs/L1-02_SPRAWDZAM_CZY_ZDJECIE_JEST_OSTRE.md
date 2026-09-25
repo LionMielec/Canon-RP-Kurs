@@ -111,7 +111,7 @@ Lekcja jest ukończona, jeżeli potrafisz:
 - otworzyć własne zdjęcie na EOS RP,
 - powiększyć wybrany szczegół,
 - sprawdzić jego ostrość,
-- porównać ten sam rodzaj szczegółu na kilku zdjęciach.
+- porównać ten sam konkretny szczegół na kilku zdjęciach.
 
 Nie musisz jeszcze znać przyczyn nieostrości.
 
