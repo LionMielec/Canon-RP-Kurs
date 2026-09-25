@@ -247,3 +247,15 @@ Zatwierdzone 25.09.2026:
 - z tego jednego mastera przygotowujemy osobno kadr włącznika ON/OFF oraz kadr pokrętła A+.
 
 Zasada: **dla V01/V02 nie wybieramy już między zdjęciami; źródło jest zamknięte.**
+
+## D-026 — Lokalny pakiet źródłowych zdjęć dla Codexa
+Zatwierdzone 25.09.2026:
+
+- zdjęcia aparatu i menu przekazane 24.09.2026 mają zostać utrzymywane jako jeden lokalny pakiet źródłowy dostępny dla Codexa,
+- z 47 wpisów JPG z tej sesji wyodrębniono 27 unikalnych zdjęć; powtórne kopie nie są potrzebne w pakiecie,
+- pakiet zawiera oryginały, manifest z identyfikatorami i sumami SHA-256 oraz kopie materiałów już przypisanych do konkretnych assetów,
+- docelowe miejsce na Macu: `/Users/pawelsiedleczka/Documents/ChatGPT/Canon-RP-Kurs/materials/camera-source-pack-2026-09-24/`,
+- katalog pozostaje lokalny i jest wykluczony z Git; nie publikujemy prywatnego kompletu zdjęć w repozytorium,
+- Codex nie ma wybierać samodzielnie materiałów z pakietu; używa wyłącznie źródeł wskazanych przez ASSET_MANIFEST lub kartę produkcyjną.
+
+Zasada: **dokumentacja wskazuje źródło, a Codex musi mieć fizyczny lokalny plik źródłowy — identyfikator Library nie zastępuje pliku na dysku.**
