@@ -96,3 +96,10 @@ Od L1-01 każda pełna lekcja ma powstawać jako pakiet zawierający: treść dl
 - L1-01-V01/V02 mają w pakiecie jednoznaczny master `fbe2fd62-e8ab-465b-b340-b6d0b4458622.jpg`,
 - L1-02-V03 ma master `57652b89-ae48-4cd1-b998-e883aee8aa1f.jpg`,
 - pakiet ma zostać rozpakowany lokalnie pod `materials/camera-source-pack-2026-09-24/`; nie trafia do GitHub.
+
+## Publikacja wzorca dwóch lekcji — 25.09.2026
+- dwie zatwierdzone lekcje zostały zacommitowane, wypchnięte i opublikowane w istniejącym Canon RP Site,
+- commit źródła aplikacji: `651b4f6e746f4a6cffac612812169afc74874545`,
+- zachowano ten sam adres Site, ikonę, kolorystykę, konfigurację i dostęp tylko dla właściciela,
+- lokalny pakiet zdjęć źródłowych pozostał poza publikowaną aplikacją; opublikowano wyłącznie przygotowane kadry,
+- następny krok: test rzeczywisty na iPhonie 15 Pro Max.
