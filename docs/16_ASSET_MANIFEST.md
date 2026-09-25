@@ -15,8 +15,8 @@ Ten plik jest rejestrem materiałów wizualnych przypisanych do konkretnych lekc
 
 | ID | Zastosowanie | Typ | Źródło / brak | Docelowa ścieżka | Status |
 |---|---|---|---|---|---|
-| L1-01-V01 | Włącz aparat | zdjęcie/crop | `fbe2fd62-e8ab-465b-b340-b6d0b4458622.jpg` / `libfile_167abe23e1488191ba89b2d851b2155c` | `assets/lessons/l1-01/l1-01-v01-power-switch.jpg` | `SOURCE_SELECTED` |
-| L1-01-V02 | Ustaw A+ | zdjęcie/crop | ten sam master co V01 | `assets/lessons/l1-01/l1-01-v02-mode-a-plus.jpg` | `SOURCE_SELECTED` |
+| L1-01-V01 | Włącz aparat | zdjęcie/crop | wyłącznie `fbe2fd62-e8ab-465b-b340-b6d0b4458622.jpg` / `libfile_167abe23e1488191ba89b2d851b2155c` | `assets/lessons/l1-01/l1-01-v01-power-switch.jpg` | `SOURCE_SELECTED` |
+| L1-01-V02 | Ustaw A+ | zdjęcie/crop | wyłącznie `fbe2fd62-e8ab-465b-b340-b6d0b4458622.jpg` / `libfile_167abe23e1488191ba89b2d851b2155c` | `assets/lessons/l1-01/l1-01-v02-mode-a-plus.jpg` | `SOURCE_SELECTED` |
 | L1-01-V03 | Prawidłowe trzymanie | zdjęcie instruktażowe | brak — nowe ujęcie osoby z aparatem | `assets/lessons/l1-01/l1-01-v03-camera-hold.jpg` | `TO_CAPTURE` |
 | L1-01-V04 | Pół / pełne naciśnięcie spustu | animacja | brak finalnego źródła ruchu | `assets/lessons/l1-01/l1-01-v04-shutter-half-full.mp4` | `TO_CAPTURE` + `TO_ANIMATE` |
 | L1-01-V05 | Potwierdzenie AF | 2 ekrany / sekwencja | brak ekranu fotografowania z AF | `assets/lessons/l1-01/l1-01-v05-af-before.jpg`, `l1-01-v05-af-confirmed.jpg` | `TO_CAPTURE` |
