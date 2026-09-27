@@ -13,6 +13,7 @@ Aktualizacja: 27.09.2026.
 - [x] Przeprowadzić pierwszy rzeczywisty test na iPhonie 15 Pro Max.
 - [x] Potwierdzić, że ogólny kierunek aplikacji i sposobu prowadzenia lekcji jest dobry.
 - [x] Zebrać wszystkie drobne niedociągnięcia z testu na iPhonie w jeden pakiet — 27.09.2026.
+- [x] Przygotować skonsolidowany dokument wdrożeniowy korekt i poprawić źródłowe dokumenty L1-01/L1-02 — 27.09.2026.
 - [ ] Wdrożyć jedną rundę korekt bez rozszerzania zakresu: przejście teoria→ćwiczenie, ukrycie ID produkcyjnych, pokazanie „tylnego wybieraka” i innych używanych elementów obsługi.
 - [ ] Ponownie sprawdzić skorygowaną wersję na iPhonie 15 Pro Max.
 - [ ] Po pozytywnym teście formalnie uznać L1-01/L1-02 za wzorzec implementacyjny kolejnych lekcji.
