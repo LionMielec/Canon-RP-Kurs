@@ -127,3 +127,20 @@ Kryterium odbioru: właściciel projektu ma zobaczyć w lokalnym podglądzie dok
 Ustalono, że prywatny charakter obecnej wersji nie jest podstawą do kompromisów jakościowych. Projekt ma być od początku realizowany profesjonalnie i przygotowany do wielopoziomowego rozwoju kursu.
 
 Możliwa jest późniejsza komercjalizacja dla szerszej grupy użytkowników. Nie wdrażamy teraz infrastruktury komercyjnej, ale rdzeń treści, UX, danych, assetów i kodu nie może być rozwiązaniem jednorazowym wymagającym późniejszego przepisywania z powodu niskiego standardu wykonania.
+
+
+## Koniec sesji — 27.09.2026, 21:56
+Praca nad aplikacją została zatrzymana świadomie przed kolejną publikacją.
+
+Bieżący stan:
+- opublikowana wersja K-01–K-04 działa na iPhonie,
+- po publikacji wykryto dodatkową korektę rozmieszczenia materiałów w L1-02,
+- lokalnie przygotowano wspólny mechanizm wskazywania elementów aparatu,
+- obecny efekt pulsowania nie spełnia oczekiwanego profesjonalnego standardu wizualnego i nie został zaakceptowany,
+- ostatnia lokalna mikrokorekta nie została opublikowana,
+- L1-01/L1-02 nie są jeszcze formalnie zamkniętym wzorcem,
+- L1-03 nie została rozpoczęta.
+
+Powód zatrzymania: jakość i przewidywalność pracy Codexa są niewystarczające. Przed dalszą implementacją przygotowujemy skill precyzyjnej pracy zgodnie z D-035 i `docs/20_CODEX_PRECISION_SKILL_PLAN.md`.
+
+Pierwszym zadaniem następnej sesji jest przygotowanie i dodanie tego skilla, a nie dalsza edycja aplikacji.
