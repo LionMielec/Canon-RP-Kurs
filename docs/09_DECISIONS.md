@@ -315,3 +315,15 @@ Zatwierdzone 27.09.2026:
 - źródło i wynik istotnej weryfikacji technicznej zapisujemy w dokumentacji lekcji.
 
 Zasada: **dopracowanie szczegółów jest częścią standardu, a nie opcjonalnym etapem kosmetycznym.**
+
+
+## D-032 — Lokalny odbiór korekt K-01–K-04
+Zatwierdzone 27.09.2026:
+
+- po poprawieniu rzeczywistego źródła danych aplikacji Paweł ponownie sprawdził lokalny podgląd,
+- korekty K-01–K-04 zostały zaakceptowane wizualnie w wersji lokalnej,
+- oznacza to zgodę na przejście do commit/push/publikacji do istniejącego Canon RP Site,
+- nie oznacza jeszcze zamknięcia wzorca: po publikacji pozostaje test rzeczywisty na iPhonie 15 Pro Max,
+- dopiero pozytywny test wersji opublikowanej zamyka L1-01/L1-02 jako wzorzec implementacyjny i otwiera przejście do L1-03.
+
+Zasada: **lokalna akceptacja pozwala publikować; finalne zamknięcie wzorca następuje po teście opublikowanej wersji na rzeczywistym iPhonie.**
