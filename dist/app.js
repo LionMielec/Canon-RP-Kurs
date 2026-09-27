@@ -44,6 +44,13 @@
   }
 
   function assetMarkup(asset) {
+    if (asset.frames) {
+      return asset.frames.map(frame => `<figure class="asset-photo" data-asset-id="${escape(asset.id)}">
+        <div class="asset-image"><img src="${escape(frame.target)}" alt="${escape(frame.title)} na rzeczywistym aparacie Canon EOS RP" width="${frame.width}" height="${frame.height}">
+          <span class="asset-marker marker-${escape(frame.marker)}" aria-hidden="true"></span></div>
+        <figcaption><strong>${escape(frame.title)}</strong><span>Kadr roboczy · do zatwierdzenia</span></figcaption>
+      </figure>`).join('') + (asset.pendingMessage ? `<figure class="asset-placeholder"><figcaption><span class="asset-status">Materiał w przygotowaniu</span><p>${escape(asset.pendingMessage)}</p></figcaption></figure>` : '');
+    }
     if (asset.target) {
       return `<figure class="asset-photo" data-asset-id="${escape(asset.id)}">
         <div class="asset-image"><img src="${escape(asset.target)}" alt="${escape(asset.title)} na rzeczywistym aparacie Canon EOS RP" width="${asset.id === 'L1-02-V03' ? '500' : '640'}" height="${asset.id === 'L1-02-V03' ? '500' : '480'}">
@@ -52,9 +59,9 @@
       </figure>`;
     }
     return `<figure class="asset-placeholder" data-asset-id="${asset.id}">
-      <figcaption><span class="asset-status">Materiał produkcyjny do przygotowania</span>
-        <strong>${escape(asset.title)}</strong><span class="asset-code">${escape(asset.id)} · ${escape(asset.status)}</span>
-        <p>${escape(asset.note)}</p></figcaption>
+      <figcaption><span class="asset-status">Materiał w przygotowaniu</span>
+        <strong>${escape(asset.title)}</strong>
+        <p>Ten materiał nie jest jeszcze gotowy.</p></figcaption>
     </figure>`;
   }
 
@@ -79,7 +86,7 @@
     const page = pages[index];
     const assets = lesson.assets.filter(asset => asset.step === page.id);
     const assetHtml = assets.map(assetMarkup).join('');
-    const exampleFirst = lesson.id === 2 && ['L1-02-S01', 'L1-02-S02'].includes(page.id);
+    const exampleFirst = page.id === 'L1-01-S05' || (lesson.id === 2 && ['L1-02-S01', 'L1-02-S02', 'L1-02-S03', 'L1-02-S04'].includes(page.id));
     const previous = pages[index - 1];
     const next = pages[index + 1];
     const link = item => `#lekcja-${lesson.id}/${item.key}`;
@@ -90,7 +97,7 @@
     app.innerHTML = `<article data-lesson="${lesson.code}" data-section-id="${escape(page.id || page.key)}">
       <a class="crumb" href="#">← Spis lekcji</a>
       <p class="lesson-name">${escape(lesson.title)}</p>
-      <div class="lesson-meta"><span>Lekcja 0${lesson.id} · ${escape(lesson.duration)}</span><span>${position}</span></div>
+      <div class="lesson-meta"><span>Lekcja ${lesson.id} · ${escape(lesson.duration)}</span><span>${position}</span></div>
       <div class="track" role="progressbar" aria-label="Miejsce w lekcji" aria-valuemin="0" aria-valuemax="${pages.length}" aria-valuenow="${index + 1}"><span style="width:${(index + 1) / pages.length * 100}%"></span></div>
       <p class="eyebrow">${escape(lesson.category.toUpperCase())}</p>
       <h1 class="step-title step-heading" tabindex="-1">${escape(page.title)}</h1>
@@ -99,7 +106,7 @@
       ${exampleFirst ? '' : assetHtml}
       <nav class="footer-actions" aria-label="Przechodzenie przez lekcję">
         ${previous ? `<a class="secondary" href="${link(previous)}">← Wstecz</a>` : ''}
-        <a class="primary" href="${next ? link(next) : '#'}">${next ? 'Dalej' : 'Spis lekcji'} <span aria-hidden="true">→</span></a>
+        <a class="primary" href="${next ? link(next) : '#'}">${next ? (next.kind === 'exercise' ? 'Przejdź do ćwiczenia' : 'Dalej') : 'Spis lekcji'} <span aria-hidden="true">→</span></a>
       </nav>
       ${!next && lesson.id === 1 ? '<a class="end-nav subtle-link" href="#lekcja-2">Przejdź do lekcji 2</a>' : ''}
     </article>`;

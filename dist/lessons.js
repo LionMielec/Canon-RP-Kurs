@@ -1,4 +1,4 @@
-// Treść dla Ani przepisana bez zmian z zatwierdzonych dokumentów L1-01 i L1-02.
+// Treść dla Ani z zatwierdzonych dokumentów; korekty K-01–K-04 z 27.09.2026.
 window.CANON_LESSONS = [
   {
     "id": 1,
@@ -40,12 +40,16 @@ window.CANON_LESSONS = [
         "id": "L1-01-S06",
         "title": "Dociśnij do końca",
         "body": "Dopiero po potwierdzeniu ostrości spokojnie dociśnij spust do końca. Nie szarp aparatem."
+      },
+      {
+        "id": "L1-01-S07",
+        "title": "Masz już cały podstawowy cykl",
+        "body": "Wiesz już, jak wykonać zdjęcie świadomie:\n\n**wyceluj → naciśnij spust do połowy → poczekaj na potwierdzenie ostrości → spokojnie dociśnij spust do końca.**\n\nTo jest najważniejszy nawyk z tej lekcji.\n\n**Teraz przejdźmy do ćwiczenia.**"
       }
     ],
     "exercise": {
-      "id": "L1-01-S07",
-      "title": "Powtórz jeszcze dwa razy",
-      "body": "Za każdym razem świadomie powtórz ten sam cykl."
+      "title": "Zrób jeszcze dwa zdjęcia",
+      "body": "Powtórz ten sam cykl jeszcze dwa razy. Nie spiesz się. Za każdym razem świadomie zatrzymaj palec w połowie, poczekaj na potwierdzenie ostrości i dopiero wtedy dociśnij spust do końca."
     },
     "help": {
       "id": "L1-01-S08",
@@ -55,7 +59,7 @@ window.CANON_LESSONS = [
     "summary": [
       {
         "title": "Kiedy lekcja jest ukończona?",
-        "body": "Gdy potrafisz samodzielnie wykonać trzy zdjęcia w tym samym świadomym cyklu.\n\n**Zapamiętaj: najpierw przygotuj zdjęcie — potem je wykonaj.**\n\nW L1-02 nauczysz się sprawdzać, czy ważny szczegół rzeczywiście wyszedł ostry."
+        "body": "Gdy potrafisz samodzielnie wykonać trzy zdjęcia w tym samym świadomym cyklu.\n\n**Zapamiętaj: najpierw przygotuj zdjęcie — potem je wykonaj.**\n\nW następnej lekcji nauczysz się sprawdzać, czy ważny szczegół rzeczywiście wyszedł ostry."
       }
     ],
     "assets": [
@@ -89,7 +93,18 @@ window.CANON_LESSONS = [
         "step": "L1-01-S05",
         "title": "Półnaciśnięcie i pełne naciśnięcie spustu",
         "status": "TO_CAPTURE + TO_ANIMATE",
-        "note": "Brakuje zbliżenia dłoni na spuście i animacji pokazującej oba etapy ruchu."
+        "note": "Brakuje zbliżenia dłoni na spuście i animacji pokazującej oba etapy ruchu.",
+        "frames": [
+          {
+            "target": "./assets/lessons/l1-02/l1-02-main-dial.jpg",
+            "title": "Spust migawki — przycisk pod palcem wskazującym",
+            "marker": "shutter",
+            "width": 450,
+            "height": 370
+          }
+        ],
+        "source": "fbe2fd62-e8ab-465b-b340-b6d0b4458622.jpg",
+        "pendingMessage": "Pokaz dwóch etapów naciskania spustu jest jeszcze w przygotowaniu."
       },
       {
         "id": "L1-01-V05",
@@ -115,7 +130,7 @@ window.CANON_LESSONS = [
     "duration": "Około 10–15 minut",
     "intro": {
       "title": "Cel lekcji",
-      "body": "Po tej lekcji Ania:\n- rozpoznaje na gotowych przykładach, jak wygląda detal ostry i mniej ostry,\n- wie, że ostrość sprawdza się na konkretnym szczególe, a nie po małym podglądzie całego zdjęcia,\n- potrafi otworzyć zdjęcie na Canon EOS RP, powiększyć ważny szczegół i sprawdzić go,\n- stosuje tę metodę do własnych zdjęć wykonanych w L1-01.\n\nGłówny nawyk:\n\n**najpierw wiem, czego szukam; potem powiększam ważny szczegół i sprawdzam, czy naprawdę jest wyraźny.**"
+      "body": "Po tej lekcji Ania:\n- rozpoznaje na gotowych przykładach, jak wygląda detal ostry i mniej ostry,\n- wie, że ostrość sprawdza się na konkretnym szczególe, a nie po małym podglądzie całego zdjęcia,\n- potrafi otworzyć zdjęcie na Canon EOS RP, powiększyć ważny szczegół i sprawdzić go,\n- stosuje tę metodę do własnych zdjęć wykonanych w poprzedniej lekcji.\n\nGłówny nawyk:\n\n**najpierw wiem, czego szukam; potem powiększam ważny szczegół i sprawdzam, czy naprawdę jest wyraźny.**"
     },
     "steps": [
       {
@@ -131,12 +146,12 @@ window.CANON_LESSONS = [
       {
         "id": "L1-02-S03",
         "title": "Otwórz zdjęcie na Canon EOS RP",
-        "body": "Na tylnej ściance aparatu znajdź przycisk z **niebieskim symbolem odtwarzania ▶**.\n\nNaciśnij go raz.\n\nNa ekranie pojawi się ostatnio zapisane zdjęcie.\n\nDo przechodzenia między zdjęciami użyj lewego i prawego kierunku na tylnym wybieraku.\n\nZnajdź jedno z trzech zdjęć wykonanych w L1-01."
+        "body": "Na tylnej ściance aparatu znajdź przycisk z **niebieskim symbolem odtwarzania ▶**.\n\nNaciśnij go raz.\n\nNa ekranie pojawi się ostatnio zapisane zdjęcie.\n\nPo prawej stronie tylnej ścianki aparatu znajduje się okrągły element z kierunkami. To **tylny wybierak**.\n\nKurs pokazuje go teraz na zdjęciu aparatu i zaznacza dokładnie miejsce, którego masz używać.\n\nNaciskaj lewy albo prawy kierunek na tylnym wybieraku, aby przechodzić między zdjęciami.\n\nZnajdź jedno z trzech zdjęć wykonanych w poprzedniej lekcji."
       },
       {
         "id": "L1-02-S04",
         "title": "Powiększ ważny szczegół",
-        "body": "Najpierw wybierz jeden konkretny element, który miał być wyraźny: literę, fragment logo, krawędź albo drobny wzór.\n\nNa tylnej ściance aparatu znajdź przycisk oznaczony **niebieską lupą**.\n\nNaciśnij go podczas oglądania zdjęcia.\n\nNastępnie obróć **główne pokrętło przy spuście migawki**, aby zwiększyć lub zmniejszyć powiększenie.\n\nJeżeli wybrany detal nie znajduje się na środku ekranu, przesuń powiększony widok tylnym wybierakiem.\n\nNie musisz powiększać maksymalnie. Powiększ tylko tyle, żeby dobrze widzieć krawędzie i drobne szczegóły."
+        "body": "Najpierw wybierz jeden konkretny element, który miał być wyraźny: literę, fragment logo, krawędź albo drobny wzór.\n\nNa tylnej ściance aparatu znajdź przycisk oznaczony **niebieską lupą**.\n\nNaciśnij go podczas oglądania zdjęcia.\n\nNastępnie obróć **główne pokrętło przy spuście migawki**, aby zwiększyć lub zmniejszyć powiększenie.\n\nJeżeli wybrany detal nie znajduje się na środku ekranu, użyj tego samego **tylnego wybieraka**, który był pokazany przed chwilą. Naciskaj odpowiedni kierunek, aby przesunąć powiększony widok.\n\nNie musisz powiększać maksymalnie. Powiększ tylko tyle, żeby dobrze widzieć krawędzie i drobne szczegóły."
       },
       {
         "id": "L1-02-S05",
@@ -146,7 +161,7 @@ window.CANON_LESSONS = [
       {
         "id": "L1-02-S06",
         "title": "Sprawdź pozostałe dwa zdjęcia",
-        "body": "Przejdź do kolejnego zdjęcia z L1-01 i powiększ ten sam konkretny szczegół.\n\nZrób to samo z trzecim zdjęciem.\n\nPorównaj tylko ostrość. Nie oceniaj teraz jasności, koloru, kadru ani tła.\n\nJeżeli wszystkie trzy są wyraźne, to dobrze — nie trzeba na siłę szukać błędu."
+        "body": "Przejdź do kolejnego zdjęcia z poprzedniej lekcji i powiększ ten sam konkretny szczegół.\n\nZrób to samo z trzecim zdjęciem.\n\nPorównaj tylko ostrość. Nie oceniaj teraz jasności, koloru, kadru ani tła.\n\nJeżeli wszystkie trzy są wyraźne, to dobrze — nie trzeba na siłę szukać błędu."
       },
       {
         "id": "L1-02-S07",
@@ -156,7 +171,7 @@ window.CANON_LESSONS = [
     ],
     "exercise": {
       "title": "Ćwiczenie",
-      "body": "1. Najpierw obejrzyj w kursie gotowe przykłady ostrego i mniej ostrego detalu.\n2. Otwórz jedno ze swoich zdjęć z L1-01.\n3. Wybierz jeden ważny szczegół.\n4. Powiększ go na aparacie.\n5. Oceń tylko jego wyrazistość.\n6. Powtórz to dla dwóch pozostałych zdjęć.\n7. Wróć do fotografowania."
+      "body": "1. Najpierw obejrzyj w kursie gotowe przykłady ostrego i mniej ostrego detalu.\n2. Otwórz jedno ze swoich zdjęć z poprzedniej lekcji.\n3. Wybierz jeden ważny szczegół.\n4. Powiększ go na aparacie.\n5. Oceń tylko jego wyrazistość.\n6. Powtórz to dla dwóch pozostałych zdjęć.\n7. Wróć do fotografowania."
     },
     "help": null,
     "summary": [
@@ -187,18 +202,60 @@ window.CANON_LESSONS = [
       {
         "id": "L1-02-V03",
         "step": "L1-02-S03",
-        "title": "Przycisk odtwarzania na aparacie Ani",
+        "title": "Odtwarzanie i tylny wybierak na aparacie Ani",
         "status": "APPROVAL_PENDING",
         "note": "Kadr z wybranego zdjęcia 57652b89-ae48-4cd1-b998-e883aee8aa1f.jpg przygotowany lokalnie; oczekuje na zatwierdzenie.",
         "source": "57652b89-ae48-4cd1-b998-e883aee8aa1f.jpg",
-        "target": "./assets/lessons/l1-02/l1-02-v03-playback-button.jpg"
+        "frames": [
+          {
+            "target": "./assets/lessons/l1-02/l1-02-v03-playback-button.jpg",
+            "title": "Odtwarzanie — naciśnij przycisk ▶",
+            "marker": "playback",
+            "width": 500,
+            "height": 500
+          },
+          {
+            "target": "./assets/lessons/l1-02/l1-02-selector.jpg",
+            "title": "Tylny wybierak — lewo / prawo",
+            "marker": "selector-horizontal",
+            "width": 260,
+            "height": 260
+          }
+        ]
       },
       {
         "id": "L1-02-V04",
         "step": "L1-02-S04",
-        "title": "Lupa i główne pokrętło",
-        "status": "SOURCE_SELECTED + TO_DESIGN",
-        "note": "Brakuje zatwierdzonej grafiki z dwóch rzeczywistych zdjęć aparatu Ani i identyfikatorów jej źródeł."
+        "title": "Jak powiększyć i przesunąć widok",
+        "status": "APPROVAL_PENDING",
+        "note": "Kadry z dwóch wskazanych zdjęć źródłowych; oznaczenia CSS. Oczekują na zatwierdzenie.",
+        "sources": [
+          "57652b89-ae48-4cd1-b998-e883aee8aa1f.jpg",
+          "fbe2fd62-e8ab-465b-b340-b6d0b4458622.jpg"
+        ],
+        "frames": [
+          {
+            "target": "./assets/lessons/l1-02/l1-02-magnify-button.jpg",
+            "title": "1. Lupa — naciśnij przycisk",
+            "marker": "magnify",
+            "width": 220,
+            "height": 210
+          },
+          {
+            "target": "./assets/lessons/l1-02/l1-02-main-dial.jpg",
+            "title": "2. Główne pokrętło — obróć, aby zmienić powiększenie",
+            "marker": "main-dial",
+            "width": 450,
+            "height": 370
+          },
+          {
+            "target": "./assets/lessons/l1-02/l1-02-selector.jpg",
+            "title": "3. Tylny wybierak — naciskaj kierunki, aby przesunąć widok",
+            "marker": "selector",
+            "width": 260,
+            "height": 260
+          }
+        ]
       },
       {
         "id": "L1-02-V05",

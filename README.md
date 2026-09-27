@@ -12,6 +12,18 @@ L1-01-V01 i V02 korzystają wyłącznie z mastera `fbe2fd62-e8ab-465b-b340-b6d0b
 
 Surowe zdjęcia pozostają w lokalnym pakiecie `/Users/pawelsiedleczka/Documents/ChatGPT/Canon-RP-Kurs/materials/camera-source-pack-2026-09-24/`; do aplikacji trafiły tylko wskazane kadry.
 
+### Lokalne korekty K-01–K-04 — 27.09.2026
+
+Lekcja 1 ma osobne domknięcie teorii przed ćwiczeniem i przycisk „Przejdź do ćwiczenia”. Identyfikatory, statusy oraz notatki produkcyjne pozostają w danych, ale nie są renderowane Ani. Niegotowe materiały nadal mają jawne, naturalnie opisane placeholdery.
+
+Powyższy opis trzech kadrów dotyczy wcześniejszej wersji. Materiał odtwarzania w Lekcji 2 ma teraz dwa ujęcia (odtwarzanie i wybierak), a powiększenie — trzy (lupa, główne pokrętło, wybierak). Wszystkie są wyświetlane przed tekstem używającym tych elementów. Nowe kadry pochodzą wyłącznie ze wskazanych masterów:
+
+- `l1-02-selector.jpg`: tył aparatu, crop `(1170, 550, 1430, 810)`; używany przy przeglądaniu i przesuwaniu zdjęcia.
+- `l1-02-magnify-button.jpg`: tył aparatu, crop `(1280, 350, 1500, 560)`.
+- `l1-02-main-dial.jpg`: góra aparatu, crop `(1360, 430, 1810, 800)`; ten sam kadr pokazuje też spust migawki w Lekcji 1, z osobnym oznaczeniem. Nie zastępuje brakującego pokazu dwóch etapów naciskania.
+
+Kadry są robocze, do zatwierdzenia; oznaczenia nakłada CSS. Pozostałe wcześniejsze braki (m.in. wzorce ostrości i pokaz trzymania aparatu) nie zostały uzupełnione w tej rundzie. Lokalna weryfikacja Chrome objęła wszystkie 23 widoki przy szerokościach 320, 390, 430, 768 i 1440 px, przejście teoria → ćwiczenie oraz Wstecz, obecność i kolejność zdjęć, brak identyfikatorów, błędów JS/HTTP i poziomego przewijania. Rozmiar 430 × 932 px odpowiada widokowi iPhone 15 Pro Max; nie jest testem fizycznego telefonu ani Safari. Nie wykonano commit/push/publikacji.
+
 `dist/camera-top.jpeg` pozostał w katalogu po wersji 1, ale aplikacja go nie wyświetla i nie używa jako źródła V01/V02.
 
 Ikona jest prostym własnym znakiem obiektywu z literami RP. Nie używa logo producenta jako znaku aplikacji.
