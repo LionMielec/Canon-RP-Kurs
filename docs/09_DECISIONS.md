@@ -354,3 +354,19 @@ Zatwierdzone 27.09.2026:
 - każda decyzja implementacyjna powinna spełniać zasadę: **mały zakres teraz, profesjonalna jakość i brak ślepej uliczki na później**.
 
 Zasada nadrzędna: **nie robimy „wersji dla Ani, którą kiedyś trzeba będzie przepisać”; budujemy profesjonalny fundament, którego pierwszą użytkowniczką jest Ania.**
+
+
+## D-035 — Przed dalszą pracą dodajemy skill precyzyjnej pracy dla Codexa
+Zatwierdzone 27.09.2026:
+
+- bieżąca sesja kończy się bez dalszych zmian w aplikacji,
+- przed kontynuacją korekt Canon RP kurs Codex ma otrzymać osobny skill/regułę pracy nastawioną na precyzyjne wykonywanie poleceń i ścisłe trzymanie się dokumentacji,
+- skill ma ograniczać samowolne interpretowanie zakresu, zgłaszanie zadania jako wykonanego bez sprawdzenia faktycznie renderowanej aplikacji oraz wprowadzanie zmian poza zatwierdzonym zakresem,
+- Codex ma odróżniać: zmianę dokumentacji, zmianę źródła aplikacji, lokalny podgląd, test techniczny, akceptację wizualną, commit/push oraz publikację,
+- „wykonane” może oznaczać tylko stan rzeczywiście zweryfikowany odpowiednim testem; raport techniczny nie zastępuje sprawdzenia efektu użytkowego,
+- przy niejasności, konflikcie instrukcji albo braku pewności Codex ma zatrzymać się i zgłosić problem zamiast zgadywać,
+- profesjonalny standard z D-034 pozostaje nadrzędny: skill nie służy do przyspieszania pracy kosztem jakości, lecz do zwiększenia precyzji, przewidywalności i kontroli.
+
+Następna sesja zaczyna się od przygotowania i dodania tego skilla. Dopiero po jego uruchomieniu wracamy do niedomkniętej mikrokorekty L1-02 i później do L1-03.
+
+Zasada: **najpierw ustawiamy Codexa do precyzyjnej, kontrolowanej pracy; dopiero potem kontynuujemy implementację.**
