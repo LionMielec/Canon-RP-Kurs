@@ -77,3 +77,18 @@ Po zmianach:
 - przeszukać renderowaną warstwę użytkową pod kątem `L1-`, `S0`, `V0`,
 - sprawdzić L1-01 i L1-02 w szerokości iPhone 15 Pro Max,
 - raportować wynik przed publikacją, jeśli lokalny workflow nadal wymaga osobnej zgody na publish.
+
+
+## Stan po lokalnym odbiorze — 27.09.2026
+Paweł sprawdził poprawioną lokalną wersję aplikacji po skorygowaniu faktycznego źródła renderowanych treści i potwierdził: **jest OK**.
+
+K-01–K-04 są zaakceptowane lokalnie.
+
+Następne działania dla Codexa:
+1. wykonać commit zmian aplikacji,
+2. wykonać push,
+3. opublikować do istniejącego Canon RP Site — bez tworzenia nowego Site,
+4. podać commit aplikacji i potwierdzenie publikacji,
+5. nie zmieniać przy tym stylu, kolorów, ikony ani zakresu.
+
+Po publikacji Paweł wykonuje test na rzeczywistym iPhonie 15 Pro Max. Dopiero po jego pozytywnym wyniku oznaczamy L1-01/L1-02 jako zamknięty wzorzec i rozpoczynamy L1-03.
