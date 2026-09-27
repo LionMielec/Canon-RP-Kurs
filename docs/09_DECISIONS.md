@@ -339,3 +339,18 @@ Zatwierdzone 27.09.2026:
 - przed publikacją istotnych korekt należy obejrzeć faktyczny lokalny rezultat; po publikacji sprawdzić go na urządzeniu docelowym.
 
 Zasada: **liczy się to, co Ania faktycznie widzi i jak przez lekcję przechodzi, a nie samo techniczne wykonanie zadania.**
+
+
+## D-034 — Profesjonalny standard od początku i możliwość komercjalizacji
+Zatwierdzone 27.09.2026:
+
+- Canon RP kurs jest obecnie prywatnym kursem dla Ani, ale ma być tworzony od początku w standardzie profesjonalnego produktu,
+- „prywatny” nie oznacza „prototypowy”, „tymczasowy” ani „byle działało”,
+- jakość merytoryczna, dydaktyczna, UX, warstwa wizualna, kod, architektura, testy i dokumentacja mają być dopracowane od początku,
+- projekt ma wspierać ciągły rozwój Ani od poziomu początkującego do zaawansowanego bez zmiany podstawowego modelu nauczania,
+- istnieje realna możliwość późniejszego przekształcenia projektu w kurs komercyjny dla innych użytkowników,
+- dlatego rdzeń aplikacji, struktura danych lekcji, komponenty i standard produkcji mają być powtarzalne, utrzymywalne i skalowalne,
+- nie budujemy jednak dziś funkcji komercyjnych, które nie są potrzebne (sprzedaż, konta klientów, płatności, panel administracyjny itp.),
+- każda decyzja implementacyjna powinna spełniać zasadę: **mały zakres teraz, profesjonalna jakość i brak ślepej uliczki na później**.
+
+Zasada nadrzędna: **nie robimy „wersji dla Ani, którą kiedyś trzeba będzie przepisać”; budujemy profesjonalny fundament, którego pierwszą użytkowniczką jest Ania.**
