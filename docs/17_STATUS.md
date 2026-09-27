@@ -51,8 +51,13 @@ Styl, kolorystyka, ikona i ogólny kierunek wizualny pozostają zaakceptowane.
 - zaktualizowano kartę wizualno-produkcyjną L1-02 i manifest assetów,
 - przygotowano `docs/19_KOREKTY_WZORCA_2026-09-27.md` jako jednoznaczną instrukcję wdrożenia.
 
+## Lokalny odbiór korekt — 27.09.2026
+Po pierwszym błędnym raporcie Codexa wykryto, że lokalny podgląd nadal renderował stare treści. Codex skorygował rzeczywiste źródło danych aplikacji. Paweł ponownie sprawdził lokalny podgląd i potwierdził, że korekty K-01–K-04 są prawidłowe.
+
+Lokalna wersja jest zaakceptowana do publikacji. Nie wykonano jeszcze commit/push/publikacji tej rundy w aplikacji.
+
 ## Następny krok
-Wdrożyć pakiet z dokumentu 19 w istniejącej aplikacji, opublikować do tego samego Site i ponownie sprawdzić na iPhonie 15 Pro Max. Jeżeli wynik jest dobry, formalnie zamknąć L1-01/L1-02 jako wzorzec implementacyjny i przejść do redagowania kolejnych lekcji. Kolejne lekcje powstają ze zweryfikowanych źródeł; brak lub niepewność informacji uruchamia research internetowy z preferencją dla oficjalnych źródeł Canon.
+Wykonać commit i push zmian aplikacji, opublikować poprawioną wersję do tego samego Canon RP Site, a następnie sprawdzić wersję opublikowaną na rzeczywistym iPhonie 15 Pro Max. Jeżeli wynik jest dobry, formalnie zamknąć L1-01/L1-02 jako wzorzec implementacyjny i przejść do L1-03. Kolejne lekcje powstają ze zweryfikowanych źródeł; brak lub niepewność informacji uruchamia research internetowy z preferencją dla oficjalnych źródeł Canon.
 
 ## Pozostałe otwarte decyzje
 - konkretny framework webowy,
