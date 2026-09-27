@@ -3,7 +3,7 @@
 ## Punkt startowy
 L1-01 i L1-02 są zatwierdzone, wdrożone i opublikowane. Nie wracać do ich projektowania od zera.
 
-Paweł zakończył zbieranie drobnych uwag po teście na iPhonie 15 Pro Max. Następnym działaniem jest **jedna skonsolidowana runda korekt w istniejącej aplikacji**.
+Paweł zakończył zbieranie drobnych uwag po teście na iPhonie 15 Pro Max. Pakiet został utrwalony w `docs/19_KOREKTY_WZORCA_2026-09-27.md`. Następnym działaniem jest **jedna skonsolidowana runda korekt w istniejącej aplikacji**.
 
 ## Pakiet korekt do wdrożenia
 
@@ -55,3 +55,25 @@ Treść techniczna ma być oparta na zatwierdzonych materiałach źródłowych. 
 
 ## Punkt zatrzymania dla Codexa
 Po implementacji i lokalnej weryfikacji raportować wynik. Publikacja ma trafić wyłącznie do istniejącego Site; nie tworzyć nowego Site.
+
+
+## Instrukcja startowa dla Codexa — wdrożenie korekt
+
+Pracować w istniejącym checkoutcie aplikacji:
+`/Users/pawelsiedleczka/.codex/.chatgpt-projects/g-p-6aabf9b9dd848191b1f8a77f4f9213d0/canon-rp-app`
+
+Przed zmianami zsynchronizować lokalną dokumentację `Canon-RP-Kurs` z gałęzią `main`, następnie przeczytać:
+1. `docs/19_KOREKTY_WZORCA_2026-09-27.md`,
+2. zaktualizowane `docs/L1-01_ROBIE_SWOJE_PIERWSZE_ZDJECIE.md`,
+3. zaktualizowane `docs/L1-02_SPRAWDZAM_CZY_ZDJECIE_JEST_OSTRE.md`,
+4. `docs/L1-02_KARTA_WIZUALNO_PRODUKCYJNA.md`,
+5. `docs/16_ASSET_MANIFEST.md`,
+6. `docs/15_STANDARD_PRODUKCJI_LEKCJI.md`.
+
+Wdrożyć wyłącznie pakiet K-01–K-04, bez zmiany stylu, kolorystyki, ikony, Site ani architektury poza tym, co konieczne.
+
+Po zmianach:
+- sprawdzić lokalnie,
+- przeszukać renderowaną warstwę użytkową pod kątem `L1-`, `S0`, `V0`,
+- sprawdzić L1-01 i L1-02 w szerokości iPhone 15 Pro Max,
+- raportować wynik przed publikacją, jeśli lokalny workflow nadal wymaga osobnej zgody na publish.
