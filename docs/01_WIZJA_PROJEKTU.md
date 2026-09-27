@@ -2,7 +2,9 @@
 
 ## Ustalone
 
-Kurs powstaje dla Ani, prywatnie i niekomercyjnie. Łączy naukę fotografii z obsługą konkretnego Canon EOS RP. Początek nie wymaga znajomości terminów, menu ani ustawień aparatu.
+Kurs powstaje obecnie dla Ani, prywatnie i niekomercyjnie. Łączy naukę fotografii z obsługą konkretnego Canon EOS RP. Początek nie wymaga znajomości terminów, menu ani ustawień aparatu.
+
+Obecny prywatny charakter nie obniża standardu wykonania. Projekt od początku ma być tworzony profesjonalnie: merytorycznie, dydaktycznie, wizualnie i technicznie. W przyszłości może stać się bazą kursu komercyjnego dla szerszej grupy użytkowników, dlatego nie przyjmujemy rozwiązań „tymczasowych” tylko dlatego, że dziś korzysta z niego jedna osoba.
 
 Ania zaczyna od celu: „chcę zrobić ostre zdjęcie osoby” albo „chcę rozmyte tło”. Kurs pokazuje właściwy element aparatu, ustawienie i efekt, a potem proponuje ćwiczenie. Wiedza techniczna ma pomagać w fotografowaniu.
 
@@ -20,6 +22,12 @@ Interaktywna aplikacja internetowa/PWA na telefon i komputer. Łączy krótki te
 - Może wrócić do ostatniej lekcji i znaleźć pomoc dla konkretnego problemu.
 - Kolejne poziomy korzystają z tej samej uporządkowanej bazy materiałów.
 
+## Profesjonalny fundament i możliwa przyszła komercjalizacja
+
+Na obecnym etapie nie budujemy jeszcze sprzedaży, płatności, kont klientów, panelu administracyjnego ani infrastruktury komercyjnej. Nie wolno jednak projektować rdzenia kursu w sposób, który później wymagałby przebudowy jakościowej od zera.
+
+Obowiązuje zasada: **minimalny zakres funkcji może być mały, ale jakość wykonania nie może być „prototypowa”.** Treść, UX, architektura, komponenty, dane lekcji, materiały wizualne, nazewnictwo, testy i dokumentacja mają być uporządkowane, powtarzalne i możliwe do skalowania.
+
 ## Poza obecnym etapem
 
-Komercjalizacja, aplikacja App Store, interaktywny model 3D, rozbudowana grywalizacja, automatyczny dobór wielu modeli AI i implementacja infrastruktury. Rozwój kursu nie oznacza budowania tych systemów na zapas.
+Komercjalizacja jako proces biznesowy, App Store, rozbudowana grywalizacja, automatyczny dobór wielu modeli AI i infrastruktura dla wielu klientów. Nie budujemy tych systemów na zapas, ale nie blokujemy sobie ich późniejszego dodania przez doraźne lub nieutrzymywalne rozwiązania.
