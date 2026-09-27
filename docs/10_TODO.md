@@ -117,3 +117,19 @@ Priorytety D-19 i D-20 pozostają aktualne; sesja zdjęciowa nie stanowi zgody n
 - [ ] Po zatwierdzeniu programu przygotować pozostałe lekcje według tego procesu. Dwie istniejące lekcje nie stanowią całego kursu; spis treści i animacje nie zastępują pracy nad treścią.
 - [x] Doprecyzować analizę nowych i wcześniejszych zdjęć Ani, również z innego sprzętu i bez EXIF, oraz współpracę przez pytania i kolejne próby (D-24, dokument 06).
 - [ ] W przyszłym zatwierdzonym etapie wdrożyć nauczyciela AI i przeprowadzić próby opisane w dokumencie 06. Moduł nie działa jeszcze w aplikacji.
+
+
+## PRIORYTET NASTĘPNEJ SESJI — skill dla Codexa
+- [ ] Sprawdzić aktualny oficjalny mechanizm skilli / trwałych instrukcji dla Codexa.
+- [ ] Opracować skill na podstawie `20_CODEX_PRECISION_SKILL_PLAN.md`.
+- [ ] Dodać skill do właściwego środowiska Codexa.
+- [ ] Zweryfikować działanie skilla na małym zadaniu kontrolnym.
+- [ ] Dopiero potem wrócić do lokalnej mikrokorekty L1-02.
+- [ ] Dopracować profesjonalny styl wskazania elementu aparatu; obecna pulsacja NIE jest zaakceptowana.
+- [ ] Odbiór lokalny przez Pawła.
+- [ ] Po akceptacji: commit → push → publikacja do istniejącego Site.
+- [ ] Test na fizycznym iPhonie.
+- [ ] Formalne zamknięcie L1-01/L1-02 jako wzorca.
+- [ ] Dopiero po zamknięciu wzorca rozpocząć L1-03.
+
+**Blokada:** do czasu dodania i sprawdzenia skilla nie kontynuować implementacji aplikacji w Codexie.
