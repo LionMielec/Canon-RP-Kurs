@@ -327,3 +327,15 @@ Zatwierdzone 27.09.2026:
 - dopiero pozytywny test wersji opublikowanej zamyka L1-01/L1-02 jako wzorzec implementacyjny i otwiera przejście do L1-03.
 
 Zasada: **lokalna akceptacja pozwala publikować; finalne zamknięcie wzorca następuje po teście opublikowanej wersji na rzeczywistym iPhonie.**
+
+
+## D-033 — Odbiór po efekcie widocznym dla użytkowniczki
+Zatwierdzone 27.09.2026:
+
+- kryterium poprawności wdrożenia jest przede wszystkim efekt widoczny i działający w aplikacji zgodnie z oczekiwaniem właściciela projektu,
+- raport techniczny, liczba testów ani informacja „wdrożone” nie zastępują rzeczywistego sprawdzenia interfejsu i przebiegu lekcji,
+- materiały wizualne mają być umieszczane bezpośrednio przy tej instrukcji, której dotyczą,
+- wskazania elementów aparatu mają prowadzić wzrok subtelnie: miękkie, lekko rozmyte podświetlenie / glow, bez ostrych technicznych ramek, z delikatną pulsacją,
+- przed publikacją istotnych korekt należy obejrzeć faktyczny lokalny rezultat; po publikacji sprawdzić go na urządzeniu docelowym.
+
+Zasada: **liczy się to, co Ania faktycznie widzi i jak przez lekcję przechodzi, a nie samo techniczne wykonanie zadania.**
