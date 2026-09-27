@@ -45,8 +45,14 @@ Paweł zakończył zbieranie uwag po teście pierwszych dwóch lekcji. Do jedneg
 
 Styl, kolorystyka, ikona i ogólny kierunek wizualny pozostają zaakceptowane.
 
+## Pakiet wdrożeniowy korekt
+- skorygowano źródłową treść L1-01: dodano podsumowanie przed ćwiczeniem i jawne przejście do praktyki,
+- skorygowano źródłową treść L1-02: „tylny wybierak” jest najpierw prostym językiem opisany i ma być pokazany,
+- zaktualizowano kartę wizualno-produkcyjną L1-02 i manifest assetów,
+- przygotowano `docs/19_KOREKTY_WZORCA_2026-09-27.md` jako jednoznaczną instrukcję wdrożenia.
+
 ## Następny krok
-Wdrożyć powyższy skonsolidowany pakiet drobnych korekt w istniejącej aplikacji, opublikować do tego samego Site i ponownie sprawdzić na iPhonie 15 Pro Max. Jeżeli wynik jest dobry, formalnie zamknąć L1-01/L1-02 jako wzorzec implementacyjny i przejść do redagowania kolejnych lekcji. Kolejne lekcje powstają ze zweryfikowanych źródeł; brak lub niepewność informacji uruchamia research internetowy z preferencją dla oficjalnych źródeł Canon.
+Wdrożyć pakiet z dokumentu 19 w istniejącej aplikacji, opublikować do tego samego Site i ponownie sprawdzić na iPhonie 15 Pro Max. Jeżeli wynik jest dobry, formalnie zamknąć L1-01/L1-02 jako wzorzec implementacyjny i przejść do redagowania kolejnych lekcji. Kolejne lekcje powstają ze zweryfikowanych źródeł; brak lub niepewność informacji uruchamia research internetowy z preferencją dla oficjalnych źródeł Canon.
 
 ## Pozostałe otwarte decyzje
 - konkretny framework webowy,
