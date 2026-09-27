@@ -121,3 +121,9 @@ Opublikowana wersja działa poprawnie na iPhonie, ale przed formalnym zamknięci
 - wizualne oznaczenia elementów aparatu mają zostać zmiękczone: bez ostrych ramek, z delikatnym rozmyciem/glow i subtelną pulsacją.
 
 Kryterium odbioru: właściciel projektu ma zobaczyć w lokalnym podglądzie dokładnie oczekiwany przebieg i wygląd. Dopiero potem publikujemy i zamykamy wzorzec.
+
+
+## Standard jakości produktu — 27.09.2026
+Ustalono, że prywatny charakter obecnej wersji nie jest podstawą do kompromisów jakościowych. Projekt ma być od początku realizowany profesjonalnie i przygotowany do wielopoziomowego rozwoju kursu.
+
+Możliwa jest późniejsza komercjalizacja dla szerszej grupy użytkowników. Nie wdrażamy teraz infrastruktury komercyjnej, ale rdzeń treści, UX, danych, assetów i kodu nie może być rozwiązaniem jednorazowym wymagającym późniejszego przepisywania z powodu niskiego standardu wykonania.
