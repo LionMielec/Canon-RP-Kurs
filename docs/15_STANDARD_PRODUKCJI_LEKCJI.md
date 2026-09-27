@@ -74,3 +74,19 @@ Jeśli potrzebna informacja nie jest potwierdzona w tych materiałach albo pojaw
 6. dopiero wtedy zapisać lub skorygować finalną treść lekcji.
 
 Istotne ustalenia techniczne i źródła weryfikacji należy utrwalać w dokumentacji konkretnej lekcji.
+
+
+## 12. Standard profesjonalnego produktu
+Każda lekcja ma być przygotowana tak, jakby była częścią produktu, który może zostać później udostępniony szerzej.
+
+W praktyce oznacza to:
+- brak doraźnych wyjątków w UI i danych tylko dla jednej lekcji,
+- powtarzalny wzorzec komponentów i zachowań,
+- wysoką jakość języka, dydaktyki i materiałów,
+- spójność wizualną oraz dopracowane mikrointerakcje,
+- kontrolę responsywności i dostępności,
+- test rzeczywistego przebiegu lekcji na urządzeniu,
+- brak technicznych oznaczeń i notatek produkcyjnych w warstwie użytkowej,
+- możliwość dokładania kolejnych lekcji i poziomów bez obniżania jakości i bez przebudowy fundamentów.
+
+Obecny zakres może pozostać niewielki. **Nie upraszczamy jakości tylko dlatego, że pierwszą użytkowniczką jest Ania.**
