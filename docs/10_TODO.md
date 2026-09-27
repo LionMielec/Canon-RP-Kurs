@@ -14,7 +14,12 @@ Aktualizacja: 27.09.2026.
 - [x] Potwierdzić, że ogólny kierunek aplikacji i sposobu prowadzenia lekcji jest dobry.
 - [x] Zebrać wszystkie drobne niedociągnięcia z testu na iPhonie w jeden pakiet — 27.09.2026.
 - [x] Przygotować skonsolidowany dokument wdrożeniowy korekt i poprawić źródłowe dokumenty L1-01/L1-02 — 27.09.2026.
-- [ ] Wdrożyć jedną rundę korekt bez rozszerzania zakresu: przejście teoria→ćwiczenie, ukrycie ID produkcyjnych, pokazanie „tylnego wybieraka” i innych używanych elementów obsługi.
+- [x] Wdrożyć jedną rundę korekt bez rozszerzania zakresu: przejście teoria→ćwiczenie, ukrycie ID produkcyjnych, pokazanie „tylnego wybieraka” i innych używanych elementów obsługi.
+- [x] Lokalnie odebrać korekty K-01–K-04 — Paweł sprawdził i zaakceptował 27.09.2026.
+- [ ] Commit + push zmian aplikacji.
+- [ ] Opublikować poprawioną wersję do istniejącego Canon RP Site.
+- [ ] Sprawdzić opublikowaną wersję na rzeczywistym iPhonie 15 Pro Max.
+- [ ] Po pozytywnym teście formalnie zamknąć L1-01/L1-02 jako wzorzec i rozpocząć L1-03.
 - [ ] Ponownie sprawdzić skorygowaną wersję na iPhonie 15 Pro Max.
 - [ ] Po pozytywnym teście formalnie uznać L1-01/L1-02 za wzorzec implementacyjny kolejnych lekcji.
 - [ ] Dopiero potem rozpocząć wspólny przegląd L1-03.
