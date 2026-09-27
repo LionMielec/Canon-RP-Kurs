@@ -29,8 +29,19 @@ Poczekaj na wizualne potwierdzenie ostrości. Dźwięk może być wyłączony, d
 ## L1-01-S06 — Dociśnij do końca
 Dopiero po potwierdzeniu ostrości spokojnie dociśnij spust do końca. Nie szarp aparatem.
 
-## L1-01-S07 — Powtórz jeszcze dwa razy
-Za każdym razem świadomie powtórz ten sam cykl.
+## L1-01-S07 — Masz już cały podstawowy cykl
+Wiesz już, jak wykonać zdjęcie świadomie:
+
+**wyceluj → naciśnij spust do połowy → poczekaj na potwierdzenie ostrości → spokojnie dociśnij spust do końca.**
+
+To jest najważniejszy nawyk z tej lekcji.
+
+**Teraz przejdźmy do ćwiczenia.**
+
+W aplikacji przycisk prowadzący dalej powinien nazywać się **„Przejdź do ćwiczenia →”**.
+
+## Ćwiczenie — Zrób jeszcze dwa zdjęcia
+Powtórz ten sam cykl jeszcze dwa razy. Nie spiesz się. Za każdym razem świadomie zatrzymaj palec w połowie, poczekaj na potwierdzenie ostrości i dopiero wtedy dociśnij spust do końca.
 
 ## L1-01-S08 — Jeśli aparat nie chce ustawić ostrości
 Nie zmieniaj ustawień. Sprawdź, czy jest dość jasno, czy celujesz w wyraźny napis/krawędź i czy nie stoisz zbyt blisko. Jeśli nie ma potwierdzenia ostrości, puść spust i spróbuj ponownie.
