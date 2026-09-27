@@ -9,7 +9,7 @@ Po tej lekcji Ania:
 - rozpoznaje na gotowych przykładach, jak wygląda detal ostry i mniej ostry,
 - wie, że ostrość sprawdza się na konkretnym szczególe, a nie po małym podglądzie całego zdjęcia,
 - potrafi otworzyć zdjęcie na Canon EOS RP, powiększyć ważny szczegół i sprawdzić go,
-- stosuje tę metodę do własnych zdjęć wykonanych w L1-01.
+- stosuje tę metodę do własnych zdjęć wykonanych w poprzedniej lekcji.
 
 Główny nawyk:
 
@@ -46,9 +46,13 @@ Naciśnij go raz.
 
 Na ekranie pojawi się ostatnio zapisane zdjęcie.
 
-Do przechodzenia między zdjęciami użyj lewego i prawego kierunku na tylnym wybieraku.
+Po prawej stronie tylnej ścianki aparatu znajduje się okrągły element z kierunkami. To **tylny wybierak**.
 
-Znajdź jedno z trzech zdjęć wykonanych w L1-01.
+Kurs pokazuje go teraz na zdjęciu aparatu i zaznacza dokładnie miejsce, którego masz używać.
+
+Naciskaj lewy albo prawy kierunek na tylnym wybieraku, aby przechodzić między zdjęciami.
+
+Znajdź jedno z trzech zdjęć wykonanych w poprzedniej lekcji.
 
 ## L1-02-S04 — Powiększ ważny szczegół
 
@@ -60,7 +64,7 @@ Naciśnij go podczas oglądania zdjęcia.
 
 Następnie obróć **główne pokrętło przy spuście migawki**, aby zwiększyć lub zmniejszyć powiększenie.
 
-Jeżeli wybrany detal nie znajduje się na środku ekranu, przesuń powiększony widok tylnym wybierakiem.
+Jeżeli wybrany detal nie znajduje się na środku ekranu, użyj tego samego **tylnego wybieraka**, który był pokazany przed chwilą. Naciskaj odpowiedni kierunek, aby przesunąć powiększony widok.
 
 Nie musisz powiększać maksymalnie. Powiększ tylko tyle, żeby dobrze widzieć krawędzie i drobne szczegóły.
 
@@ -82,7 +86,7 @@ Nie zgaduj jeszcze dlaczego. W tej lekcji uczysz się najpierw zauważać rezult
 
 ## L1-02-S06 — Sprawdź pozostałe dwa zdjęcia
 
-Przejdź do kolejnego zdjęcia z L1-01 i powiększ ten sam konkretny szczegół.
+Przejdź do kolejnego zdjęcia z poprzedniej lekcji i powiększ ten sam konkretny szczegół.
 
 Zrób to samo z trzecim zdjęciem.
 
@@ -97,7 +101,7 @@ Po zakończeniu oglądania możesz ponownie nacisnąć przycisk odtwarzania albo
 ## Ćwiczenie
 
 1. Najpierw obejrzyj w kursie gotowe przykłady ostrego i mniej ostrego detalu.
-2. Otwórz jedno ze swoich zdjęć z L1-01.
+2. Otwórz jedno ze swoich zdjęć z poprzedniej lekcji.
 3. Wybierz jeden ważny szczegół.
 4. Powiększ go na aparacie.
 5. Oceń tylko jego wyrazistość.
@@ -138,3 +142,4 @@ Nie uzależniamy gotowości lekcji od tego, czy Ania wykona jakiekolwiek dodatko
 ## Weryfikacja techniczna po akceptacji
 - Obsługa powiększenia została zweryfikowana z instrukcją Canon EOS RP Advanced User Guide v1.6, sekcja `Magnifying Images` (strona 299 w przewodniku).
 - Przed finalną produkcją grafiki V04 należy zapisać w karcie produkcyjnej dokładne identyfikatory zdjęcia tyłu i zdjęcia góry egzemplarza Ani.
+- Tylny wybierak używany w S03 i S04 musi być pokazany na zweryfikowanym zdjęciu tylnej ścianki aparatu Ani; nie wolno pozostawiać samej nazwy bez wskazania elementu.
