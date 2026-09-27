@@ -1,6 +1,6 @@
 # Canon RP kurs — DECISIONS
 
-Stan na: 2026-09-24
+Stan na: 2026-09-27
 
 Ten plik jest bieżącym rejestrem zatwierdzonych decyzji projektowych. Dokument `Canon-RP-kurs-REVIEW-BEFORE-CODEX-v4.md` oraz obowiązujący handoff pozostają źródłami szczegółowego kontekstu.
 
@@ -271,3 +271,47 @@ Zatwierdzone 25.09.2026:
 - po ponownym pozytywnym teście na iPhonie wzorzec L1-01/L1-02 zostaje zamknięty i dalsza praca ma skupiać się na tworzeniu kolejnych lekcji według tego modelu.
 
 Zasada: **najpierw domykamy wzorzec, potem skalujemy go na kolejne lekcje.**
+
+
+## D-028 — Domknięcie teorii przed ćwiczeniem
+Zatwierdzone 27.09.2026:
+
+- przejście z części wyjaśniającej do ćwiczenia nie może być nagłe,
+- przed rozpoczęciem ćwiczenia lekcja ma krótko domknąć to, czego Ania właśnie się nauczyła,
+- ekran przejściowy ma jasno zapowiedzieć zmianę trybu pracy, np. „Teraz przejdźmy do ćwiczenia”,
+- przycisk prowadzący do ćwiczenia powinien nazywać czynność, np. „Przejdź do ćwiczenia”, zamiast neutralnego „Dalej”, gdy zaczyna się wyraźnie nowy etap lekcji,
+- samo ćwiczenie może potem używać krótkich, zadaniowych poleceń.
+
+Zasada: **najpierw krótkie podsumowanie i świadome przejście, dopiero potem zadanie praktyczne.**
+
+## D-029 — Identyfikatory produkcyjne są niewidoczne dla Ani
+Zatwierdzone 27.09.2026:
+
+- identyfikatory takie jak `L1-01`, `L1-02`, `S03`, `V04` i podobne służą wyłącznie dokumentacji, danym aplikacji i pracy projektowej,
+- nie mogą pojawiać się w widocznej dla Ani treści, etykietach, opisach ani komunikatach interfejsu,
+- warstwa użytkowa korzysta wyłącznie z naturalnych nazw: „Lekcja 1”, tytuł lekcji, „Krok 3 z 5”, „Ćwiczenie” itp.
+
+Zasada: **warstwa produkcyjna i warstwa dla Ani są rozdzielone również językowo.**
+
+## D-030 — Każdy używany element obsługi aparatu trzeba pokazać
+Zatwierdzone 27.09.2026:
+
+- jeśli lekcja odwołuje się do fizycznego elementu Canon EOS RP, element musi zostać pokazany na zweryfikowanym zdjęciu lub innym zatwierdzonym materiale wizualnym,
+- dotyczy to również elementów pozornie oczywistych, np. „tylnego wybieraka”,
+- najpierw należy powiedzieć prostym językiem, co to jest i gdzie się znajduje, a dopiero potem używać nazwy technicznej,
+- jeśli element służy do konkretnej czynności, materiał wizualny powinien wskazać dokładnie, gdzie nacisnąć, obrócić lub przesunąć,
+- dla L1-02 określenia „tylny wybierak” w krokach dotyczących przeglądania i przesuwania powiększonego widoku wymagają odpowiedniego pokazania elementu.
+
+Zasada: **Ania nie ma zgadywać, który element aparatu opisuje tekst.**
+
+## D-031 — Standard jakości kolejnych lekcji i weryfikacja źródeł
+Zatwierdzone 27.09.2026:
+
+- obecny styl, kolorystyka i kierunek wizualny aplikacji pozostają zaakceptowane,
+- po wdrożeniu bieżących drobnych korekt przechodzimy do redagowania kolejnych lekcji według zamkniętego wzorca,
+- każda kolejna lekcja ma uwzględniać także drobne zasady UX i dydaktyczne wykryte podczas testu pierwszych dwóch lekcji,
+- treść techniczna powstaje na podstawie zatwierdzonych materiałów źródłowych projektu,
+- jeśli potrzebnej informacji brakuje albo istnieje niepewność, nie wolno zgadywać: trzeba wykonać research w internecie, preferując oficjalne materiały Canon, porównać je z aparatem/materialami Ani i dopiero wtedy skorygować lub zatwierdzić treść,
+- źródło i wynik istotnej weryfikacji technicznej zapisujemy w dokumentacji lekcji.
+
+Zasada: **dopracowanie szczegółów jest częścią standardu, a nie opcjonalnym etapem kosmetycznym.**
