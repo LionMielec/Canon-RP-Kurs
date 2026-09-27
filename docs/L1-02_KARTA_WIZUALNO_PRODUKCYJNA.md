@@ -23,18 +23,22 @@ Ania otrzymuje **gotową lekcję z gotowymi materiałami wzorcowymi**. Jej włas
 - Produkcja: ten sam plik źródłowy; drugi kadr jest tylko dużym cropem, bez sztucznego tworzenia interfejsu aparatu.
 - Status: `SOURCE_IDENTIFIED` → `TO_PREPARE`.
 
-## L1-02-V03 — Przycisk odtwarzania na aparacie Ani
+## L1-02-V03 — Odtwarzanie i tylny wybierak na aparacie Ani
 - Krok: `L1-02-S03`.
-- Typ: zdjęcie/crop rzeczywistego EOS RP Ani.
+- Typ: zdjęcie/crop rzeczywistego EOS RP Ani z dwoma precyzyjnymi oznaczeniami.
 - Źródło: `57652b89-ae48-4cd1-b998-e883aee8aa1f.jpg` / `libfile_eb4721328c288191bb5aa19d2aa13f7e`.
-- Cel: dokładnie wskazać przycisk `▶`.
+- Cel: najpierw wskazać przycisk `▶`, a następnie pokazać okrągły tylny wybierak z kierunkami po prawej stronie ekranu.
+- Prezentacja: bez zasłaniania elementów aparatu; podpisy prostym językiem: „Odtwarzanie” oraz „Tylny wybierak — lewo / prawo”.
 - Status: `SOURCE_SELECTED` + `TO_PREPARE`.
 
-## L1-02-V04 — Jak powiększyć na EOS RP
+## L1-02-V04 — Jak powiększyć i przesunąć widok na EOS RP
 - Krok: `L1-02-S04`.
-- Typ: grafika dwukadrowa `lupa → główne pokrętło`.
-- Źródła: zdjęcie tyłu aparatu Ani + zdjęcie góry aparatu Ani. Przed produkcją należy wpisać dokładne identyfikatory obu plików źródłowych.
-- Cel: pokazać czynność bez potrzeby reprodukowania ekranu menu/odtwarzania.
+- Typ: grafika trzyetapowa `lupa → główne pokrętło → tylny wybierak`.
+- Źródła:
+  - tył aparatu: `57652b89-ae48-4cd1-b998-e883aee8aa1f.jpg` / `libfile_eb4721328c288191bb5aa19d2aa13f7e`,
+  - góra aparatu: `fbe2fd62-e8ab-465b-b340-b6d0b4458622.jpg` / `libfile_167abe23e1488191ba89b2d851b2155c`.
+- Cel: pokazać kolejno gdzie uruchomić powiększenie, czym zmienić jego skalę i czym przesunąć powiększony fragment.
+- Prezentacja: każdy z trzech elementów pokazany osobno, z precyzyjnym oznaczeniem na rzeczywistym aparacie Ani. Nie używać samej nazwy „tylny wybierak” bez wcześniejszego wskazania go na zdjęciu.
 - Status: `SOURCE_SELECTED` + `TO_DESIGN`.
 
 ## L1-02-V05 — Przypomnienie wzorca przy ćwiczeniu
@@ -54,7 +58,7 @@ Ania otrzymuje **gotową lekcję z gotowymi materiałami wzorcowymi**. Jej włas
 
 ## Instrukcja montażu dla Codexa
 1. V01 i V02 są częścią gotowej warstwy edukacyjnej i pojawiają się **zanim** aplikacja poprosi Anię o dotknięcie aparatu.
-2. V03 i V04 uczą obsługi konkretnego EOS RP Ani.
+2. V03 i V04 uczą obsługi konkretnego EOS RP Ani; wszystkie nazwane fizyczne elementy muszą być pokazane, a nie tylko opisane tekstem.
 3. Dopiero po tych czterech elementach pojawia się ćwiczenie na własnych zdjęciach z L1-01.
 4. V05 może być widoczne jako mała karta pomocnicza przy ćwiczeniu.
 5. Źródła zewnętrzne muszą mieć zapisaną licencję i pochodzenie w manifeście assetów.
