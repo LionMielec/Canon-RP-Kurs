@@ -92,3 +92,48 @@ Następne działania dla Codexa:
 5. nie zmieniać przy tym stylu, kolorów, ikony ani zakresu.
 
 Po publikacji Paweł wykonuje test na rzeczywistym iPhonie 15 Pro Max. Dopiero po jego pozytywnym wyniku oznaczamy L1-01/L1-02 jako zamknięty wzorzec i rozpoczynamy L1-03.
+
+
+## KONIEC SESJI 27.09.2026 — obowiązujący punkt startowy następnej sesji
+
+### Stan aplikacji
+- K-01–K-04 zostały wdrożone, opublikowane i sprawdzone na iPhonie.
+- Po tym teście wykryto dodatkową potrzebę: materiał o odtwarzaniu i materiał o tylnym wybieraku mają być rozdzielone i umieszczone bezpośrednio przy odpowiadających im instrukcjach.
+- Codex przygotował lokalnie wspólny mechanizm nakładek na zdjęcia aparatu: procentowe pozycjonowanie, wspólny komponent, obsługa reduced motion.
+- Kierunek wspólnego mechanizmu jest właściwy, ale aktualny efekt pulsowania został oceniony jako wizualnie nieakceptowalny / nieprofesjonalny.
+- Ta ostatnia mikrokorekta NIE została zaakceptowana do publikacji.
+- Nie kontynuować od razu pracy nad animacją ani nie rozpoczynać L1-03.
+
+### Problem procesu
+W bieżącej sesji Codex kilkukrotnie wymagał dodatkowej kontroli:
+- raportował wykonanie korekt, których nie było w faktycznie uruchomionej aplikacji,
+- testy techniczne nie odpowiadały rzeczywistemu efektowi widocznemu w UI,
+- użytkownik musiał ręcznie wykrywać rozbieżności.
+
+### Pierwszy krok następnej sesji
+**Nie zaczynać od aplikacji. Najpierw przygotować i dodać skill precyzyjnej pracy dla Codexa.**
+
+Wymagania skilla są zapisane w:
+- `docs/20_CODEX_PRECISION_SKILL_PLAN.md`
+- D-035 w `docs/09_DECISIONS.md`
+
+Skill ma wymuszać:
+- pracę ściśle według dokumentacji i zatwierdzonego zakresu,
+- weryfikację faktycznie renderowanej aplikacji,
+- zakaz zgadywania i samowolnego rozszerzania zadania,
+- rozdzielenie raportowania: pliki → testy → podgląd → commit → push → publish,
+- profesjonalny standard wykonania,
+- zatrzymanie i zgłoszenie problemu przy niepewności.
+
+### Kolejność po dodaniu skilla
+1. Uruchomić/zweryfikować skill na prostym zadaniu kontrolnym.
+2. Wrócić do lokalnej mikrokorekty L1-02.
+3. Dopracować styl wskazania elementu aparatu do poziomu profesjonalnego.
+4. Obejrzeć lokalny rezultat.
+5. Dopiero po akceptacji wykonać commit/push/publish.
+6. Sprawdzić na fizycznym iPhonie.
+7. Zamknąć L1-01/L1-02 jako wzorzec.
+8. Dopiero wtedy rozpocząć L1-03.
+
+### Nadrzędna zasada jakości
+Canon RP kurs jest profesjonalnym produktem, którego pierwszą użytkowniczką jest Ania. Prywatny obecny zakres nie uzasadnia rozwiązań „byle działało”.
