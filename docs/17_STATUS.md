@@ -1,6 +1,6 @@
 # Canon RP kurs — STATUS
 
-Stan na: 2026-09-25
+Stan na: 2026-09-27
 
 ## Etap projektu
 Dwie pierwsze zatwierdzone lekcje zostały wdrożone, opublikowane i sprawdzone na iPhonie 15 Pro Max. Projekt jest na etapie domknięcia jednej rundy drobnych korekt wzorca implementacyjnego przed rozpoczęciem kolejnych lekcji.
@@ -37,8 +37,16 @@ Punkt 8 — Wizualizacje i 3D:
 - Ćwiczenie: trzy powtórzenia tego samego podstawowego cyklu wykonania zdjęcia.
 - **L1-02 „Sprawdzam, czy zdjęcie jest ostre” — ZATWIERDZONA 25.09.2026 po korekcie dydaktycznej.**
 
+## Bieżąca runda korekt — 27.09.2026
+Paweł zakończył zbieranie uwag po teście pierwszych dwóch lekcji. Do jednego pakietu korekt wchodzą:
+1. łagodniejsze przejście z teorii do ćwiczenia: krótkie podsumowanie + jawne „Teraz przejdźmy do ćwiczenia” + odpowiednia etykieta przycisku,
+2. usunięcie wszystkich identyfikatorów produkcyjnych typu `L1-02` z warstwy widocznej dla Ani,
+3. pokazanie i proste objaśnienie każdego fizycznego elementu aparatu używanego w tekście; w L1-02 dotyczy to m.in. „tylnego wybieraka”.
+
+Styl, kolorystyka, ikona i ogólny kierunek wizualny pozostają zaakceptowane.
+
 ## Następny krok
-W następnej sesji zebrać wszystkie drobne niedociągnięcia zauważone w rzeczywistym teście na iPhonie 15 Pro Max, połączyć je w jeden pakiet korekt i wdrożyć bez rozszerzania zakresu. Po ponownym teście i pozytywnym wyniku formalnie uznać układ L1-01/L1-02 za wzorzec implementacyjny kolejnych lekcji. Dopiero wtedy rozpocząć L1-03.
+Wdrożyć powyższy skonsolidowany pakiet drobnych korekt w istniejącej aplikacji, opublikować do tego samego Site i ponownie sprawdzić na iPhonie 15 Pro Max. Jeżeli wynik jest dobry, formalnie zamknąć L1-01/L1-02 jako wzorzec implementacyjny i przejść do redagowania kolejnych lekcji. Kolejne lekcje powstają ze zweryfikowanych źródeł; brak lub niepewność informacji uruchamia research internetowy z preferencją dla oficjalnych źródeł Canon.
 
 ## Pozostałe otwarte decyzje
 - konkretny framework webowy,
