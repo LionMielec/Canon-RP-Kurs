@@ -113,3 +113,11 @@ Od L1-01 każda pełna lekcja ma powstawać jako pakiet zawierający: treść dl
 - ogólna ocena użytkownika: kierunek i działanie są dobre,
 - przed uznaniem implementacji za wzorzec dla kolejnych lekcji pozostaje jedna runda drobnych korekt i uzupełnień,
 - do czasu ich domknięcia nie przechodzimy do implementacji L1-03.
+
+
+## Dodatkowa mikrokorekta po teście na iPhonie — 27.09.2026
+Opublikowana wersja działa poprawnie na iPhonie, ale przed formalnym zamknięciem wzorca pozostają dwie korekty prezentacji:
+- materiał pokazujący tylny wybierak ma zostać przeniesiony bezpośrednio pod tekst, który instruuje użycie wybieraka,
+- wizualne oznaczenia elementów aparatu mają zostać zmiękczone: bez ostrych ramek, z delikatnym rozmyciem/glow i subtelną pulsacją.
+
+Kryterium odbioru: właściciel projektu ma zobaczyć w lokalnym podglądzie dokładnie oczekiwany przebieg i wygląd. Dopiero potem publikujemy i zamykamy wzorzec.
