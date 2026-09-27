@@ -32,3 +32,19 @@ Nie budujemy na tym etapie wielu usług, systemu agentów, wyszukiwarki wektorow
 ## Pierwszy projekt wizualny — ustalenie 18.09.2026
 
 Zaczynamy od widoku lekcji na telefonie. Urządzenie Ani: iPhone 17 Pro Max. Urządzenie użytkownika do prób: iPhone 15 Pro Max. Projekt należy dopasować do obu telefonów; test na jednym nie zastępuje sprawdzenia na drugim. To ustalenie urządzeń docelowych dla pierwszego projektu, bez wyboru technologii, hostingu lub zatwierdzenia implementacji. Wygląd i sposób nawigacji pozostają do wspólnego przeglądu.
+
+
+## Standard inżynierski od początku
+
+Projekt jest dziś prywatny, ale rdzeń ma być wykonany jak fundament produktu, który może być później rozwijany i komercjalizowany.
+
+To oznacza:
+- brak rozwiązań typu „byle działało” i brak świadomego długu technicznego bez uzasadnienia,
+- czytelny podział danych lekcji, komponentów UI i assetów,
+- spójne wzorce implementacyjne dla kolejnych lekcji zamiast kopiowania wyjątków,
+- możliwość wymiany materiałów i rozbudowy programu bez przepisywania aplikacji,
+- responsywność, dostępność, poprawne stany błędów i kontrolę jakości,
+- testowanie rzeczywistych ścieżek użytkownika, nie tylko testów technicznych,
+- dokumentowanie decyzji wpływających na przyszłą skalowalność.
+
+Nie oznacza to budowania dziś systemów sprzedaży, multi-tenant, CMS, logowania klientów ani rozbudowanego backendu. **Profesjonalizm oznacza solidny rdzeń i właściwe granice odpowiedzialności, a nie maksymalną liczbę funkcji.**
