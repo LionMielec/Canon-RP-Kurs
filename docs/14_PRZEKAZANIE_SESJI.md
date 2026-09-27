@@ -1,81 +1,57 @@
-# HANDOFF — Canon RP kurs — koniec sesji 25.09.2026
+# HANDOFF — Canon RP kurs — korekty wzorca — 27.09.2026
 
-## Punkt startowy następnej sesji
+## Punkt startowy
+L1-01 i L1-02 są zatwierdzone, wdrożone i opublikowane. Nie wracać do ich projektowania od zera.
 
-Nie wracać do zatwierdzania L1-01 ani L1-02. Obie lekcje są zatwierdzone, wdrożone i opublikowane w istniejącej aplikacji Canon RP.
+Paweł zakończył zbieranie drobnych uwag po teście na iPhonie 15 Pro Max. Następnym działaniem jest **jedna skonsolidowana runda korekt w istniejącej aplikacji**.
 
-Pierwsze zadanie następnej sesji:
-**Paweł podaje wszystkie drobne niedociągnięcia i uzupełnienia zauważone podczas rzeczywistego testu na iPhonie 15 Pro Max. Zbieramy je w jeden pakiet korekt i dopiero wtedy przekazujemy Codexowi.**
+## Pakiet korekt do wdrożenia
 
-Nie poprawiać rzeczy pojedynczo po jednej. Nie rozpoczynać jeszcze L1-03.
+### K-01 — Przejście z teorii do ćwiczenia
+Obecne przejście w L1-01 od „Dociśnij do końca” do „Powtórz jeszcze dwa razy” jest zbyt nagłe.
 
-## Stan aplikacji
+Należy dodać krótkie domknięcie części dydaktycznej, np. sens:
+- Ania zna już cały podstawowy cykl wykonania zdjęcia,
+- krótko przypominamy: wyceluj → półnaciśnij → poczekaj na potwierdzenie ostrości → dociśnij,
+- następnie jawne zdanie: „Teraz przejdźmy do ćwiczenia.”
 
-- istniejący prywatny Canon RP Site pozostaje jedyną aplikacją,
-- adres pozostaje bez zmian,
-- obecna ikona i kolorystyka są zaakceptowane i pozostają,
-- L1-01 i L1-02 zostały wdrożone według wspólnego wzorca danych/ekranów,
-- wersja została opublikowana 25.09.2026,
-- commit źródła aplikacji: `651b4f6e746f4a6cffac612812169afc74874545`,
-- rzeczywisty test na iPhonie 15 Pro Max: **ogólnie pozytywny; kilka drobnych niedociągnięć do poprawy**.
+Przycisk rozpoczynający ćwiczenie powinien być opisowy, np. **„Przejdź do ćwiczenia →”**, zamiast neutralnego „Dalej”.
 
-## Cel następnej sesji
+Samo ćwiczenie może potem używać krótkiego polecenia, np. „Zrób jeszcze dwa zdjęcia”.
 
-1. Zebrać pełną listę uwag Pawła z telefonu.
-2. Rozdzielić uwagi na: błąd / korekta UX / brak materiału / uzupełnienie treści.
-3. Sprawdzić tylko te kwestie, które naprawdę wymagają weryfikacji; nie uruchamiać karuzeli dodatkowych audytów.
-4. Przygotować jeden skonsolidowany pakiet zmian dla Codexa.
-5. Wdrożyć go w istniejącej aplikacji.
-6. Opublikować poprawioną wersję do tego samego Site.
-7. Ponownie sprawdzić na iPhonie 15 Pro Max.
-8. Jeżeli wynik jest dobry — formalnie zamknąć wzorzec dwóch pierwszych lekcji.
-9. Dopiero potem przejść do L1-03.
+### K-02 — Usunąć identyfikatory produkcyjne z UI
+Identyfikatory typu `L1-01`, `L1-02`, `S03`, `V04` są wewnętrzne.
 
-## Stan treści
+Nie mogą być widoczne dla Ani w żadnej części aplikacji. Warstwa użytkowa pokazuje naturalne nazwy: „Lekcja 1”, „Lekcja 2”, tytuł lekcji, „Krok x z y”, „Ćwiczenie” itd.
 
-### L1-01 — „Robię swoje pierwsze zdjęcie”
-- treść zatwierdzona,
-- wdrożona,
-- V01 i V02 mają przygotowane kadry i czekają na finalną ocenę wizualną,
-- V03–V06 pozostają jawnymi brakami produkcyjnymi; nie są zastępowane domysłem.
+### K-03 — Pokazać „tylny wybierak” i wszystkie elementy obsługi używane w tekście
+W L1-02 tekst odwołuje się do „tylnego wybieraka” przy przechodzeniu między zdjęciami i przesuwaniu powiększonego widoku.
 
-### L1-02 — „Sprawdzam, czy zdjęcie jest ostre”
-- treść zatwierdzona,
-- wdrożona,
-- V03 ma przygotowany kadr i czeka na finalną ocenę wizualną,
-- V01, V02, V04 i V05 pozostają jawnymi brakami/elementami do przygotowania,
-- kolejność dydaktyczna pozostaje: gotowy przykład → wyjaśnienie → obsługa EOS RP → ćwiczenie na własnych zdjęciach.
+Jeśli Ania ma użyć fizycznego elementu aparatu:
+1. najpierw pokazać go na zweryfikowanym zdjęciu aparatu Ani,
+2. zaznaczyć dokładnie element,
+3. wyjaśnić prostym językiem, gdzie jest i co nim zrobić,
+4. dopiero potem utrwalać nazwę techniczną.
 
-## Materiały źródłowe
+Ta zasada obowiązuje wszystkie kolejne lekcje.
 
-Codex ma lokalny pakiet:
-`/Users/pawelsiedleczka/Documents/ChatGPT/Canon-RP-Kurs/materials/camera-source-pack-2026-09-24/`
+## Co pozostaje bez zmian
+- styl i kolorystyka aplikacji są zaakceptowane,
+- ikona pozostaje,
+- ten sam prywatny Canon RP Site,
+- nie tworzyć nowej aplikacji ani nowej identyfikacji,
+- nie rozszerzać zakresu tej rundy o nowe funkcje.
 
-Pakiet został skopiowany i porównany ze źródłem bez różnic. Jest lokalnym źródłem zdjęć aparatu i menu.
+## Po wdrożeniu
+1. Opublikować poprawki do tego samego Site.
+2. Sprawdzić na iPhonie 15 Pro Max.
+3. Jeżeli wynik jest dobry, zamknąć L1-01/L1-02 jako wzorzec implementacyjny.
+4. Przejść do redagowania kolejnych lekcji.
 
-Twarde przypisania:
-- L1-01-V01/V02: wyłącznie `fbe2fd62-e8ab-465b-b340-b6d0b4458622.jpg`,
-- L1-02-V03: `57652b89-ae48-4cd1-b998-e883aee8aa1f.jpg`.
+## Standard kolejnych lekcji
+Każda kolejna lekcja ma uwzględniać powyższe drobne zasady UX i dydaktyczne od samego początku.
 
-Codex nie wybiera alternatywnych zdjęć samodzielnie.
+Treść techniczna ma być oparta na zatwierdzonych materiałach źródłowych. Jeśli czegoś nie wiemy albo źródła nie wystarczają, nie zgadujemy: wykonujemy research internetowy, w pierwszej kolejności w oficjalnych materiałach Canon, weryfikujemy z aparatem/menu Ani i dopiero potem zatwierdzamy treść.
 
-## Reguły pozostające w mocy
-
-- ChatGPT + Paweł tworzą i zatwierdzają treść oraz sposób nauczania; Codex implementuje.
-- Ania dostaje gotowy kurs; nie produkuje materiałów, na których ma się dopiero uczyć.
-- Nie zgadujemy menu, ustawień ani wyglądu EOS RP.
-- Brak finalnego assetu może być placeholderem produkcyjnym, ale nie może być ukryty losowym zamiennikiem.
-- Obecna identyfikacja wizualna aplikacji jest zaakceptowana.
-- Nie tworzyć nowego Site.
-- Nie wracać do zakończonych decyzji bez wyraźnej potrzeby.
-
-## Po zamknięciu następnej sesji
-
-Jeżeli poprawiona wersja przejdzie test na iPhonie:
-- oznaczyć L1-01/L1-02 jako **wzorzec implementacyjny kolejnych lekcji**,
-- utrwalić ewentualne nowe zasady UX w standardzie produkcji lekcji,
-- przejść do wspólnego opracowania i zatwierdzenia L1-03.
-
-## Komenda startowa do nowego wątku
-
-**„Wracamy do Canon RP kurs. Przeczytaj najnowszy handoff i aktualną dokumentację. Dwie pierwsze lekcje są już wdrożone i przetestowane na iPhonie 15 Pro Max. W tej sesji skupiamy się wyłącznie na zebraniu i poprawieniu drobnych niedociągnięć wersji wzorcowej. Nie przechodź jeszcze do L1-03 i nie wracaj do wcześniejszych zatwierdzonych decyzji.”**
+## Punkt zatrzymania dla Codexa
+Po implementacji i lokalnej weryfikacji raportować wynik. Publikacja ma trafić wyłącznie do istniejącego Site; nie tworzyć nowego Site.
