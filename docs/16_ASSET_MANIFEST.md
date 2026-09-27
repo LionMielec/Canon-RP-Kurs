@@ -1,6 +1,6 @@
 # Canon RP kurs — ASSET MANIFEST
 
-Stan na: 2026-09-25
+Stan na: 2026-09-27
 
 Ten plik jest rejestrem materiałów wizualnych przypisanych do konkretnych lekcji. Nie jest magazynem wszystkich zdjęć projektu. Do manifestu trafiają materiały dopiero wtedy, gdy mają określone zastosowanie dydaktyczne.
 
@@ -28,8 +28,8 @@ Ten plik jest rejestrem materiałów wizualnych przypisanych do konkretnych lekc
 |---|---|---|---|---|---|
 | L1-02-V01 | Wzorzec: ważny element ostry / ostrość przesunięta | zestaw dydaktyczny | `Correct.Focus.jpg`, `Front.Focus.jpg` — Bautsch, Wikimedia Commons, CC0 | `assets/lessons/l1-02/l1-02-v01-focus-reference.*` | `SOURCE_IDENTIFIED` |
 | L1-02-V02 | Całe zdjęcie → powiększony detal | para edukacyjna | kandydat: `Chive flower close-up.jpg`, Wikimedia Commons, CC0 | `assets/lessons/l1-02/l1-02-v02-full-vs-detail.*` | `SOURCE_IDENTIFIED` + `TO_PREPARE` |
-| L1-02-V03 | Przycisk odtwarzania | zdjęcie/crop EOS RP Ani | `57652b89-ae48-4cd1-b998-e883aee8aa1f.jpg` / `libfile_eb4721328c288191bb5aa19d2aa13f7e` | `assets/lessons/l1-02/l1-02-v03-playback-button.jpg` | `PREPARED` + `APPROVAL_PENDING` |
-| L1-02-V04 | Lupa + główne pokrętło | grafika 2-kadrowa | istniejące zdjęcia tyłu i góry EOS RP Ani | `assets/lessons/l1-02/l1-02-v04-magnify-controls.jpg` | `SOURCE_SELECTED` + `TO_DESIGN` |
+| L1-02-V03 | Przycisk odtwarzania + tylny wybierak | zdjęcie/crop EOS RP Ani z 2 oznaczeniami | `57652b89-ae48-4cd1-b998-e883aee8aa1f.jpg` / `libfile_eb4721328c288191bb5aa19d2aa13f7e` | `assets/lessons/l1-02/l1-02-v03-playback-selector.jpg` | `SOURCE_SELECTED` + `TO_PREPARE` |
+| L1-02-V04 | Lupa + główne pokrętło + tylny wybierak | grafika 3-etapowa | tył: `57652b89-ae48-4cd1-b998-e883aee8aa1f.jpg`; góra: `fbe2fd62-e8ab-465b-b340-b6d0b4458622.jpg` | `assets/lessons/l1-02/l1-02-v04-magnify-controls.jpg` | `SOURCE_SELECTED` + `TO_DESIGN` |
 | L1-02-V05 | Karta przypominająca wzorzec przy ćwiczeniu | karta UI | wycinki z V01/V02 | `assets/lessons/l1-02/l1-02-v05-sharpness-reference-card.*` | zależny od V01/V02 |
 
 ## Następny wpis
