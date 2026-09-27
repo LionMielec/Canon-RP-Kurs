@@ -58,6 +58,9 @@ Warstwę wizualną projektujemy równolegle z treścią każdej lekcji, począws
 - Każdy fizyczny element obsługi aparatu przywołany w treści musi zostać pokazany na zweryfikowanym materiale i objaśniony prostym językiem przed użyciem nazwy technicznej.
 - Nie zakładamy, że element aparatu jest „oczywisty”; jeśli Ania ma go użyć, kurs ma wskazać dokładnie gdzie on jest i co z nim zrobić.
 - Styl i kolorystyka zaakceptowanego wzorca pozostają bez zmian, o ile właściciel projektu nie zdecyduje inaczej.
+- Materiał wizualny umieszczamy bezpośrednio przy instrukcji, której dotyczy; nie grupujemy kilku różnych wskazań pod wcześniejszym krokiem, jeśli użytkowniczka czyta już o innym elemencie.
+- Oznaczenia elementów aparatu mają być subtelne: miękkie, lekko rozmyte podświetlenie / glow, bez ostrych krawędzi ramek i kół, z delikatną pulsacją tam, gdzie pomaga skierować wzrok.
+- Odbiór zmiany odbywa się na podstawie faktycznego wyglądu i działania aplikacji, a nie wyłącznie raportu technicznego.
 
 ## 11. Weryfikacja merytoryczna kolejnych lekcji
 Podstawą są zatwierdzone źródła projektu: oficjalne instrukcje Canon EOS RP, materiały dotyczące używanego obiektywu, rzeczywisty aparat Ani, rzeczywiste menu i zatwierdzone materiały edukacyjne.
