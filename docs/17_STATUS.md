@@ -174,3 +174,7 @@ Ustalenie:
 - lokalny serwer jedynie udostępnia te pliki; nie generuje ich.
 
 Nie kontynuujemy dalszej diagnostyki architektury. Następny krok jest produkcyjny: dokończenie ostatniej mikrokorekty L1-02.
+
+
+## Korekta kierunku oznaczeń — 28.09.2026
+Po ocenie lokalnego efektu doprecyzowano problem: główną wadą oznaczenia nie jest brak odpowiedniej animacji, lecz zbyt mała widoczność markera. Dalsza poprawka ma przede wszystkim zwiększyć czytelność i jednoznaczność wskazania. Pulsowanie jest opcjonalne i może zostać całkowicie usunięte, jeśli statyczne oznaczenie daje lepszy profesjonalny efekt.
