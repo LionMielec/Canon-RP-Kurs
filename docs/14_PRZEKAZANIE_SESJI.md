@@ -211,3 +211,19 @@ Codex:
 - zachowuje styl, kolory, ikonę i wzorzec UX,
 - zatrzymuje się po lokalnym podglądzie i raporcie,
 - bez commit/push/publish do osobnej akceptacji.
+
+
+## AKTUALIZACJA — L1-03 lokalnie OK
+Właściciel projektu zaakceptował lokalną implementację L1-03.
+
+Nie wracać do redagowania tekstu ani przebudowy UX bez nowej uwagi. Kolejny etap to wyłącznie produkcja brakujących materiałów:
+- L1-03-V01,
+- L1-03-V02,
+- L1-03-V03,
+- L1-03-V04A,
+- L1-03-V04B,
+- L1-03-V05.
+
+V06 jest komponentem UI i został zaimplementowany w ramach lekcji.
+
+Do czasu przygotowania, osadzenia i odbioru powyższych materiałów nie wykonywać finalnego commit/push/publish L1-03.
