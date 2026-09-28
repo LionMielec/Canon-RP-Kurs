@@ -203,3 +203,16 @@ Nie przekazano jeszcze implementacji do Codexa. Następny etap po powrocie wła�
 Właściciel projektu zaakceptował finalny przebieg i treść L1-03. Pakiet jest gotowy do przekazania Codexowi.
 
 Implementacja ma używać `$canon-rp-precision`, zachować zatwierdzony wzorzec L1-01/L1-02, wykorzystać wyłącznie zatwierdzone materiały oraz zatrzymać się na lokalnym podglądzie przed commit/push/publish.
+
+
+## L1-03 lokalnie zaakceptowana — 28.09.2026
+Właściciel projektu przeszedł lokalną implementację L1-03 i zaakceptował jej układ, treść oraz przebieg.
+
+Stan:
+- 13 ekranów L1-03 działa lokalnie,
+- tekst i UX są zaakceptowane,
+- sześć brakujących materiałów wizualnych pozostaje jako jawne placeholdery,
+- Codex nie dobrał własnych zamienników,
+- commit/push/publish L1-03 nadal wstrzymane.
+
+Następny krok: produkcja sześciu materiałów wizualnych zgodnie z kartą L1-03 i asset manifestem. Po ich osadzeniu wykonujemy krótki odbiór lokalny, a dopiero potem publikację.
