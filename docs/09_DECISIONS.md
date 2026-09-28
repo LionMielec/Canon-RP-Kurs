@@ -447,3 +447,15 @@ Zatwierdzone 28.09.2026:
 - implementacja ma korzystać z `$canon-rp-precision` i zatrzymać się przed commit/push/publish do odbioru lokalnego.
 
 Zasada: **treść L1-03 jest zatwierdzona; Codex wykonuje implementację, nie redaguje lekcji.**
+
+
+## D-042 — Lokalna implementacja L1-03 zaakceptowana
+Zatwierdzone 28.09.2026:
+
+- właściciel projektu sprawdził lokalną implementację L1-03 i potwierdził: „L1-03 lokalnie OK”,
+- układ, kolejność ekranów, treść i przejście do ćwiczenia są zaakceptowane lokalnie,
+- sześć brakujących materiałów wizualnych pozostaje jawnie oznaczonych placeholderami i nie zostało zastąpionych materiałami wymyślonymi przez Codexa,
+- L1-03 nie jest jeszcze gotowa do publikacji dla Ani, dopóki brakujące materiały demonstracyjne nie zostaną przygotowane, osadzone i odebrane,
+- do tego momentu nie wykonujemy finalnego commit/push/publish L1-03.
+
+Zasada: **warstwa tekstowa i UX L1-03 są zamknięte lokalnie; kolejnym etapem jest produkcja i odbiór sześciu materiałów wizualnych.**
