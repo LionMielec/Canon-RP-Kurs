@@ -236,3 +236,14 @@ Wystarczy:
 - stała scena i kolejno zmieniany tylko jeden czynnik.
 
 Najważniejsza jest zgodność przestrzenna między ujęciami, nie „reklamowa” jakość zdjęcia.
+
+
+## Punkt zatrzymania 28.09.2026
+Nie wykonywać dalszych materiałów do czasu wyboru nowego sposobu produkcji.
+
+Ograniczenia:
+- bez generowanych substytutów realnej geometrii,
+- bez angażowania Ani jako producentki,
+- bez zakładania kosztownej sesji fotograficznej jako jedynej drogi.
+
+W nowym wątku najpierw wybrać praktyczny model produkcji, który spełnia standard jakości projektu i pozostaje rozsądny kosztowo.
