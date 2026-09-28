@@ -191,3 +191,23 @@ Najpierw przeczytać:
 Następnie wykonać krótki finalny review z właścicielem. Po zatwierdzeniu przygotować jednoznaczny prompt/handoff dla Codexa zgodnie z `$canon-rp-precision`.
 
 Do momentu tej akceptacji Codex nie ma implementować L1-03 ani samodzielnie wybierać brakujących assetów.
+
+
+## HANDOFF PRODUKCYJNY L1-03 — 28.09.2026
+L1-03 została zatwierdzona do implementacji.
+
+Źródła obowiązujące:
+- `docs/L1-03_UKLADAM_ZDJECIE_BEZ_ZMIANY_USTAWIEN.md`
+- `docs/L1-03_KARTA_WIZUALNO_PRODUKCYJNA.md`
+- sekcja L1-03 w `docs/16_ASSET_MANIFEST.md`
+- `docs/15_STANDARD_PRODUKCJI_LEKCJI.md`
+- D-041 w `docs/09_DECISIONS.md`
+
+Codex:
+- używa `$canon-rp-precision`,
+- nie redaguje treści,
+- nie wybiera samodzielnie brakujących assetów,
+- implementuje w istniejącym Canon RP Site / istniejącej aplikacji,
+- zachowuje styl, kolory, ikonę i wzorzec UX,
+- zatrzymuje się po lokalnym podglądzie i raporcie,
+- bez commit/push/publish do osobnej akceptacji.
