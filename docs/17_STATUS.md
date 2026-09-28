@@ -144,3 +144,13 @@ Bieżący stan:
 Powód zatrzymania: jakość i przewidywalność pracy Codexa są niewystarczające. Przed dalszą implementacją przygotowujemy skill precyzyjnej pracy zgodnie z D-035 i `docs/20_CODEX_PRECISION_SKILL_PLAN.md`.
 
 Pierwszym zadaniem następnej sesji jest przygotowanie i dodanie tego skilla, a nie dalsza edycja aplikacji.
+
+
+## Start sesji produkcyjnej — 28.09.2026
+Zatwierdzono wersję `AGENTS.md` oraz skilla `canon-rp-precision` do instalacji w lokalnym projekcie Codexa.
+
+Następna operacja:
+1. zainstalować oba pliki w rzeczywistym projekcie aplikacji,
+2. uruchomić mały test kontrolny działania protokołu,
+3. po pozytywnym wyniku wrócić do niedomkniętej mikrokorekty L1-02,
+4. dopiero potem zamknąć wzorzec i rozpocząć L1-03.
