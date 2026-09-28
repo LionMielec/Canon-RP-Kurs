@@ -125,8 +125,8 @@ Priorytety D-19 i D-20 pozostają aktualne; sesja zdjęciowa nie stanowi zgody n
 - [x] Przygotować i zatwierdzić `AGENTS.md` dla projektu.
 - [x] Dodać `AGENTS.md` i skill do właściwego środowiska Codexa.
 - [x] Zweryfikować działanie skilla na małym zadaniu kontrolnym.
-- [ ] Potwierdzić, czy `dist/` jest źródłem kanonicznym czy wynikiem builda.
-- [ ] Dopiero potem wrócić do lokalnej mikrokorekty L1-02.
+- [x] Potwierdzić, czy `dist/` jest źródłem kanonicznym czy wynikiem builda — `dist/` jest źródłem kanonicznym.
+- [ ] Dokończyć lokalną mikrokorektę L1-02 w kanonicznych plikach `dist/`.
 - [ ] Dopracować profesjonalny styl wskazania elementu aparatu; obecna pulsacja NIE jest zaakceptowana.
 - [ ] Odbiór lokalny przez Pawła.
 - [ ] Po akceptacji: commit → push → publikacja do istniejącego Site.
