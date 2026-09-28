@@ -141,4 +141,10 @@ Priorytety D-19 i D-20 pozostają aktualne; sesja zdjęciowa nie stanowi zgody n
 - [x] Przygotować kartę wizualno-produkcyjną i asset manifest L1-03 — 28.09.2026.
 
 - [x] Po powrocie do komputera wykonać finalny review L1-03 i przygotować handoff dla Codexa — 28.09.2026.
-- [ ] Przekazać zatwierdzony pakiet L1-03 Codexowi i wykonać implementację lokalną.
+- [x] Przekazać zatwierdzony pakiet L1-03 Codexowi i wykonać implementację lokalną — 28.09.2026.
+
+- [x] Odebrać lokalnie układ, treść i UX L1-03 — 28.09.2026.
+- [ ] Przygotować i odebrać sześć brakujących materiałów wizualnych L1-03.
+- [ ] Osadzić zatwierdzone assety w L1-03 i wykonać krótki lokalny odbiór końcowy.
+- [ ] Po odbiorze: commit → push → publikacja do istniejącego Site.
+- [ ] Sprawdzić opublikowaną L1-03 na fizycznym iPhonie.
