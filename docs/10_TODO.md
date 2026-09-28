@@ -148,3 +148,7 @@ Priorytety D-19 i D-20 pozostają aktualne; sesja zdjęciowa nie stanowi zgody n
 - [ ] Osadzić zatwierdzone assety w L1-03 i wykonać krótki lokalny odbiór końcowy.
 - [ ] Po odbiorze: commit → push → publikacja do istniejącego Site.
 - [ ] Sprawdzić opublikowaną L1-03 na fizycznym iPhonie.
+
+- [ ] Przygotować shot list jednej kontrolowanej sesji zdjęciowej L1-03 z rośliną w doniczce.
+- [ ] Wykonać realne zdjęcia V01, V02, V03, V04A, V04B oraz rzeczywiste zdjęcie obiektywu V05.
+- [ ] Opracować wyłącznie statyczne oznaczenia/UI na realnych zdjęciach, bez generowania scen zastępczych.
