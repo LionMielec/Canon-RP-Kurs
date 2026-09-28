@@ -421,3 +421,16 @@ Zatwierdzone 28.09.2026:
 - L1-03 powstaje według pełnego standardu produkcji lekcji oraz zasady gotowych przykładów przed ćwiczeniem.
 
 Zasada: **widoczne i poprawne statyczne oznaczenie jest wystarczającym standardem; animacja jest opcjonalna.**
+
+
+## D-040 — Kierunek redakcyjny L1-03 zatwierdzony
+Zatwierdzone 28.09.2026:
+
+- właściciel projektu zaakceptował kierunek L1-03 „Układam zdjęcie bez zmiany ustawień”,
+- lekcja ma uczyć świadomego kadru bez dokładania nowych ustawień aparatu,
+- rdzeń: gotowy przykład → kontrola brzegów i tła → poziomo/pionowo → krok w bok → zmiana wysokości → wyjaśnienie stałej ogniskowej 50 mm → ćwiczenie trzech zdjęć → porównanie,
+- ćwiczenie nie ocenia „ładne/brzydkie”; Ania ma wskazać konkretną różnicę i uzasadnić wybór,
+- przed implementacją lekcja ma zostać opracowana jako kompletny pakiet: finalny tekst, weryfikacja źródeł, karta wizualno-produkcyjna i asset manifest,
+- Codex otrzyma wytyczne dopiero po powrocie właściciela do komputera i ostatecznym review pakietu.
+
+Zasada: **L1-03 rozwija widzenie kadru, nie ustawienia aparatu; gotowe przykłady poprzedzają ćwiczenie Ani.**
