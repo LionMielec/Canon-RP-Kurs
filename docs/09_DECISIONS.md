@@ -395,3 +395,16 @@ Zatwierdzone 28.09.2026:
 - przechodzimy do ponownej pracy produkcyjnej nad ostatnią mikrokorektą L1-02.
 
 Dodatkowa zasada jakościowa: przed edycją trzeba odróżnić pliki runtime od kanonicznego źródła edycji. Jeśli `dist/` jest generowane przez build, nie wolno wprowadzać finalnych zmian wyłącznie w artefakcie buildowym.
+
+
+## D-038 — Widoczność oznaczenia ważniejsza niż animacja
+Zatwierdzone 28.09.2026:
+
+- podstawowym celem oznaczenia elementu aparatu jest natychmiastowa i jednoznaczna widoczność wskazywanego elementu,
+- oznaczenie ma być wyraźne i czytelne również bez animacji,
+- pulsowanie/animacja jest opcjonalnym dodatkiem i nie może być warunkiem czytelności,
+- jeśli animacja obniża jakość albo utrudnia uzyskanie profesjonalnego efektu, należy z niej zrezygnować,
+- oznaczenie nie może być tak subtelne, że użytkowniczka musi szukać, co zostało wskazane,
+- priorytet: czytelność → precyzja wskazania → spójność wizualna → dopiero potem ewentualna animacja.
+
+Zasada: **najpierw ma być dobrze widoczne, dopiero później ewentualnie animowane.**
