@@ -216,3 +216,9 @@ Stan:
 - commit/push/publish L1-03 nadal wstrzymane.
 
 Następny krok: produkcja sześciu materiałów wizualnych zgodnie z kartą L1-03 i asset manifestem. Po ich osadzeniu wykonujemy krótki odbiór lokalny, a dopiero potem publikację.
+
+
+## Korekta produkcji wizualnej L1-03 — 28.09.2026
+Po próbie generowanych materiałów porównawczych właściciel projektu odrzucił ten kierunek jako niewiarygodny przestrzennie.
+
+Dalsze materiały L1-03 nie będą generowane przez AI. Powstaną z rzeczywistej, kontrolowanej sceny z rośliną w doniczce oraz z rzeczywistych zdjęć sprzętu Ani. Następny krok to przygotowanie precyzyjnego shot listu i wykonanie jednej spójnej sesji zdjęciowej.
