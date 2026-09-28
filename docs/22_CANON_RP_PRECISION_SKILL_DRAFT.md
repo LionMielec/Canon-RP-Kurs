@@ -1,3 +1,5 @@
+Status: ZATWIERDZONA WERSJA DO INSTALACJI — 28.09.2026
+
 ---
 name: canon-rp-precision
 description: Precyzyjny workflow implementacyjny dla projektu Canon RP kurs. Używaj przy każdej zmianie kodu, danych, UI, assetów lub zachowania aplikacji, aby ściśle trzymać się dokumentacji, zakresu, faktycznego renderowanego rezultatu i punktów akceptacji.
