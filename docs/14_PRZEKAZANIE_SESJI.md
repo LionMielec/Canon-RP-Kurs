@@ -227,3 +227,46 @@ Nie wracać do redagowania tekstu ani przebudowy UX bez nowej uwagi. Kolejny eta
 V06 jest komponentem UI i został zaimplementowany w ramach lekcji.
 
 Do czasu przygotowania, osadzenia i odbioru powyższych materiałów nie wykonywać finalnego commit/push/publish L1-03.
+
+
+## HANDOFF KOŃCOWY 28.09.2026 — start nowego wątku
+
+### Co jest zamknięte
+- L1-01/L1-02 są wzorcem redakcyjnym i UX.
+- Skill `canon-rp-precision` i `AGENTS.md` są zainstalowane i sprawdzone.
+- L1-03 jest zredagowana, zatwierdzona, zaimplementowana lokalnie i zaakceptowana pod względem treści oraz przebiegu.
+- Nie wracamy do tekstu L1-03 bez nowej konkretnej uwagi.
+
+### Co jest otwarte
+Brakuje sześciu materiałów demonstracyjnych L1-03:
+- V01 — ten sam przedmiot, prostsze tło po zmianie pozycji,
+- V02 — kontrola brzegów kadru,
+- V03 — poziomo / pionowo,
+- V04A — krok w bok,
+- V04B — zmiana wysokości aparatu,
+- V05 — rzeczywisty RF 50 mm / stała ogniskowa.
+
+### Co odrzucono
+- dalsze generowanie przez AI scen mających udawać rzeczywiste zależności przestrzenne,
+- angażowanie Ani w produkcję materiałów, na których dopiero ma się uczyć,
+- zatrudnianie zewnętrznego profesjonalnego fotografa jako domyślnego rozwiązania dla kilku zdjęć.
+
+### Pierwszy cel następnej sesji
+Wypracować **profesjonalny, wiarygodny i niskokosztowy sposób pozyskania brakujących materiałów L1-03**.
+
+Nie zaczynać od:
+- kolejnych grafik generatywnych,
+- ponownego researchu treści L1-03,
+- zmian w Codexie,
+- publikacji.
+
+### Kryteria rozwiązania
+Wybrany sposób ma:
+1. pokazywać prawdziwe zależności przestrzenne i geometryczne,
+2. dawać spójny komplet materiałów,
+3. nie wymagać od Ani produkcji kursu,
+4. nie wymagać nieuzasadnionych kosztów,
+5. nadawać się później również do wersji komercyjnej albo dać się łatwo wymienić na wersję komercyjną.
+
+### Po rozwiązaniu problemu
+pozyskanie assetów → osadzenie w L1-03 → lokalny odbiór → commit/push/publish → test na iPhonie.
