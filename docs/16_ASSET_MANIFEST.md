@@ -36,12 +36,12 @@ Ten plik jest rejestrem materiałów wizualnych przypisanych do konkretnych lekc
 
 | ID | Zastosowanie | Typ | Źródło / brak | Docelowa ścieżka | Status |
 |---|---|---|---|---|---|
-| L1-03-V01 | Ten sam przedmiot: rozpraszające vs prostsze tło po zmianie pozycji | para zdjęć | materiał demonstracyjny do przygotowania przez zespół | `assets/lessons/l1-03/l1-03-v01-background-position.*` | `TO_CAPTURE` + `TO_PREPARE` |
-| L1-03-V02 | Kontrola czterech brzegów kadru | para edukacyjna + statyczne markery | materiał demonstracyjny do przygotowania przez zespół | `assets/lessons/l1-03/l1-03-v02-frame-edges.*` | `TO_DESIGN` + `TO_PREPARE` |
+| L1-03-V01 | Ten sam przedmiot: rozpraszające vs prostsze tło po zmianie pozycji | para zdjęć | rzeczywista kontrolowana scena z rośliną w doniczce | `assets/lessons/l1-03/l1-03-v01-background-position.*` | `TO_CAPTURE` + `TO_PREPARE` |
+| L1-03-V02 | Kontrola czterech brzegów kadru | para edukacyjna + statyczne markery | rzeczywista kontrolowana scena z rośliną w doniczce | `assets/lessons/l1-03/l1-03-v02-frame-edges.*` | `TO_CAPTURE` + `TO_PREPARE` |
 | L1-03-V03 | Poziomo / pionowo z tego samego miejsca | para zdjęć | materiał demonstracyjny do przygotowania przez zespół | `assets/lessons/l1-03/l1-03-v03-horizontal-vertical.*` | `TO_CAPTURE` + `TO_PREPARE` |
 | L1-03-V04A | Jeden krok w bok zmienia tło | para zdjęć | materiał demonstracyjny do przygotowania przez zespół | `assets/lessons/l1-03/l1-03-v04a-step-sideways.*` | `TO_CAPTURE` + `TO_PREPARE` |
 | L1-03-V04B | Zmiana wysokości aparatu | 3 zdjęcia | materiał demonstracyjny do przygotowania przez zespół | `assets/lessons/l1-03/l1-03-v04b-camera-height.*` | `TO_CAPTURE` + `TO_PREPARE` |
-| L1-03-V05 | RF 50 mm — stała ogniskowa, brak zoomu | zdjęcie obiektywu Ani + diagram | rzeczywisty RF 50 mm Ani + oficjalne dane Canon | `assets/lessons/l1-03/l1-03-v05-fixed-50mm.*` | `SOURCE_REQUIRED` + `TO_DESIGN` |
+| L1-03-V05 | RF 50 mm — stała ogniskowa, brak zoomu | zdjęcie obiektywu Ani + diagram | rzeczywiste zdjęcie RF 50 mm Ani + oficjalne dane Canon | `assets/lessons/l1-03/l1-03-v05-fixed-50mm.*` | `SOURCE_REQUIRED` + `TO_CAPTURE` + `TO_PREPARE` |
 | L1-03-V06 | Karta „poziomo/pionowo → brzegi/tło → miejsce → zdjęcie” | komponent UI | bez osobnego assetu | komponent aplikacji | `UI_COMPONENT` |
 
 ## Następny wpis
