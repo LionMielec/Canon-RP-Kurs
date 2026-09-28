@@ -471,3 +471,15 @@ Zatwierdzone 28.09.2026:
 - proste oznaczenia UI na realnym zdjęciu są dopuszczalne, jeśli nie zmieniają treści fotografii i służą wyłącznie wskazaniu elementu.
 
 Zasada: **dla tematów zależnych od rzeczywistej geometrii i położenia aparatu używamy realnych zdjęć, nie generowanych substytutów.**
+
+
+## D-044 — Kursant nie produkuje materiałów szkoleniowych
+Zatwierdzone 28.09.2026:
+
+- Ania jako kursantka nie wykonuje zdjęć ani innych materiałów, na których dopiero ma się uczyć nowego zagadnienia,
+- materiały demonstracyjne kursu muszą być przygotowane wcześniej przez autorów projektu, fotografa/producenta materiałów albo pochodzić z odpowiednio licencjonowanych źródeł,
+- zdjęcia Ani mogą służyć wyłącznie jako materiał ćwiczeniowy i rozwojowy po przedstawieniu gotowego przykładu,
+- shot list L1-03 jest instrukcją dla producenta materiałów / właściciela projektu / fotografa, nie zadaniem dla Ani,
+- przy możliwej przyszłej komercjalizacji materiały muszą mieć jasne pochodzenie i prawa do użycia.
+
+Zasada: **kursant otrzymuje gotowy kurs; nie uczestniczy w produkcji podstawowych materiałów dydaktycznych.**
