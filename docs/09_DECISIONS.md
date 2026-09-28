@@ -383,3 +383,15 @@ Zatwierdzone 28.09.2026:
 - po instalacji należy przeprowadzić mały test kontrolny; dopiero pozytywny wynik otwiera ponowną pracę nad niedomkniętą mikrokorektą L1-02.
 
 Zasada: **najpierw instalacja i test procesu, potem powrót do produkcji aplikacji.**
+
+
+## D-037 — Test kontrolny protokołu Codexa zaliczony
+Zatwierdzone 28.09.2026:
+
+- repozytoryjny `AGENTS.md` i skill `canon-rp-precision` zostały zainstalowane lokalnie w projekcie aplikacji,
+- test kontrolny bez zmian w aplikacji został wykonany prawidłowo: Codex rozdzielił zakres, elementy nietykane, źródła runtime, punkt zatrzymania, weryfikację i stan commit/push/publish,
+- Codex poprawnie zidentyfikował faktycznie renderowane pliki L1-02 i zatrzymał się bez wprowadzania zmian,
+- test nie potwierdził jeszcze automatycznego wykrywania skilla w całkowicie nowej sesji; to pozostaje ograniczeniem do obserwacji,
+- przechodzimy do ponownej pracy produkcyjnej nad ostatnią mikrokorektą L1-02.
+
+Dodatkowa zasada jakościowa: przed edycją trzeba odróżnić pliki runtime od kanonicznego źródła edycji. Jeśli `dist/` jest generowane przez build, nie wolno wprowadzać finalnych zmian wyłącznie w artefakcie buildowym.
