@@ -55,13 +55,17 @@ Sprawdzono aktualne oficjalne materiały OpenAI dotyczące Codexa i skills.
 Potwierdzone:
 - skill jest katalogiem zawierającym obowiązkowy plik `SKILL.md` z metadanymi `name` i `description` oraz instrukcjami,
 - Codex ma wbudowany kreator skills wywoływany przez `$skill-creator`,
-- oficjalny przykład OpenAI pokazuje skill repozytoryjny pod `.codex/skills/<skill-name>/SKILL.md` oraz skill użytkownika pod `~/.codex/skills/<skill-name>/SKILL.md`,
+- oficjalny przykład OpenAI pokazuje skill repozytoryjny pod `.agents/skills/<skill-name>/SKILL.md` oraz skill użytkownika pod `~/.agents/skills/<skill-name>/SKILL.md`,
 - skills są przeznaczone do konkretnych, powtarzalnych workflow,
 - `AGENTS.md` jest mechanizmem repozytoryjnych instrukcji ładowanych przez Codex automatycznie.
 
 Wniosek roboczy do zatwierdzenia:
 najbardziej niezawodne rozwiązanie dla Canon RP kurs to dwie warstwy:
 1. krótki repozytoryjny `AGENTS.md` z niezmiennymi zasadami projektu i wymogiem stosowania skilla przy zadaniach implementacyjnych,
-2. repozytoryjny skill `.codex/skills/canon-rp-precision/SKILL.md` opisujący precyzyjny workflow: zakres → źródło prawdy → implementacja → faktyczny podgląd → testy → raport → osobna zgoda na commit/push/publish.
+2. repozytoryjny skill `.agents/skills/canon-rp-precision/SKILL.md` opisujący precyzyjny workflow: zakres → źródło prawdy → implementacja → faktyczny podgląd → testy → raport → osobna zgoda na commit/push/publish.
 
 Nie instalować skilla globalnie, dopóki nie ma potrzeby stosowania tych samych reguł w innych projektach.
+
+
+## Korekta ścieżki 28.09.2026
+Aktualna oficjalna dokumentacja Codexa wskazuje repozytoryjne skills w `.agents/skills/<skill-name>/SKILL.md`. Wcześniejszy roboczy zapis `.codex/skills/...` był nieaktualny i nie obowiązuje.
