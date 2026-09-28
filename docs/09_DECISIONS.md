@@ -434,3 +434,16 @@ Zatwierdzone 28.09.2026:
 - Codex otrzyma wytyczne dopiero po powrocie właściciela do komputera i ostatecznym review pakietu.
 
 Zasada: **L1-03 rozwija widzenie kadru, nie ustawienia aparatu; gotowe przykłady poprzedzają ćwiczenie Ani.**
+
+
+## D-041 — L1-03 zatwierdzona do implementacji
+Zatwierdzone 28.09.2026:
+
+- finalny przebieg i treść L1-03 „Układam zdjęcie bez zmiany ustawień” zostały zaakceptowane do implementacji,
+- obowiązuje kolejność: gotowy przykład → brzegi kadru → poziomo/pionowo → krok w bok → wysokość aparatu → stała ogniskowa 50 mm → podsumowanie → ćwiczenie → porównanie,
+- nie wprowadzamy jeszcze reguły trójpodziału, przysłony, rozmywania tła, technicznego wykładu o perspektywie ani nowych ustawień/menu,
+- wszystkie materiały demonstracyjne mają być gotowe przed ćwiczeniem Ani,
+- Codex implementuje wyłącznie zatwierdzony pakiet i nie wybiera samodzielnie brakujących assetów,
+- implementacja ma korzystać z `$canon-rp-precision` i zatrzymać się przed commit/push/publish do odbioru lokalnego.
+
+Zasada: **treść L1-03 jest zatwierdzona; Codex wykonuje implementację, nie redaguje lekcji.**
