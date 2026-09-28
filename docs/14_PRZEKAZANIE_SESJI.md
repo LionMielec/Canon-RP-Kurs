@@ -169,3 +169,9 @@ Codex poprawnie wskazał runtime:
 Przed rozpoczęciem kolejnej edycji należy jeszcze ustalić, czy `dist/` jest kanonicznym źródłem edycji czy wynikiem procesu build. Jeśli jest wynikiem builda, finalne poprawki muszą powstać w źródłach i zostać wygenerowane do `dist/`.
 
 Po tym sprawdzeniu wracamy do niedomkniętej mikrokorekty L1-02: profesjonalny, subtelny sposób wskazywania elementów aparatu i właściwe osadzenie materiałów przy instrukcji.
+
+
+## AKTUALIZACJA 28.09.2026 — audyt źródła zamknięty
+Potwierdzono, że `dist/` jest kanonicznym źródłem aplikacji, a nie artefaktem builda. Nie ma odrębnej warstwy źródłowej ani procesu build.
+
+Od tego momentu nie prowadzimy dalszej karuzeli testów ani audytów bez konkretnego problemu. Następna czynność to bezpośrednia produkcyjna korekta L1-02 w istniejącym mechanizmie runtime.
