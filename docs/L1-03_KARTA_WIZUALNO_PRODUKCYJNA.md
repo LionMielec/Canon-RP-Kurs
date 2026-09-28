@@ -64,7 +64,7 @@ Nie stosować animacji. Nie zasłaniać elementów.
 ### Tekst pomocniczy
 „Sprawdź: lewo → góra → prawo → dół.”
 
-**Status:** TO_DESIGN / TO_PREPARE
+**Status:** TO_CAPTURE / TO_PREPARE
 
 ---
 
@@ -156,7 +156,7 @@ prosty diagram bez technicznego żargonu:
 - nie sugerować, że obrót pierścienia zmienia ogniskową,
 - nie otwierać jeszcze tematu ustawień Control Ring.
 
-**Status:** SOURCE_REQUIRED / TO_DESIGN
+**Status:** SOURCE_REQUIRED / TO_CAPTURE / TO_PREPARE
 
 ---
 
@@ -203,3 +203,16 @@ Warstwa jest gotowa, gdy osoba początkująca bez czytania produkcyjnych notatek
 - czym różni się kadr poziomy od pionowego,
 - co zmieniła wysokość aparatu,
 - że przy RF 50 mm zmianę wielkości przedmiotu w kadrze uzyskujemy zmianą miejsca fotografa.
+
+
+## Zasada po korekcie 28.09.2026 — bez generowanych substytutów
+Dla L1-03 nie tworzymy finalnych przykładów dydaktycznych jako obrazów generowanych przez AI.
+
+Powód: lekcja uczy realnego wpływu położenia aparatu na tło, kadr i relacje przestrzenne. Materiał musi być fizycznie spójny między ujęciami.
+
+Dlatego:
+- V01, V02, V03, V04A i V04B powstają z jednej rzeczywistej kontrolowanej sceny z tą samą rośliną w doniczce,
+- V05 bazuje na rzeczywistym zdjęciu obiektywu RF 50 mm Ani,
+- ChatGPT przygotowuje shot list i kryteria porównawcze,
+- Codex nie generuje ani nie wybiera zamienników,
+- ewentualne oznaczenia nakładane są na realne zdjęcia i nie zmieniają geometrii sceny.
