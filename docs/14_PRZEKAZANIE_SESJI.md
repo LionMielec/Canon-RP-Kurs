@@ -175,3 +175,19 @@ Po tym sprawdzeniu wracamy do niedomkniętej mikrokorekty L1-02: profesjonalny, 
 Potwierdzono, że `dist/` jest kanonicznym źródłem aplikacji, a nie artefaktem builda. Nie ma odrębnej warstwy źródłowej ani procesu build.
 
 Od tego momentu nie prowadzimy dalszej karuzeli testów ani audytów bez konkretnego problemu. Następna czynność to bezpośrednia produkcyjna korekta L1-02 w istniejącym mechanizmie runtime.
+
+
+## AKTUALIZACJA — L1-03 gotowa do finalnego review
+Kierunek L1-03 został zaakceptowany i opracowany jako pełny pakiet redakcyjno-produkcyjny.
+
+Przy powrocie właściciela do komputera NIE zaczynać od ponownego researchu ani projektowania lekcji od zera.
+
+Najpierw przeczytać:
+- `docs/L1-03_UKLADAM_ZDJECIE_BEZ_ZMIANY_USTAWIEN.md`
+- `docs/L1-03_KARTA_WIZUALNO_PRODUKCYJNA.md`
+- sekcję L1-03 w `docs/16_ASSET_MANIFEST.md`
+- D-040 w `docs/09_DECISIONS.md`
+
+Następnie wykonać krótki finalny review z właścicielem. Po zatwierdzeniu przygotować jednoznaczny prompt/handoff dla Codexa zgodnie z `$canon-rp-precision`.
+
+Do momentu tej akceptacji Codex nie ma implementować L1-03 ani samodzielnie wybierać brakujących assetów.
