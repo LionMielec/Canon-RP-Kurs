@@ -495,3 +495,16 @@ Korekta procesu 28.09.2026:
 - ewentualna komercyjna wersja kursu może w przyszłości otrzymać nową sesję zdjęciową, jeśli będzie to ekonomicznie uzasadnione.
 
 Zasada: **najprostsza produkcja, która daje prawdziwy i profesjonalnie czytelny efekt; bez zbędnych kosztów.**
+
+
+## D-046 — Zatrzymanie pracy nad assetami L1-03 i powrót w nowym wątku
+Zatwierdzone 28.09.2026:
+
+- bieżąca sesja kończy się bez dalszej produkcji materiałów wizualnych L1-03,
+- generowane obrazy do demonstracji zależności przestrzennych zostały odrzucone jako niewystarczająco wiarygodne,
+- nie planujemy kosztownej sesji zewnętrznego fotografa,
+- Ania nie produkuje materiałów, na których dopiero ma się uczyć,
+- otwarty problem brzmi: jak profesjonalnie, wiarygodnie i niskokosztowo przygotować komplet materiałów demonstracyjnych L1-03,
+- następna sesja ma rozpocząć się od rozwiązania tego problemu produkcyjnego, a nie od ponownego redagowania lekcji ani zmian w Codexie.
+
+Zasada: **najpierw ustalamy realistyczny, profesjonalny sposób pozyskania materiałów L1-03; dopiero potem wracamy do implementacji i publikacji.**
