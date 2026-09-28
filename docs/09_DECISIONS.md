@@ -483,3 +483,15 @@ Zatwierdzone 28.09.2026:
 - przy możliwej przyszłej komercjalizacji materiały muszą mieć jasne pochodzenie i prawa do użycia.
 
 Zasada: **kursant otrzymuje gotowy kurs; nie uczestniczy w produkcji podstawowych materiałów dydaktycznych.**
+
+
+## D-045 — Materiały L1-03 bez zewnętrznego fotografa
+Korekta procesu 28.09.2026:
+
+- przygotowanie kilku materiałów do L1-03 nie uzasadnia zatrudniania zewnętrznego profesjonalnego fotografa,
+- materiały może wykonać właściciel projektu samodzielnie, w prostym kontrolowanym setupie domowym, telefonem lub aparatem,
+- celem sesji nie jest fotografia reklamowa, tylko prawdziwa i powtarzalna demonstracja jednej zmiennej: położenia aparatu, orientacji albo wysokości,
+- profesjonalny standard oznacza poprawną, spójną i wiarygodną demonstrację, a nie kosztowną produkcję,
+- ewentualna komercyjna wersja kursu może w przyszłości otrzymać nową sesję zdjęciową, jeśli będzie to ekonomicznie uzasadnione.
+
+Zasada: **najprostsza produkcja, która daje prawdziwy i profesjonalnie czytelny efekt; bez zbędnych kosztów.**
