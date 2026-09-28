@@ -408,3 +408,16 @@ Zatwierdzone 28.09.2026:
 - priorytet: czytelność → precyzja wskazania → spójność wizualna → dopiero potem ewentualna animacja.
 
 Zasada: **najpierw ma być dobrze widoczne, dopiero później ewentualnie animowane.**
+
+
+## D-039 — Statyczne oznaczenia zaakceptowane; przejście do L1-03
+Zatwierdzone 28.09.2026:
+
+- finalny kierunek oznaczania elementów aparatu może być statyczny; pulsowanie nie jest wymagane,
+- priorytetem pozostaje wyraźne, jednoznaczne i profesjonalne wskazanie właściwego elementu,
+- aktualne statyczne oznaczenie zostało zaakceptowane przez właściciela projektu,
+- nie wracamy do animacji markerów bez nowej, konkretnej potrzeby dydaktycznej,
+- kończymy redakcyjne domykanie wzorca L1-01/L1-02 i przechodzimy do redagowania L1-03,
+- L1-03 powstaje według pełnego standardu produkcji lekcji oraz zasady gotowych przykładów przed ćwiczeniem.
+
+Zasada: **widoczne i poprawne statyczne oznaczenie jest wystarczającym standardem; animacja jest opcjonalna.**
