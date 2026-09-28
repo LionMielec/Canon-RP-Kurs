@@ -154,3 +154,11 @@ Następna operacja:
 2. uruchomić mały test kontrolny działania protokołu,
 3. po pozytywnym wyniku wrócić do niedomkniętej mikrokorekty L1-02,
 4. dopiero potem zamknąć wzorzec i rozpocząć L1-03.
+
+
+## Test skilla/protokołu — 28.09.2026
+Test kontrolny `AGENTS.md` + `canon-rp-precision` zakończony pozytywnie w bieżącej sesji. Codex nie zmienił aplikacji, poprawnie zidentyfikował runtime L1-02 i jawnie rozdzielił zakres, weryfikację oraz stan commit/push/publish.
+
+Otwarte ograniczenie: automatyczne wykrywanie skilla w całkowicie nowej sesji nie zostało jeszcze sprawdzone.
+
+Następny krok: wrócić do produkcyjnej mikrokorekty L1-02. Przed edycją potwierdzić, czy `dist/` jest kanonicznym źródłem aplikacji czy artefaktem buildowym; jeśli artefaktem, edytować właściwe źródła i dopiero z nich odbudować runtime.
