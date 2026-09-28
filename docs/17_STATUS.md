@@ -178,3 +178,11 @@ Nie kontynuujemy dalszej diagnostyki architektury. Następny krok jest produkcyj
 
 ## Korekta kierunku oznaczeń — 28.09.2026
 Po ocenie lokalnego efektu doprecyzowano problem: główną wadą oznaczenia nie jest brak odpowiedniej animacji, lecz zbyt mała widoczność markera. Dalsza poprawka ma przede wszystkim zwiększyć czytelność i jednoznaczność wskazania. Pulsowanie jest opcjonalne i może zostać całkowicie usunięte, jeśli statyczne oznaczenie daje lepszy profesjonalny efekt.
+
+
+## Akceptacja markerów i start L1-03 — 28.09.2026
+Właściciel projektu zaakceptował statyczny sposób oznaczania elementów aparatu. Pulsowanie nie jest wymagane i nie blokuje dalszej pracy.
+
+L1-01/L1-02 są od tej chwili zamkniętym wzorcem redakcyjnym i UX dla kolejnych lekcji. Ewentualna publikacja ostatniej lokalnej poprawki pozostaje operacją techniczną i nie blokuje redagowania treści L1-03.
+
+Rozpoczęto fazę redakcyjną L1-03 „Układam zdjęcie bez zmiany ustawień”. Treść powstaje w ChatGPT, na podstawie zweryfikowanych źródeł, i wymaga zatwierdzenia przed przekazaniem do Codexa.
