@@ -223,3 +223,16 @@ Dlatego:
 - Ania nie wykonuje zdjęć demonstracyjnych dla tematów, których dopiero ma się nauczyć.
 - Jej własne zdjęcia pojawiają się dopiero w części ćwiczeniowej po pokazaniu gotowych przykładów.
 - Przy wyborze zewnętrznych materiałów należy zachować dokumentację licencji i możliwość późniejszego użycia komercyjnego.
+
+
+### Minimalny setup produkcyjny
+Nie wymaga zewnętrznego fotografa ani studia.
+
+Wystarczy:
+- jedna roślina w doniczce,
+- zwykły pokój z naturalnym światłem,
+- telefon lub aparat właściciela projektu,
+- jedna krótka sesja 10–20 minut,
+- stała scena i kolejno zmieniany tylko jeden czynnik.
+
+Najważniejsza jest zgodność przestrzenna między ujęciami, nie „reklamowa” jakość zdjęcia.
