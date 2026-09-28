@@ -226,3 +226,7 @@ Dalsze materiały L1-03 nie będą generowane przez AI. Powstaną z rzeczywistej
 
 ## Odpowiedzialność za materiały L1-03 — 28.09.2026
 Doprecyzowano, że Ania nie produkuje materiałów demonstracyjnych kursu. Shot list i sesja zdjęciowa są zadaniem produkcyjnym projektu, wykonywanym przez właściciela projektu, fotografa lub innego producenta materiałów. Zdjęcia Ani pojawiają się dopiero jako materiał ćwiczeniowy po gotowej demonstracji.
+
+
+## Produkcja assetów L1-03 — korekta kosztowa 28.09.2026
+Nie planujemy zewnętrznego fotografa. Materiały L1-03 mają powstać w prostej kontrolowanej scenie domowej, wykonanej przez właściciela projektu telefonem lub aparatem. Liczy się prawdziwa geometria sceny i spójność porównania, nie kosztowna produkcja reklamowa.
