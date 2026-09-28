@@ -186,3 +186,14 @@ Właściciel projektu zaakceptował statyczny sposób oznaczania elementów apar
 L1-01/L1-02 są od tej chwili zamkniętym wzorcem redakcyjnym i UX dla kolejnych lekcji. Ewentualna publikacja ostatniej lokalnej poprawki pozostaje operacją techniczną i nie blokuje redagowania treści L1-03.
 
 Rozpoczęto fazę redakcyjną L1-03 „Układam zdjęcie bez zmiany ustawień”. Treść powstaje w ChatGPT, na podstawie zweryfikowanych źródeł, i wymaga zatwierdzenia przed przekazaniem do Codexa.
+
+
+## L1-03 — pełny pakiet redakcyjny przygotowany 28.09.2026
+Po akceptacji kierunku lekcji przygotowano:
+- pełny tekst L1-03 do ostatecznego review,
+- zweryfikowane źródła Canon dla stałej ogniskowej 50 mm i podstaw kompozycji,
+- pełną kartę wizualno-produkcyjną,
+- zaktualizowany asset manifest L1-03,
+- kontekst dla późniejszego nauczyciela AI i ograniczenia dydaktyczne.
+
+Nie przekazano jeszcze implementacji do Codexa. Następny etap po powrocie właściciela do komputera: krótki finalny review treści i przekazanie zatwierdzonego pakietu Codexowi.
