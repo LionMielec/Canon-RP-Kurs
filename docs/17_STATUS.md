@@ -230,3 +230,17 @@ Doprecyzowano, że Ania nie produkuje materiałów demonstracyjnych kursu. Shot 
 
 ## Produkcja assetów L1-03 — korekta kosztowa 28.09.2026
 Nie planujemy zewnętrznego fotografa. Materiały L1-03 mają powstać w prostej kontrolowanej scenie domowej, wykonanej przez właściciela projektu telefonem lub aparatem. Liczy się prawdziwa geometria sceny i spójność porównania, nie kosztowna produkcja reklamowa.
+
+
+## Koniec sesji — 28.09.2026, 21:38
+Sesja zakończona świadomie na etapie produkcji materiałów wizualnych L1-03.
+
+Stan:
+- L1-03 jest lokalnie zaimplementowana i zaakceptowana pod względem treści oraz UX,
+- sześć materiałów wizualnych nadal pozostaje do przygotowania,
+- kierunek generatywny dla realnych zmian położenia aparatu został odrzucony,
+- zewnętrzny profesjonalny fotograf nie jest planowany jako domyślne rozwiązanie ze względu na nieuzasadniony koszt,
+- Ania nie wykonuje materiałów demonstracyjnych kursu,
+- finalna publikacja L1-03 jest wstrzymana.
+
+Następna sesja, w nowym wątku, zaczyna się od rozwiązania problemu pozyskania profesjonalnych i wiarygodnych materiałów V01–V05 w rozsądnym koszcie. Nie wracamy do redagowania L1-03 ani do kolejnych testów Codexa, dopóki ten problem nie zostanie rozwiązany.
