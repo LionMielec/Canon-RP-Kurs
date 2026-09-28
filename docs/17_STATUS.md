@@ -162,3 +162,15 @@ Test kontrolny `AGENTS.md` + `canon-rp-precision` zakończony pozytywnie w bież
 Otwarte ograniczenie: automatyczne wykrywanie skilla w całkowicie nowej sesji nie zostało jeszcze sprawdzone.
 
 Następny krok: wrócić do produkcyjnej mikrokorekty L1-02. Przed edycją potwierdzić, czy `dist/` jest kanonicznym źródłem aplikacji czy artefaktem buildowym; jeśli artefaktem, edytować właściwe źródła i dopiero z nich odbudować runtime.
+
+
+## Audyt źródła aplikacji — 28.09.2026
+Jednorazowy audyt źródła aplikacji zakończony.
+
+Ustalenie:
+- `dist/` jest kanonicznym źródłem aplikacji i jednocześnie katalogiem publikowanym,
+- nie istnieje osobna warstwa `src/`, bundler, generator ani proces build,
+- `dist/lessons.js`, `dist/app.js`, `dist/style.css` i assety w `dist/assets/` są właściwymi plikami do edycji,
+- lokalny serwer jedynie udostępnia te pliki; nie generuje ich.
+
+Nie kontynuujemy dalszej diagnostyki architektury. Następny krok jest produkcyjny: dokończenie ostatniej mikrokorekty L1-02.
