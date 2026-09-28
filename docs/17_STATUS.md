@@ -222,3 +222,7 @@ Następny krok: produkcja sześciu materiałów wizualnych zgodnie z kartą L1-0
 Po próbie generowanych materiałów porównawczych właściciel projektu odrzucił ten kierunek jako niewiarygodny przestrzennie.
 
 Dalsze materiały L1-03 nie będą generowane przez AI. Powstaną z rzeczywistej, kontrolowanej sceny z rośliną w doniczce oraz z rzeczywistych zdjęć sprzętu Ani. Następny krok to przygotowanie precyzyjnego shot listu i wykonanie jednej spójnej sesji zdjęciowej.
+
+
+## Odpowiedzialność za materiały L1-03 — 28.09.2026
+Doprecyzowano, że Ania nie produkuje materiałów demonstracyjnych kursu. Shot list i sesja zdjęciowa są zadaniem produkcyjnym projektu, wykonywanym przez właściciela projektu, fotografa lub innego producenta materiałów. Zdjęcia Ani pojawiają się dopiero jako materiał ćwiczeniowy po gotowej demonstracji.
