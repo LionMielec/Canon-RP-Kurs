@@ -127,11 +127,15 @@ Priorytety D-19 i D-20 pozostają aktualne; sesja zdjęciowa nie stanowi zgody n
 - [x] Zweryfikować działanie skilla na małym zadaniu kontrolnym.
 - [x] Potwierdzić, czy `dist/` jest źródłem kanonicznym czy wynikiem builda — `dist/` jest źródłem kanonicznym.
 - [ ] Dokończyć lokalną mikrokorektę L1-02 w kanonicznych plikach `dist/`.
-- [ ] Dopracować profesjonalny styl wskazania elementu aparatu; obecna pulsacja NIE jest zaakceptowana.
+- [x] Przyjąć finalny kierunek oznaczeń elementów aparatu — statyczne, wyraźne oznaczenie zaakceptowane 28.09.2026; pulsowanie nie jest wymagane.
 - [ ] Odbiór lokalny przez Pawła.
 - [ ] Po akceptacji: commit → push → publikacja do istniejącego Site.
 - [ ] Test na fizycznym iPhonie.
-- [ ] Formalne zamknięcie L1-01/L1-02 jako wzorca.
-- [ ] Dopiero po zamknięciu wzorca rozpocząć L1-03.
+- [x] Formalnie zamknąć L1-01/L1-02 jako wzorzec redakcyjny/UX — 28.09.2026.
+- [x] Rozpocząć redagowanie L1-03 — 28.09.2026.
 
 **Blokada:** do czasu dodania i sprawdzenia skilla nie kontynuować implementacji aplikacji w Codexie.
+
+- [ ] Zweryfikować źródła i przygotować pełny szkic L1-03.
+- [ ] Omówić i zatwierdzić treść L1-03 z właścicielem projektu przed implementacją.
+- [ ] Przygotować kartę wizualno-produkcyjną i asset manifest L1-03 po akceptacji kierunku lekcji.
