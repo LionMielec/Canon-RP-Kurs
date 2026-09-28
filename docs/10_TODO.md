@@ -152,3 +152,14 @@ Priorytety D-19 i D-20 pozostają aktualne; sesja zdjęciowa nie stanowi zgody n
 - [ ] Przygotować shot list jednej kontrolowanej sesji zdjęciowej L1-03 z rośliną w doniczce.
 - [ ] Wykonać samodzielnie realne zdjęcia V01, V02, V03, V04A, V04B oraz rzeczywiste zdjęcie obiektywu V05 w jednej krótkiej kontrolowanej sesji domowej — bez angażowania Ani jako producentki materiałów kursu.
 - [ ] Opracować wyłącznie statyczne oznaczenia/UI na realnych zdjęciach, bez generowania scen zastępczych.
+
+
+## PRIORYTET NASTĘPNEGO WĄTKU — materiały L1-03
+- [ ] Nie generować kolejnych substytutów scen L1-03 przez AI.
+- [ ] Nie wracać do pomysłu zewnętrznego fotografa jako domyślnego rozwiązania.
+- [ ] Nie angażować Ani jako producentki materiałów szkoleniowych.
+- [ ] Wypracować profesjonalny, wiarygodny i niskokosztowy sposób pozyskania V01, V02, V03, V04A, V04B i V05.
+- [ ] Dopiero po wyborze sposobu produkcji przygotować finalny shot list / plan pozyskania assetów.
+- [ ] Po pozyskaniu materiałów: osadzenie w L1-03 → lokalny odbiór → commit → push → publikacja → test na iPhonie.
+
+**Blokada:** L1-03 nie idzie do finalnej publikacji bez gotowych materiałów demonstracyjnych.
