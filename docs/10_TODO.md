@@ -136,6 +136,9 @@ Priorytety D-19 i D-20 pozostają aktualne; sesja zdjęciowa nie stanowi zgody n
 
 **Blokada:** do czasu dodania i sprawdzenia skilla nie kontynuować implementacji aplikacji w Codexie.
 
-- [ ] Zweryfikować źródła i przygotować pełny szkic L1-03.
+- [x] Zweryfikować źródła i przygotować pełny szkic L1-03 — 28.09.2026.
 - [ ] Omówić i zatwierdzić treść L1-03 z właścicielem projektu przed implementacją.
-- [ ] Przygotować kartę wizualno-produkcyjną i asset manifest L1-03 po akceptacji kierunku lekcji.
+- [x] Przygotować kartę wizualno-produkcyjną i asset manifest L1-03 — 28.09.2026.
+
+- [ ] Po powrocie do komputera wykonać finalny review L1-03 i przygotować handoff dla Codexa.
+- [ ] Dopiero po zatwierdzeniu finalnego pakietu przekazać implementację L1-03 Codexowi.
