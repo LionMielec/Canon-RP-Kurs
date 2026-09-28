@@ -154,3 +154,18 @@ Codex ma:
 5. potwierdzić ścieżki i treść instalacji,
 6. wykonać test kontrolny protokołu bez commit/push/publish,
 7. dopiero po pozytywnym odbiorze testu wrócić do mikrokorekty L1-02.
+
+
+## AKTUALIZACJA 28.09.2026 — test skilla zaliczony
+`AGENTS.md` i `canon-rp-precision` są zainstalowane lokalnie. Test kontrolny został zaliczony bez zmian w aplikacji.
+
+Codex poprawnie wskazał runtime:
+- `dist/index.html`
+- `dist/lessons.js`
+- `dist/app.js`
+- `dist/style.css`
+- dwa runtime assety L1-02
+
+Przed rozpoczęciem kolejnej edycji należy jeszcze ustalić, czy `dist/` jest kanonicznym źródłem edycji czy wynikiem procesu build. Jeśli jest wynikiem builda, finalne poprawki muszą powstać w źródłach i zostać wygenerowane do `dist/`.
+
+Po tym sprawdzeniu wracamy do niedomkniętej mikrokorekty L1-02: profesjonalny, subtelny sposób wskazywania elementów aparatu i właściwe osadzenie materiałów przy instrukcji.
