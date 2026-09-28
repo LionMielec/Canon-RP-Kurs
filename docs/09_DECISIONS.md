@@ -370,3 +370,16 @@ Zatwierdzone 27.09.2026:
 Następna sesja zaczyna się od przygotowania i dodania tego skilla. Dopiero po jego uruchomieniu wracamy do niedomkniętej mikrokorekty L1-02 i później do L1-03.
 
 Zasada: **najpierw ustawiamy Codexa do precyzyjnej, kontrolowanej pracy; dopiero potem kontynuujemy implementację.**
+
+
+## D-036 — AGENTS.md i canon-rp-precision zatwierdzone do instalacji
+Zatwierdzone 28.09.2026:
+
+- przyjęto dwuwarstwowy mechanizm kontroli pracy Codexa: repozytoryjny `AGENTS.md` + skill `canon-rp-precision`,
+- `AGENTS.md` zawiera stałe zasady projektu, standard jakości, zakaz zgadywania, zakaz samowolnego rozszerzania zakresu oraz wymóg rozdzielania etapów pracy,
+- skill `canon-rp-precision` definiuje obowiązkowy workflow implementacyjny: zakres → źródło runtime → implementacja → faktyczny lokalny podgląd → testy → raport → punkt zatrzymania → osobna zgoda na commit/push/publish,
+- definicja „wykonane” wymaga rzeczywistej weryfikacji właściwego etapu, a test automatyczny nie zastępuje odbioru wizualnego,
+- obie wersje są zatwierdzone do instalacji w lokalnym projekcie aplikacji Codexa,
+- po instalacji należy przeprowadzić mały test kontrolny; dopiero pozytywny wynik otwiera ponowną pracę nad niedomkniętą mikrokorektą L1-02.
+
+Zasada: **najpierw instalacja i test procesu, potem powrót do produkcji aplikacji.**
