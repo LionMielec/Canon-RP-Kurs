@@ -459,3 +459,15 @@ Zatwierdzone 28.09.2026:
 - do tego momentu nie wykonujemy finalnego commit/push/publish L1-03.
 
 Zasada: **warstwa tekstowa i UX L1-03 są zamknięte lokalnie; kolejnym etapem jest produkcja i odbiór sześciu materiałów wizualnych.**
+
+
+## D-043 — Bez dalszych grafik generatywnych dla materiałów dydaktycznych L1-03
+Zatwierdzone 28.09.2026:
+
+- nie generujemy dalej w ChatGPT obrazów mających udawać rzeczywiste zmiany położenia aparatu, tła lub perspektywy dla L1-03,
+- materiały dydaktyczne L1-03, które mają pokazywać zależności przestrzenne, mają bazować na rzeczywistych zdjęciach wykonanych w kontrolowanej scenie,
+- ChatGPT może przygotować dokładny plan ujęć, kolejność, wymagania porównawcze i wskazania redakcyjne, ale nie ma generować finalnych obrazów zastępujących realne fotografie,
+- rzeczywiste zdjęcie sprzętu pozostaje obowiązkowe wszędzie tam, gdzie lekcja pokazuje konkretny aparat lub obiektyw Ani,
+- proste oznaczenia UI na realnym zdjęciu są dopuszczalne, jeśli nie zmieniają treści fotografii i służą wyłącznie wskazaniu elementu.
+
+Zasada: **dla tematów zależnych od rzeczywistej geometrii i położenia aparatu używamy realnych zdjęć, nie generowanych substytutów.**
