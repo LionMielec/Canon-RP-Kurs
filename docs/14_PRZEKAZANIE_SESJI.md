@@ -137,3 +137,20 @@ Skill ma wymuszać:
 
 ### Nadrzędna zasada jakości
 Canon RP kurs jest profesjonalnym produktem, którego pierwszą użytkowniczką jest Ania. Prywatny obecny zakres nie uzasadnia rozwiązań „byle działało”.
+
+
+## AKTUALIZACJA 28.09.2026 — instalacja skilla
+Wersje `AGENTS.md` i `canon-rp-precision` zostały zatwierdzone do instalacji.
+
+Źródła:
+- `docs/21_AGENTS_MD_DRAFT.md`
+- `docs/22_CANON_RP_PRECISION_SKILL_DRAFT.md`
+
+Codex ma:
+1. zsynchronizować dokumentację z `main`,
+2. utworzyć w rzeczywistym katalogu aplikacji root `AGENTS.md` z treścią dokumentu 21 (bez nagłówka statusowego dokumentacji),
+3. utworzyć `.agents/skills/canon-rp-precision/SKILL.md` z treścią właściwego skilla z dokumentu 22,
+4. nie zmieniać jeszcze aplikacji,
+5. potwierdzić ścieżki i treść instalacji,
+6. wykonać test kontrolny protokołu bez commit/push/publish,
+7. dopiero po pozytywnym odbiorze testu wrócić do mikrokorekty L1-02.
