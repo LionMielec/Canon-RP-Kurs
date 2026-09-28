@@ -197,3 +197,9 @@ Po akceptacji kierunku lekcji przygotowano:
 - kontekst dla późniejszego nauczyciela AI i ograniczenia dydaktyczne.
 
 Nie przekazano jeszcze implementacji do Codexa. Następny etap po powrocie właściciela do komputera: krótki finalny review treści i przekazanie zatwierdzonego pakietu Codexowi.
+
+
+## L1-03 zatwierdzona do implementacji — 28.09.2026
+Właściciel projektu zaakceptował finalny przebieg i treść L1-03. Pakiet jest gotowy do przekazania Codexowi.
+
+Implementacja ma używać `$canon-rp-precision`, zachować zatwierdzony wzorzec L1-01/L1-02, wykorzystać wyłącznie zatwierdzone materiały oraz zatrzymać się na lokalnym podglądzie przed commit/push/publish.
