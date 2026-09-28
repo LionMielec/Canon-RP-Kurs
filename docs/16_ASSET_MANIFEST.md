@@ -32,5 +32,15 @@ Ten plik jest rejestrem materiałów wizualnych przypisanych do konkretnych lekc
 | L1-02-V04 | Lupa + główne pokrętło + tylny wybierak | grafika 3-etapowa | tył: `57652b89-ae48-4cd1-b998-e883aee8aa1f.jpg`; góra: `fbe2fd62-e8ab-465b-b340-b6d0b4458622.jpg` | `assets/lessons/l1-02/l1-02-v04-magnify-controls.jpg` | `SOURCE_SELECTED` + `TO_DESIGN` |
 | L1-02-V05 | Karta przypominająca wzorzec przy ćwiczeniu | karta UI | wycinki z V01/V02 | `assets/lessons/l1-02/l1-02-v05-sharpness-reference-card.*` | zależny od V01/V02 |
 
+## L1-03 — Układam zdjęcie bez zmiany ustawień
+
+| ID | Zastosowanie | Typ | Źródło / brak | Docelowa ścieżka | Status |
+|---|---|---|---|---|---|
+| L1-03-V01 | Ten sam przedmiot, prostsze tło po zmianie pozycji | para zdjęć | do przygotowania | `assets/lessons/l1-03/l1-03-v01-background-position.*` | `TO_CAPTURE` + `TO_PREPARE` |
+| L1-03-V02 | Kontrola brzegów kadru | plansza | do przygotowania na gotowym zdjęciu | `assets/lessons/l1-03/l1-03-v02-frame-edges.*` | `TO_DESIGN` |
+| L1-03-V03 | Poziomo / pionowo | para zdjęć | do przygotowania | `assets/lessons/l1-03/l1-03-v03-horizontal-vertical.*` | `TO_CAPTURE` + `TO_PREPARE` |
+| L1-03-V04 | Zmiana wysokości aparatu | 3 zdjęcia | do przygotowania | `assets/lessons/l1-03/l1-03-v04-camera-height.*` | `TO_CAPTURE` + `TO_PREPARE` |
+| L1-03-V05 | RF 50 mm — stała ogniskowa, brak zoomu | zdjęcie obiektywu + grafika | rzeczywisty obiektyw Ani / źródło do wskazania | `assets/lessons/l1-03/l1-03-v05-fixed-50mm.*` | `SOURCE_REQUIRED` + `TO_DESIGN` |
+
 ## Następny wpis
 Kolejne assety dopisywać przy opracowywaniu następnej lekcji. Nie tworzyć osobnego, równoległego rejestru.
