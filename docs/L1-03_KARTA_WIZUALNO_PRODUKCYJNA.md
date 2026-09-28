@@ -216,3 +216,10 @@ Dlatego:
 - ChatGPT przygotowuje shot list i kryteria porównawcze,
 - Codex nie generuje ani nie wybiera zamienników,
 - ewentualne oznaczenia nakładane są na realne zdjęcia i nie zmieniają geometrii sceny.
+
+
+## Odpowiedzialność za wykonanie materiałów
+- Materiały V01–V05 przygotowuje producent materiałów kursu / właściciel projektu / fotograf, nie Ania.
+- Ania nie wykonuje zdjęć demonstracyjnych dla tematów, których dopiero ma się nauczyć.
+- Jej własne zdjęcia pojawiają się dopiero w części ćwiczeniowej po pokazaniu gotowych przykładów.
+- Przy wyborze zewnętrznych materiałów należy zachować dokumentację licencji i możliwość późniejszego użycia komercyjnego.
