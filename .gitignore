@@ -6,7 +6,7 @@
 *.key
 secrets/
 node_modules/
-dist/
+/dist/
 coverage/
 *.log
 
@@ -15,3 +15,6 @@ materials/**/*
 !materials/**/
 !materials/**/*.md
 !materials/**/.gitkeep
+artifacts/
+.sites-runtime/
+*.tar.gz
