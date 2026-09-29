@@ -1,0 +1,12 @@
+{
+ "id":"./",
+ "name":"Canon RP — Kurs",
+ "short_name":"Canon RP",
+ "lang":"pl",
+ "start_url":"./",
+ "scope":"./",
+ "display":"standalone",
+ "background_color":"#f8f3fc",
+ "theme_color":"#f8f3fc",
+ "icons":[{"src":"./icons/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any"},{"src":"./icons/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any"}]
+}
