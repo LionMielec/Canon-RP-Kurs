@@ -1,23 +1,64 @@
-# Zasady pracy — Canon-RP-Kurs
+# AGENTS.md — Canon RP kurs
 
-Przed pracą przeczytaj `docs/00_START_HERE.md`, `docs/09_DECISIONS.md` i `docs/10_TODO.md`.
+## Cel projektu
+Canon RP kurs jest profesjonalnym kursem nauki fotografii i obsługi Canon EOS RP.
+Pierwszą użytkowniczką jest Ania, ale projekt od początku ma standard produktu, który może później zostać rozwinięty i skomercjalizowany.
 
-Użytkownik podejmuje decyzje końcowe. ChatGPT jest architektem, audytorem i drugą parą oczu. Codex implementuje zaakceptowane rozwiązania. Projekt jest niezależny od LuxeTerminal; nie modyfikuj innych projektów.
+## Role (D-047)
+- Paweł (właściciel projektu) podejmuje decyzje końcowe.
+- Claude w czacie (projekt claude.ai) jest architektem i audytorem: redaguje treść, przygotowuje decyzje i polecenia.
+- Agent kodujący implementuje wyłącznie zatwierdzone rozwiązania.
+- Projekt jest niezależny od innych projektów właściciela. Nie modyfikuj innych projektów.
 
-Rozwiązuj zaakceptowany problem najmniejszą trwałą zmianą. Pracuj samodzielnie w zatwierdzonym zakresie, grupując odczyty, diagnostykę i weryfikację. Nie wdrażaj opcjonalnych usprawnień ani systemów na przyszłość.
+## Struktura repozytorium
+- `docs/` — dokumentacja, źródło prawdy. Aktualny stan: koniec `docs/14_PRZEKAZANIE_SESJI.md` i najnowsze wpisy w `docs/09_DECISIONS.md`.
+- `app/dist/` — kanoniczne źródło aplikacji (statyczny HTML/CSS/JS, bez procesu build).
+- `materials/` — lokalne materiały źródłowe; pliki zdjęć są poza Git.
+- Dawny folder aplikacji w katalogu Codexa jest zamrożonym archiwum. Nie edytuj go.
 
-Przed rozszerzeniem zakresu, zmianą architektury lub znaczącym wzrostem złożoności zatrzymaj się i zgłoś **BLOCKER / SCOPE EXPANSION**: przyczynę, wpływ, najmniejszy wariant oraz alternatywy. Jeśli mała poprawka wymaga przebudowy, powiedz: „To przestało być małą poprawką”.
-
-Zatrzymaj się przed niezatwierdzonym: usuwaniem/resetowaniem danych, commit/push/reset/checkout/rebase, zmianą branchy, produkcyjnej infrastruktury lub harmonogramu, restartem infrastruktury, zmianą zewnętrznego systemu, operacją z rzeczywistym skutkiem zewnętrznym albo ujawnieniem/zmianą sekretów. Nie pytaj ponownie o działanie już wyraźnie zatwierdzone w bieżącej sesji.
-
-Przed implementacją wykonaj potrzebną analizę całości. Zwracaj jeden skonsolidowany przegląd istotnych problemów; pomijaj kosmetykę. Po etapie przeprowadź adekwatną weryfikację i self-review, sprawdź zakres oraz zwróć końcowy raport. Nie przechodź automatycznie do kolejnego etapu wymagającego zgody.
+## Nadrzędne zasady pracy
+1. Dokumentacja projektu jest źródłem prawdy. Przed zmianą przeczytaj dokumenty wskazane w aktualnym handoffie i statusie.
+2. Nie zgaduj. Jeżeli czegoś nie wiesz, brakuje źródła, instrukcje są sprzeczne albo zakres jest niejasny — zatrzymaj się i zgłoś problem.
+3. Nie rozszerzaj zakresu zadania bez zgody.
+4. Nie zmieniaj zaakceptowanych elementów poza zakresem zadania.
+5. Nie stosuj rozwiązań „byle działało”, jednorazowych hacków ani prowizorek.
+6. Kod, UX, treść, assety i struktura danych mają być utrzymywalne, powtarzalne i skalowalne.
+7. Agent kodujący jest wykonawcą technicznym. Nie wymyśla samodzielnie finalnej treści edukacyjnej ani nie zmienia kolejności dydaktycznej bez zatwierdzenia.
+8. Rzeczywisty Canon EOS RP Ani, zatwierdzone materiały projektu i oficjalne materiały Canon są źródłami prawdy dla obsługi aparatu.
+9. Identyfikatory produkcyjne typu L1-xx, Sxx, Vxx nigdy nie mogą trafić do widocznej warstwy użytkowej.
+10. Każdy element aparatu użyty w instrukcji dla Ani musi być pokazany na zweryfikowanym materiale i wyjaśniony prostym językiem.
+11. Rozwiązuj zaakceptowany problem najmniejszą trwałą zmianą. Przed rozszerzeniem zakresu, zmianą architektury lub znaczącym wzrostem złożoności zatrzymaj się i zgłoś BLOCKER / SCOPE EXPANSION: przyczynę, wpływ, najmniejszy wariant oraz alternatywy.
 
 ## Reguły treści
-
-- Kurs jest prywatny, dla Ani i jej Canon EOS RP. Używaj prostego polskiego języka na wszystkich poziomach.
-- Oddzielaj ustalenia użytkownika, propozycje i niezweryfikowane dane.
+- Używaj prostego polskiego języka na wszystkich poziomach.
+- Oddzielaj ustalenia właściciela, propozycje i niezweryfikowane dane.
 - Nie wymyślaj polskich nazw menu, obiektywu, firmware ani parametrów zdjęcia.
 - Tekst i ikony menu pochodzą z rzeczywistych ekranów, nie z generatorów.
 - Nie publikuj zdjęć, ciężkich materiałów ani cudzych treści bez sprawdzenia zakresu i warunków użycia.
-- Klucze API pozostają poza kodem klienta i repo. Nie uruchamiaj płatnych usług w etapie dokumentacji.
+- Klucze API pozostają poza kodem klienta i repo.
 - Zmiany decyzji zapisuj z datą w `docs/09_DECISIONS.md`.
+
+## Obowiązkowy protokół implementacji
+Dla każdego zadania implementacyjnego użyj skilla `canon-rp-precision`. Nie pomijaj żadnego etapu tego workflow.
+
+## Rozdzielenie stanów
+Zawsze odróżniaj:
+- zmianę dokumentacji,
+- zmianę kodu / danych aplikacji,
+- uruchomienie lokalnego podglądu,
+- test techniczny,
+- weryfikację faktycznie renderowanego UI,
+- akceptację właściciela,
+- commit,
+- push,
+- publikację.
+
+Nie nazywaj zadania „wykonanym”, jeśli właściwy etap nie został rzeczywiście zweryfikowany.
+
+## Punkty zatrzymania
+Zatrzymaj się przed niezatwierdzonym: usuwaniem lub resetowaniem danych, commit, push, reset, checkout, zmianą gałęzi, rebase, publikacją, zmianą zewnętrznego systemu albo ujawnieniem lub zmianą sekretów.
+Jeżeli nie ma jednoznacznej zgody, zatrzymaj się i raportuj stan. Nie pytaj ponownie o działanie już wyraźnie zatwierdzone w bieżącym zadaniu.
+
+## Standard jakości
+Mały zakres funkcji jest dopuszczalny. Niski standard wykonania — nie.
+Projekt ma być tworzony profesjonalnie od początku.
