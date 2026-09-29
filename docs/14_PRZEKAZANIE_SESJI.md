@@ -270,3 +270,26 @@ Wybrany sposób ma:
 
 ### Po rozwiązaniu problemu
 pozyskanie assetów → osadzenie w L1-03 → lokalny odbiór → commit/push/publish → test na iPhonie.
+
+## HANDOFF 29.09.2026 — przejście na Claude i jedno repozytorium (D-047)
+
+### Co zostało wykonane
+- Codex i ChatGPT zakończyły udział w projekcie. Paweł podejmuje decyzje końcowe, Claude w czacie jest architektem i audytorem, Claude Code implementuje.
+- Kod aplikacji przeniesiono z historią zmian do `app/` (import commita `3368372`). Zgodność potwierdzono identycznym drzewem Git i sumami SHA-256 wszystkich plików.
+- Niezapisaną pracę (mikrokorekta L1-02 i lokalna implementacja L1-03) zapisano na gałęzi `wip/l1-02-l1-03` (commit `7b4cabc`). Gałąź `main` zawiera ostatni zatwierdzony stan aplikacji.
+- Kopie zapasowe obu dawnych folderów są na komputerze właściciela w `~/Backups/canon-rp-2026-09-29/`.
+- Dawny folder aplikacji w katalogu Codexa jest zamrożonym archiwum.
+- Zainstalowano `AGENTS.md`, `CLAUDE.md` i skill `canon-rp-precision` dla Claude Code. Test w nowej sesji zaliczony.
+- Zapisano zasadę źródeł treści D-048.
+- Repozytorium jest tymczasowo publiczne.
+
+### Co jest otwarte
+1. Materiały demonstracyjne L1-03: V01, V02, V03, V04A, V04B, V05. Obowiązują ograniczenia z D-043–D-046. To główna blokada postępu kursu.
+2. Mikrokorekta L1-02 na gałęzi WIP: rozdzielić od L1-03. Zmienia też wygląd L1-01, więc wymaga odbioru obu lekcji przez właściciela.
+3. W danych L1-03 na gałęzi WIP pola statusu zawierają zbędne znaki — do poprawy przy osadzaniu materiałów.
+4. Hosting i sposób publikacji — decyzja przed najbliższą publikacją. Obecna wersja na ChatGPT Sites działa bez zmian; nie ustalono, jak publikować bez narzędzi OpenAI.
+5. Testy Playwright i `app/README.md` zawierają ścieżki z dawnego folderu Codexa — do uporządkowania przy najbliższej pracy nad testami.
+6. Przy pierwszej nowej lekcji sprawdzić w praktyce standard pracy ze źródłami z D-048.
+
+### Pierwszy cel następnej sesji
+Wypracować sposób pozyskania materiałów L1-03 (punkt 1).

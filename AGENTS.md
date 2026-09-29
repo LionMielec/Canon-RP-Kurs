@@ -14,6 +14,7 @@ Pierwszą użytkowniczką jest Ania, ale projekt od początku ma standard produk
 - `docs/` — dokumentacja, źródło prawdy. Aktualny stan: koniec `docs/14_PRZEKAZANIE_SESJI.md` i najnowsze wpisy w `docs/09_DECISIONS.md`.
 - `app/dist/` — kanoniczne źródło aplikacji (statyczny HTML/CSS/JS, bez procesu build).
 - `materials/` — lokalne materiały źródłowe; pliki zdjęć są poza Git.
+- `materials/canon-official/` — oficjalne instrukcje Canon EOS RP w PDF (polska i angielska); tylko lokalnie, poza Git.
 - Dawny folder aplikacji w katalogu Codexa jest zamrożonym archiwum. Nie edytuj go.
 
 ## Nadrzędne zasady pracy
@@ -32,6 +33,7 @@ Pierwszą użytkowniczką jest Ania, ale projekt od początku ma standard produk
 ## Reguły treści
 - Używaj prostego polskiego języka na wszystkich poziomach.
 - Oddzielaj ustalenia właściciela, propozycje i niezweryfikowane dane.
+- Źródła, numery stron i adresy nigdy nie trafiają do warstwy widocznej dla Ani (D-048).
 - Nie wymyślaj polskich nazw menu, obiektywu, firmware ani parametrów zdjęcia.
 - Tekst i ikony menu pochodzą z rzeczywistych ekranów, nie z generatorów.
 - Nie publikuj zdjęć, ciężkich materiałów ani cudzych treści bez sprawdzenia zakresu i warunków użycia.

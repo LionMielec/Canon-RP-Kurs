@@ -1,6 +1,9 @@
 # Canon RP kurs — STATUS
 
-Stan na: 2026-09-27
+Stan na: 2026-09-29
+
+## Aktualny stan — 29.09.2026
+Projekt przeszedł na nowy układ pracy i jedno repozytorium (D-047). Szczegóły i otwarte zadania: koniec `docs/14_PRZEKAZANIE_SESJI.md`. Sekcje poniżej opisują historię projektu. Tam, gdzie wymieniają ChatGPT lub Codexa jako role, obowiązuje D-047.
 
 ## Etap projektu
 Dwie pierwsze zatwierdzone lekcje zostały wdrożone, opublikowane i sprawdzone na iPhonie 15 Pro Max. Projekt jest na etapie domknięcia jednej rundy drobnych korekt wzorca implementacyjnego przed rozpoczęciem kolejnych lekcji.

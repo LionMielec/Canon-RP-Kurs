@@ -163,3 +163,15 @@ Priorytety D-19 i D-20 pozostają aktualne; sesja zdjęciowa nie stanowi zgody n
 - [ ] Po pozyskaniu materiałów: osadzenie w L1-03 → lokalny odbiór → commit → push → publikacja → test na iPhonie.
 
 **Blokada:** L1-03 nie idzie do finalnej publikacji bez gotowych materiałów demonstracyjnych.
+
+## PRIORYTETY PO 29.09.2026 (D-047)
+Wcześniejsze sekcje są historyczne; role według D-047.
+
+- [x] Przenieść kod aplikacji do `app/` z historią zmian.
+- [x] Zainstalować i sprawdzić instrukcje dla Claude Code.
+- [ ] Wypracować sposób pozyskania materiałów L1-03: V01, V02, V03, V04A, V04B, V05.
+- [ ] Rozdzielić mikrokorektę L1-02 od L1-03 na gałęzi `wip/l1-02-l1-03`; odbiór L1-01 i L1-02 przez właściciela.
+- [ ] Poprawić zbędne znaki w polach statusu L1-03.
+- [ ] Zdecydować o hostingu i sposobie publikacji.
+- [ ] Uporządkować ścieżki z dawnego folderu Codexa w testach i `app/README.md`.
+- [ ] Przy pierwszej nowej lekcji sprawdzić w praktyce standard pracy ze źródłami z D-048.

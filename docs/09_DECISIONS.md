@@ -522,3 +522,17 @@ Zatwierdzone 29.09.2026:
 - Repozytorium jest tymczasowo publiczne, aby ułatwić współpracę z Claude w czacie.
 
 Zasada: **jedno repozytorium, jeden wykonawca, decyzje właściciela.**
+
+## D-048 — Źródła treści lekcji i ćwiczeń
+Zatwierdzone 29.09.2026 (uzupełnia D-031):
+
+- Obsługa aparatu: oficjalna instrukcja Canon EOS RP w wersji polskiej i angielskiej. Wersja angielska jest nowsza.
+- Jeśli wersje polska i angielska różnią się w opisie funkcji lub działania, rozstrzyga sprawdzenie na aparacie Ani. Do tego czasu informacja jest oznaczona jako niezweryfikowana i nie trafia do lekcji.
+- Polskie nazwy menu i przycisków pochodzą z polskiej instrukcji i z rzeczywistych ekranów aparatu Ani, nigdy z własnego tłumaczenia wersji angielskiej.
+- Wiedza fotograficzna, lekcje i ćwiczenia opierają się na oficjalnych i sprawdzonych źródłach, przede wszystkim internetowych: materiałach edukacyjnych Canon oraz uznanych wydawcach i instytucjach fotograficznych. Każde źródło musi być autentyczne i sprawdzalne (adres strony, wydawca).
+- Każda merytoryczna informacja w lekcji ma wskazane źródło w karcie lekcji. Informacja bez źródła nie trafia do lekcji.
+- Nic nie jest wymyślane ani uzupełniane z pamięci. Brak źródła oznacza zatrzymanie i zgłoszenie problemu.
+- Standard pracy ze źródłami: przy każdej lekcji Claude Code czyta instrukcje Canon lokalnie i przekazuje dokładne fragmenty z numerami stron (PL i EN). Wyciągi PDF przygotowujemy tylko wtedy, gdy potrzebny jest obraz. Instrukcje i wyciągi nie trafiają do Git.
+- Źródła, numery stron i adresy stron są wyłącznie w dokumentacji produkcyjnej (karta lekcji). Nigdy nie trafiają do warstwy widocznej dla Ani: bez numerów stron, adresów, przypisów ani przycisków „źródło” w aplikacji.
+
+Zasada: **żadna informacja w kursie bez sprawdzonego, autentycznego źródła.**

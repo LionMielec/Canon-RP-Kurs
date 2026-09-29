@@ -1,4 +1,4 @@
-Status: ZATWIERDZONA WERSJA DO INSTALACJI — 28.09.2026
+Status: HISTORYCZNA — obowiązująca wersja to `.claude/skills/canon-rp-precision/SKILL.md` (D-047, 29.09.2026).
 
 ---
 name: canon-rp-precision

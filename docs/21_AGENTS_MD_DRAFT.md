@@ -1,6 +1,6 @@
 # AGENTS.md — Canon RP kurs
 
-Status: ZATWIERDZONA WERSJA DO INSTALACJI — 28.09.2026
+Status: HISTORYCZNA — obowiązująca wersja to `AGENTS.md` w katalogu głównym (D-047, 29.09.2026).
 
 ## Cel projektu
 Canon RP kurs jest profesjonalnym kursem nauki fotografii i obsługi Canon EOS RP.
