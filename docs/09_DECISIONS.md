@@ -508,3 +508,17 @@ Zatwierdzone 28.09.2026:
 - następna sesja ma rozpocząć się od rozwiązania tego problemu produkcyjnego, a nie od ponownego redagowania lekcji ani zmian w Codexie.
 
 Zasada: **najpierw ustalamy realistyczny, profesjonalny sposób pozyskania materiałów L1-03; dopiero potem wracamy do implementacji i publikacji.**
+
+
+## D-047 — Przejście na Claude i jedno repozytorium
+Zatwierdzone 29.09.2026:
+
+- Paweł podejmuje decyzje końcowe. Claude w czacie (projekt claude.ai) jest architektem i audytorem. Claude Code implementuje zatwierdzone rozwiązania. Codex i ChatGPT nie uczestniczą dalej w projekcie.
+- Kod aplikacji został przeniesiony z historią zmian do `app/` w repozytorium Canon-RP-Kurs. Repozytorium jest jedynym źródłem prawdy dla dokumentacji i kodu.
+- Dotychczasowy folder aplikacji w katalogu Codexa jest zamrożonym archiwum: nie jest edytowany ani usuwany. Zakaz tworzenia kopii kodu z dokumentu 13 zostaje zastąpiony tą decyzją.
+- Niezapisana praca nad mikrokorektą L1-02 i implementacją L1-03 jest przechowywana na gałęzi `wip/l1-02-l1-03`. Gałąź `main` zawiera ostatni zatwierdzony stan aplikacji.
+- Publikacja jest wstrzymana do czasu decyzji o hostingu. Dotychczasowa wersja na ChatGPT Sites pozostaje bez zmian.
+- Wyniki testów Codexa w `artifacts/` pozostają lokalnie i są wyłączone z Git.
+- Repozytorium jest tymczasowo publiczne, aby ułatwić współpracę z Claude w czacie.
+
+Zasada: **jedno repozytorium, jeden wykonawca, decyzje właściciela.**

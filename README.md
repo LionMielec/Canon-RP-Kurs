@@ -12,7 +12,7 @@ Zacznij od [przewodnika po projekcie](docs/00_START_HERE.md). Przyjęte ustaleni
 
 - `docs/` — wizja, kurs, nauczanie, menu, AI, materiały, wymagania, decyzje i zadania.
 - `materials/` — katalog materiałów; pliki źródłowe są domyślnie wyłączone z Git.
-- `app/` — miejsce na przyszłą aplikację; obecnie tylko pusty znacznik katalogu.
+- `app/` — kod aplikacji (statyczny HTML/CSS/JS w `app/dist/`), przeniesiony z historią zmian 29.09.2026 — D-047.
 
 Dokumenty powstały na podstawie rozmowy „Planowanie kursu Canon RP” z 17.09.2026 oraz polecenia rozpoczęcia dokumentacji i repo. Wcześniejsze przykłady nie stanowią potwierdzonej specyfikacji aparatu Ani ani finalnego programu lekcji.
 
