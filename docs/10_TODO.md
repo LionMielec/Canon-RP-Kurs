@@ -175,3 +175,5 @@ Wcześniejsze sekcje są historyczne; role według D-047.
 - [ ] Zdecydować o hostingu i sposobie publikacji.
 - [ ] Uporządkować ścieżki z dawnego folderu Codexa w testach i `app/README.md`.
 - [ ] Przy pierwszej nowej lekcji sprawdzić w praktyce standard pracy ze źródłami z D-048.
+- [ ] Przy pierwszej lekcji ustalić wersję firmware aparatu Ani (ścieżkę w menu wskaże instrukcja Canon).
+- [ ] Przy pierwszej animacji ustalić techniczne połączenie Claude Code z Higgsfield oraz koszt.

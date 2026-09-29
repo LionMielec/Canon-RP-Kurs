@@ -536,3 +536,29 @@ Zatwierdzone 29.09.2026 (uzupełnia D-031):
 - Źródła, numery stron i adresy stron są wyłącznie w dokumentacji produkcyjnej (karta lekcji). Nigdy nie trafiają do warstwy widocznej dla Ani: bez numerów stron, adresów, przypisów ani przycisków „źródło” w aplikacji.
 
 Zasada: **żadna informacja w kursie bez sprawdzonego, autentycznego źródła.**
+
+## D-049 — Proces redakcji lekcji w układzie D-047
+Zatwierdzone 29.09.2026. Uzupełnia dokumenty 03, 04 i 15 oraz D-048; zmienia D-009 w zakresie produkcji animacji.
+
+Proces jednej lekcji:
+1. Zakres — Claude w czacie proponuje cel lekcji, zakres i tematy celowo pominięte, na podstawie programu Poziomu 1. Właściciel zatwierdza (brama 1).
+2. Źródła — Claude Code czyta instrukcje Canon PL i EN i przekazuje fragmenty z numerami stron. Claude w czacie wyszukuje oficjalne i sprawdzone źródła internetowe do części fotograficznej. Powstaje tabela źródeł (D-048).
+3. Szkic — Claude w czacie pisze lekcję według wzorca L1-01/L1-02 oraz dokumentów 03, 04 i 15. Równolegle powstaje karta produkcyjna z tabelą źródeł, listą materiałów i polem „Kontekst AI”.
+4. Autokontrola — przed pokazaniem właścicielowi lekcja przechodzi listę kontrolną z dokumentu 03: każde twierdzenie ma źródło, każdy użyty element aparatu jest pokazany.
+5. Przegląd treści — właściciel zatwierdza lub poprawia (brama 2).
+6. Sprawdzenie na aparacie — tylko gdy brakuje zdjęcia potrzebnego ekranu menu, gdy instrukcje PL i EN różnią się albo gdy trzeba ustalić wersję firmware. Claude w czacie krótko wskazuje, jakie zdjęcie lub sprawdzenie jest potrzebne; wykonuje je właściciel. Ania nie uczestniczy.
+7. Wersja finalna — właściciel zatwierdza (brama 3). Claude Code zapisuje lekcję do dokumentacji; dalej materiały i wdrożenie według dokumentu 15.
+
+Animacje:
+- Claude w czacie wskazuje miejsca, w których animacja realnie pomaga, i przygotowuje storyboard oparty na rzeczywistych zdjęciach aparatu Ani. Właściciel zatwierdza storyboard.
+- Claude Code produkuje animację w Higgsfield albo innym zaakceptowanym narzędziu, dokładnie według zatwierdzonego storyboardu. Właściciel zatwierdza gotową animację przed osadzeniem w lekcji.
+- Animacja nie zmienia wyglądu aparatu ani nie wymyśla jego elementów. Obowiązują D-008, D-010 i D-038.
+- Każde płatne użycie Higgsfield wymaga zgody właściciela.
+- Zmiana D-009: agent kodujący może produkować animacje, wyłącznie według zatwierdzonego storyboardu i z akceptacją gotowego materiału przez właściciela.
+
+Nauczyciel AI:
+- Każda lekcja ma w karcie wypełnione pole „Kontekst AI”: cel ćwiczenia i najwyżej dwa priorytety oceny (dokumenty 04 i 06).
+
+Tryb pracy: jedna lekcja naraz; kolejna dopiero po zamknięciu poprzedniej.
+
+Zasada: **trzy bramy akceptacji właściciela; nic nie trafia do kursu bez jego zgody.**

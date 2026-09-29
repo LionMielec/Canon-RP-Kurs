@@ -4,6 +4,8 @@ Stan: 2026-09-27
 Status: ZATWIERDZONY  
 Obowiązuje: od L1-01 i dla wszystkich kolejnych lekcji
 
+**Aktualizacja 29.09.2026:** proces redakcji i produkcji w układzie D-047 opisują sekcja 13 i D-049. Tam, gdzie ten dokument wymienia Codexa, chodzi o agenta kodującego (Claude Code).
+
 ## 1. Cel dokumentu
 Każda lekcja ma powstawać od razu jako kompletny pakiet edukacyjno-produkcyjny. Format ma pozwolić Codexowi później złożyć lekcję bez zgadywania, gdzie i po co ma pojawić się zdjęcie, grafika, ekran lub animacja.
 
@@ -90,3 +92,6 @@ W praktyce oznacza to:
 - możliwość dokładania kolejnych lekcji i poziomów bez obniżania jakości i bez przebudowy fundamentów.
 
 Obecny zakres może pozostać niewielki. **Nie upraszczamy jakości tylko dlatego, że pierwszą użytkowniczką jest Ania.**
+
+## 13. Proces redakcji — od 29.09.2026
+Obowiązuje proces z D-049: zakres (brama 1) → źródła → szkic z kartą produkcyjną → autokontrola → przegląd treści (brama 2) → sprawdzenie na aparacie tylko w razie potrzeby → wersja finalna (brama 3) → materiały → wdrożenie. Sekcja 9 opisuje wcześniejszy przebieg z Codexem.

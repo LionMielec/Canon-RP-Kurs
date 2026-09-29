@@ -293,3 +293,6 @@ pozyskanie assetów → osadzenie w L1-03 → lokalny odbiór → commit/push/pu
 
 ### Pierwszy cel następnej sesji
 Wypracować sposób pozyskania materiałów L1-03 (punkt 1).
+
+### Uzupełnienie 29.09.2026
+- Zapisano proces redakcji lekcji D-049: trzy bramy akceptacji właściciela, sprawdzenie na aparacie tylko w razie potrzeby, animacje produkowane przez Claude Code w Higgsfield według zatwierdzonego storyboardu, pole „Kontekst AI” w każdej lekcji.
