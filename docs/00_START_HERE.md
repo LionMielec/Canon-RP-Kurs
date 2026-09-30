@@ -12,6 +12,8 @@
 
 Zasady pracy agenta kodującego: `AGENTS.md`, `CLAUDE.md` i skill `.claude/skills/canon-rp-precision/SKILL.md`.
 
+Zasady pracy Claude w czacie: [23 — zasady Claude w czacie](23_ZASADY_CLAUDE_W_CZACIE.md).
+
 ## Stan lekcji
 - L1-01 i L1-02 — zatwierdzone, opublikowane, wzorzec redakcyjny i UX. Nieopublikowana mikrokorekta L1-02 (zmienia też wygląd L1-01) czeka na gałęzi `wip/l1-02-l1-03` na rozdzielenie i odbiór właściciela.
 - L1-03 — treść i przebieg zaakceptowane lokalnie (gałąź `wip/l1-02-l1-03`); brakuje sześciu materiałów demonstracyjnych: V01, V02, V03, V04A, V04B, V05.
@@ -20,7 +22,7 @@ Zasady pracy agenta kodującego: `AGENTS.md`, `CLAUDE.md` i skill `.claude/skill
 ## Zasady, których nie otwieramy ponownie
 - obecna ikona, kolorystyka i kierunek wizualny zostają,
 - agent kodujący implementuje zatwierdzoną treść; nie wymyśla własnej,
-- brakujących materiałów nie zastępujemy domysłem ani generowanymi substytutami realnych scen,
+- brakujących materiałów nie zastępujemy domysłem; generowane sceny tylko na warunkach D-050, nigdy sprzęt Ani ani ekrany menu,
 - Ania nie produkuje materiałów, na których dopiero ma się uczyć,
 - źródłowe zdjęcia aparatu i menu są lokalnie w `materials/camera-source-pack-2026-09-24/`,
 - każda informacja w kursie ma sprawdzone, autentyczne źródło, niewidoczne dla Ani (D-048),

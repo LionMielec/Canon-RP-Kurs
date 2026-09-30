@@ -562,3 +562,19 @@ Nauczyciel AI:
 Tryb pracy: jedna lekcja naraz; kolejna dopiero po zamknięciu poprzedniej.
 
 Zasada: **trzy bramy akceptacji właściciela; nic nie trafia do kursu bez jego zgody.**
+
+## D-050 — Zasady pracy Claude w czacie; warunkowe dopuszczenie generowanych scen
+Zatwierdzone 30.09.2026. Uzupełnia D-047; zmienia D-043 i D-046 w zakresie generowanych obrazów.
+
+- Zasady pracy Claude w czacie są zapisane w `docs/23_ZASADY_CLAUDE_W_CZACIE.md` i obowiązują w każdej sesji.
+- Generowane obrazy są dopuszczalne jako materiał demonstracyjny scen, jeśli spełniają wszystkie warunki:
+  - pokazują scenę, a nie sprzęt Ani ani ekrany menu,
+  - w serii porównawczej zmienia się tylko jedna zmienna,
+  - zgodność z rzeczywistością jest sprawdzona na realnym zdjęciu referencyjnym lub według oficjalnego źródła,
+  - narzędzie pozwala na użycie komercyjne, a pochodzenie materiału jest zapisane w karcie lekcji,
+  - płatne generowanie wymaga zgody właściciela,
+  - gotowy obraz zatwierdza właściciel przed osadzeniem.
+- Sprzęt Ani i ekrany menu pozostają wyłącznie rzeczywiste. D-008, D-010, D-038 i D-044 obowiązują bez zmian.
+- Decyzja nie wybiera sposobu produkcji materiałów L1-03; ten wybór pozostaje otwarty.
+
+Zasada: **generowana scena tylko wtedy, gdy wiernie pokazuje rzeczywistość; sprzęt Ani i menu zawsze prawdziwe.**

@@ -217,6 +217,8 @@ Dlatego:
 - Codex nie generuje ani nie wybiera zamienników,
 - ewentualne oznaczenia nakładane są na realne zdjęcia i nie zmieniają geometrii sceny.
 
+**Aktualizacja 30.09.2026 (D-050):** zasada powyżej została zmieniona. Generowane sceny są dopuszczalne na warunkach D-050; sprzęt Ani i ekrany menu pozostają wyłącznie rzeczywiste. Sposób produkcji V01, V02, V03, V04A i V04B pozostaje do wyboru. V05 pokazuje obiektyw RF 50 mm Ani, więc pozostaje rzeczywistym zdjęciem.
+
 
 ## Odpowiedzialność za wykonanie materiałów
 - Materiały V01–V05 przygotowuje producent materiałów kursu / właściciel projektu / fotograf, nie Ania.
