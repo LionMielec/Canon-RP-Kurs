@@ -249,3 +249,5 @@ Ograniczenia:
 - bez zakładania kosztownej sesji fotograficznej jako jedynej drogi.
 
 W nowym wątku najpierw wybrać praktyczny model produkcji, który spełnia standard jakości projektu i pozostaje rozsądny kosztowo.
+
+**Sposób produkcji wybrany 30.09.2026 (D-051):** V01, V02, V03, V04A i V04B powstają jako rendery jednej sceny 3D w Blenderze 4.5 LTS, zaczynając od ujęcia próbnego V04A. V05: część A to istniejące zdjęcie obiektywu Ani z pakietu źródłowego, bez widocznych numerów seryjnych; część B to prosty schemat.

@@ -578,3 +578,18 @@ Zatwierdzone 30.09.2026. Uzupełnia D-047; zmienia D-043 i D-046 w zakresie gene
 - Decyzja nie wybiera sposobu produkcji materiałów L1-03; ten wybór pozostaje otwarty.
 
 Zasada: **generowana scena tylko wtedy, gdy wiernie pokazuje rzeczywistość; sprzęt Ani i menu zawsze prawdziwe.**
+
+## D-051 — Produkcja materiałów L1-03 metodą renderu 3D
+Zatwierdzone 30.09.2026. Realizuje D-050 dla L1-03; zmienia plan produkcji w karcie L1-03 i manifeście 16.
+
+- **V01, V02, V03, V04A i V04B** powstają jako rendery jednej sceny 3D w Blenderze 4.5 LTS, ostatniej oficjalnej wersji dla Maca z procesorem Intel. Każde ujęcie to zmiana położenia tego samego wirtualnego aparatu; zmienia się dokładnie jedna rzecz.
+- Wirtualny aparat odwzorowuje Canon RP z obiektywem RF 50 mm: ogniskowa 50 mm i wymiary matrycy według oficjalnych danych Canon.
+- Rozmycie tła jest takie samo we wszystkich ujęciach i nie jest efektem pokazywanym w lekcji (karta L1-03).
+- Scena powstaje z własnych prostych elementów. Gotowe modele lub tekstury wolno użyć tylko z licencją pozwalającą na użycie komercyjne, zapisaną w karcie lekcji (D-044).
+- Skrypty budujące scenę są przechowywane w repozytorium, żeby rendery dało się odtworzyć i poprawiać. Jako skrypty korzystające z Blendera mają licencję GNU GPL. Rendery są własnością projektu.
+- **Kolejność:** plan ujęć (akceptacja właściciela) → instalacja Blendera 4.5 LTS z blender.org → jedno ujęcie próbne, para V04A → ocena wiarygodności przez właściciela → pozostałe ujęcia → odbiór każdego materiału przez właściciela.
+- Jeśli ujęcie próbne nie będzie wiarygodne, praca się zatrzymuje i wracamy do decyzji. Nie szukamy zamienników.
+- **V05:** część A to istniejące zdjęcie obiektywu Ani z pakietu źródłowego, bez widocznych numerów seryjnych (wybiera właściciel). Część B to prosty schemat „dalej/bliżej” rysowany jako grafika.
+- Po zatwierdzeniu zostaną zaktualizowane karta L1-03 i manifest 16.
+
+Zasada: **najpierw jedno wiarygodne ujęcie próbne, potem reszta.**
