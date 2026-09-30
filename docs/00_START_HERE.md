@@ -1,6 +1,6 @@
 # Zacznij tutaj
 
-**Stan 29.09.2026:** projekt pracuje w nowym układzie (D-047). Paweł podejmuje decyzje końcowe, Claude w czacie (projekt claude.ai) jest architektem i audytorem, Claude Code implementuje. Dokumentacja i kod aplikacji są w jednym repozytorium; kod w `app/dist/`.
+**Stan 30.09.2026:** projekt pracuje w nowym układzie (D-047). Paweł podejmuje decyzje końcowe, Claude w czacie (projekt claude.ai) jest architektem i audytorem, Claude Code implementuje. Dokumentacja i kod aplikacji są w jednym repozytorium; kod w `app/dist/`.
 
 ## Najpierw przeczytaj
 1. [14 — najnowszy handoff](14_PRZEKAZANIE_SESJI.md) — aktualny stan jest na końcu pliku
@@ -16,7 +16,7 @@ Zasady pracy Claude w czacie: [23 — zasady Claude w czacie](23_ZASADY_CLAUDE_W
 
 ## Stan lekcji
 - L1-01 i L1-02 — zatwierdzone, opublikowane, wzorzec redakcyjny i UX. Nieopublikowana mikrokorekta L1-02 (zmienia też wygląd L1-01) czeka na gałęzi `wip/l1-02-l1-03` na rozdzielenie i odbiór właściciela.
-- L1-03 — treść i przebieg zaakceptowane lokalnie (gałąź `wip/l1-02-l1-03`); brakuje sześciu materiałów demonstracyjnych: V01, V02, V03, V04A, V04B, V05.
+- L1-03 — treść i przebieg zaakceptowane lokalnie (gałąź `wip/l1-02-l1-03`); materiały V01–V04B powstają jako rendery 3D (D-051) — V04A odebrane, pozostałe w toku; V05 do przygotowania.
 - L1-04–L1-14 — program roboczy, analizowany kolejno.
 
 ## Zasady, których nie otwieramy ponownie

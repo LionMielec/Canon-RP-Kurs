@@ -593,3 +593,12 @@ Zatwierdzone 30.09.2026. Realizuje D-050 dla L1-03; zmienia plan produkcji w kar
 - Po zatwierdzeniu zostaną zaktualizowane karta L1-03 i manifest 16.
 
 Zasada: **najpierw jedno wiarygodne ujęcie próbne, potem reszta.**
+
+## D-052 — Dwa tryby pracy z Claude Code
+Zatwierdzone 30.09.2026. Uzupełnia D-047 i `docs/23`.
+
+- Tryb szybki — zmiany wyłącznie w dokumentacji (`docs/`): zgoda na commit i push jest dawana z góry w poleceniu; Claude Code zapisuje zmiany od razu; Claude w czacie audytuje po fakcie w repozytorium; błędy poprawia kolejny commit. Drobne aktualizacje (TODO, status, handoff) zbierane są w jedno zadanie na koniec sesji.
+- Tryb pełny — kod, aplikacja, assety, instalacje, publikacja: punkty zatrzymania, podgląd i odbiór właściciela bez zmian.
+- Claude Code zgłasza pracę wykraczającą poza zakres polecenia przed jej wykonaniem.
+
+Zasada: **ostrożność proporcjonalna do ryzyka.**

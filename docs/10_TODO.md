@@ -169,7 +169,12 @@ Wcześniejsze sekcje są historyczne; role według D-047.
 
 - [x] Przenieść kod aplikacji do `app/` z historią zmian.
 - [x] Zainstalować i sprawdzić instrukcje dla Claude Code.
-- [ ] Wypracować sposób pozyskania materiałów L1-03: V01, V02, V03, V04A, V04B, V05.
+- [x] Wypracować sposób pozyskania materiałów L1-03 — 30.09.2026 (D-051, render 3D).
+- [x] Ujęcie próbne V04A odebrane — 30.09.2026.
+- [ ] Decyzje właściciela: odbicie książki, kadry V01/V03/V04B, przebudowa V02 (handoff 30.09).
+- [ ] Rendery finalne V01, V02, V03, V04B i odbiór.
+- [ ] V05: wybór zdjęcia obiektywu, źródło Canon, schemat.
+- [ ] Osadzenie assetów w L1-03, aktualizacja manifestu 16 i karty L1-03 z tabelą źródeł.
 - [ ] Rozdzielić mikrokorektę L1-02 od L1-03 na gałęzi `wip/l1-02-l1-03`; odbiór L1-01 i L1-02 przez właściciela.
 - [ ] Poprawić zbędne znaki w polach statusu L1-03.
 - [ ] Zdecydować o hostingu i sposobie publikacji.

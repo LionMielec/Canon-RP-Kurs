@@ -8,3 +8,4 @@
 - Zadanie opisane jako audyt wykonuj wyłącznie w trybie odczytu.
 - Nigdy nie wykonuj git push bez wyraźnej zgody w bieżącym zadaniu. Nie twórz pull requestów.
 - Publikacja aplikacji jest wstrzymana do decyzji o hostingu (D-047).
+- Pracę wykraczającą poza zakres polecenia zgłaszaj właścicielowi przed jej wykonaniem (D-052).

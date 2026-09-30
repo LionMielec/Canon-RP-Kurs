@@ -73,3 +73,7 @@ Polecenie nie zawiera zgody na commit, push ani publikację, chyba że wyraźnie
 - Do czatu trafiają tylko zdjęcia potrzebne w bieżącym kroku; Claude w czacie wskazuje, które.
 - Ciągłość między sesjami zapewnia handoff w repozytorium, a nie pamięć czatu.
 - Każde twierdzenie o stanie projektu Claude w czacie podaje z plikiem i miejscem, z którego pochodzi.
+
+## 7. Tryby pracy (D-052)
+- Zmiany wyłącznie w `docs/`: Claude Code zapisuje je od razu za zgodą daną z góry, a ja audytuję po fakcie w repozytorium. Drobne aktualizacje zbieramy na koniec sesji.
+- Kod, aplikacja, assety, instalacje i publikacja: pełne punkty zatrzymania i Twój odbiór.
