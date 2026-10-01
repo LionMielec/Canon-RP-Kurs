@@ -602,3 +602,17 @@ Zatwierdzone 30.09.2026. Uzupełnia D-047 i `docs/23`.
 - Claude Code zgłasza pracę wykraczającą poza zakres polecenia przed jej wykonaniem.
 
 Zasada: **ostrożność proporcjonalna do ryzyka.**
+
+## D-053 — Lekkie kopie materiałów do przeglądu w repozytorium
+Zatwierdzone 01.10.2026. Uzupełnia D-047 i D-052; rozstrzyga punkt 5 handoffu z 30.09.2026.
+
+- Claude w czacie ocenia materiały bezpośrednio w repozytorium. Właściciel nie przekazuje obrazów ręcznie.
+- Do repozytorium trafiają wyłącznie lekkie kopie (JPEG, dłuższy bok najwyżej 2000 px) w folderze `review/`: podglądy i rendery materiałów oraz zdjęcia źródłowe aparatu i menu.
+- Pełne rendery i oryginalne zdjęcia pozostają lokalnie, bez zmian, poza Git. Instrukcje Canon w PDF nigdy nie trafiają do Git.
+- Z kopii usuwa się wyłącznie lokalizację GPS i numery seryjne. Pozostałe dane techniczne zostają.
+- Kopia nie może pokazywać numerów seryjnych ani prywatnych szczegółów domu; takie zdjęcie nie trafia do `review/`.
+- Przy publicznym repozytorium kopie w `review/` są publiczne.
+- Folder `review/` nie jest częścią aplikacji.
+- Odbiór materiału przed osadzeniem w lekcji pozostaje decyzją właściciela (D-049–D-051).
+
+Zasada: **Claude w czacie widzi materiały sam; oryginały zostają u właściciela.**

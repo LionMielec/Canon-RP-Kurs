@@ -15,6 +15,7 @@ Pierwszą użytkowniczką jest Ania, ale projekt od początku ma standard produk
 - `app/dist/` — kanoniczne źródło aplikacji (statyczny HTML/CSS/JS, bez procesu build).
 - `materials/` — lokalne materiały źródłowe; pliki zdjęć są poza Git.
 - `materials/canon-official/` — oficjalne instrukcje Canon EOS RP w PDF (polska i angielska); tylko lokalnie, poza Git.
+- `review/` — lekkie kopie materiałów do przeglądu przez Claude w czacie (D-053); bez GPS i numerów seryjnych; nie jest częścią aplikacji.
 - Dawny folder aplikacji w katalogu Codexa jest zamrożonym archiwum. Nie edytuj go.
 
 ## Nadrzędne zasady pracy
