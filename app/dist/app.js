@@ -17,12 +17,17 @@
       let kind = 'p';
       const flush = () => {
         if (!group.length) return;
+        // Dwie spacje na końcu wiersza akapitu oraz wcięty wiersz pod punktem listy to nowa linia.
         parts.push(kind === 'p'
-          ? `<p>${inline(group.join(' '))}</p>`
-          : `<${kind}>${group.map(line => `<li>${inline(line)}</li>`).join('')}</${kind}>`);
+          ? `<p>${group.map((line, i) => inline(line.trimEnd()) + (i < group.length - 1 ? (/ {2}$/.test(line) ? '<br>' : ' ') : '')).join('')}</p>`
+          : `<${kind}>${group.map(line => `<li>${inline(line).replace(/\n/g, '<br>')}</li>`).join('')}</${kind}>`);
         group = [];
       };
       for (const line of lines) {
+        if (kind !== 'p' && group.length && /^\s+\S/.test(line)) {
+          group[group.length - 1] += '\n' + line.trim();
+          continue;
+        }
         const nextKind = /^- /.test(line) ? 'ul' : /^\d+\. /.test(line) ? 'ol' : 'p';
         if (nextKind !== kind) flush();
         kind = nextKind;
@@ -57,7 +62,7 @@
 
   function photoMarkup(asset, frame) {
     return `<figure class="asset-photo" data-asset-id="${escape(asset.id)}">
-      <div class="asset-image"><img src="${escape(frame.target)}" alt="${escape(frame.title)} na rzeczywistym aparacie Canon EOS RP" width="${frame.width}" height="${frame.height}">
+      <div class="asset-image"><img src="${escape(frame.target)}" alt="${escape(frame.alt || `${frame.title} na rzeczywistym aparacie Canon EOS RP`)}" width="${frame.width}" height="${frame.height}">
         ${(frame.markers || []).map(markerMarkup).join('')}</div>
       <figcaption><strong>${escape(frame.title)}</strong><span>Kadr roboczy · do zatwierdzenia</span></figcaption>
     </figure>`;
@@ -77,7 +82,8 @@
     if (frameIndex !== undefined) {
       return asset.frames[frameIndex] ? photoMarkup(asset, asset.frames[frameIndex]) : placeholderMarkup(asset);
     }
-    return asset.frames.map(frame => photoMarkup(asset, frame)).join('')
+    const photos = asset.frames.map(frame => photoMarkup(asset, frame)).join('');
+    return (asset.layout === 'grid' ? `<div class="asset-grid">${photos}</div>` : photos)
       + (asset.pendingMessage ? placeholderMarkup(asset, asset.pendingMessage) : '');
   }
 
@@ -93,7 +99,7 @@
   }
 
   function render() {
-    const match = location.hash.match(/^#lekcja-([123])(?:\/([\w-]+))?$/);
+    const match = location.hash.match(/^#lekcja-([1-4])(?:\/([\w-]+))?$/);
     if (!match) {
       app.innerHTML = home;
       document.title = 'Canon RP — Kurs';
