@@ -182,3 +182,12 @@ Wcześniejsze sekcje są historyczne; role według D-047.
 - [ ] Przy pierwszej nowej lekcji sprawdzić w praktyce standard pracy ze źródłami z D-048.
 - [ ] Przy pierwszej lekcji ustalić wersję firmware aparatu Ani (ścieżkę w menu wskaże instrukcja Canon).
 - [ ] Przy pierwszej animacji ustalić techniczne połączenie Claude Code z Higgsfield oraz koszt.
+
+## OTWARTE PO 01.10.2026
+- [ ] L1-03: decyzja właściciela o poprawce V01-po (D-054).
+- [ ] L1-03: przebudowa V02 jako wariant sceny i podgląd do oceny (D-054).
+- [ ] L1-03: rendery finalne V03-pionowo, V04B-1, V04B-2, V04B-3.
+- [ ] L1-03: rendery finalne V01-po i V02 po przyjęciu podglądów.
+- [ ] L1-03: V05 — wybór zdjęcia obiektywu, oficjalne źródło o stałej ogniskowej, schemat „dalej/bliżej”.
+- [ ] L1-03: odbiór wszystkich materiałów przez właściciela i zamknięcie lekcji.
+- [ ] L1-04: redakcja według D-049, równolegle z materiałami L1-03 (D-055).

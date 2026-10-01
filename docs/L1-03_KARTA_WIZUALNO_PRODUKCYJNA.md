@@ -66,6 +66,8 @@ Nie stosować animacji. Nie zasłaniać elementów.
 
 **Status:** TO_CAPTURE / TO_PREPARE
 
+**Wariant sceny (D-054):** ten sam stół, przedmioty i światło; książka i pilot przesunięte bliżej kubka, aparat ok. 0,7 m od kubka. W obrębie pary V02 zmienia się tylko położenie aparatu.
+
 ---
 
 ## L1-03-V03 — Poziomo / pionowo
@@ -128,6 +130,8 @@ Ostateczną etykietę dobrać po obejrzeniu materiału.
 - wysokość aparatu ma być główną zmianą.
 
 **Status:** TO_CAPTURE / TO_PREPARE
+
+**Wariant sceny (D-054):** ten sam stół, przedmioty i światło; kubek przy przednim brzegu stołu, bo ujęcie z dołu wymaga aparatu poniżej blatu. W obrębie trójki V04B zmienia się tylko wysokość aparatu.
 
 ---
 

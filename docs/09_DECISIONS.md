@@ -616,3 +616,23 @@ Zatwierdzone 01.10.2026. Uzupełnia D-047 i D-052; rozstrzyga punkt 5 handoffu z
 - Odbiór materiału przed osadzeniem w lekcji pozostaje decyzją właściciela (D-049–D-051).
 
 Zasada: **Claude w czacie widzi materiały sam; oryginały zostają u właściciela.**
+
+## D-054 — Decyzje o kadrach L1-03
+Zatwierdzone 01.10.2026. Uzupełnia D-051.
+
+- Odbicie książki na kubku zostaje.
+- Przyjęte kadry: V03-pionowo, V04B-1, V04B-2, V04B-3.
+- V01-przed to V04A pozycja 1, a V03-poziomo to V04A pozycja 2; oba są odebrane.
+- V01-po: przyjęcie wstrzymane. Po obejrzeniu kadru Claude rekomenduje przysunięcie aparatu bliżej kubka, bo przy lewej krawędzi widać uciętą książkę, a kubek jest wyraźnie mniejszy niż w kadrze „przed”. Decyzja właściciela jest otwarta.
+- V02: przebudowa jako wariant sceny — aparat ok. 0,7 m od kubka, książka i pilot bliżej kubka; druga wersja kadru przez mały krok lub obrót aparatu, bez ruszania przedmiotów.
+
+Zasada: **kadr ocenia się w pełnej wielkości, nie z miniatury.**
+
+## D-055 — Tekst kolejnej lekcji równolegle z materiałami poprzedniej
+Zatwierdzone 01.10.2026. Zmienia zdanie „Tryb pracy” w D-049.
+
+- Redakcja tekstu następnej lekcji może się zacząć, gdy materiały poprzedniej lekcji są jeszcze w produkcji.
+- Niedokończone materiały poprzedniej lekcji pozostają na liście otwartych zadań w docs/10_TODO.md aż do odbioru przez właściciela.
+- Pozostała część D-049 bez zmian.
+
+Zasada: **tekst nie czeka na obrazy; obrazy nie znikają z planu.**
