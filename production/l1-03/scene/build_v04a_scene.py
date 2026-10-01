@@ -938,6 +938,9 @@ V02_VARIANT = {"book": (-0.285, 0.02, 14.0), "remote": (0.10, -0.20, 80.0),
                "camera": (0.0, -V04A_HORIZONTAL, TABLE_TOP_Z + EYE_HEIGHT)}
 SHOTS["v02-a-v2"] = {**V02_VARIANT, "yaw": 0.0, "pitch": -20.0}
 SHOTS["v02-b-v2"] = {**V02_VARIANT, "yaw": -6.5, "pitch": -15.5}
+# B, wersja 3: to samo miejsce aparatu; nachylenie dobrane tak, żeby obraz na ścianie
+# był cały w kadrze i nie dotykał górnej krawędzi, a książka i pilot zostały poza kadrem.
+SHOTS["v02-b-v3"] = {**V02_VARIANT, "yaw": -6.5, "pitch": -14.2}
 
 # L1-04, wersja 2: jak „l1-04-blizej” / „l1-04-dalej”, ale książka niska (15 cm, jak zeszyt),
 # żeby cała mieściła się w kadrze razem z napisem.
