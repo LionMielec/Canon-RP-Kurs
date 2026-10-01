@@ -45,5 +45,20 @@ Ten plik jest rejestrem materiałów wizualnych przypisanych do konkretnych lekc
 | L1-03-V05 | RF 50 mm — stała ogniskowa, brak zoomu | zdjęcie obiektywu Ani + diagram | rzeczywiste zdjęcie RF 50 mm Ani + oficjalne dane Canon | do ustalenia | `assets/lessons/l1-03/l1-03-v05-fixed-50mm.*` | `SOURCE_REQUIRED` + `TO_CAPTURE` + `TO_PREPARE` |
 | L1-03-V06 | Karta „poziomo/pionowo → brzegi/tło → miejsce → zdjęcie” | komponent UI | bez osobnego assetu | do ustalenia | komponent aplikacji | `UI_COMPONENT` |
 
+## L1-04 — Wybieram, co ma być ostre
+
+| ID | Zastosowanie | Typ | Źródło / brak | Pochodzenie | Docelowa ścieżka | Status |
+|---|---|---|---|---|---|---|
+| L1-04-V01 | Para „ostry bliższy / ostry dalszy”: kubek ok. 0,5 m i książka z napisem „Notatki” ok. 1,0 m; zmienia się tylko odległość ostrości (S01) | para renderów | render: ujęcia `l1-04-blizej`, `l1-04-dalej` | RENDER | `assets/lessons/l1-04/l1-04-v01-blizej.jpg`, `l1-04-v01-dalej.jpg` | podgląd w produkcji |
+| L1-04-V02 | Pokrętło trybów ze statycznym oznaczeniem litery P (S03) | zdjęcie/crop | `fbe2fd62-e8ab-465b-b340-b6d0b4458622.jpg` | WŁASNE | `assets/lessons/l1-04/l1-04-v02-pokretlo-p.jpg` | do przygotowania |
+| L1-04-V03 | Tylny wybierak ze statycznym oznaczeniem przycisku Q/SET (S04) | zdjęcie/crop | `57652b89-ae48-4cd1-b998-e883aee8aa1f.jpg` | WŁASNE | `assets/lessons/l1-04/l1-04-v03-przycisk-q.jpg` | do przygotowania |
+| L1-04-V04 | Ekran szybkich nastaw z zaznaczoną pozycją [Metoda AF] i rzędem ikon metod u dołu (S04) | rysunek ekranu | instrukcja PL, s. 65 | CANON — DO PODMIANY | `assets/lessons/l1-04/l1-04-v04-ekran-q-canon.png` | do wycięcia |
+| L1-04-V05 | Ekran z podpisem „1-punktowy AF”, punktem na środku i zaznaczoną ikoną jednego punktu (S04) | rysunek ekranu | instrukcja PL, s. 188 | CANON — DO PODMIANY | `assets/lessons/l1-04/l1-04-v05-1-punktowy-af-canon.png` | do wycięcia |
+| L1-04-V06 | Tył aparatu: statyczne oznaczenie przycisku punktu AF i przycisku kosza (S05) | zdjęcie/crop albo rysunek | `57652b89…` albo instrukcja PL, s. 33 | WŁASNE albo CANON — DO PODMIANY | `assets/lessons/l1-04/l1-04-v06-przycisk-punktu-af.jpg` (albo `…-canon.png`) | do przygotowania |
+| L1-04-V07 | Ekran po naciśnięciu przycisku punktu AF: punkt przesunięty w bok, u dołu ikony kosza i SET (S05) | rysunek ekranu | instrukcja PL, s. 193 | CANON — DO PODMIANY | `assets/lessons/l1-04/l1-04-v07-przesuwanie-punktu-canon.png` | do wycięcia |
+| L1-04-V08 | Ekran w trybie P z zielonym punktem AF na obiekcie po ustawieniu ostrości (S06) | rysunek ekranu | instrukcja PL, s. 194 | CANON — DO PODMIANY | `assets/lessons/l1-04/l1-04-v08-zielony-punkt-canon.png` | do wycięcia |
+| L1-04-V09 | Ekran z palcem na ikonie migawki dotykowej w lewym dolnym rogu (Pomoc) | rysunek ekranu | instrukcja PL, s. 163 | CANON — DO PODMIANY | `assets/lessons/l1-04/l1-04-v09-migawka-dotykowa-canon.png` | do wycięcia |
+| L1-04-V10 | Karta przed ćwiczeniem: „P → jeden punkt → punkt na przedmiot → spust do połowy → zielony punkt → zdjęcie → powiększ” | komponent UI | bez osobnego pliku | — | komponent aplikacji | komponent UI |
+
 ## Następny wpis
 Kolejne assety dopisywać przy opracowywaniu następnej lekcji. Nie tworzyć osobnego, równoległego rejestru.

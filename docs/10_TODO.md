@@ -193,3 +193,6 @@ Wcześniejsze sekcje są historyczne; role według D-047.
 - [ ] L1-04: redakcja według D-049, równolegle z materiałami L1-03 (D-055).
 - [ ] L1-04: po powrocie właściciela porównać rysunki z instrukcji z ekranami aparatu Ani i ustalić wersję oprogramowania (D-056).
 - [ ] Hosting: wersja aplikacji z rysunkami Canon dostępna wyłącznie dla Ani (D-056).
+- [ ] L1-04: sprawdzić na aparacie Ani punkty z docs/L1-04_ZRODLA_INSTRUKCJA.md (D-056).
+- [ ] Nauczyciel AI: przepisać dokumenty 06 i 11 pod model Claude przy integracji (D-059).
+- [ ] Hosting: główny kandydat — VPS właściciela w Hetzner; do ustalenia: domena, co już działa na serwerze, wygodne logowanie Ani z ikony na iPhonie.

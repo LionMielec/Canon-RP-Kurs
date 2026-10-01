@@ -656,3 +656,22 @@ Zatwierdzone 01.10.2026. Uzupełnia D-048 i D-056.
 - Przy zmianie kursu na publiczny lub komercyjny listę do podmiany daje filtr „CANON — DO PODMIANY” w rejestrze albo wyszukanie „-canon” w projekcie.
 
 Zasada: **każdy obraz ma zapisane pochodzenie; rysunki Canon da się znaleźć jednym wyszukiwaniem.**
+
+## D-058 — Materiały L1-01 i L1-03: decyzje z 01.10.2026
+Zatwierdzone 01.10.2026. Uzupełnia D-054 i D-056.
+
+- L1-03 V01-po: aparat przysunięty bliżej kubka, na tej samej wysokości (rekomendacja z D-054 przyjęta).
+- L1-01-V04 (pół- i pełne naciśnięcie spustu): na razie rysunek z instrukcji Canon zamiast animacji; animacja pozostaje na później, według D-049.
+- L1-01-V06 (łatwy i trudny cel dla ostrości): cztery rendery sceny 3D.
+- L1-01-V03 i L1-01-V05: rysunki z instrukcji Canon, zgodnie z D-056.
+
+Zasada: **materiał z tego, co jest dostępne teraz; lepsza wersja później, bez blokowania kursu.**
+
+## D-059 — Nauczyciel AI na modelu Claude
+Zatwierdzone 01.10.2026. Zmienia kierunek roboczy z dokumentu 06 (model OpenAI).
+
+- Nauczyciel AI (ocena zdjęć Ani) działa na modelu Claude firmy Anthropic.
+- Konkretny model i koszt wybieramy przed budową nauczyciela, po próbie na prawdziwych zdjęciach.
+- Dokumenty 06 i 11 (model, zabezpieczenia i limity wydatków opisane dla OpenAI) zostaną przepisane przy integracji.
+
+Zasada: **nauczyciel AI na Claude; szczegóły po próbie na prawdziwych zdjęciach.**
