@@ -636,3 +636,23 @@ Zatwierdzone 01.10.2026. Zmienia zdanie „Tryb pracy” w D-049.
 - Pozostała część D-049 bez zmian.
 
 Zasada: **tekst nie czeka na obrazy; obrazy nie znikają z planu.**
+
+## D-056 — Rysunki z instrukcji Canon w lekcjach do użytku prywatnego
+Zatwierdzone 01.10.2026. Zmienia D-010 i D-050 w zakresie ekranów menu.
+
+- Kurs jest niekomercyjny i przeznaczony wyłącznie do prywatnego użytku Ani.
+- W lekcjach wolno używać rysunków ekranów i aparatu z oficjalnych instrukcji Canon. Źródło (instrukcja i strona) jest zapisane wyłącznie w dokumentacji produkcyjnej i nie jest widoczne w kursie (D-048).
+- Rysunki z instrukcji nie trafiają do publicznego repozytorium ani do publicznie dostępnej wersji aplikacji; są przechowywane lokalnie, tak jak instrukcje (D-048).
+- Zgodność rysunków z aparatem Ani sprawdza właściciel po powrocie do domu; przy tej okazji ustalana jest wersja oprogramowania aparatu.
+- Jeśli kurs miałby stać się publiczny lub komercyjny, rysunki trzeba zastąpić własnymi zdjęciami.
+
+Zasada: **rysunki Canon tylko dla Ani, nigdy publicznie.**
+
+## D-057 — Oznaczanie pochodzenia materiałów
+Zatwierdzone 01.10.2026. Uzupełnia D-048 i D-056.
+
+- Każdy materiał w rejestrze `docs/16_ASSET_MANIFEST.md` ma pochodzenie: WŁASNE, RENDER, WOLNA LICENCJA (z autorem i licencją) albo CANON — DO PODMIANY (z instrukcją i numerem strony). Ta sama informacja jest w karcie lekcji. Zgodnie z D-048 nie jest widoczna w kursie.
+- Nazwa każdego pliku z instrukcji Canon kończy się na `-canon` przed rozszerzeniem.
+- Przy zmianie kursu na publiczny lub komercyjny listę do podmiany daje filtr „CANON — DO PODMIANY” w rejestrze albo wyszukanie „-canon” w projekcie.
+
+Zasada: **każdy obraz ma zapisane pochodzenie; rysunki Canon da się znaleźć jednym wyszukiwaniem.**

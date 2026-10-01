@@ -191,3 +191,5 @@ Wcześniejsze sekcje są historyczne; role według D-047.
 - [ ] L1-03: V05 — wybór zdjęcia obiektywu, oficjalne źródło o stałej ogniskowej, schemat „dalej/bliżej”.
 - [ ] L1-03: odbiór wszystkich materiałów przez właściciela i zamknięcie lekcji.
 - [ ] L1-04: redakcja według D-049, równolegle z materiałami L1-03 (D-055).
+- [ ] L1-04: po powrocie właściciela porównać rysunki z instrukcji z ekranami aparatu Ani i ustalić wersję oprogramowania (D-056).
+- [ ] Hosting: wersja aplikacji z rysunkami Canon dostępna wyłącznie dla Ani (D-056).
