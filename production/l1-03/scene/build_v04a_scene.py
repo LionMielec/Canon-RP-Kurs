@@ -625,16 +625,19 @@ def build_painting(mats):
     box("Obraz", (p["w"], 0.004, p["h"]), (p["x"], WALL_Y - 0.027, p["z"]), mats["painting"])
 
 
-def build_book(mats):
-    x, y, rot = -0.30, -0.08, math.radians(14)
+def build_book(mats, pose=None):
+    """pose = (x, y, obrót w stopniach); bez pose książka leży jak w V04A."""
+    x, y, rot = (pose[0], pose[1], math.radians(pose[2])) if pose else (-0.30, -0.08, math.radians(14))
     box("Ksiazka_okladka", (0.155, 0.225, 0.028), (x, y, TABLE_TOP_Z + 0.014),
         mats["book_cover"], rotation_z=rot, bevel=0.0015)
     box("Ksiazka_kartki", (0.150, 0.216, 0.024), (x + 0.004, y, TABLE_TOP_Z + 0.014),
         mats["book_pages"], rotation_z=rot)
 
 
-def build_remote(mats):
-    x, y, rot = REMOTE[0], REMOTE[1], math.radians(REMOTE[2])
+def build_remote(mats, pose=None):
+    """pose = (x, y, obrót w stopniach); bez pose pilot leży jak w V04A."""
+    pose = pose or REMOTE
+    x, y, rot = pose[0], pose[1], math.radians(pose[2])
     remote = box("Pilot", (0.046, 0.175, 0.020), (x, y, TABLE_TOP_Z + 0.010),
                  mats["remote"], rotation_z=rot, bevel=0.008)
     for i in range(4):
@@ -681,7 +684,7 @@ def set_mug_xy(x, y):
 
 
 def make_camera(location, aim, pitch_deg=None, res=(RES_X, RES_Y), yaw_deg=None,
-                f_stop=F_STOP, focus_point=None):
+                f_stop=F_STOP, focus_point=None, focus_distance=None):
     """Aparat w punkcie location. Kierunek: na punkt aim albo podany wprost
     (yaw_deg, pitch_deg). Kadr pionowy (wyższy niż szerszy) to obrócony aparat:
     36 mm matrycy przypada wtedy na dłuższy, pionowy bok.
@@ -704,6 +707,8 @@ def make_camera(location, aim, pitch_deg=None, res=(RES_X, RES_Y), yaw_deg=None,
     cam_data.dof.focus_distance = d.length - 0.04   # przednia ścianka kubka
     if focus_point is not None:
         cam_data.dof.focus_distance = (Vector(focus_point) - location).length
+    if focus_distance is not None:
+        cam_data.dof.focus_distance = focus_distance
     print(f"APARAT: f/{cam_data.dof.aperture_fstop:g}, odleglosc ostrosci {cam_data.dof.focus_distance:.3f} m")
     scene = bpy.context.scene
     scene.camera = cam
@@ -915,19 +920,62 @@ SHOTS["l1-04-blizej"] = {**_L104, "focus": L104_MUG_FOCUS}
 SHOTS["l1-04-dalej"] = {**_L104, "focus": L104_BOOK_FOCUS}
 
 
+# ---------------------------------------------------------------------------
+# Ujęcia dodane 01.10.2026 (D-054, D-058). Osobne wpisy; wcześniejsze bez zmian.
+# ---------------------------------------------------------------------------
+
+# L1-03 V01-po, wersja 2: wysokość aparatu jak w „v01-po” (0,56 m nad blatem),
+# aparat bliżej: 0,70 m od środka kubka, czyli tyle samo co w V04A pozycja 1 (V01-przed).
+V01_PO2_HORIZONTAL = math.sqrt(CAMERA_DISTANCE ** 2 - (0.56 - 0.055) ** 2)
+# Skręt 8,5° w prawo wyprowadza książkę poza lewą krawędź; nachylenie 52° w dół zostawia nad kubkiem sam blat.
+SHOTS["v01-po-v2"] = {"camera": (0.0, -V01_PO2_HORIZONTAL, TABLE_TOP_Z + 0.56), "yaw": -8.5, "pitch": -52.0}
+
+# L1-03 V02, wariant sceny: aparat 0,70 m od kubka (położenie V04A pozycja 1),
+# książka i pilot bliżej kubka. Przedmioty i położenie aparatu są w obu ujęciach te same.
+# A: fragment książki przy lewej krawędzi, pilot przy dolnej krawędzi.
+# B: lekki obrót aparatu w prawo i w górę; oba brzegi czyste.
+V02_VARIANT = {"book": (-0.285, 0.02, 14.0), "remote": (0.10, -0.20, 80.0),
+               "camera": (0.0, -V04A_HORIZONTAL, TABLE_TOP_Z + EYE_HEIGHT)}
+SHOTS["v02-a-v2"] = {**V02_VARIANT, "yaw": 0.0, "pitch": -20.0}
+SHOTS["v02-b-v2"] = {**V02_VARIANT, "yaw": -6.5, "pitch": -15.5}
+
+# L1-04, wersja 2: jak „l1-04-blizej” / „l1-04-dalej”, ale książka niska (15 cm, jak zeszyt),
+# żeby cała mieściła się w kadrze razem z napisem.
+L104_BOOK2 = {**L104_BOOK, "width": 0.11, "height": 0.15, "thickness": 0.022,
+              "text_z": 0.092, "text_width": 0.075}
+L104_BOOK2_FOCUS = (L104_BOOK2["x"], L104_BOOK2["front_y"], TABLE_TOP_Z + L104_BOOK2["text_z"])
+_L104_2 = {**_L104, "pitch": -21.5, "standing_book": L104_BOOK2}
+SHOTS["l1-04-blizej-v2"] = {**_L104_2, "focus": L104_MUG_FOCUS}
+SHOTS["l1-04-dalej-v2"] = {**_L104_2, "focus": L104_BOOK2_FOCUS}
+
+# L1-01-V06: cztery cele dla ostrości z tej samej scenerii, 50 mm.
+V06_CAMERA = (0.0, -0.50, TABLE_TOP_Z + 0.14)
+V06_TEXT = (0.0, -0.047, TABLE_TOP_Z + 0.068)          # napis na przedniej ściance kubka
+SHOTS["l1-01-v06-1-napis"] = {"camera": V06_CAMERA, "focus": V06_TEXT}
+SHOTS["l1-01-v06-2-gladka-sciana"] = {"camera": (-1.20, 0.20, 1.40), "yaw": 0.0, "pitch": 0.0,
+                                      "focus_distance": WALL_Y - 0.20, "smooth_wall": True,
+                                      "no_measure": True}
+SHOTS["l1-01-v06-3-ciemno"] = {"camera": V06_CAMERA, "focus": V06_TEXT, "light_scale": 0.008,
+                               "no_measure": True}
+# aparat 0,20 m od napisu; ostrość na 0,30 m, najmniejszej odległości ostrości RF 50 mm F1.8 STM
+SHOTS["l1-01-v06-4-za-blisko"] = {"camera": (0.0, -0.246, TABLE_TOP_Z + 0.095), "f_stop": 2.8,
+                                  "focus_distance": 0.30, "no_measure": True}
+
+
 def build_standing_book(mats, spec):
     """Ta sama książka co w L1-03, postawiona pionowo okładką do aparatu,
     z wymyślonym napisem na okładce (do oceny ostrości)."""
     rot = math.radians(spec["rot"])
-    thickness, height = 0.028, 0.225
+    width = spec.get("width", 0.155)
+    thickness, height = spec.get("thickness", 0.028), spec.get("height", 0.225)
     center = Vector((0.0, thickness / 2, 0.0))
     center.rotate(Euler((0.0, 0.0, rot)))
     center += Vector((spec["x"], spec["front_y"], TABLE_TOP_Z + height / 2))
-    box("Ksiazka_okladka", (0.155, thickness, height), center,
+    box("Ksiazka_okladka", (width, thickness, height), center,
         mats["book_cover"], rotation_z=rot, bevel=0.0015)
     pages_shift = Vector((0.004, 0.0, 0.0))
     pages_shift.rotate(Euler((0.0, 0.0, rot)))
-    box("Ksiazka_kartki", (0.150, 0.024, 0.216), center + pages_shift,
+    box("Ksiazka_kartki", (width - 0.005, thickness - 0.004, height - 0.009), center + pages_shift,
         mats["book_pages"], rotation_z=rot)
 
     font = bpy.data.fonts.load(os.path.join(FONT_DIR, MUG_DESIGNS[1]["font"]))
@@ -959,7 +1007,10 @@ def build_standing_book(mats, spec):
     text.data.materials.append(mats["book_pages"])
 
 
-def build_scene(design, standing_book=None):
+def build_scene(design, standing_book=None, shot=None):
+    """shot: wpis z SHOTS; może przestawić książkę i pilota ("book", "remote"),
+    wygładzić ścianę w tle ("smooth_wall") albo przyciemnić światło ("light_scale")."""
+    shot = shot or {}
     bpy.ops.wm.read_factory_settings(use_empty=True)
     mats = build_materials(design)
     build_room(mats)
@@ -971,9 +1022,31 @@ def build_scene(design, standing_book=None):
     if standing_book:
         build_standing_book(mats, standing_book)
     else:
-        build_book(mats)
-    build_remote(mats)
+        build_book(mats, shot.get("book"))
+    build_remote(mats, shot.get("remote"))
     build_window_light()
+    if shot.get("smooth_wall"):
+        wall = bpy.data.objects["Sciana_tyl"]
+        wall.data.materials[0] = principled("Sciana_gladka", hex_to_linear("#d4cdc2"), roughness=0.9)
+    if "light_scale" in shot:
+        bpy.data.lights["Okno"].energy *= shot["light_scale"]
+        bpy.data.worlds["Swiat"].node_tree.nodes["Background"].inputs["Strength"].default_value *= shot["light_scale"]
+
+
+def frame_report():
+    """Położenie przedmiotów w kadrze (0–1 od lewej i od dołu) bez renderowania."""
+    scene = bpy.context.scene
+    cam = scene.camera
+    bpy.context.view_layer.update()
+    for name in ("Kubek", "Kubek_ucho", "Napis", "Ksiazka_okladka", "Napis_ksiazka", "Pilot",
+                 "Lampa_slup", "Lampa_abazur", "Rama", "Blat"):
+        obj = bpy.data.objects.get(name)
+        if obj is None:
+            continue
+        pts = [world_to_camera_view(scene, cam, obj.matrix_world @ Vector(c)) for c in obj.bound_box]
+        xs, ys, zs = [p.x for p in pts], [p.y for p in pts], [p.z for p in pts]
+        print(f"KADR {name:16s} x {min(xs):6.3f}..{max(xs):6.3f}  y {min(ys):6.3f}..{max(ys):6.3f}  "
+              f"odleglosc {min(zs):.3f}..{max(zs):.3f} m")
 
 
 def main():
@@ -989,6 +1062,9 @@ def main():
     parser.add_argument("--calibrate", help="zapisz kalibrację koloru do pliku JSON")
     parser.add_argument("--use-calibration", help="użyj kalibracji z pliku JSON")
     parser.add_argument("--geometry-report", action="store_true")
+    parser.add_argument("--frame-report", action="store_true",
+                        help="wypisz położenie przedmiotów w kadrze i zakończ bez renderu")
+    parser.add_argument("--res", help="rozdzielczość dłuższego boku w pikselach (domyślnie 2400)", type=int)
     parser.add_argument("--shot", choices=sorted(SHOTS),
                         help="pozostałe ujęcia L1-03 (V01, V02, V03, V04B) oraz ujęcia L1-04")
     args = parser.parse_args(argv)
@@ -996,7 +1072,7 @@ def main():
     shot = SHOTS.get(args.shot)
     if shot and "mug" in shot:
         set_mug_xy(*shot["mug"])
-    build_scene(args.design, standing_book=shot.get("standing_book") if shot else None)
+    build_scene(args.design, standing_book=shot.get("standing_book") if shot else None, shot=shot)
     if args.geometry_report:
         geometry_report(args.design)
         return
@@ -1004,13 +1080,18 @@ def main():
     if shot:
         make_camera(Vector(shot["camera"]), AIM_POINT, pitch_deg=shot.get("pitch"),
                     res=shot.get("res", (RES_X, RES_Y)), yaw_deg=shot.get("yaw"),
-                    f_stop=shot.get("f_stop", F_STOP), focus_point=shot.get("focus"))
+                    f_stop=shot.get("f_stop", F_STOP), focus_point=shot.get("focus"),
+                    focus_distance=shot.get("focus_distance"))
     elif args.view == "closeup":
         location = MUG_BASE + Vector((0.0, -0.40, 0.11))
         make_camera(location, AIM_POINT, res=CLOSEUP_RES)
     else:
         make_camera(camera_location(args.position, args.side_step), AIM_POINT, CAMERA_PITCH_DEG)
-    configure_render(os.path.abspath(args.out), args.scale, args.samples, 0.0)
+    if args.frame_report:
+        frame_report()
+        return
+    scale = args.scale if not args.res else round(100 * args.res / RES_X)
+    configure_render(os.path.abspath(args.out), scale, args.samples, 0.0)
 
     if args.use_calibration:
         with open(args.use_calibration) as f:
@@ -1022,6 +1103,8 @@ def main():
             json.dump(cal, f, indent=2)
 
     bpy.ops.render.render(write_still=True)
+    if shot and shot.get("no_measure"):
+        return
     glaze, text = measure_colors(os.path.abspath(args.out), args.design)
     d = MUG_DESIGNS[args.design]
     print(f"POMIAR: szkliwo {linear_to_hex(glaze)} (cel {PALETTE[d['glaze']]}), "
