@@ -508,3 +508,170 @@ Zatwierdzone 28.09.2026:
 - następna sesja ma rozpocząć się od rozwiązania tego problemu produkcyjnego, a nie od ponownego redagowania lekcji ani zmian w Codexie.
 
 Zasada: **najpierw ustalamy realistyczny, profesjonalny sposób pozyskania materiałów L1-03; dopiero potem wracamy do implementacji i publikacji.**
+
+
+## D-047 — Przejście na Claude i jedno repozytorium
+Zatwierdzone 29.09.2026:
+
+- Paweł podejmuje decyzje końcowe. Claude w czacie (projekt claude.ai) jest architektem i audytorem. Claude Code implementuje zatwierdzone rozwiązania. Codex i ChatGPT nie uczestniczą dalej w projekcie.
+- Kod aplikacji został przeniesiony z historią zmian do `app/` w repozytorium Canon-RP-Kurs. Repozytorium jest jedynym źródłem prawdy dla dokumentacji i kodu.
+- Dotychczasowy folder aplikacji w katalogu Codexa jest zamrożonym archiwum: nie jest edytowany ani usuwany. Zakaz tworzenia kopii kodu z dokumentu 13 zostaje zastąpiony tą decyzją.
+- Niezapisana praca nad mikrokorektą L1-02 i implementacją L1-03 jest przechowywana na gałęzi `wip/l1-02-l1-03`. Gałąź `main` zawiera ostatni zatwierdzony stan aplikacji.
+- Publikacja jest wstrzymana do czasu decyzji o hostingu. Dotychczasowa wersja na ChatGPT Sites pozostaje bez zmian.
+- Wyniki testów Codexa w `artifacts/` pozostają lokalnie i są wyłączone z Git.
+- Repozytorium jest tymczasowo publiczne, aby ułatwić współpracę z Claude w czacie.
+
+Zasada: **jedno repozytorium, jeden wykonawca, decyzje właściciela.**
+
+## D-048 — Źródła treści lekcji i ćwiczeń
+Zatwierdzone 29.09.2026 (uzupełnia D-031):
+
+- Obsługa aparatu: oficjalna instrukcja Canon EOS RP w wersji polskiej i angielskiej. Wersja angielska jest nowsza.
+- Jeśli wersje polska i angielska różnią się w opisie funkcji lub działania, rozstrzyga sprawdzenie na aparacie Ani. Do tego czasu informacja jest oznaczona jako niezweryfikowana i nie trafia do lekcji.
+- Polskie nazwy menu i przycisków pochodzą z polskiej instrukcji i z rzeczywistych ekranów aparatu Ani, nigdy z własnego tłumaczenia wersji angielskiej.
+- Wiedza fotograficzna, lekcje i ćwiczenia opierają się na oficjalnych i sprawdzonych źródłach, przede wszystkim internetowych: materiałach edukacyjnych Canon oraz uznanych wydawcach i instytucjach fotograficznych. Każde źródło musi być autentyczne i sprawdzalne (adres strony, wydawca).
+- Każda merytoryczna informacja w lekcji ma wskazane źródło w karcie lekcji. Informacja bez źródła nie trafia do lekcji.
+- Nic nie jest wymyślane ani uzupełniane z pamięci. Brak źródła oznacza zatrzymanie i zgłoszenie problemu.
+- Standard pracy ze źródłami: przy każdej lekcji Claude Code czyta instrukcje Canon lokalnie i przekazuje dokładne fragmenty z numerami stron (PL i EN). Wyciągi PDF przygotowujemy tylko wtedy, gdy potrzebny jest obraz. Instrukcje i wyciągi nie trafiają do Git.
+- Źródła, numery stron i adresy stron są wyłącznie w dokumentacji produkcyjnej (karta lekcji). Nigdy nie trafiają do warstwy widocznej dla Ani: bez numerów stron, adresów, przypisów ani przycisków „źródło” w aplikacji.
+
+Zasada: **żadna informacja w kursie bez sprawdzonego, autentycznego źródła.**
+
+## D-049 — Proces redakcji lekcji w układzie D-047
+Zatwierdzone 29.09.2026. Uzupełnia dokumenty 03, 04 i 15 oraz D-048; zmienia D-009 w zakresie produkcji animacji.
+
+Proces jednej lekcji:
+1. Zakres — Claude w czacie proponuje cel lekcji, zakres i tematy celowo pominięte, na podstawie programu Poziomu 1. Właściciel zatwierdza (brama 1).
+2. Źródła — Claude Code czyta instrukcje Canon PL i EN i przekazuje fragmenty z numerami stron. Claude w czacie wyszukuje oficjalne i sprawdzone źródła internetowe do części fotograficznej. Powstaje tabela źródeł (D-048).
+3. Szkic — Claude w czacie pisze lekcję według wzorca L1-01/L1-02 oraz dokumentów 03, 04 i 15. Równolegle powstaje karta produkcyjna z tabelą źródeł, listą materiałów i polem „Kontekst AI”.
+4. Autokontrola — przed pokazaniem właścicielowi lekcja przechodzi listę kontrolną z dokumentu 03: każde twierdzenie ma źródło, każdy użyty element aparatu jest pokazany.
+5. Przegląd treści — właściciel zatwierdza lub poprawia (brama 2).
+6. Sprawdzenie na aparacie — tylko gdy brakuje zdjęcia potrzebnego ekranu menu, gdy instrukcje PL i EN różnią się albo gdy trzeba ustalić wersję firmware. Claude w czacie krótko wskazuje, jakie zdjęcie lub sprawdzenie jest potrzebne; wykonuje je właściciel. Ania nie uczestniczy.
+7. Wersja finalna — właściciel zatwierdza (brama 3). Claude Code zapisuje lekcję do dokumentacji; dalej materiały i wdrożenie według dokumentu 15.
+
+Animacje:
+- Claude w czacie wskazuje miejsca, w których animacja realnie pomaga, i przygotowuje storyboard oparty na rzeczywistych zdjęciach aparatu Ani. Właściciel zatwierdza storyboard.
+- Claude Code produkuje animację w Higgsfield albo innym zaakceptowanym narzędziu, dokładnie według zatwierdzonego storyboardu. Właściciel zatwierdza gotową animację przed osadzeniem w lekcji.
+- Animacja nie zmienia wyglądu aparatu ani nie wymyśla jego elementów. Obowiązują D-008, D-010 i D-038.
+- Każde płatne użycie Higgsfield wymaga zgody właściciela.
+- Zmiana D-009: agent kodujący może produkować animacje, wyłącznie według zatwierdzonego storyboardu i z akceptacją gotowego materiału przez właściciela.
+
+Nauczyciel AI:
+- Każda lekcja ma w karcie wypełnione pole „Kontekst AI”: cel ćwiczenia i najwyżej dwa priorytety oceny (dokumenty 04 i 06).
+
+Tryb pracy: jedna lekcja naraz; kolejna dopiero po zamknięciu poprzedniej.
+
+Zasada: **trzy bramy akceptacji właściciela; nic nie trafia do kursu bez jego zgody.**
+
+## D-050 — Zasady pracy Claude w czacie; warunkowe dopuszczenie generowanych scen
+Zatwierdzone 30.09.2026. Uzupełnia D-047; zmienia D-043 i D-046 w zakresie generowanych obrazów.
+
+- Zasady pracy Claude w czacie są zapisane w `docs/23_ZASADY_CLAUDE_W_CZACIE.md` i obowiązują w każdej sesji.
+- Generowane obrazy są dopuszczalne jako materiał demonstracyjny scen, jeśli spełniają wszystkie warunki:
+  - pokazują scenę, a nie sprzęt Ani ani ekrany menu,
+  - w serii porównawczej zmienia się tylko jedna zmienna,
+  - zgodność z rzeczywistością jest sprawdzona na realnym zdjęciu referencyjnym lub według oficjalnego źródła,
+  - narzędzie pozwala na użycie komercyjne, a pochodzenie materiału jest zapisane w karcie lekcji,
+  - płatne generowanie wymaga zgody właściciela,
+  - gotowy obraz zatwierdza właściciel przed osadzeniem.
+- Sprzęt Ani i ekrany menu pozostają wyłącznie rzeczywiste. D-008, D-010, D-038 i D-044 obowiązują bez zmian.
+- Decyzja nie wybiera sposobu produkcji materiałów L1-03; ten wybór pozostaje otwarty.
+
+Zasada: **generowana scena tylko wtedy, gdy wiernie pokazuje rzeczywistość; sprzęt Ani i menu zawsze prawdziwe.**
+
+## D-051 — Produkcja materiałów L1-03 metodą renderu 3D
+Zatwierdzone 30.09.2026. Realizuje D-050 dla L1-03; zmienia plan produkcji w karcie L1-03 i manifeście 16.
+
+- **V01, V02, V03, V04A i V04B** powstają jako rendery jednej sceny 3D w Blenderze 4.5 LTS, ostatniej oficjalnej wersji dla Maca z procesorem Intel. Każde ujęcie to zmiana położenia tego samego wirtualnego aparatu; zmienia się dokładnie jedna rzecz.
+- Wirtualny aparat odwzorowuje Canon RP z obiektywem RF 50 mm: ogniskowa 50 mm i wymiary matrycy według oficjalnych danych Canon.
+- Rozmycie tła jest takie samo we wszystkich ujęciach i nie jest efektem pokazywanym w lekcji (karta L1-03).
+- Scena powstaje z własnych prostych elementów. Gotowe modele lub tekstury wolno użyć tylko z licencją pozwalającą na użycie komercyjne, zapisaną w karcie lekcji (D-044).
+- Skrypty budujące scenę są przechowywane w repozytorium, żeby rendery dało się odtworzyć i poprawiać. Jako skrypty korzystające z Blendera mają licencję GNU GPL. Rendery są własnością projektu.
+- **Kolejność:** plan ujęć (akceptacja właściciela) → instalacja Blendera 4.5 LTS z blender.org → jedno ujęcie próbne, para V04A → ocena wiarygodności przez właściciela → pozostałe ujęcia → odbiór każdego materiału przez właściciela.
+- Jeśli ujęcie próbne nie będzie wiarygodne, praca się zatrzymuje i wracamy do decyzji. Nie szukamy zamienników.
+- **V05:** część A to istniejące zdjęcie obiektywu Ani z pakietu źródłowego, bez widocznych numerów seryjnych (wybiera właściciel). Część B to prosty schemat „dalej/bliżej” rysowany jako grafika.
+- Po zatwierdzeniu zostaną zaktualizowane karta L1-03 i manifest 16.
+
+Zasada: **najpierw jedno wiarygodne ujęcie próbne, potem reszta.**
+
+## D-052 — Dwa tryby pracy z Claude Code
+Zatwierdzone 30.09.2026. Uzupełnia D-047 i `docs/23`.
+
+- Tryb szybki — zmiany wyłącznie w dokumentacji (`docs/`): zgoda na commit i push jest dawana z góry w poleceniu; Claude Code zapisuje zmiany od razu; Claude w czacie audytuje po fakcie w repozytorium; błędy poprawia kolejny commit. Drobne aktualizacje (TODO, status, handoff) zbierane są w jedno zadanie na koniec sesji.
+- Tryb pełny — kod, aplikacja, assety, instalacje, publikacja: punkty zatrzymania, podgląd i odbiór właściciela bez zmian.
+- Claude Code zgłasza pracę wykraczającą poza zakres polecenia przed jej wykonaniem.
+
+Zasada: **ostrożność proporcjonalna do ryzyka.**
+
+## D-053 — Lekkie kopie materiałów do przeglądu w repozytorium
+Zatwierdzone 01.10.2026. Uzupełnia D-047 i D-052; rozstrzyga punkt 5 handoffu z 30.09.2026.
+
+- Claude w czacie ocenia materiały bezpośrednio w repozytorium. Właściciel nie przekazuje obrazów ręcznie.
+- Do repozytorium trafiają wyłącznie lekkie kopie (JPEG, dłuższy bok najwyżej 2000 px) w folderze `review/`: podglądy i rendery materiałów oraz zdjęcia źródłowe aparatu i menu.
+- Pełne rendery i oryginalne zdjęcia pozostają lokalnie, bez zmian, poza Git. Instrukcje Canon w PDF nigdy nie trafiają do Git.
+- Z kopii usuwa się wyłącznie lokalizację GPS i numery seryjne. Pozostałe dane techniczne zostają.
+- Kopia nie może pokazywać numerów seryjnych ani prywatnych szczegółów domu; takie zdjęcie nie trafia do `review/`.
+- Przy publicznym repozytorium kopie w `review/` są publiczne.
+- Folder `review/` nie jest częścią aplikacji.
+- Odbiór materiału przed osadzeniem w lekcji pozostaje decyzją właściciela (D-049–D-051).
+
+Zasada: **Claude w czacie widzi materiały sam; oryginały zostają u właściciela.**
+
+## D-054 — Decyzje o kadrach L1-03
+Zatwierdzone 01.10.2026. Uzupełnia D-051.
+
+- Odbicie książki na kubku zostaje.
+- Przyjęte kadry: V03-pionowo, V04B-1, V04B-2, V04B-3.
+- V01-przed to V04A pozycja 1, a V03-poziomo to V04A pozycja 2; oba są odebrane.
+- V01-po: przyjęcie wstrzymane. Po obejrzeniu kadru Claude rekomenduje przysunięcie aparatu bliżej kubka, bo przy lewej krawędzi widać uciętą książkę, a kubek jest wyraźnie mniejszy niż w kadrze „przed”. Decyzja właściciela jest otwarta.
+- V02: przebudowa jako wariant sceny — aparat ok. 0,7 m od kubka, książka i pilot bliżej kubka; druga wersja kadru przez mały krok lub obrót aparatu, bez ruszania przedmiotów.
+
+Zasada: **kadr ocenia się w pełnej wielkości, nie z miniatury.**
+
+## D-055 — Tekst kolejnej lekcji równolegle z materiałami poprzedniej
+Zatwierdzone 01.10.2026. Zmienia zdanie „Tryb pracy” w D-049.
+
+- Redakcja tekstu następnej lekcji może się zacząć, gdy materiały poprzedniej lekcji są jeszcze w produkcji.
+- Niedokończone materiały poprzedniej lekcji pozostają na liście otwartych zadań w docs/10_TODO.md aż do odbioru przez właściciela.
+- Pozostała część D-049 bez zmian.
+
+Zasada: **tekst nie czeka na obrazy; obrazy nie znikają z planu.**
+
+## D-056 — Rysunki z instrukcji Canon w lekcjach do użytku prywatnego
+Zatwierdzone 01.10.2026. Zmienia D-010 i D-050 w zakresie ekranów menu.
+
+- Kurs jest niekomercyjny i przeznaczony wyłącznie do prywatnego użytku Ani.
+- W lekcjach wolno używać rysunków ekranów i aparatu z oficjalnych instrukcji Canon. Źródło (instrukcja i strona) jest zapisane wyłącznie w dokumentacji produkcyjnej i nie jest widoczne w kursie (D-048).
+- Rysunki z instrukcji nie trafiają do publicznego repozytorium ani do publicznie dostępnej wersji aplikacji; są przechowywane lokalnie, tak jak instrukcje (D-048).
+- Zgodność rysunków z aparatem Ani sprawdza właściciel po powrocie do domu; przy tej okazji ustalana jest wersja oprogramowania aparatu.
+- Jeśli kurs miałby stać się publiczny lub komercyjny, rysunki trzeba zastąpić własnymi zdjęciami.
+
+Zasada: **rysunki Canon tylko dla Ani, nigdy publicznie.**
+
+## D-057 — Oznaczanie pochodzenia materiałów
+Zatwierdzone 01.10.2026. Uzupełnia D-048 i D-056.
+
+- Każdy materiał w rejestrze `docs/16_ASSET_MANIFEST.md` ma pochodzenie: WŁASNE, RENDER, WOLNA LICENCJA (z autorem i licencją) albo CANON — DO PODMIANY (z instrukcją i numerem strony). Ta sama informacja jest w karcie lekcji. Zgodnie z D-048 nie jest widoczna w kursie.
+- Nazwa każdego pliku z instrukcji Canon kończy się na `-canon` przed rozszerzeniem.
+- Przy zmianie kursu na publiczny lub komercyjny listę do podmiany daje filtr „CANON — DO PODMIANY” w rejestrze albo wyszukanie „-canon” w projekcie.
+
+Zasada: **każdy obraz ma zapisane pochodzenie; rysunki Canon da się znaleźć jednym wyszukiwaniem.**
+
+## D-058 — Materiały L1-01 i L1-03: decyzje z 01.10.2026
+Zatwierdzone 01.10.2026. Uzupełnia D-054 i D-056.
+
+- L1-03 V01-po: aparat przysunięty bliżej kubka, na tej samej wysokości (rekomendacja z D-054 przyjęta).
+- L1-01-V04 (pół- i pełne naciśnięcie spustu): na razie rysunek z instrukcji Canon zamiast animacji; animacja pozostaje na później, według D-049.
+- L1-01-V06 (łatwy i trudny cel dla ostrości): cztery rendery sceny 3D.
+- L1-01-V03 i L1-01-V05: rysunki z instrukcji Canon, zgodnie z D-056.
+
+Zasada: **materiał z tego, co jest dostępne teraz; lepsza wersja później, bez blokowania kursu.**
+
+## D-059 — Nauczyciel AI na modelu Claude
+Zatwierdzone 01.10.2026. Zmienia kierunek roboczy z dokumentu 06 (model OpenAI).
+
+- Nauczyciel AI (ocena zdjęć Ani) działa na modelu Claude firmy Anthropic.
+- Konkretny model i koszt wybieramy przed budową nauczyciela, po próbie na prawdziwych zdjęciach.
+- Dokumenty 06 i 11 (model, zabezpieczenia i limity wydatków opisane dla OpenAI) zostaną przepisane przy integracji.
+
+Zasada: **nauczyciel AI na Claude; szczegóły po próbie na prawdziwych zdjęciach.**

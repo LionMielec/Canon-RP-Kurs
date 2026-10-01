@@ -1,6 +1,9 @@
 # Canon RP kurs — STATUS
 
-Stan na: 2026-09-27
+Stan na: 2026-09-29
+
+## Aktualny stan — 29.09.2026
+Projekt przeszedł na nowy układ pracy i jedno repozytorium (D-047). Szczegóły i otwarte zadania: koniec `docs/14_PRZEKAZANIE_SESJI.md`. Sekcje poniżej opisują historię projektu. Tam, gdzie wymieniają ChatGPT lub Codexa jako role, obowiązuje D-047.
 
 ## Etap projektu
 Dwie pierwsze zatwierdzone lekcje zostały wdrożone, opublikowane i sprawdzone na iPhonie 15 Pro Max. Projekt jest na etapie domknięcia jednej rundy drobnych korekt wzorca implementacyjnego przed rozpoczęciem kolejnych lekcji.
@@ -244,3 +247,6 @@ Stan:
 - finalna publikacja L1-03 jest wstrzymana.
 
 Następna sesja, w nowym wątku, zaczyna się od rozwiązania problemu pozyskania profesjonalnych i wiarygodnych materiałów V01–V05 w rozsądnym koszcie. Nie wracamy do redagowania L1-03 ani do kolejnych testów Codexa, dopóki ten problem nie zostanie rozwiązany.
+
+## Koniec sesji — 30.09.2026
+Sposób produkcji materiałów L1-03 rozwiązany: render 3D w Blenderze 4.5 LTS (D-051). Ujęcie próbne V04A odebrane. Pozostałe kadry V01–V04B czekają na decyzje właściciela i rendery finalne, V05 do przygotowania. Szczegóły w handoffie 30.09.2026.

@@ -66,6 +66,8 @@ Nie stosować animacji. Nie zasłaniać elementów.
 
 **Status:** TO_CAPTURE / TO_PREPARE
 
+**Wariant sceny (D-054):** ten sam stół, przedmioty i światło; książka i pilot przesunięte bliżej kubka, aparat ok. 0,7 m od kubka. W obrębie pary V02 zmienia się tylko położenie aparatu.
+
 ---
 
 ## L1-03-V03 — Poziomo / pionowo
@@ -128,6 +130,8 @@ Ostateczną etykietę dobrać po obejrzeniu materiału.
 - wysokość aparatu ma być główną zmianą.
 
 **Status:** TO_CAPTURE / TO_PREPARE
+
+**Wariant sceny (D-054):** ten sam stół, przedmioty i światło; kubek przy przednim brzegu stołu, bo ujęcie z dołu wymaga aparatu poniżej blatu. W obrębie trójki V04B zmienia się tylko wysokość aparatu.
 
 ---
 
@@ -217,6 +221,8 @@ Dlatego:
 - Codex nie generuje ani nie wybiera zamienników,
 - ewentualne oznaczenia nakładane są na realne zdjęcia i nie zmieniają geometrii sceny.
 
+**Aktualizacja 30.09.2026 (D-050):** zasada powyżej została zmieniona. Generowane sceny są dopuszczalne na warunkach D-050; sprzęt Ani i ekrany menu pozostają wyłącznie rzeczywiste. Sposób produkcji V01, V02, V03, V04A i V04B pozostaje do wyboru. V05 pokazuje obiektyw RF 50 mm Ani, więc pozostaje rzeczywistym zdjęciem.
+
 
 ## Odpowiedzialność za wykonanie materiałów
 - Materiały V01–V05 przygotowuje producent materiałów kursu / właściciel projektu / fotograf, nie Ania.
@@ -247,3 +253,5 @@ Ograniczenia:
 - bez zakładania kosztownej sesji fotograficznej jako jedynej drogi.
 
 W nowym wątku najpierw wybrać praktyczny model produkcji, który spełnia standard jakości projektu i pozostaje rozsądny kosztowo.
+
+**Sposób produkcji wybrany 30.09.2026 (D-051):** V01, V02, V03, V04A i V04B powstają jako rendery jednej sceny 3D w Blenderze 4.5 LTS, zaczynając od ujęcia próbnego V04A. V05: część A to istniejące zdjęcie obiektywu Ani z pakietu źródłowego, bez widocznych numerów seryjnych; część B to prosty schemat.

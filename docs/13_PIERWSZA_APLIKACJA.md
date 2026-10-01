@@ -20,6 +20,8 @@ Pierwszy test: iPhone 15 Pro Max użytkownika. Docelowo: iPhone 17 Pro Max Ani. 
 
 ## Źródła i hosting
 
+**AKTUALIZACJA 29.09.2026 (D-047):** kod aplikacji znajduje się w `app/` tego repozytorium. Folder w katalogu Codexa jest zamrożonym archiwum. Ścieżki podane poniżej są historyczne.
+
 Minimalna statyczna aplikacja HTML/CSS/JavaScript. Źródło i publikowane pliki: `dist/`. Manifest z trybem `standalone`; ikony PNG 180, 192 i 512 px oraz SVG. Bez dodatkowego frameworka i zależności uruchomieniowych.
 
 **Właściwy folder kodu Sites:** `/Users/pawelsiedleczka/.codex/.chatgpt-projects/g-p-6aabf9b9dd848191b1f8a77f4f9213d0/canon-rp-app`.

@@ -270,3 +270,57 @@ Wybrany sposób ma:
 
 ### Po rozwiązaniu problemu
 pozyskanie assetów → osadzenie w L1-03 → lokalny odbiór → commit/push/publish → test na iPhonie.
+
+## HANDOFF 29.09.2026 — przejście na Claude i jedno repozytorium (D-047)
+
+### Co zostało wykonane
+- Codex i ChatGPT zakończyły udział w projekcie. Paweł podejmuje decyzje końcowe, Claude w czacie jest architektem i audytorem, Claude Code implementuje.
+- Kod aplikacji przeniesiono z historią zmian do `app/` (import commita `3368372`). Zgodność potwierdzono identycznym drzewem Git i sumami SHA-256 wszystkich plików.
+- Niezapisaną pracę (mikrokorekta L1-02 i lokalna implementacja L1-03) zapisano na gałęzi `wip/l1-02-l1-03` (commit `7b4cabc`). Gałąź `main` zawiera ostatni zatwierdzony stan aplikacji.
+- Kopie zapasowe obu dawnych folderów są na komputerze właściciela w `~/Backups/canon-rp-2026-09-29/`.
+- Dawny folder aplikacji w katalogu Codexa jest zamrożonym archiwum.
+- Zainstalowano `AGENTS.md`, `CLAUDE.md` i skill `canon-rp-precision` dla Claude Code. Test w nowej sesji zaliczony.
+- Zapisano zasadę źródeł treści D-048.
+- Repozytorium jest tymczasowo publiczne.
+
+### Co jest otwarte
+1. Materiały demonstracyjne L1-03: V01, V02, V03, V04A, V04B, V05. Obowiązują ograniczenia z D-043–D-046. To główna blokada postępu kursu.
+2. Mikrokorekta L1-02 na gałęzi WIP: rozdzielić od L1-03. Zmienia też wygląd L1-01, więc wymaga odbioru obu lekcji przez właściciela.
+3. W danych L1-03 na gałęzi WIP pola statusu zawierają zbędne znaki — do poprawy przy osadzaniu materiałów.
+4. Hosting i sposób publikacji — decyzja przed najbliższą publikacją. Obecna wersja na ChatGPT Sites działa bez zmian; nie ustalono, jak publikować bez narzędzi OpenAI.
+5. Testy Playwright i `app/README.md` zawierają ścieżki z dawnego folderu Codexa — do uporządkowania przy najbliższej pracy nad testami.
+6. Przy pierwszej nowej lekcji sprawdzić w praktyce standard pracy ze źródłami z D-048.
+
+### Pierwszy cel następnej sesji
+Wypracować sposób pozyskania materiałów L1-03 (punkt 1).
+
+### Uzupełnienie 29.09.2026
+- Zapisano proces redakcji lekcji D-049: trzy bramy akceptacji właściciela, sprawdzenie na aparacie tylko w razie potrzeby, animacje produkowane przez Claude Code w Higgsfield według zatwierdzonego storyboardu, pole „Kontekst AI” w każdej lekcji.
+
+## HANDOFF 30.09.2026 — materiały L1-03 w renderze 3D (D-050–D-052)
+
+### Co zostało wykonane
+- Zapisano zasady pracy Claude w czacie (`docs/23`, D-050). D-050 dopuszcza generowane sceny na ścisłych warunkach; sprzęt Ani i ekrany menu są zawsze prawdziwe.
+- Wybrano produkcję materiałów L1-03 metodą renderu 3D w Blenderze 4.5 LTS (D-051). Blender 4.5.14 LTS zainstalowany na Macu właściciela z blender.org, suma SHA-256 zgodna. Mac ma procesor Intel; 4.5 LTS to ostatnia oficjalna wersja dla Intela. Rendery liczy procesor (ok. 12 min na obraz 2400×1600).
+- Ujęcie próbne V04A (wersja v3) odebrane przez właściciela jako wiarygodne.
+- Scena: kubek nr 1 (szkliwo lavender #ece2f7, napis „Amore Mio” w kolorze violet #70429b, czcionka Playfair Display Italic, licencja SIL OFL 1.1), stół, ściana z tynkiem, lampa stojąca, obraz, książka, pilot. Kolory z palety aplikacji. Aparat: 50 mm, matryca 36×24 mm (instrukcje Canon, str. 119, „około 36,0×24,0 mm”), f/8.
+- Przygotowano podglądy V01-po, V02, V03-pionowo i V04B (kubek przy przednim brzegu stołu, bo „z dołu” wymaga aparatu poniżej blatu).
+- Wprowadzono dwa tryby pracy (D-052).
+- Skrypty sceny, czcionki z licencjami i kalibracja koloru są w `production/l1-03/scene/`. Rendery i podglądy leżą lokalnie w `production/l1-03/renders/` i `production/l1-03/previews/`, poza Git.
+- Źródła do tabeli źródeł karty L1-03 (D-048): Canon SNAPSHOT „Camera Basics #14: Position and Angle” (https://snapshot.canon-asia.com/article/eng/camera-basics-14-position-and-angle) — wysokość aparatu; Photography Life, Russ Burden, „How to Eliminate Background Distractions” (https://photographylife.com/how-to-eliminate-background-distractions-in-photographs) — krok w bok i brzegi kadru. Licencja renderów: FAQ Blendera (https://www.blender.org/support/faq/).
+
+### Co jest otwarte
+1. Decyzje właściciela na starcie następnej sesji (rekomendacje Claude w czacie, niezatwierdzone):
+   a) łagodne odbicie książki na kubku — rekomendacja: zostawić (fizycznie poprawne, V04A v3 bez zmian);
+   b) kadry V01-po, V03-pionowo, V04B-1, V04B-2, V04B-3 — rekomendacja: przyjąć;
+   c) V02 — rekomendacja: przebudować jako osobny wariant sceny (aparat ok. 0,7 m, książka i pilot bliżej kubka, B = mały krok lub obrót).
+2. Rendery finalne V01, V02, V03, V04B i odbiór przez właściciela.
+3. V05: wybór zdjęcia obiektywu z pakietu 2026-09-24 (kandydaci `0155ae68` — przód z napisem, `40b8cbb9` — góra z „50” i pierścieniem; zdjęcia od spodu odpadają przez numery seryjne), oficjalne źródło Canon o stałej ogniskowej RF 50 mm F1.8 STM, schemat „dalej/bliżej”.
+4. Osadzenie assetów w L1-03: optymalizacja, statyczne znaczniki V02, poprawka pól statusu, aktualizacja manifestu 16 i karty L1-03 (w tym tabela źródeł).
+5. Decyzja: czy pełne rendery trafiają do repozytorium, czy tylko zoptymalizowane assety w `app/`.
+6. `materials/camera-source-pack-2026-09-24/README_FOR_CODEX.md` istnieje tylko lokalnie — zdecydować, czy dodać do repozytorium.
+7. Definicja „zamknięcia lekcji” w D-049 — czy obejmuje publikację; jeśli tak, L1-04 zależy także od decyzji o hostingu.
+8. Bez zmian z 29.09: mikrokorekta L1-02 na gałęzi WIP, hosting, ścieżki Codexa w testach Playwright i `app/README.md`, pierwsza praktyka D-048.
+
+### Pierwszy cel następnej sesji
+Decyzje z punktu 1, rendery finalne i odbiór V01–V04B; potem V05.

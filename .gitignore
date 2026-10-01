@@ -18,3 +18,7 @@ materials/**/*
 artifacts/
 .sites-runtime/
 *.tar.gz
+
+# Rysunki z instrukcji Canon i pełne pliki materiałów zostają lokalnie (D-056, D-057).
+*-canon.*
+production/assets/

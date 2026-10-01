@@ -151,11 +151,11 @@ Priorytety D-19 i D-20 pozostają aktualne; sesja zdjęciowa nie stanowi zgody n
 
 - [ ] Przygotować shot list jednej kontrolowanej sesji zdjęciowej L1-03 z rośliną w doniczce.
 - [ ] Wykonać samodzielnie realne zdjęcia V01, V02, V03, V04A, V04B oraz rzeczywiste zdjęcie obiektywu V05 w jednej krótkiej kontrolowanej sesji domowej — bez angażowania Ani jako producentki materiałów kursu.
-- [ ] Opracować wyłącznie statyczne oznaczenia/UI na realnych zdjęciach, bez generowania scen zastępczych.
+- [ ] Opracować wyłącznie statyczne oznaczenia/UI na realnych zdjęciach.
 
 
 ## PRIORYTET NASTĘPNEGO WĄTKU — materiały L1-03
-- [ ] Nie generować kolejnych substytutów scen L1-03 przez AI.
+- [ ] Generowane sceny L1-03 tylko na warunkach D-050.
 - [ ] Nie wracać do pomysłu zewnętrznego fotografa jako domyślnego rozwiązania.
 - [ ] Nie angażować Ani jako producentki materiałów szkoleniowych.
 - [ ] Wypracować profesjonalny, wiarygodny i niskokosztowy sposób pozyskania V01, V02, V03, V04A, V04B i V05.
@@ -163,3 +163,36 @@ Priorytety D-19 i D-20 pozostają aktualne; sesja zdjęciowa nie stanowi zgody n
 - [ ] Po pozyskaniu materiałów: osadzenie w L1-03 → lokalny odbiór → commit → push → publikacja → test na iPhonie.
 
 **Blokada:** L1-03 nie idzie do finalnej publikacji bez gotowych materiałów demonstracyjnych.
+
+## PRIORYTETY PO 29.09.2026 (D-047)
+Wcześniejsze sekcje są historyczne; role według D-047.
+
+- [x] Przenieść kod aplikacji do `app/` z historią zmian.
+- [x] Zainstalować i sprawdzić instrukcje dla Claude Code.
+- [x] Wypracować sposób pozyskania materiałów L1-03 — 30.09.2026 (D-051, render 3D).
+- [x] Ujęcie próbne V04A odebrane — 30.09.2026.
+- [ ] Decyzje właściciela: odbicie książki, kadry V01/V03/V04B, przebudowa V02 (handoff 30.09).
+- [ ] Rendery finalne V01, V02, V03, V04B i odbiór.
+- [ ] V05: wybór zdjęcia obiektywu, źródło Canon, schemat.
+- [ ] Osadzenie assetów w L1-03, aktualizacja manifestu 16 i karty L1-03 z tabelą źródeł.
+- [ ] Rozdzielić mikrokorektę L1-02 od L1-03 na gałęzi `wip/l1-02-l1-03`; odbiór L1-01 i L1-02 przez właściciela.
+- [ ] Poprawić zbędne znaki w polach statusu L1-03.
+- [ ] Zdecydować o hostingu i sposobie publikacji.
+- [ ] Uporządkować ścieżki z dawnego folderu Codexa w testach i `app/README.md`.
+- [ ] Przy pierwszej nowej lekcji sprawdzić w praktyce standard pracy ze źródłami z D-048.
+- [ ] Przy pierwszej lekcji ustalić wersję firmware aparatu Ani (ścieżkę w menu wskaże instrukcja Canon).
+- [ ] Przy pierwszej animacji ustalić techniczne połączenie Claude Code z Higgsfield oraz koszt.
+
+## OTWARTE PO 01.10.2026
+- [ ] L1-03: decyzja właściciela o poprawce V01-po (D-054).
+- [ ] L1-03: przebudowa V02 jako wariant sceny i podgląd do oceny (D-054).
+- [ ] L1-03: rendery finalne V03-pionowo, V04B-1, V04B-2, V04B-3.
+- [ ] L1-03: rendery finalne V01-po i V02 po przyjęciu podglądów.
+- [ ] L1-03: V05 — wybór zdjęcia obiektywu, oficjalne źródło o stałej ogniskowej, schemat „dalej/bliżej”.
+- [ ] L1-03: odbiór wszystkich materiałów przez właściciela i zamknięcie lekcji.
+- [ ] L1-04: redakcja według D-049, równolegle z materiałami L1-03 (D-055).
+- [ ] L1-04: po powrocie właściciela porównać rysunki z instrukcji z ekranami aparatu Ani i ustalić wersję oprogramowania (D-056).
+- [ ] Hosting: wersja aplikacji z rysunkami Canon dostępna wyłącznie dla Ani (D-056).
+- [ ] L1-04: sprawdzić na aparacie Ani punkty z docs/L1-04_ZRODLA_INSTRUKCJA.md (D-056).
+- [ ] Nauczyciel AI: przepisać dokumenty 06 i 11 pod model Claude przy integracji (D-059).
+- [ ] Hosting: główny kandydat — VPS właściciela w Hetzner; do ustalenia: domena, co już działa na serwerze, wygodne logowanie Ani z ikony na iPhonie.
