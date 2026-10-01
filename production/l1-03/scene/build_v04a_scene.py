@@ -680,10 +680,12 @@ def set_mug_xy(x, y):
     AIM_POINT = Vector((x, y, TABLE_TOP_Z + 0.055))
 
 
-def make_camera(location, aim, pitch_deg=None, res=(RES_X, RES_Y), yaw_deg=None):
+def make_camera(location, aim, pitch_deg=None, res=(RES_X, RES_Y), yaw_deg=None,
+                f_stop=F_STOP, focus_point=None):
     """Aparat w punkcie location. Kierunek: na punkt aim albo podany wprost
     (yaw_deg, pitch_deg). Kadr pionowy (wyższy niż szerszy) to obrócony aparat:
-    36 mm matrycy przypada wtedy na dłuższy, pionowy bok."""
+    36 mm matrycy przypada wtedy na dłuższy, pionowy bok.
+    Ostrość: domyślnie przednia ścianka kubka; focus_point ustawia ją na podany punkt."""
     cam_data = bpy.data.cameras.new("Aparat")
     cam_data.lens = FOCAL_LENGTH_MM
     cam_data.sensor_fit = "HORIZONTAL" if res[0] >= res[1] else "AUTO"
@@ -691,7 +693,7 @@ def make_camera(location, aim, pitch_deg=None, res=(RES_X, RES_Y), yaw_deg=None)
     cam_data.sensor_height = SENSOR_HEIGHT_MM
     cam_data.clip_start = 0.02
     cam_data.dof.use_dof = True
-    cam_data.dof.aperture_fstop = F_STOP
+    cam_data.dof.aperture_fstop = f_stop
     cam_data.dof.aperture_blades = 7
     cam = link(bpy.data.objects.new("Aparat", cam_data))
     cam.location = location
@@ -700,6 +702,9 @@ def make_camera(location, aim, pitch_deg=None, res=(RES_X, RES_Y), yaw_deg=None)
     pitch = math.radians(pitch_deg) if pitch_deg is not None else math.atan2(d.z, d.xy.length)
     cam.rotation_euler = Euler((math.radians(90) + pitch, 0.0, yaw))
     cam_data.dof.focus_distance = d.length - 0.04   # przednia ścianka kubka
+    if focus_point is not None:
+        cam_data.dof.focus_distance = (Vector(focus_point) - location).length
+    print(f"APARAT: f/{cam_data.dof.aperture_fstop:g}, odleglosc ostrosci {cam_data.dof.focus_distance:.3f} m")
     scene = bpy.context.scene
     scene.camera = cam
     scene.render.resolution_x, scene.render.resolution_y = res
@@ -887,7 +892,74 @@ SHOTS = {
 }
 
 
-def build_scene(design):
+# ---------------------------------------------------------------------------
+# L1-04: dwa ujęcia tej samej sceny do pokazania miejsca ostrości.
+# Osobne wpisy; ujęcia i ustawienia L1-03 pozostają bez zmian.
+# Aparat nieruchomy, na wysokości oczu osoby siedzącej (jak V04A), 50 mm, f/2.8.
+# Kubek: przednia ścianka z napisem ok. 0,5 m od aparatu. Książka stoi pionowo,
+# napis na okładce 1,0 m od aparatu, lekko z prawej. Między ujęciami zmienia się
+# wyłącznie odległość ostrości.
+# ---------------------------------------------------------------------------
+
+L104_F_STOP = 2.8
+L104_CAMERA = (0.0, -0.85, TABLE_TOP_Z + EYE_HEIGHT)
+L104_MUG_Y = -0.3576                       # środek kubka 0,55 m od aparatu, ścianka z napisem 0,50 m
+L104_MUG_FOCUS = (0.0, L104_MUG_Y - 0.047, TABLE_TOP_Z + 0.068)
+L104_BOOK = {"x": 0.20, "front_y": 0.110, "rot": -11.8, "text_z": 0.105,
+             "text": "Notatki", "text_width": 0.095}
+L104_BOOK_FOCUS = (L104_BOOK["x"], L104_BOOK["front_y"], TABLE_TOP_Z + L104_BOOK["text_z"])
+_L104 = {"mug": (0.0, L104_MUG_Y), "camera": L104_CAMERA, "yaw": -2.5, "pitch": -22.0,
+         "f_stop": L104_F_STOP, "standing_book": L104_BOOK}
+
+SHOTS["l1-04-blizej"] = {**_L104, "focus": L104_MUG_FOCUS}
+SHOTS["l1-04-dalej"] = {**_L104, "focus": L104_BOOK_FOCUS}
+
+
+def build_standing_book(mats, spec):
+    """Ta sama książka co w L1-03, postawiona pionowo okładką do aparatu,
+    z wymyślonym napisem na okładce (do oceny ostrości)."""
+    rot = math.radians(spec["rot"])
+    thickness, height = 0.028, 0.225
+    center = Vector((0.0, thickness / 2, 0.0))
+    center.rotate(Euler((0.0, 0.0, rot)))
+    center += Vector((spec["x"], spec["front_y"], TABLE_TOP_Z + height / 2))
+    box("Ksiazka_okladka", (0.155, thickness, height), center,
+        mats["book_cover"], rotation_z=rot, bevel=0.0015)
+    pages_shift = Vector((0.004, 0.0, 0.0))
+    pages_shift.rotate(Euler((0.0, 0.0, rot)))
+    box("Ksiazka_kartki", (0.150, 0.024, 0.216), center + pages_shift,
+        mats["book_pages"], rotation_z=rot)
+
+    font = bpy.data.fonts.load(os.path.join(FONT_DIR, MUG_DESIGNS[1]["font"]))
+    curve = bpy.data.curves.new("Napis_ksiazka", "FONT")
+    curve.body = spec["text"]
+    curve.font = font
+    curve.size = 1.0
+    curve.align_x = "CENTER"
+    curve.align_y = "CENTER"
+    curve.resolution_u = 20
+    curve.fill_mode = "NONE"
+    tmp = link(bpy.data.objects.new("Napis_ksiazka_tmp", curve))
+    outline = bpy.data.meshes.new_from_object(tmp.evaluated_get(bpy.context.evaluated_depsgraph_get()))
+    bpy.data.objects.remove(tmp)
+    mesh = fill_glyph_outlines(outline)
+    bpy.data.meshes.remove(outline)
+    xs = [v.co.x for v in mesh.vertices]
+    ys = [v.co.y for v in mesh.vertices]
+    k = spec["text_width"] / (max(xs) - min(xs))
+    cx, cy = (max(xs) + min(xs)) / 2, (max(ys) + min(ys)) / 2
+    for v in mesh.vertices:
+        v.co = Vector(((v.co.x - cx) * k, (v.co.y - cy) * k, 0.0))
+    text = link(bpy.data.objects.new("Napis_ksiazka", mesh))
+    # napis stoi w płaszczyźnie okładki, 0,3 mm przed nią, zwrócony do aparatu
+    offset = Vector((0.0, -0.0003, 0.0))
+    offset.rotate(Euler((0.0, 0.0, rot)))
+    text.location = Vector((spec["x"], spec["front_y"], TABLE_TOP_Z + spec["text_z"])) + offset
+    text.rotation_euler = Euler((math.radians(90), 0.0, rot))
+    text.data.materials.append(mats["book_pages"])
+
+
+def build_scene(design, standing_book=None):
     bpy.ops.wm.read_factory_settings(use_empty=True)
     mats = build_materials(design)
     build_room(mats)
@@ -896,7 +968,10 @@ def build_scene(design):
     build_mug_text(mats, design)
     build_floor_lamp(mats)
     build_painting(mats)
-    build_book(mats)
+    if standing_book:
+        build_standing_book(mats, standing_book)
+    else:
+        build_book(mats)
     build_remote(mats)
     build_window_light()
 
@@ -914,20 +989,22 @@ def main():
     parser.add_argument("--calibrate", help="zapisz kalibrację koloru do pliku JSON")
     parser.add_argument("--use-calibration", help="użyj kalibracji z pliku JSON")
     parser.add_argument("--geometry-report", action="store_true")
-    parser.add_argument("--shot", choices=sorted(SHOTS), help="pozostałe ujęcia L1-03 (V01, V02, V03, V04B)")
+    parser.add_argument("--shot", choices=sorted(SHOTS),
+                        help="pozostałe ujęcia L1-03 (V01, V02, V03, V04B) oraz ujęcia L1-04")
     args = parser.parse_args(argv)
 
     shot = SHOTS.get(args.shot)
     if shot and "mug" in shot:
         set_mug_xy(*shot["mug"])
-    build_scene(args.design)
+    build_scene(args.design, standing_book=shot.get("standing_book") if shot else None)
     if args.geometry_report:
         geometry_report(args.design)
         return
 
     if shot:
         make_camera(Vector(shot["camera"]), AIM_POINT, pitch_deg=shot.get("pitch"),
-                    res=shot.get("res", (RES_X, RES_Y)), yaw_deg=shot.get("yaw"))
+                    res=shot.get("res", (RES_X, RES_Y)), yaw_deg=shot.get("yaw"),
+                    f_stop=shot.get("f_stop", F_STOP), focus_point=shot.get("focus"))
     elif args.view == "closeup":
         location = MUG_BASE + Vector((0.0, -0.40, 0.11))
         make_camera(location, AIM_POINT, res=CLOSEUP_RES)
