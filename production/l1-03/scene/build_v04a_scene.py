@@ -962,6 +962,16 @@ SHOTS["l1-01-v06-4-za-blisko"] = {"camera": (0.0, -0.246, TABLE_TOP_Z + 0.095), 
                                   "focus_distance": 0.30, "no_measure": True}
 
 
+# L1-02-V01: kadr i scena jak V04A pozycja 1, f/2.8, aparat nieruchomy.
+# Między ujęciami zmienia się tylko odległość ostrości: napis na kubku albo ściana za kubkiem.
+_L102 = {"camera": (0.0, -V04A_HORIZONTAL, TABLE_TOP_Z + EYE_HEIGHT), "pitch": CAMERA_PITCH_DEG,
+         "f_stop": 2.8}
+L102_WALL_DISTANCE = (WALL_Y + V04A_HORIZONTAL) / math.cos(math.radians(CAMERA_PITCH_DEG))
+SHOTS["l1-02-v01-ostrosc-dobra"] = {**_L102, "focus": V06_TEXT}
+SHOTS["l1-02-v01-ostrosc-przesunieta"] = {**_L102, "focus_distance": L102_WALL_DISTANCE,
+                                          "no_measure": True}
+
+
 def build_standing_book(mats, spec):
     """Ta sama książka co w L1-03, postawiona pionowo okładką do aparatu,
     z wymyślonym napisem na okładce (do oceny ostrości)."""
