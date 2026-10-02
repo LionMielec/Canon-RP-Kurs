@@ -134,7 +134,7 @@ Numer strony drukowanej i strony PDF jest ten sam. Żaden obraz nie został wyci
 | Widok fotografowania z punktem AF | PL 193 (krok 1) | Ekran fotografowania w trybie P (krajobraz z domkiem) z kwadratowym punktem AF oznaczonym „(1)” oraz ikonami migawki dotykowej, powiększenia i Q. |
 | Widok fotografowania z punktem AF — opis elementów | PL 591 | Ekran fotografowania z ponumerowanymi elementami, m.in. (6) Metoda AF, (7) Działanie AF, (12) Punkt AF (1-punktowy AF), (18) Przycisk szybkich nastaw; na rysunku jest tryb M, nie P. |
 | Punkt AF po ustawieniu ostrości | PL 194 (krok 3) | Spust naciskany do połowy oraz ekran w trybie P z zielonym punktem AF przesuniętym na domek. |
-| Przesuwanie punktu AF | PL 193 (krok 2) | Ekran po naciśnięciu Przycisku punktu AF: punkt przesunięty w lewo, u dołu ikony kosza, M-Fn z metodą AF, INFO z lupą i SET z powrotem. Nie ma rysunku przycisków, pokręteł ani palca na ekranie przy przesuwaniu. |
+| Przesuwanie punktu AF | PL 193 (krok 2) | Ekran po naciśnięciu Przycisku punktu AF: punkt na środku ekranu, u dołu ikony kosza, M-Fn z metodą AF, INFO z lupą i SET z powrotem. Nie ma rysunku przycisków, pokręteł ani palca na ekranie przy przesuwaniu. |
 | Dotyk ekranu (migawka dotykowa) | PL 163 | Dwa ekrany w trybie P z rysunkiem dłoni: palec na ikonie migawki dotykowej w lewym dolnym rogu oraz palec na twarzy z zielonym punktem AF. |
 | Wyświetlanie punktu AF przy oglądaniu zdjęcia | PL 352 | Dwa ekrany menu: karta odtwarzania nr 4 z zaznaczoną pozycją „Wyśw.punktu AF” oraz wybór między [Wyłącz] i [Włącz]. Rysunku zdjęcia z czerwonym punktem AF nie ma. |
 | Tryb P na pokrętle | PL 96 | Pokrętło wyboru trybów ustawione na P, ekran w trybie P z zielonym punktem AF na twarzy oraz pasek z czasem i przysłoną. |

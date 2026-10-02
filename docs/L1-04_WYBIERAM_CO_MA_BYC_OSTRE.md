@@ -101,8 +101,8 @@ W Twoim aparacie dotknięcie ekranu nie robi zdjęcia — tylko wskazuje miejsce
 Aby wrócić z punktem na środek: naciśnij przycisk punktu AF, a potem **przycisk kosza**.
 
 ### Materiał dla Ani
-- L1-04-V06: przycisk punktu AF i przycisk kosza na tylnej ściance.
-- L1-04-V07: ekran z punktem przesuniętym w bok.
+- L1-04-V06: przycisk punktu AF, Q/SET i przycisk kosza na tylnej ściance.
+- L1-04-V07: ekran po naciśnięciu przycisku punktu AF — kwadrat jeszcze na środku.
 
 ---
 
