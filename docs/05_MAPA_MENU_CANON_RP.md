@@ -21,7 +21,7 @@ Uzgodniony punkt startowy: tryb fotografowania **M**, następnie przycisk **MENU
 | Moje Menu | Ekran główny | Oczekuje |
 | Szybkie ustawienia Q | Cały ekran | Oczekuje |
 | Ekran fotografowania | Widoczne parametry przed wykonaniem zdjęcia | Oczekuje |
-| Wersja firmware | Jedno czytelne zdjęcie informacji o wersji | Oczekuje |
+| Wersja firmware | Jedno czytelne zdjęcie informacji o wersji | Ustalono: 1.6.3 (01.10.2026) |
 
 Liczba ekranów jest orientacyjna. Fotografujemy rzeczywisty zestaw dostępny na aparacie, bez dopasowywania go na siłę do numerów powyżej. Filmowanie i szczegółowe podmenu zbierzemy później, według potrzeb konkretnych lekcji.
 

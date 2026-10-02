@@ -66,21 +66,25 @@ L1-04-V02: pokrętło trybów z wyraźnie zaznaczoną literą P.
 
 ## L1-04-S04 — Ustaw jeden punkt ostrości
 
-1. Naciśnij przycisk **Q/SET** — to środkowy przycisk tylnego wybieraka.  
-   → Na ekranie pojawiają się szybkie nastawy.
-2. Przyciskami tylnego wybieraka w górę i w dół wybierz **[Metoda AF]**.  
-   → U dołu ekranu widać rząd ikon.
-3. Przyciskami w lewo i w prawo wybierz **[1-punktowy AF]** — ikonę z jednym małym kwadratem.
-4. W ten sam sposób znajdź pozycję **ONE SHOT** i upewnij się, że jest wybrana. To **[One-Shot AF]**: aparat ustawia ostrość raz — tak jest najlepiej przy nieruchomych przedmiotach.
-5. Zatwierdź przyciskiem **Q/SET**.  
-   → Na środku ekranu widać jeden mały kwadrat. To Twój punkt ostrości.
+Teraz powiesz aparatowi: „ostrość ustawiam ja, w jednym miejscu”.
 
-Jeśli nie widzisz tych ustawień po naciśnięciu Q, zajrzyj do części „Jeśli coś nie działa” na końcu lekcji.
+1. Naciśnij **Q/SET** — środkowy przycisk tylnego wybieraka.  
+   → Na ekranie pojawi się zestaw szybkich ustawień.
+2. Naciskaj tylny wybierak w górę albo w dół, aż zaznaczysz napis **Metoda AF**.  
+   → Na dole ekranu zobaczysz rząd małych ikon.
+3. Naciskaj w lewo albo w prawo, aż zaznaczysz ikonę z **jednym małym kwadratem**. Aparat podpisze ją **1-punktowy AF**.
+4. W ten sam sposób znajdź napis **ONE SHOT** i sprawdź, czy jest wybrany. Dzięki niemu aparat ustawia ostrość raz i ją trzyma — w sam raz dla przedmiotów, które się nie ruszają.
+5. Naciśnij **Q/SET**, żeby zatwierdzić.  
+   → Na środku ekranu zostaje jeden mały kwadrat. To Twój punkt ostrości.
+
+Jeśli po naciśnięciu Q/SET nie widzisz tych napisów, zajrzyj do części [[L1-04-POMOC|Jeśli coś nie działa]].
 
 ### Materiał dla Ani
-- L1-04-V03: przycisk Q/SET na tylnym wybieraku.
-- L1-04-V04: ekran szybkich nastaw z zaznaczoną pozycją [Metoda AF].
-- L1-04-V05: ekran z wybranym [1-punktowy AF] i punktem na środku.
+- przy podpunkcie 1: L1-04-V03 — przycisk Q/SET,
+- przy podpunkcie 2: L1-04-V04 — ekran szybkich ustawień z zaznaczonym napisem Metoda AF,
+- przy podpunkcie 3: L1-04-V05 — ikona z jednym kwadratem, podpis 1-punktowy AF i punkt na środku,
+- przy podpunkcie 4: L1-04-V11 — napis ONE SHOT na ekranie szybkich ustawień,
+- przy podpunkcie 5: odwołanie do L1-04-V05 (punkt na środku).
 
 ---
 
@@ -97,8 +101,8 @@ W Twoim aparacie dotknięcie ekranu nie robi zdjęcia — tylko wskazuje miejsce
 Aby wrócić z punktem na środek: naciśnij przycisk punktu AF, a potem **przycisk kosza**.
 
 ### Materiał dla Ani
-- L1-04-V06: przycisk punktu AF i przycisk kosza na tylnej ściance.
-- L1-04-V07: ekran z punktem przesuniętym w bok.
+- L1-04-V06: przycisk punktu AF, Q/SET i przycisk kosza na tylnej ściance.
+- L1-04-V07: ekran po naciśnięciu przycisku punktu AF — kwadrat jeszcze na środku.
 
 ---
 
@@ -120,7 +124,7 @@ L1-04-V08: ekran z zielonym punktem na przedmiocie po ustawieniu ostrości.
 
 ## L1-04-S07 — Sprawdź, czy się udało
 
-Otwórz zdjęcie i powiększ szczegół na przedmiocie, który miał być ostry — tak jak w lekcji o sprawdzaniu ostrości.
+Otwórz zdjęcie i powiększ szczegół na przedmiocie, który miał być ostry — tak jak w [[L1-02|lekcji o sprawdzaniu ostrości]].
 
 Przy oglądaniu zdjęcia w zwykłym widoku aparat zaznacza **czerwoną ramką** miejsce, w którym ustawił ostrość. To dobra podpowiedź, gdzie patrzeć.
 
@@ -160,20 +164,36 @@ Dokończ zdanie:
 
 ## Jeśli coś nie działa
 
-**Po naciśnięciu Q nie widzę [Metoda AF] ani ONE SHOT.**  
-Ustaw to przez menu: naciśnij MENU, na karcie fotografowania wybierz **[Metoda AF]** → **[1-punktowy AF]**, a potem **[Działanie AF]** → **[One-Shot AF]**. Każdy wybór zatwierdź przyciskiem Q/SET.
+**Nacisnęłam Q/SET, ale nie widzę napisu „Metoda AF”.**  
+Nic straconego — to samo ustawisz w menu.
+1. Naciśnij **MENU**.
+2. Przejdź do czerwonej części menu — tej z ikoną aparatu. Ma kilka stron; przechodzisz między nimi, naciskając tylny wybierak w lewo albo w prawo.
+3. Znajdź napis **Metoda AF**, zaznacz go i naciśnij **Q/SET**.
+4. Wybierz ikonę z jednym małym kwadratem — **1-punktowy AF** — i znów naciśnij **Q/SET**.
+5. Na czerwonych stronach menu znajdź jeszcze napis **Działanie AF**. Wybierz **One-Shot AF** i naciśnij **Q/SET**.
+6. Naciśnij **MENU**, żeby wrócić do robienia zdjęć.
 
-**Na ekranie widzę dużą ramkę na twarzy albo na całym obrazie, a nie mały kwadrat.**  
-Metoda AF nie została zmieniona. Wróć do kroku „Ustaw jeden punkt ostrości”.
+**Widzę dużą ramkę albo ramkę na czyjejś twarzy, a nie mały kwadrat.**  
+To znak, że aparat dalej sam wybiera, co ma być ostre. Wróć do kroku [[L1-04-S04|Ustaw jeden punkt ostrości]] i jeszcze raz wybierz ikonę z jednym kwadratem.
 
-**Dotknięcie ekranu zrobiło zdjęcie.**  
-Włączyła się migawka dotykowa. Dotknij ikony w lewym dolnym rogu ekranu, żeby ją wyłączyć.
+**Dotknęłam ekranu i aparat od razu zrobił zdjęcie.**  
+Włączyło się robienie zdjęć dotknięciem ekranu. Spójrz w lewy dolny róg ekranu — jest tam mała ikona, taka jak na rysunku poniżej. Dotknij jej raz. Od teraz dotknięcie ekranu znów tylko pokazuje aparatowi, co ma być ostre.
 
-**Punkt nie chce dojść do samej krawędzi ekranu.**  
-To normalne. Ustaw przedmiot trochę bliżej środka kadru.
+**Kwadrat nie chce dojść do samego brzegu ekranu.**  
+Tak ma być — kwadrat nie sięga do samej krawędzi. Przesuń aparat odrobinę, żeby przedmiot był bliżej środka.
 
-**Punkt ciągle robi się pomarańczowy.**  
-Wybierz fragment z wyraźnym napisem albo krawędzią. Jeśli jesteś bardzo blisko przedmiotu, cofnij się trochę.
+**Kwadrat robi się pomarańczowy.**  
+Aparat mówi w ten sposób: „tu nie mam się czego złapać”. Przesuń kwadrat na napis albo wyraźną krawędź. Jeśli jesteś bardzo blisko, odsuń się trochę. Pamiętasz [[L1-01-S08|planszę z łatwymi i trudnymi celami z pierwszej lekcji]]? Tu działa dokładnie to samo.
+
+### Materiał dla Ani
+- menu, podpunkt 1 i 6: L1-04-V12 — przycisk MENU,
+- menu, podpunkt 2: L1-04-V13 — czerwona część menu z ikoną aparatu,
+- menu, podpunkt 3: L1-04-V14 — strona menu z napisem Metoda AF,
+- menu, podpunkt 4: L1-04-V15 — wybór ikony z jednym kwadratem w menu,
+- menu, podpunkt 5: L1-04-V16 — napis Działanie AF i wybór One-Shot AF,
+- „Widzę dużą ramkę…”: L1-04-V17 — ekran z dużą ramką lub ramką na twarzy,
+- „Dotknęłam ekranu…”: L1-04-V09 — ikona w lewym dolnym rogu,
+- „Kwadrat robi się pomarańczowy”: L1-04-V18 — ekran z pomarańczowym punktem.
 
 ---
 
@@ -233,7 +253,7 @@ Układ lekcji, kolejność kroków i ćwiczenie „raz bliższy, raz dalszy” s
 
 - zgodność zakresu z programem Poziomu 1: SPRAWDZONA (brama 1 zatwierdzona 01.10.2026),
 - kroki P, punkt AF, przesuwanie, kosz, kolory punktu, migawka dotykowa, czerwona ramka przy oglądaniu: ZWERYFIKOWANE W INSTRUKCJI CANON PL (2019),
-- ustawianie [Metoda AF] i ONE SHOT przez Q: WYNIKA Z RYSUNKU PL 65 — DO SPRAWDZENIA NA APARACIE,
+- ustawianie [Metoda AF] i ONE SHOT przez Q/SET: WYNIKA Z RYSUNKU PL 65 — DO SPRAWDZENIA NA APARACIE,
 - czy dotyk przesuwa punkt bez naciśnięcia przycisku punktu AF: DO SPRAWDZENIA NA APARACIE,
 - położenie pozycji menu w trybie P: DO SPRAWDZENIA NA APARACIE,
 - materiały wizualne: DO PRZYGOTOWANIA I ODBIORU (karta L1-04),

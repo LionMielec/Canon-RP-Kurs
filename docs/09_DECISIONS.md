@@ -675,3 +675,43 @@ Zatwierdzone 01.10.2026. Zmienia kierunek roboczy z dokumentu 06 (model OpenAI).
 - Dokumenty 06 i 11 (model, zabezpieczenia i limity wydatków opisane dla OpenAI) zostaną przepisane przy integracji.
 
 Zasada: **nauczyciel AI na Claude; szczegóły po próbie na prawdziwych zdjęciach.**
+
+## D-060 — Odsyłacze w lekcjach są linkami
+Zatwierdzone 01.10.2026.
+
+- Każde odwołanie w tekście lekcji do innego kroku, części lekcji lub innej lekcji (np. „wróć do kroku …”, „zajrzyj do części …”) jest linkiem, który przenosi dokładnie do tego miejsca.
+- Dotyczy wszystkich lekcji, także już istniejących.
+
+Zasada: **Ania nie szuka — klika i jest na miejscu.**
+
+## D-061 — Claude w czacie czyta całą dokumentację na starcie sesji
+Zatwierdzone 01.10.2026. Zmienia punkt 2.1 dokumentu 23.
+
+- Na starcie każdej sesji Claude w czacie pobiera repozytorium i czyta całą dokumentację z `docs/` oraz `AGENTS.md` i `CLAUDE.md`, zanim potwierdzi stan lub cokolwiek zaproponuje.
+
+Zasada: **najpierw cała wiedza z repozytorium, potem praca.**
+
+## D-062 — Tekst dla Ani nie brzmi jak instrukcja obsługi
+Zatwierdzone 01.10.2026. Uzupełnia dokument 03.
+
+- Kurs istnieje po to, żeby Ania nie musiała czytać instrukcji obsługi. Żaden fragment tekstu dla Ani — także pomoc przy problemach — nie może brzmieć jak instrukcja obsługi aparatu.
+- Instrukcja Canon jest źródłem faktów, nie wzorem języka ani układu tekstu.
+- Problem opisujemy tak, jak widzi go Ania przy aparacie; dalej proste zdania: co widzi, co zrobić, po co.
+
+Zasada: **tak, jak powiedziałby to cierpliwy nauczyciel siedzący obok Ani.**
+
+## D-063 — Jedna nazwa dla jednego elementu
+Zatwierdzone 02.10.2026.
+
+- Każdy przycisk, pokrętło, napis i ikona ma w całym kursie jedną nazwę, używaną konsekwentnie we wszystkich lekcjach: w krokach, pomocy, nagłówkach i podpisach (np. zawsze „Q/SET”, nigdy raz „Q”, a raz „Q/SET”).
+- Nazwy przycisków odpowiadają oznaczeniom na aparacie Ani; nazwy z menu — napisom na jego ekranie (D-048).
+
+Zasada: **ten sam element — zawsze ta sama nazwa.**
+
+## D-064 — Każdy napis i ikona z ekranu pokazane przy instrukcji
+Zatwierdzone 02.10.2026. Uzupełnia D-030 o elementy ekranu.
+
+- Gdy tekst lekcji odsyła do napisu, ikony lub widoku na ekranie aparatu (np. „znajdź napis Metoda AF”, „wybierz ikonę z jednym kwadratem”), przy tej instrukcji jest obraz tego ekranu: zdjęcie ekranu aparatu Ani, a gdy go brak — rysunek z instrukcji Canon (D-056).
+- Obraz stoi bezpośrednio przy podpunkcie, którego dotyczy, z oznaczeniem wskazywanego elementu.
+
+Zasada: **Ania widzi to, czego ma szukać, zanim zacznie szukać.**

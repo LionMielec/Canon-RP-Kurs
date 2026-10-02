@@ -51,7 +51,7 @@ Gdy potrafisz samodzielnie wykonać trzy zdjęcia w tym samym świadomym cyklu.
 
 **Zapamiętaj: najpierw przygotuj zdjęcie — potem je wykonaj.**
 
-W L1-02 nauczysz się sprawdzać, czy ważny szczegół rzeczywiście wyszedł ostry.
+W [[L1-02|następnej lekcji]] nauczysz się sprawdzać, czy ważny szczegół rzeczywiście wyszedł ostry.
 
 ---
 Szczegółowa warstwa wizualna: [L1-01 — karta produkcyjna](L1-01_KARTA_WIZUALNO_PRODUKCYJNA.md).

@@ -9,7 +9,7 @@ Po tej lekcji Ania:
 - rozpoznaje na gotowych przykładach, jak wygląda detal ostry i mniej ostry,
 - wie, że ostrość sprawdza się na konkretnym szczególe, a nie po małym podglądzie całego zdjęcia,
 - potrafi otworzyć zdjęcie na Canon EOS RP, powiększyć ważny szczegół i sprawdzić go,
-- stosuje tę metodę do własnych zdjęć wykonanych w poprzedniej lekcji.
+- stosuje tę metodę do własnych zdjęć wykonanych w [[L1-01|poprzedniej lekcji]].
 
 Główny nawyk:
 
@@ -52,7 +52,7 @@ Kurs pokazuje go teraz na zdjęciu aparatu i zaznacza dokładnie miejsce, które
 
 Naciskaj lewy albo prawy kierunek na tylnym wybieraku, aby przechodzić między zdjęciami.
 
-Znajdź jedno z trzech zdjęć wykonanych w poprzedniej lekcji.
+Znajdź jedno z trzech zdjęć wykonanych w [[L1-01|poprzedniej lekcji]].
 
 ## L1-02-S04 — Powiększ ważny szczegół
 
@@ -72,7 +72,7 @@ Nie musisz powiększać maksymalnie. Powiększ tylko tyle, żeby dobrze widzieć
 
 Patrz tylko na wybrany detal.
 
-Porównaj go w myślach z gotowymi przykładami, które przed chwilą widziałaś w kursie.
+Porównaj go w myślach z [[L1-02-S01|gotowymi przykładami]], które przed chwilą widziałaś w kursie.
 
 Zapytaj:
 
@@ -86,7 +86,7 @@ Nie zgaduj jeszcze dlaczego. W tej lekcji uczysz się najpierw zauważać rezult
 
 ## L1-02-S06 — Sprawdź pozostałe dwa zdjęcia
 
-Przejdź do kolejnego zdjęcia z poprzedniej lekcji i powiększ ten sam konkretny szczegół.
+Przejdź do kolejnego zdjęcia z [[L1-01|poprzedniej lekcji]] i powiększ ten sam konkretny szczegół.
 
 Zrób to samo z trzecim zdjęciem.
 
@@ -100,8 +100,8 @@ Po zakończeniu oglądania możesz ponownie nacisnąć przycisk odtwarzania albo
 
 ## Ćwiczenie
 
-1. Najpierw obejrzyj w kursie gotowe przykłady ostrego i mniej ostrego detalu.
-2. Otwórz jedno ze swoich zdjęć z poprzedniej lekcji.
+1. Najpierw obejrzyj w kursie [[L1-02-S01|gotowe przykłady ostrego i mniej ostrego detalu]].
+2. Otwórz jedno ze swoich zdjęć z [[L1-01|poprzedniej lekcji]].
 3. Wybierz jeden ważny szczegół.
 4. Powiększ go na aparacie.
 5. Oceń tylko jego wyrazistość.
