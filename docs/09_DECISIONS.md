@@ -715,3 +715,12 @@ Zatwierdzone 02.10.2026. Uzupełnia D-030 o elementy ekranu.
 - Obraz stoi bezpośrednio przy podpunkcie, którego dotyczy, z oznaczeniem wskazywanego elementu.
 
 Zasada: **Ania widzi to, czego ma szukać, zanim zacznie szukać.**
+
+## D-065 — Jedna nazwa: zakres, reguła wyboru i słownik
+Zatwierdzone 02.10.2026. Uzupełnia D-063.
+
+- Zasada jednej nazwy dotyczy wszystkiego w kursie: przycisków, pokręteł, napisów, ikon i pojęć — w krokach, pomocy, nagłówkach, podpisach i opisach obrazów.
+- Wybór nazwy: (1) jeśli element ma napis na aparacie Ani lub na jego ekranie — dokładnie ten napis (np. Q/SET, MENU, Metoda AF, ONE SHOT); (2) jeśli nie ma napisu — nazwa z zatwierdzonych lekcji L1-01 i L1-02, a gdy jej tam nie ma — jedna prosta nazwa opisowa, nadana raz; (3) inne określenie może pojawić się najwyżej raz w lekcji, jako opis wyglądu (np. „mały kwadrat — to Twój punkt ostrości”).
+- Obowiązujące nazwy są zapisane w `docs/24_SLOWNIK_NAZW.md`. Nowa nazwa trafia do słownika przed użyciem w lekcji.
+
+Zasada: **słownik nazw jest jeden dla całego kursu.**

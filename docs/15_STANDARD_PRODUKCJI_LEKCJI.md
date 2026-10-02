@@ -63,7 +63,7 @@ Warstwę wizualną projektujemy równolegle z treścią każdej lekcji, począws
 - Materiał wizualny umieszczamy bezpośrednio przy instrukcji, której dotyczy; nie grupujemy kilku różnych wskazań pod wcześniejszym krokiem, jeśli użytkowniczka czyta już o innym elemencie.
 - Oznaczenia elementów aparatu mają być przede wszystkim wyraźne i jednoznaczne. Mogą korzystać z miękkiego podświetlenia / glow, ale nie mogą być zbyt subtelne. Animacja lub pulsowanie są opcjonalne; jeśli nie poprawiają jakości, oznaczenie pozostaje statyczne. Czytelność i precyzja wskazania mają pierwszeństwo przed efektem animowanym.
 - Odbiór zmiany odbywa się na podstawie faktycznego wyglądu i działania aplikacji, a nie wyłącznie raportu technicznego.
-- Ten sam element aparatu lub ekranu ma w całym kursie jedną nazwę (D-063).
+- Ten sam element aparatu lub ekranu ma w całym kursie jedną nazwę (D-063) — nazwy według `docs/24_SLOWNIK_NAZW.md` (D-065).
 - Każdy napis, ikona lub widok ekranu, do którego odsyła tekst, jest pokazany na obrazie bezpośrednio przy tym podpunkcie (D-064).
 
 ## 11. Weryfikacja merytoryczna kolejnych lekcji
