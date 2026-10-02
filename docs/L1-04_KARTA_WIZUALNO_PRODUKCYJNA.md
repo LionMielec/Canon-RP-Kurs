@@ -29,7 +29,7 @@ Stan: 01.10.2026. Dokument produkcyjny; zgodnie z D-048 jego treść nie jest wi
 |---|---|
 | W A+ aparat sam wybiera miejsce ostrości (twarz albo cały obszar AF); metody AF nie da się zmienić | instrukcja PL, s. 97, 188, 190 |
 | Pokrętło na P; w P aparat sam ustawia czas i przysłonę, metodę AF można zmienić | instrukcja PL, s. 96–97 |
-| Q otwiera szybkie nastawy; wybór w górę/w dół, zmiana w lewo/w prawo, zatwierdzenie SET; nie działa w A+ | instrukcja PL, s. 65 |
+| Q/SET otwiera szybkie ustawienia; wybór w górę/w dół, zmiana w lewo/w prawo, zatwierdzenie Q/SET; nie działa w A+ | instrukcja PL, s. 65 |
 | [Metoda AF] i ONE SHOT widoczne na ekranie szybkich nastaw | rysunek, instrukcja PL, s. 65 — do sprawdzenia na aparacie |
 | [Działanie AF] → [One-Shot AF]; [Metoda AF] → [1-punktowy AF] przez menu | instrukcja PL, s. 185–186, 188, 190 |
 | Przycisk punktu AF w prawym górnym rogu; przesuwanie dotykiem, pokrętłami lub przyciskami; kosz wraca na środek; punkt może nie dojść do krawędzi | instrukcja PL, s. 33, 193 |

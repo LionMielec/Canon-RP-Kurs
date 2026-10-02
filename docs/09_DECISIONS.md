@@ -699,3 +699,19 @@ Zatwierdzone 01.10.2026. Uzupełnia dokument 03.
 - Problem opisujemy tak, jak widzi go Ania przy aparacie; dalej proste zdania: co widzi, co zrobić, po co.
 
 Zasada: **tak, jak powiedziałby to cierpliwy nauczyciel siedzący obok Ani.**
+
+## D-063 — Jedna nazwa dla jednego elementu
+Zatwierdzone 02.10.2026.
+
+- Każdy przycisk, pokrętło, napis i ikona ma w całym kursie jedną nazwę, używaną konsekwentnie we wszystkich lekcjach: w krokach, pomocy, nagłówkach i podpisach (np. zawsze „Q/SET”, nigdy raz „Q”, a raz „Q/SET”).
+- Nazwy przycisków odpowiadają oznaczeniom na aparacie Ani; nazwy z menu — napisom na jego ekranie (D-048).
+
+Zasada: **ten sam element — zawsze ta sama nazwa.**
+
+## D-064 — Każdy napis i ikona z ekranu pokazane przy instrukcji
+Zatwierdzone 02.10.2026. Uzupełnia D-030 o elementy ekranu.
+
+- Gdy tekst lekcji odsyła do napisu, ikony lub widoku na ekranie aparatu (np. „znajdź napis Metoda AF”, „wybierz ikonę z jednym kwadratem”), przy tej instrukcji jest obraz tego ekranu: zdjęcie ekranu aparatu Ani, a gdy go brak — rysunek z instrukcji Canon (D-056).
+- Obraz stoi bezpośrednio przy podpunkcie, którego dotyczy, z oznaczeniem wskazywanego elementu.
+
+Zasada: **Ania widzi to, czego ma szukać, zanim zacznie szukać.**
