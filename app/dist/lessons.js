@@ -848,11 +848,11 @@ window.CANON_LESSONS = [
       },
       {
         "id": "L1-04-S05",
-        "title": "Przesuń punkt na wybrany przedmiot",
+        "title": "Przesuń punkt ostrości na wybrany przedmiot",
         "mediaPlacement": "after",
         "blocks": [
           {
-            "text": "1. Naciśnij **przycisk punktu AF** — w prawym górnym rogu tylnej ścianki aparatu.\n   → Punkt ostrości można teraz przesuwać."
+            "text": "1. Naciśnij **przycisk punktu ostrości** — w prawym górnym rogu tylnej ścianki aparatu.\n   → Punkt ostrości można teraz przesuwać."
           },
           {
             "asset": "L1-04-V06",
@@ -863,7 +863,7 @@ window.CANON_LESSONS = [
             "frame": 0
           },
           {
-            "text": "2. **Dotknij ekranu** w miejscu, gdzie jest przedmiot, który ma być ostry. Możesz też przesuwać punkt przyciskami tylnego wybieraka.\n   → Kwadrat przesuwa się w wybrane miejsce.\n3. Gdy punkt jest na przedmiocie, naciśnij **Q/SET**.\n\nW Twoim aparacie dotknięcie ekranu nie robi zdjęcia — tylko wskazuje miejsce.\n\nAby wrócić z punktem na środek: naciśnij przycisk punktu AF, a potem **przycisk kosza**."
+            "text": "2. **Dotknij ekranu** w miejscu, gdzie jest przedmiot, który ma być ostry. Możesz też przesuwać punkt ostrości przyciskami tylnego wybieraka.\n   → Punkt ostrości przesuwa się w wybrane miejsce.\n3. Gdy punkt ostrości jest na przedmiocie, naciśnij **Q/SET**.\n\nW Twoim aparacie dotknięcie ekranu nie robi zdjęcia — tylko wskazuje miejsce.\n\nAby wrócić z punktem ostrości na środek: naciśnij przycisk punktu ostrości, a potem **przycisk kosza**."
           }
         ]
       },
@@ -873,14 +873,14 @@ window.CANON_LESSONS = [
         "mediaPlacement": "after",
         "blocks": [
           {
-            "text": "Teraz znany już cykl:\n\n1. Skieruj aparat tak, żeby punkt był na wybranym przedmiocie.\n2. Naciśnij spust do połowy.\n   → Punkt robi się **zielony** i słychać sygnał. Ostrość jest ustawiona."
+            "text": "Teraz znany już cykl:\n\n1. Skieruj aparat tak, żeby punkt ostrości był na wybranym przedmiocie.\n2. Naciśnij spust do połowy.\n   → Punkt ostrości robi się **zielony** i słychać sygnał. Ostrość jest ustawiona."
           },
           {
             "asset": "L1-04-V08",
             "frame": 0
           },
           {
-            "text": "3. Spokojnie dociśnij spust do końca.\n\nJeśli punkt zrobi się **pomarańczowy**, aparat nie ustawił ostrości. Przesuń punkt na wyraźniejszy fragment — napis albo krawędź — i spróbuj jeszcze raz."
+            "text": "3. Spokojnie dociśnij spust do końca.\n\nJeśli punkt ostrości zrobi się **pomarańczowy**, aparat nie ustawił ostrości. Przesuń go na wyraźniejszy fragment — napis albo krawędź — i spróbuj jeszcze raz."
           }
         ]
       },
@@ -893,7 +893,7 @@ window.CANON_LESSONS = [
     ],
     "exercise": {
       "title": "Raz bliższy, raz dalszy",
-      "body": "Postaw dwa przedmioty na stole:\n- jeden bliżej aparatu — około pół metra,\n- drugi dalej — około metra,\n- tak, żeby stały częściowo obok siebie i oba były widoczne w kadrze.\n\nUsiądź albo stań tak, żeby nie zmieniać swojego miejsca między zdjęciami.\n\n**Zdjęcie 1 — ostry bliższy**\n\nPrzesuń punkt ostrości na wyraźny szczegół bliższego przedmiotu. Naciśnij spust do połowy, poczekaj na zielony punkt i zrób zdjęcie.\n\n**Zdjęcie 2 — ostry dalszy**\n\nNie ruszaj aparatu ani przedmiotów. Przesuń punkt na wyraźny szczegół dalszego przedmiotu. Ustaw ostrość i zrób zdjęcie.\n\n**Porównaj**\n\nNa obu zdjęciach powiększ ten sam szczegół — najpierw na bliższym, potem na dalszym przedmiocie.\n\nSprawdź:\n- Czy na pierwszym zdjęciu ostry jest bliższy przedmiot?\n- Czy na drugim — dalszy?\n\nDrugi przedmiot nie musi być mocno rozmyty. Wystarczy, że widzisz, który jest wyraźniejszy.\n\nDokończ zdanie:\n\n**„Na tym zdjęciu ostry jest…, bo punkt ostrości był na…”**"
+      "body": "Postaw dwa przedmioty na stole:\n- jeden bliżej aparatu — około pół metra,\n- drugi dalej — około metra,\n- tak, żeby stały częściowo obok siebie i oba były widoczne w kadrze.\n\nUsiądź albo stań tak, żeby nie zmieniać swojego miejsca między zdjęciami.\n\n**Zdjęcie 1 — ostry bliższy**\n\nPrzesuń punkt ostrości na wyraźny szczegół bliższego przedmiotu. Naciśnij spust do połowy, poczekaj na zielony punkt ostrości i zrób zdjęcie.\n\n**Zdjęcie 2 — ostry dalszy**\n\nNie ruszaj aparatu ani przedmiotów. Przesuń punkt ostrości na wyraźny szczegół dalszego przedmiotu. Ustaw ostrość i zrób zdjęcie.\n\n**Porównaj**\n\nNa obu zdjęciach powiększ ten sam szczegół — najpierw na bliższym, potem na dalszym przedmiocie.\n\nSprawdź:\n- Czy na pierwszym zdjęciu ostry jest bliższy przedmiot?\n- Czy na drugim — dalszy?\n\nDrugi przedmiot nie musi być mocno rozmyty. Wystarczy, że widzisz, który jest wyraźniejszy.\n\nDokończ zdanie:\n\n**„Na tym zdjęciu ostry jest…, bo punkt ostrości był na…”**"
     },
     "help": {
       "id": "L1-04-POMOC",
@@ -946,7 +946,7 @@ window.CANON_LESSONS = [
           "frame": 0
         },
         {
-          "text": "**Widzę dużą ramkę albo ramkę na czyjejś twarzy, a nie mały kwadrat.**  \nTo znak, że aparat dalej sam wybiera, co ma być ostre. Wróć do kroku [[L1-04-S04|Ustaw jeden punkt ostrości]] i jeszcze raz wybierz ikonę z jednym kwadratem."
+          "text": "**Widzę dużą ramkę albo ramkę na czyjejś twarzy, a nie punkt ostrości.**  \nTo znak, że aparat dalej sam wybiera, co ma być ostre. Wróć do kroku [[L1-04-S04|Ustaw jeden punkt ostrości]] i jeszcze raz wybierz ikonę z jednym małym kwadratem."
         },
         {
           "asset": "L1-04-V17",
@@ -960,14 +960,14 @@ window.CANON_LESSONS = [
           "frame": 0
         },
         {
-          "text": "**Kwadrat nie chce dojść do samego brzegu ekranu.**  \nTak ma być — kwadrat nie sięga do samej krawędzi. Przesuń aparat odrobinę, żeby przedmiot był bliżej środka.\n\n**Kwadrat robi się pomarańczowy.**  \nAparat mówi w ten sposób: „tu nie mam się czego złapać”. Przesuń kwadrat na napis albo wyraźną krawędź. Jeśli jesteś bardzo blisko, odsuń się trochę. Pamiętasz [[L1-01-S08|planszę z łatwymi i trudnymi celami z pierwszej lekcji]]? Tu działa dokładnie to samo."
+          "text": "**Punkt ostrości nie chce dojść do samego brzegu ekranu.**  \nTak ma być — punkt ostrości nie sięga do samej krawędzi. Przesuń aparat odrobinę, żeby przedmiot był bliżej środka.\n\n**Punkt ostrości robi się pomarańczowy.**  \nAparat mówi w ten sposób: „tu nie mam się czego złapać”. Przesuń punkt ostrości na napis albo wyraźną krawędź. Jeśli jesteś bardzo blisko, odsuń się trochę. Pamiętasz [[L1-01-S08|planszę z łatwymi i trudnymi celami z pierwszej lekcji]]? Tu działa dokładnie to samo."
         }
       ]
     },
     "summary": [
       {
         "title": "Na koniec lekcji",
-        "body": "- Ustaw punkt ostrości z powrotem na środku: przycisk punktu AF, potem przycisk kosza.\n- Zostaw aparat w trybie **P** — w następnej lekcji też z niego korzystamy."
+        "body": "- Ustaw punkt ostrości z powrotem na środku: przycisk punktu ostrości, potem przycisk kosza.\n- Zostaw aparat w trybie **P** — w następnej lekcji też z niego korzystamy."
       },
       {
         "title": "Kiedy lekcja jest ukończona?",
@@ -1071,30 +1071,30 @@ window.CANON_LESSONS = [
       {
         "id": "L1-04-V05",
         "step": "L1-04-S04",
-        "title": "Ikona z jednym kwadratem — 1-punktowy AF",
+        "title": "Ikona z jednym małym kwadratem — 1-punktowy AF",
         "status": "w aplikacji — APPROVAL_PENDING",
         "note": "Rysunek z instrukcji Canon (D-056); plik lokalny, do podmiany.",
         "frames": [
           {
             "target": "./assets/lessons/l1-04/l1-04-v05-1-punktowy-af-canon.png",
-            "title": "Ikona z jednym kwadratem — 1-punktowy AF",
+            "title": "Ikona z jednym małym kwadratem — 1-punktowy AF",
             "width": 1298,
             "height": 866,
-            "alt": "Ekran z podpisem 1-punktowy AF, zaznaczoną ikoną z jednym kwadratem i jednym małym kwadratem na środku"
+            "alt": "Ekran z podpisem 1-punktowy AF, zaznaczoną ikoną z jednym małym kwadratem i punktem ostrości na środku"
           }
         ]
       },
       {
         "id": "L1-04-V06",
         "step": "L1-04-S05",
-        "title": "Przycisk punktu AF, Q/SET i przycisk kosza",
+        "title": "Przycisk punktu ostrości, Q/SET i przycisk kosza",
         "status": "w aplikacji — APPROVAL_PENDING",
         "note": "Wycinek zdjęcia aparatu Ani.",
         "source": "57652b89-ae48-4cd1-b998-e883aee8aa1f.jpg",
         "frames": [
           {
             "target": "./assets/lessons/l1-04/l1-04-v06-przycisk-punktu-af.jpg",
-            "title": "Przycisk punktu AF, Q/SET i przycisk kosza",
+            "title": "Przycisk punktu ostrości, Q/SET i przycisk kosza",
             "width": 480,
             "height": 480,
             "markers": [
@@ -1126,32 +1126,32 @@ window.CANON_LESSONS = [
       {
         "id": "L1-04-V07",
         "step": "L1-04-S05",
-        "title": "Ekran przesuwania punktu — kwadrat jest jeszcze na środku",
+        "title": "Ekran przesuwania punktu ostrości — jest jeszcze na środku",
         "status": "w aplikacji — APPROVAL_PENDING",
         "note": "Rysunek z instrukcji Canon (D-056); plik lokalny, do podmiany.",
         "frames": [
           {
             "target": "./assets/lessons/l1-04/l1-04-v07-przesuwanie-punktu-canon.png",
-            "title": "Ekran przesuwania punktu — kwadrat jest jeszcze na środku",
+            "title": "Ekran przesuwania punktu ostrości — jest jeszcze na środku",
             "width": 1298,
             "height": 866,
-            "alt": "Ekran aparatu: kwadrat punktu ostrości na środku, na dole rząd ikon"
+            "alt": "Ekran aparatu: punkt ostrości na środku, na dole rząd ikon"
           }
         ]
       },
       {
         "id": "L1-04-V08",
         "step": "L1-04-S06",
-        "title": "Zielony punkt — ostrość ustawiona",
+        "title": "Zielony punkt ostrości — ostrość ustawiona",
         "status": "w aplikacji — APPROVAL_PENDING",
         "note": "Rysunek z instrukcji Canon (D-056); plik lokalny, do podmiany.",
         "frames": [
           {
             "target": "./assets/lessons/l1-04/l1-04-v08-zielony-punkt-canon.png",
-            "title": "Zielony punkt — ostrość ustawiona",
+            "title": "Zielony punkt ostrości — ostrość ustawiona",
             "width": 1298,
             "height": 866,
-            "alt": "Ekran aparatu z zielonym punktem na przedmiocie"
+            "alt": "Ekran aparatu z zielonym punktem ostrości na przedmiocie"
           }
         ]
       },
@@ -1178,7 +1178,7 @@ window.CANON_LESSONS = [
         "status": "UI_COMPONENT",
         "target": "komponent aplikacji",
         "kind": "card",
-        "body": "**P → jeden punkt → punkt na przedmiot → spust do połowy → zielony punkt → zdjęcie → powiększ**"
+        "body": "**P → jeden punkt ostrości → punkt ostrości na przedmiot → spust do połowy → zielony punkt ostrości → zdjęcie → powiększ**"
       },
       {
         "id": "L1-04-V11",
@@ -1286,16 +1286,16 @@ window.CANON_LESSONS = [
       {
         "id": "L1-04-V15",
         "step": "L1-04-POMOC",
-        "title": "Ikona z jednym kwadratem — 1-punktowy AF",
+        "title": "Ikona z jednym małym kwadratem — 1-punktowy AF",
         "status": "w aplikacji — APPROVAL_PENDING",
         "note": "Rysunek z instrukcji Canon (D-056); plik lokalny, do podmiany. Ten sam rysunek co V05.",
         "frames": [
           {
             "target": "./assets/lessons/l1-04/l1-04-v05-1-punktowy-af-canon.png",
-            "title": "Ikona z jednym kwadratem — 1-punktowy AF",
+            "title": "Ikona z jednym małym kwadratem — 1-punktowy AF",
             "width": 1298,
             "height": 866,
-            "alt": "Ekran z podpisem 1-punktowy AF; w rzędzie ikon na dole zaznaczona ikona z jednym kwadratem",
+            "alt": "Ekran z podpisem 1-punktowy AF; w rzędzie ikon na dole zaznaczona ikona z jednym małym kwadratem",
             "markers": [
               {
                 "x": 44.5,
