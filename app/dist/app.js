@@ -7,7 +7,11 @@
   const escape = value => String(value).replace(/[&<>"']/g, character => ({
     '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
   })[character]);
-  const inline = value => escape(value).replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+  // Odsyłacz [[ID|tekst]] jest linkiem do lekcji, kroku albo części lekcji (D-060).
+  const inline = value => escape(value)
+    .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+    .replace(/\[\[(L1-(\d+)(-[\w-]+)?)\|(.+?)\]\]/g, (match, id, lesson, section, text) =>
+      `<a class="subtle-link" href="#lekcja-${Number(lesson)}${section ? `/${id}` : ''}">${text}</a>`);
 
   function markdown(value) {
     return value.trim().split(/\n\s*\n/).map(block => {
@@ -15,12 +19,13 @@
       const parts = [];
       let group = [];
       let kind = 'p';
+      let start = 1;
       const flush = () => {
         if (!group.length) return;
         // Dwie spacje na końcu wiersza akapitu oraz wcięty wiersz pod punktem listy to nowa linia.
         parts.push(kind === 'p'
           ? `<p>${group.map((line, i) => inline(line.trimEnd()) + (i < group.length - 1 ? (/ {2}$/.test(line) ? '<br>' : ' ') : '')).join('')}</p>`
-          : `<${kind}>${group.map(line => `<li>${inline(line).replace(/\n/g, '<br>')}</li>`).join('')}</${kind}>`);
+          : `<${kind}${kind === 'ol' && start > 1 ? ` start="${start}"` : ''}>${group.map(line => `<li>${inline(line).replace(/\n/g, '<br>')}</li>`).join('')}</${kind}>`);
         group = [];
       };
       for (const line of lines) {
@@ -31,6 +36,8 @@
         const nextKind = /^- /.test(line) ? 'ul' : /^\d+\. /.test(line) ? 'ol' : 'p';
         if (nextKind !== kind) flush();
         kind = nextKind;
+        // Lista zaczęta od innego numeru niż 1 kontynuuje numerację listy przerwanej obrazem.
+        if (kind === 'ol' && !group.length) start = Number(line.match(/^\d+/)[0]);
         group.push(nextKind === 'ul' ? line.slice(2) : nextKind === 'ol' ? line.replace(/^\d+\. /, '') : line);
       }
       flush();

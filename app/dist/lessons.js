@@ -66,7 +66,7 @@ window.CANON_LESSONS = [
     "summary": [
       {
         "title": "Kiedy lekcja jest ukończona?",
-        "body": "Gdy potrafisz samodzielnie wykonać trzy zdjęcia w tym samym świadomym cyklu.\n\n**Zapamiętaj: najpierw przygotuj zdjęcie — potem je wykonaj.**\n\nW następnej lekcji nauczysz się sprawdzać, czy ważny szczegół rzeczywiście wyszedł ostry."
+        "body": "Gdy potrafisz samodzielnie wykonać trzy zdjęcia w tym samym świadomym cyklu.\n\n**Zapamiętaj: najpierw przygotuj zdjęcie — potem je wykonaj.**\n\nW [[L1-02|następnej lekcji]] nauczysz się sprawdzać, czy ważny szczegół rzeczywiście wyszedł ostry."
       }
     ],
     "assets": [
@@ -239,7 +239,7 @@ window.CANON_LESSONS = [
     "duration": "Około 10–15 minut",
     "intro": {
       "title": "Cel lekcji",
-      "body": "Po tej lekcji Ania:\n- rozpoznaje na gotowych przykładach, jak wygląda detal ostry i mniej ostry,\n- wie, że ostrość sprawdza się na konkretnym szczególe, a nie po małym podglądzie całego zdjęcia,\n- potrafi otworzyć zdjęcie na Canon EOS RP, powiększyć ważny szczegół i sprawdzić go,\n- stosuje tę metodę do własnych zdjęć wykonanych w poprzedniej lekcji.\n\nGłówny nawyk:\n\n**najpierw wiem, czego szukam; potem powiększam ważny szczegół i sprawdzam, czy naprawdę jest wyraźny.**"
+      "body": "Po tej lekcji Ania:\n- rozpoznaje na gotowych przykładach, jak wygląda detal ostry i mniej ostry,\n- wie, że ostrość sprawdza się na konkretnym szczególe, a nie po małym podglądzie całego zdjęcia,\n- potrafi otworzyć zdjęcie na Canon EOS RP, powiększyć ważny szczegół i sprawdzić go,\n- stosuje tę metodę do własnych zdjęć wykonanych w [[L1-01|poprzedniej lekcji]].\n\nGłówny nawyk:\n\n**najpierw wiem, czego szukam; potem powiększam ważny szczegół i sprawdzam, czy naprawdę jest wyraźny.**"
     },
     "steps": [
       {
@@ -277,7 +277,7 @@ window.CANON_LESSONS = [
             "title": "Użyj tylnego wybieraka",
             "blocks": [
               {
-                "text": "Po prawej stronie tylnej ścianki aparatu znajduje się okrągły element z kierunkami. To **tylny wybierak**.\n\nNaciskaj lewy albo prawy kierunek na tylnym wybieraku, aby przechodzić między zdjęciami.\n\nZnajdź jedno z trzech zdjęć wykonanych w poprzedniej lekcji."
+                "text": "Po prawej stronie tylnej ścianki aparatu znajduje się okrągły element z kierunkami. To **tylny wybierak**.\n\nNaciskaj lewy albo prawy kierunek na tylnym wybieraku, aby przechodzić między zdjęciami.\n\nZnajdź jedno z trzech zdjęć wykonanych w [[L1-01|poprzedniej lekcji]]."
               },
               {
                 "asset": "L1-02-V03",
@@ -318,13 +318,13 @@ window.CANON_LESSONS = [
       {
         "id": "L1-02-S05",
         "title": "Sprawdź swoje pierwsze zdjęcie",
-        "body": "Patrz tylko na wybrany detal.\n\nPorównaj go w myślach z gotowymi przykładami, które przed chwilą widziałaś w kursie.\n\nZapytaj:\n\n**„Czy ten element jest naprawdę wyraźny?”**\n\nJeżeli jego krawędzie są czytelne i drobne szczegóły łatwo rozpoznać — ten fragment wygląda ostro.\n\nJeżeli jest miękki albo rozmazany — ten fragment jest mniej ostry.\n\nNie zgaduj jeszcze dlaczego. W tej lekcji uczysz się najpierw zauważać rezultat.",
+        "body": "Patrz tylko na wybrany detal.\n\nPorównaj go w myślach z [[L1-02-S01|gotowymi przykładami]], które przed chwilą widziałaś w kursie.\n\nZapytaj:\n\n**„Czy ten element jest naprawdę wyraźny?”**\n\nJeżeli jego krawędzie są czytelne i drobne szczegóły łatwo rozpoznać — ten fragment wygląda ostro.\n\nJeżeli jest miękki albo rozmazany — ten fragment jest mniej ostry.\n\nNie zgaduj jeszcze dlaczego. W tej lekcji uczysz się najpierw zauważać rezultat.",
         "mediaPlacement": "after"
       },
       {
         "id": "L1-02-S06",
         "title": "Sprawdź pozostałe dwa zdjęcia",
-        "body": "Przejdź do kolejnego zdjęcia z poprzedniej lekcji i powiększ ten sam konkretny szczegół.\n\nZrób to samo z trzecim zdjęciem.\n\nPorównaj tylko ostrość. Nie oceniaj teraz jasności, koloru, kadru ani tła.\n\nJeżeli wszystkie trzy są wyraźne, to dobrze — nie trzeba na siłę szukać błędu.",
+        "body": "Przejdź do kolejnego zdjęcia z [[L1-01|poprzedniej lekcji]] i powiększ ten sam konkretny szczegół.\n\nZrób to samo z trzecim zdjęciem.\n\nPorównaj tylko ostrość. Nie oceniaj teraz jasności, koloru, kadru ani tła.\n\nJeżeli wszystkie trzy są wyraźne, to dobrze — nie trzeba na siłę szukać błędu.",
         "mediaPlacement": "after"
       },
       {
@@ -336,7 +336,7 @@ window.CANON_LESSONS = [
     ],
     "exercise": {
       "title": "Ćwiczenie",
-      "body": "1. Najpierw obejrzyj w kursie gotowe przykłady ostrego i mniej ostrego detalu.\n2. Otwórz jedno ze swoich zdjęć z poprzedniej lekcji.\n3. Wybierz jeden ważny szczegół.\n4. Powiększ go na aparacie.\n5. Oceń tylko jego wyrazistość.\n6. Powtórz to dla dwóch pozostałych zdjęć.\n7. Wróć do fotografowania."
+      "body": "1. Najpierw obejrzyj w kursie [[L1-02-S01|gotowe przykłady ostrego i mniej ostrego detalu]].\n2. Otwórz jedno ze swoich zdjęć z [[L1-01|poprzedniej lekcji]].\n3. Wybierz jeden ważny szczegół.\n4. Powiększ go na aparacie.\n5. Oceń tylko jego wyrazistość.\n6. Powtórz to dla dwóch pozostałych zdjęć.\n7. Wróć do fotografowania."
     },
     "help": null,
     "summary": [
@@ -805,25 +805,90 @@ window.CANON_LESSONS = [
         "id": "L1-04-S04",
         "title": "Ustaw jeden punkt ostrości",
         "mediaPlacement": "after",
-        "body": "1. Naciśnij przycisk **Q/SET** — to środkowy przycisk tylnego wybieraka.\n   → Na ekranie pojawiają się szybkie nastawy.\n2. Przyciskami tylnego wybieraka w górę i w dół wybierz **[Metoda AF]**.\n   → U dołu ekranu widać rząd ikon.\n3. Przyciskami w lewo i w prawo wybierz **[1-punktowy AF]** — ikonę z jednym małym kwadratem.\n4. W ten sam sposób znajdź pozycję **ONE SHOT** i upewnij się, że jest wybrana. To **[One-Shot AF]**: aparat ustawia ostrość raz — tak jest najlepiej przy nieruchomych przedmiotach.\n5. Zatwierdź przyciskiem **Q/SET**.\n   → Na środku ekranu widać jeden mały kwadrat. To Twój punkt ostrości.\n\nJeśli nie widzisz tych ustawień po naciśnięciu Q, zajrzyj do części „Jeśli coś nie działa” na końcu lekcji."
+        "blocks": [
+          {
+            "text": "Teraz powiesz aparatowi: „ostrość ustawiam ja, w jednym miejscu”.\n\n1. Naciśnij **Q/SET** — środkowy przycisk tylnego wybieraka.\n   → Na ekranie pojawi się zestaw szybkich ustawień."
+          },
+          {
+            "asset": "L1-04-V03",
+            "frame": 0
+          },
+          {
+            "text": "2. Naciskaj tylny wybierak w górę albo w dół, aż zaznaczysz napis **Metoda AF**.\n   → Na dole ekranu zobaczysz rząd małych ikon."
+          },
+          {
+            "asset": "L1-04-V04",
+            "frame": 0
+          },
+          {
+            "text": "3. Naciskaj w lewo albo w prawo, aż zaznaczysz ikonę z **jednym małym kwadratem**. Aparat podpisze ją **1-punktowy AF**."
+          },
+          {
+            "asset": "L1-04-V05",
+            "frame": 0
+          },
+          {
+            "text": "4. W ten sam sposób znajdź napis **ONE SHOT** i sprawdź, czy jest wybrany. Dzięki niemu aparat ustawia ostrość raz i ją trzyma — w sam raz dla przedmiotów, które się nie ruszają."
+          },
+          {
+            "asset": "L1-04-V11",
+            "frame": 0
+          },
+          {
+            "text": "5. Naciśnij **Q/SET**, żeby zatwierdzić.\n   → Na środku ekranu zostaje jeden mały kwadrat. To Twój punkt ostrości."
+          },
+          {
+            "asset": "L1-04-V05",
+            "frame": 0
+          },
+          {
+            "text": "Jeśli po naciśnięciu Q/SET nie widzisz tych napisów, zajrzyj do części [[L1-04-POMOC|Jeśli coś nie działa]]."
+          }
+        ]
       },
       {
         "id": "L1-04-S05",
         "title": "Przesuń punkt na wybrany przedmiot",
         "mediaPlacement": "after",
-        "body": "1. Naciśnij **przycisk punktu AF** — w prawym górnym rogu tylnej ścianki aparatu.\n   → Punkt ostrości można teraz przesuwać.\n2. **Dotknij ekranu** w miejscu, gdzie jest przedmiot, który ma być ostry. Możesz też przesuwać punkt przyciskami tylnego wybieraka.\n   → Kwadrat przesuwa się w wybrane miejsce.\n3. Gdy punkt jest na przedmiocie, naciśnij **Q/SET**.\n\nW Twoim aparacie dotknięcie ekranu nie robi zdjęcia — tylko wskazuje miejsce.\n\nAby wrócić z punktem na środek: naciśnij przycisk punktu AF, a potem **przycisk kosza**."
+        "blocks": [
+          {
+            "text": "1. Naciśnij **przycisk punktu AF** — w prawym górnym rogu tylnej ścianki aparatu.\n   → Punkt ostrości można teraz przesuwać."
+          },
+          {
+            "asset": "L1-04-V06",
+            "frame": 0
+          },
+          {
+            "asset": "L1-04-V07",
+            "frame": 0
+          },
+          {
+            "text": "2. **Dotknij ekranu** w miejscu, gdzie jest przedmiot, który ma być ostry. Możesz też przesuwać punkt przyciskami tylnego wybieraka.\n   → Kwadrat przesuwa się w wybrane miejsce.\n3. Gdy punkt jest na przedmiocie, naciśnij **Q/SET**.\n\nW Twoim aparacie dotknięcie ekranu nie robi zdjęcia — tylko wskazuje miejsce.\n\nAby wrócić z punktem na środek: naciśnij przycisk punktu AF, a potem **przycisk kosza**."
+          }
+        ]
       },
       {
         "id": "L1-04-S06",
         "title": "Ustaw ostrość i zrób zdjęcie",
         "mediaPlacement": "after",
-        "body": "Teraz znany już cykl:\n\n1. Skieruj aparat tak, żeby punkt był na wybranym przedmiocie.\n2. Naciśnij spust do połowy.\n   → Punkt robi się **zielony** i słychać sygnał. Ostrość jest ustawiona.\n3. Spokojnie dociśnij spust do końca.\n\nJeśli punkt zrobi się **pomarańczowy**, aparat nie ustawił ostrości. Przesuń punkt na wyraźniejszy fragment — napis albo krawędź — i spróbuj jeszcze raz."
+        "blocks": [
+          {
+            "text": "Teraz znany już cykl:\n\n1. Skieruj aparat tak, żeby punkt był na wybranym przedmiocie.\n2. Naciśnij spust do połowy.\n   → Punkt robi się **zielony** i słychać sygnał. Ostrość jest ustawiona."
+          },
+          {
+            "asset": "L1-04-V08",
+            "frame": 0
+          },
+          {
+            "text": "3. Spokojnie dociśnij spust do końca.\n\nJeśli punkt zrobi się **pomarańczowy**, aparat nie ustawił ostrości. Przesuń punkt na wyraźniejszy fragment — napis albo krawędź — i spróbuj jeszcze raz."
+          }
+        ]
       },
       {
         "id": "L1-04-S07",
         "title": "Sprawdź, czy się udało",
         "mediaPlacement": "after",
-        "body": "Otwórz zdjęcie i powiększ szczegół na przedmiocie, który miał być ostry — tak jak w lekcji o sprawdzaniu ostrości.\n\nPrzy oglądaniu zdjęcia w zwykłym widoku aparat zaznacza **czerwoną ramką** miejsce, w którym ustawił ostrość. To dobra podpowiedź, gdzie patrzeć.\n\n**Teraz przejdźmy do ćwiczenia.**"
+        "body": "Otwórz zdjęcie i powiększ szczegół na przedmiocie, który miał być ostry — tak jak w [[L1-02|lekcji o sprawdzaniu ostrości]].\n\nPrzy oglądaniu zdjęcia w zwykłym widoku aparat zaznacza **czerwoną ramką** miejsce, w którym ustawił ostrość. To dobra podpowiedź, gdzie patrzeć.\n\n**Teraz przejdźmy do ćwiczenia.**"
       }
     ],
     "exercise": {
@@ -835,14 +900,67 @@ window.CANON_LESSONS = [
       "title": "Jeśli coś nie działa",
       "blocks": [
         {
-          "text": "**Po naciśnięciu Q nie widzę [Metoda AF] ani ONE SHOT.**  \nUstaw to przez menu: naciśnij MENU, na karcie fotografowania wybierz **[Metoda AF]** → **[1-punktowy AF]**, a potem **[Działanie AF]** → **[One-Shot AF]**. Każdy wybór zatwierdź przyciskiem Q/SET.\n\n**Na ekranie widzę dużą ramkę na twarzy albo na całym obrazie, a nie mały kwadrat.**  \nMetoda AF nie została zmieniona. Wróć do kroku „Ustaw jeden punkt ostrości”.\n\n**Dotknięcie ekranu zrobiło zdjęcie.**  \nWłączyła się migawka dotykowa. Dotknij ikony w lewym dolnym rogu ekranu, żeby ją wyłączyć."
+          "text": "**Nacisnęłam Q/SET, ale nie widzę napisu „Metoda AF”.**  \nNic straconego — to samo ustawisz w menu.\n1. Naciśnij **MENU**."
+        },
+        {
+          "asset": "L1-04-V12",
+          "frame": 0
+        },
+        {
+          "text": "2. Przejdź do czerwonej części menu — tej z ikoną aparatu. Ma kilka stron; przechodzisz między nimi, naciskając tylny wybierak w lewo albo w prawo."
+        },
+        {
+          "asset": "L1-04-V13",
+          "frame": 0
+        },
+        {
+          "text": "3. Znajdź napis **Metoda AF**, zaznacz go i naciśnij **Q/SET**."
+        },
+        {
+          "asset": "L1-04-V14",
+          "frame": 0
+        },
+        {
+          "text": "4. Wybierz ikonę z jednym małym kwadratem — **1-punktowy AF** — i znów naciśnij **Q/SET**."
+        },
+        {
+          "asset": "L1-04-V15",
+          "frame": 0
+        },
+        {
+          "text": "5. Na czerwonych stronach menu znajdź jeszcze napis **Działanie AF**. Wybierz **One-Shot AF** i naciśnij **Q/SET**."
+        },
+        {
+          "asset": "L1-04-V16",
+          "frame": 0
+        },
+        {
+          "asset": "L1-04-V16",
+          "frame": 1
+        },
+        {
+          "text": "6. Naciśnij **MENU**, żeby wrócić do robienia zdjęć."
+        },
+        {
+          "asset": "L1-04-V12",
+          "frame": 0
+        },
+        {
+          "text": "**Widzę dużą ramkę albo ramkę na czyjejś twarzy, a nie mały kwadrat.**  \nTo znak, że aparat dalej sam wybiera, co ma być ostre. Wróć do kroku [[L1-04-S04|Ustaw jeden punkt ostrości]] i jeszcze raz wybierz ikonę z jednym kwadratem."
+        },
+        {
+          "asset": "L1-04-V17",
+          "frame": 0
+        },
+        {
+          "text": "**Dotknęłam ekranu i aparat od razu zrobił zdjęcie.**  \nWłączyło się robienie zdjęć dotknięciem ekranu. Spójrz w lewy dolny róg ekranu — jest tam mała ikona, taka jak na rysunku poniżej. Dotknij jej raz. Od teraz dotknięcie ekranu znów tylko pokazuje aparatowi, co ma być ostre."
         },
         {
           "asset": "L1-04-V09",
           "frame": 0
         },
         {
-          "text": "**Punkt nie chce dojść do samej krawędzi ekranu.**  \nTo normalne. Ustaw przedmiot trochę bliżej środka kadru.\n\n**Punkt ciągle robi się pomarańczowy.**  \nWybierz fragment z wyraźnym napisem albo krawędzią. Jeśli jesteś bardzo blisko przedmiotu, cofnij się trochę."
+          "text": "**Kwadrat nie chce dojść do samego brzegu ekranu.**  \nTak ma być — kwadrat nie sięga do samej krawędzi. Przesuń aparat odrobinę, żeby przedmiot był bliżej środka.\n\n**Kwadrat robi się pomarańczowy.**  \nAparat mówi w ten sposób: „tu nie mam się czego złapać”. Przesuń kwadrat na napis albo wyraźną krawędź. Jeśli jesteś bardzo blisko, odsuń się trochę. Pamiętasz [[L1-01-S08|planszę z łatwymi i trudnymi celami z pierwszej lekcji]]? Tu działa dokładnie to samo."
         }
       ]
     },
@@ -937,46 +1055,46 @@ window.CANON_LESSONS = [
       {
         "id": "L1-04-V04",
         "step": "L1-04-S04",
-        "title": "Szybkie nastawy — pozycja [Metoda AF]",
+        "title": "Szybkie ustawienia — napis Metoda AF",
         "status": "w aplikacji — APPROVAL_PENDING",
         "note": "Rysunek z instrukcji Canon (D-056); plik lokalny, do podmiany.",
         "frames": [
           {
             "target": "./assets/lessons/l1-04/l1-04-v04-ekran-q-canon.png",
-            "title": "Szybkie nastawy — pozycja [Metoda AF]",
+            "title": "Szybkie ustawienia — napis Metoda AF",
             "width": 1298,
             "height": 866,
-            "alt": "Ekran szybkich nastaw z zaznaczoną pozycją Metoda AF i rzędem ikon u dołu"
+            "alt": "Ekran szybkich ustawień z zaznaczonym napisem Metoda AF i rzędem małych ikon na dole"
           }
         ]
       },
       {
         "id": "L1-04-V05",
         "step": "L1-04-S04",
-        "title": "[1-punktowy AF] — punkt na środku",
+        "title": "Ikona z jednym kwadratem — 1-punktowy AF",
         "status": "w aplikacji — APPROVAL_PENDING",
         "note": "Rysunek z instrukcji Canon (D-056); plik lokalny, do podmiany.",
         "frames": [
           {
             "target": "./assets/lessons/l1-04/l1-04-v05-1-punktowy-af-canon.png",
-            "title": "[1-punktowy AF] — punkt na środku",
+            "title": "Ikona z jednym kwadratem — 1-punktowy AF",
             "width": 1298,
             "height": 866,
-            "alt": "Ekran z wybraną metodą 1-punktowy AF i jednym małym kwadratem na środku"
+            "alt": "Ekran z podpisem 1-punktowy AF, zaznaczoną ikoną z jednym kwadratem i jednym małym kwadratem na środku"
           }
         ]
       },
       {
         "id": "L1-04-V06",
         "step": "L1-04-S05",
-        "title": "Przycisk punktu AF i przycisk kosza",
+        "title": "Przycisk punktu AF, Q/SET i przycisk kosza",
         "status": "w aplikacji — APPROVAL_PENDING",
         "note": "Wycinek zdjęcia aparatu Ani.",
         "source": "57652b89-ae48-4cd1-b998-e883aee8aa1f.jpg",
         "frames": [
           {
             "target": "./assets/lessons/l1-04/l1-04-v06-przycisk-punktu-af.jpg",
-            "title": "Przycisk punktu AF i przycisk kosza",
+            "title": "Przycisk punktu AF, Q/SET i przycisk kosza",
             "width": 480,
             "height": 480,
             "markers": [
@@ -985,6 +1103,13 @@ window.CANON_LESSONS = [
                 "y": 15.5,
                 "width": 15,
                 "height": 15,
+                "kind": "halo"
+              },
+              {
+                "x": 45.0,
+                "y": 56.5,
+                "width": 17,
+                "height": 17,
                 "kind": "halo"
               },
               {
@@ -1001,16 +1126,16 @@ window.CANON_LESSONS = [
       {
         "id": "L1-04-V07",
         "step": "L1-04-S05",
-        "title": "Punkt przesunięty w bok",
+        "title": "Ekran przesuwania punktu — kwadrat jest jeszcze na środku",
         "status": "w aplikacji — APPROVAL_PENDING",
         "note": "Rysunek z instrukcji Canon (D-056); plik lokalny, do podmiany.",
         "frames": [
           {
             "target": "./assets/lessons/l1-04/l1-04-v07-przesuwanie-punktu-canon.png",
-            "title": "Punkt przesunięty w bok",
+            "title": "Ekran przesuwania punktu — kwadrat jest jeszcze na środku",
             "width": 1298,
             "height": 866,
-            "alt": "Ekran aparatu z punktem ostrości przesuniętym w bok"
+            "alt": "Ekran aparatu: kwadrat punktu ostrości na środku, na dole rząd ikon"
           }
         ]
       },
@@ -1033,13 +1158,13 @@ window.CANON_LESSONS = [
       {
         "id": "L1-04-V09",
         "step": "L1-04-POMOC",
-        "title": "Ikona migawki dotykowej",
+        "title": "Ikona w lewym dolnym rogu ekranu",
         "status": "w aplikacji — APPROVAL_PENDING",
         "note": "Rysunek z instrukcji Canon (D-056); plik lokalny, do podmiany.",
         "frames": [
           {
             "target": "./assets/lessons/l1-04/l1-04-v09-migawka-dotykowa-canon.png",
-            "title": "Ikona migawki dotykowej — lewy dolny róg ekranu",
+            "title": "Ikona w lewym dolnym rogu ekranu",
             "width": 1298,
             "height": 1148,
             "alt": "Ekran aparatu i palec dotykający ikony w lewym dolnym rogu"
@@ -1054,6 +1179,200 @@ window.CANON_LESSONS = [
         "target": "komponent aplikacji",
         "kind": "card",
         "body": "**P → jeden punkt → punkt na przedmiot → spust do połowy → zielony punkt → zdjęcie → powiększ**"
+      },
+      {
+        "id": "L1-04-V11",
+        "step": "L1-04-S04",
+        "title": "Napis ONE SHOT",
+        "status": "w aplikacji — APPROVAL_PENDING",
+        "note": "Rysunek z instrukcji Canon (D-056); plik lokalny, do podmiany. Ten sam rysunek co V04.",
+        "frames": [
+          {
+            "target": "./assets/lessons/l1-04/l1-04-v04-ekran-q-canon.png",
+            "title": "Napis ONE SHOT",
+            "width": 1298,
+            "height": 866,
+            "alt": "Ekran szybkich ustawień; po lewej stronie, drugi od góry, napis ONE SHOT",
+            "markers": [
+              {
+                "x": 7.5,
+                "y": 21.5,
+                "width": 17,
+                "height": 17,
+                "kind": "halo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "L1-04-V12",
+        "step": "L1-04-POMOC",
+        "title": "Przycisk MENU",
+        "status": "w aplikacji — APPROVAL_PENDING",
+        "note": "Wycinek zdjęcia aparatu Ani.",
+        "source": "57652b89-ae48-4cd1-b998-e883aee8aa1f.jpg",
+        "frames": [
+          {
+            "target": "./assets/lessons/l1-04/l1-04-v12-przycisk-menu.jpg",
+            "title": "Przycisk MENU",
+            "width": 480,
+            "height": 480,
+            "alt": "Tył aparatu Canon EOS RP: przycisk MENU po lewej stronie wizjera",
+            "markers": [
+              {
+                "x": 34.5,
+                "y": 36.5,
+                "width": 15,
+                "height": 15,
+                "kind": "halo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "L1-04-V13",
+        "step": "L1-04-POMOC",
+        "title": "Czerwona część menu z ikoną aparatu",
+        "status": "w aplikacji — APPROVAL_PENDING",
+        "note": "Zdjęcie ekranu aparatu Ani.",
+        "source": "10a55454-d36b-4e92-9568-1b4dd40ffa5e.jpg",
+        "frames": [
+          {
+            "target": "./assets/lessons/l1-04/l1-04-v13-menu-czerwona-czesc.jpg",
+            "title": "Czerwona część menu z ikoną aparatu",
+            "width": 1000,
+            "height": 773,
+            "alt": "Ekran menu aparatu: u góry czerwone pole z ikoną aparatu, pod nim numery stron od 1 do 5",
+            "markers": [
+              {
+                "x": 11.5,
+                "y": 15.5,
+                "width": 27,
+                "height": 13,
+                "kind": "halo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "L1-04-V14",
+        "step": "L1-04-POMOC",
+        "title": "Napis Metoda AF",
+        "status": "w aplikacji — APPROVAL_PENDING",
+        "note": "Zdjęcie ekranu aparatu Ani.",
+        "source": "336149b5-debf-4a74-b168-12d210f1b591.jpg",
+        "frames": [
+          {
+            "target": "./assets/lessons/l1-04/l1-04-v14-menu-metoda-af.jpg",
+            "title": "Napis Metoda AF",
+            "width": 1000,
+            "height": 738,
+            "alt": "Ekran menu aparatu: zaznaczony napis Metoda AF",
+            "markers": [
+              {
+                "x": 23.0,
+                "y": 35.5,
+                "width": 29,
+                "height": 12,
+                "kind": "halo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "L1-04-V15",
+        "step": "L1-04-POMOC",
+        "title": "Ikona z jednym kwadratem — 1-punktowy AF",
+        "status": "w aplikacji — APPROVAL_PENDING",
+        "note": "Rysunek z instrukcji Canon (D-056); plik lokalny, do podmiany. Ten sam rysunek co V05.",
+        "frames": [
+          {
+            "target": "./assets/lessons/l1-04/l1-04-v05-1-punktowy-af-canon.png",
+            "title": "Ikona z jednym kwadratem — 1-punktowy AF",
+            "width": 1298,
+            "height": 866,
+            "alt": "Ekran z podpisem 1-punktowy AF; w rzędzie ikon na dole zaznaczona ikona z jednym kwadratem",
+            "markers": [
+              {
+                "x": 44.5,
+                "y": 93.0,
+                "width": 16,
+                "height": 16,
+                "kind": "halo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "L1-04-V16",
+        "step": "L1-04-POMOC",
+        "title": "Napis Działanie AF i wybór One-Shot AF",
+        "status": "w aplikacji — APPROVAL_PENDING",
+        "note": "Rysunek z instrukcji Canon (D-056); plik lokalny, do podmiany.",
+        "frames": [
+          {
+            "target": "./assets/lessons/l1-04/l1-04-v16-dzialanie-af-menu-canon.png",
+            "title": "Napis Działanie AF",
+            "width": 1302,
+            "height": 868,
+            "alt": "Ekran menu aparatu: zaznaczony napis Działanie AF",
+            "markers": [
+              {
+                "x": 21.0,
+                "y": 29.0,
+                "width": 40,
+                "height": 15,
+                "kind": "halo"
+              }
+            ]
+          },
+          {
+            "target": "./assets/lessons/l1-04/l1-04-v16-one-shot-af-canon.png",
+            "title": "Wybór One-Shot AF",
+            "width": 1302,
+            "height": 869,
+            "alt": "Ekran wyboru: podpis One-Shot AF, zaznaczone pole ONE SHOT, obok pole SERVO",
+            "markers": [
+              {
+                "x": 34.0,
+                "y": 41.0,
+                "width": 40,
+                "height": 27,
+                "kind": "halo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "L1-04-V17",
+        "step": "L1-04-POMOC",
+        "title": "Ramka na twarzy",
+        "status": "w aplikacji — APPROVAL_PENDING",
+        "note": "Rysunek z instrukcji Canon (D-056); plik lokalny, do podmiany.",
+        "frames": [
+          {
+            "target": "./assets/lessons/l1-04/l1-04-v17-ramka-na-twarzy-canon.png",
+            "title": "Ramka na twarzy",
+            "width": 1302,
+            "height": 868,
+            "alt": "Ekran aparatu: ramka wokół twarzy osoby stojącej na tle kwiatów",
+            "markers": [
+              {
+                "x": 66.0,
+                "y": 39.0,
+                "width": 24,
+                "height": 36,
+                "kind": "halo"
+              }
+            ]
+          }
+        ]
       }
     ]
   }
