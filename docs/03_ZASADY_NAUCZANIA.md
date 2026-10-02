@@ -47,3 +47,7 @@ Jeżeli nowy temat wymaga przykładu wizualnego, obowiązuje kolejność:
 4. dopiero potem ćwiczenie Ani na własnych zdjęciach.
 
 Zdjęcia Ani są materiałem ćwiczeniowym i rozwojowym, a nie obowiązkowym źródłem podstawowej demonstracji.
+
+## Tekst dla Ani nie jest instrukcją obsługi — 01.10.2026 (D-062)
+
+Kurs istnieje po to, żeby Ania nie musiała czytać instrukcji obsługi. Żaden fragment tekstu dla Ani — także pomoc przy problemach — nie brzmi jak instrukcja. Instrukcja Canon jest dla nas źródłem faktów, nie wzorem języka. Problem opisujemy tak, jak widzi go Ania przy aparacie, a dalej prowadzimy ją prostymi zdaniami: co widzi, co zrobić, po co.

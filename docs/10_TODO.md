@@ -180,15 +180,15 @@ Wcześniejsze sekcje są historyczne; role według D-047.
 - [ ] Zdecydować o hostingu i sposobie publikacji.
 - [ ] Uporządkować ścieżki z dawnego folderu Codexa w testach i `app/README.md`.
 - [ ] Przy pierwszej nowej lekcji sprawdzić w praktyce standard pracy ze źródłami z D-048.
-- [ ] Przy pierwszej lekcji ustalić wersję firmware aparatu Ani (ścieżkę w menu wskaże instrukcja Canon).
+- [x] Przy pierwszej lekcji ustalić wersję firmware aparatu Ani (ścieżkę w menu wskaże instrukcja Canon) — 1.6.3 (01.10.2026).
 - [ ] Przy pierwszej animacji ustalić techniczne połączenie Claude Code z Higgsfield oraz koszt.
 
 ## OTWARTE PO 01.10.2026
-- [ ] L1-03: decyzja właściciela o poprawce V01-po (D-054).
-- [ ] L1-03: przebudowa V02 jako wariant sceny i podgląd do oceny (D-054).
-- [ ] L1-03: rendery finalne V03-pionowo, V04B-1, V04B-2, V04B-3.
-- [ ] L1-03: rendery finalne V01-po i V02 po przyjęciu podglądów.
-- [ ] L1-03: V05 — wybór zdjęcia obiektywu, oficjalne źródło o stałej ogniskowej, schemat „dalej/bliżej”.
+- [x] L1-03: decyzja właściciela o poprawce V01-po (D-054).
+- [x] L1-03: przebudowa V02 jako wariant sceny i podgląd do oceny (D-054).
+- [x] L1-03: rendery finalne V03-pionowo, V04B-1, V04B-2, V04B-3.
+- [x] L1-03: rendery finalne V01-po i V02 po przyjęciu podglądów — w jakości 1200 px.
+- [x] L1-03: V05 — wybór zdjęcia obiektywu, oficjalne źródło o stałej ogniskowej, schemat „dalej/bliżej”.
 - [ ] L1-03: odbiór wszystkich materiałów przez właściciela i zamknięcie lekcji.
 - [ ] L1-04: redakcja według D-049, równolegle z materiałami L1-03 (D-055).
 - [ ] L1-04: po powrocie właściciela porównać rysunki z instrukcji z ekranami aparatu Ani i ustalić wersję oprogramowania (D-056).
@@ -196,3 +196,10 @@ Wcześniejsze sekcje są historyczne; role według D-047.
 - [ ] L1-04: sprawdzić na aparacie Ani punkty z docs/L1-04_ZRODLA_INSTRUKCJA.md (D-056).
 - [ ] Nauczyciel AI: przepisać dokumenty 06 i 11 pod model Claude przy integracji (D-059).
 - [ ] Hosting: główny kandydat — VPS właściciela w Hetzner; do ustalenia: domena, co już działa na serwerze, wygodne logowanie Ani z ikony na iPhonie.
+
+## POPRAWKI PO PRZEGLĄDZIE WŁAŚCICIELA — 01.10.2026
+- [ ] L1-04, krok 5: poprawne oznaczenia przycisku punktu AF, przycisku Q/SET i przycisku kosza.
+- [ ] L1-04, drugi kadr kroku 5: rysunek i podpis zgodne ze sobą.
+- [ ] L1-04: przepisać część „Jeśli coś nie działa” według D-062.
+- [ ] Odwołania do kroków i części jako linki w L1-01–L1-04 (D-060).
+- [ ] Strona główna: karty lekcji naprzemiennie różowa i biała.
