@@ -198,8 +198,10 @@ Wcześniejsze sekcje są historyczne; role według D-047.
 - [ ] Hosting: główny kandydat — VPS właściciela w Hetzner; do ustalenia: domena, co już działa na serwerze, wygodne logowanie Ani z ikony na iPhonie.
 
 ## POPRAWKI PO PRZEGLĄDZIE WŁAŚCICIELA — 01.10.2026
-- [ ] L1-04, krok 5: poprawne oznaczenia przycisku punktu AF, przycisku Q/SET i przycisku kosza.
-- [ ] L1-04, drugi kadr kroku 5: rysunek i podpis zgodne ze sobą.
-- [ ] L1-04: przepisać część „Jeśli coś nie działa” według D-062.
-- [ ] Odwołania do kroków i części jako linki w L1-01–L1-04 (D-060).
-- [ ] Strona główna: karty lekcji naprzemiennie różowa i biała.
+- [x] L1-04, krok 5: poprawne oznaczenia przycisku punktu AF, przycisku Q/SET i przycisku kosza.
+- [x] L1-04, drugi kadr kroku 5: rysunek i podpis zgodne ze sobą.
+- [x] L1-04: przepisać część „Jeśli coś nie działa” według D-062.
+- [x] Odwołania do kroków i części jako linki w L1-01–L1-04 (D-060).
+- [x] Strona główna: karty lekcji naprzemiennie różowa i biała.
+- [ ] Po powrocie właściciela: zdjęcie ekranu aparatu Ani z pomarańczowym punktem ostrości (L1-04-V18; skierować aparat na gładką ścianę i nacisnąć spust do połowy).
+- [ ] Po powrocie właściciela: zdjęcie ekranu aparatu Ani z punktem ostrości przesuniętym w bok (L1-04-V07).

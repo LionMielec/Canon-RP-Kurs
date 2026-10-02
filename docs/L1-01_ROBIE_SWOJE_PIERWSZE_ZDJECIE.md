@@ -18,7 +18,7 @@ Obróć pokrętło trybów na **A+ — Inteligentna scena auto**.
 ## L1-01-S03 — Weź aparat stabilnie
 Prawą dłonią trzymaj uchwyt. Lewą podtrzymuj obiektyw od spodu. Trzymaj łokcie dość blisko ciała.
 
-## L1-01-S04 — Wybierz prosty cel
+## L1-01-S04 — Wybierz prosty przedmiot
 W jasnym miejscu ustaw nieruchomy przedmiot z wyraźnym napisem, logo albo kontrastową krawędzią. Stań mniej więcej metr od niego i umieść go mniej więcej w środku obrazu.
 
 ## L1-01-S05 — Naciśnij spust do połowy

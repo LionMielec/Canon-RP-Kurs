@@ -11,29 +11,29 @@ Ania otrzymuje **gotową lekcję z gotowymi materiałami wzorcowymi**. Jej włas
 - Krok: `L1-02-S01`.
 - Typ: zestaw dydaktyczny 2 kadrów.
 - Źródło preferowane: `Correct.Focus.jpg` i `Front.Focus.jpg`, autor Bautsch, Wikimedia Commons, CC0.
-- Prezentacja dla Ani: dwa przykłady z jednoznacznym wskazaniem elementu, który miał być ostry; etykiety `ważny element ostry` / `ostrość przesunięta gdzie indziej`. Bez terminów front/back focus.
+- Prezentacja dla Ani: dwa przykłady z jednoznacznym wskazaniem szczegółu, który miał być ostry; etykiety `ważny szczegół ostry` / `ostrość przesunięta gdzie indziej`. Bez terminów front/back focus.
 - Cel: nauczyć, że ważny jest konkretny element, a nie samo występowanie ostrości gdziekolwiek w kadrze.
 - Status: `SOURCE_IDENTIFIED` → pobrać oryginały → przygotować układ → `APPROVAL_PENDING`.
 
-## L1-02-V02 — Całe zdjęcie kontra powiększony detal
+## L1-02-V02 — Całe zdjęcie kontra powiększony szczegół
 - Krok: `L1-02-S02`.
-- Typ: para `pełny kadr / duże powiększenie jednego detalu`.
+- Typ: para `pełny kadr / duże powiększenie jednego szczegółu`.
 - Źródło preferowane: wysokorozdzielcze zdjęcie CC0 z drobną fakturą; kandydat `Chive flower close-up.jpg`, Wikimedia Commons, CC0.
 - Cel: pokazać, dlaczego mały podgląd całego zdjęcia nie wystarcza do kontroli ostrości.
 - Produkcja: ten sam plik źródłowy; drugi kadr jest tylko dużym cropem, bez sztucznego tworzenia interfejsu aparatu.
 - Status: `SOURCE_IDENTIFIED` → `TO_PREPARE`.
 
-## L1-02-V03 — Odtwarzanie i tylny wybierak na aparacie Ani
+## L1-02-V03 — Przycisk odtwarzania i tylny wybierak na aparacie Ani
 - Krok: `L1-02-S03`.
 - Typ: zdjęcie/crop rzeczywistego EOS RP Ani z dwoma precyzyjnymi oznaczeniami.
 - Źródło: `57652b89-ae48-4cd1-b998-e883aee8aa1f.jpg` / `libfile_eb4721328c288191bb5aa19d2aa13f7e`.
-- Cel: najpierw wskazać przycisk `▶`, a następnie pokazać okrągły tylny wybierak z kierunkami po prawej stronie ekranu.
-- Prezentacja: bez zasłaniania elementów aparatu; podpisy prostym językiem: „Odtwarzanie” oraz „Tylny wybierak — lewo / prawo”.
+- Cel: najpierw wskazać przycisk odtwarzania, a następnie pokazać okrągły tylny wybierak z kierunkami po prawej stronie ekranu.
+- Prezentacja: bez zasłaniania elementów aparatu; podpisy prostym językiem: „Przycisk odtwarzania” oraz „Tylny wybierak — lewo / prawo”.
 - Status: `SOURCE_SELECTED` + `TO_PREPARE`.
 
 ## L1-02-V04 — Jak powiększyć i przesunąć widok na EOS RP
 - Krok: `L1-02-S04`.
-- Typ: grafika trzyetapowa `lupa → główne pokrętło → tylny wybierak`.
+- Typ: grafika trzyetapowa `przycisk lupy → główne pokrętło → tylny wybierak`.
 - Źródła:
   - tył aparatu: `57652b89-ae48-4cd1-b998-e883aee8aa1f.jpg` / `libfile_eb4721328c288191bb5aa19d2aa13f7e`,
   - góra aparatu: `fbe2fd62-e8ab-465b-b340-b6d0b4458622.jpg` / `libfile_167abe23e1488191ba89b2d851b2155c`.
@@ -44,7 +44,7 @@ Ania otrzymuje **gotową lekcję z gotowymi materiałami wzorcowymi**. Jej włas
 ## L1-02-V05 — Przypomnienie wzorca przy ćwiczeniu
 - Krok: `L1-02-S05`.
 - Typ: mała karta referencyjna używająca wycinków z V01/V02.
-- Cel: podczas pracy z własnym zdjęciem Ania może zerknąć na wzorzec `wyraźny detal / mniej wyraźny detal` bez opuszczania kroku.
+- Cel: podczas pracy z własnym zdjęciem Ania może zerknąć na wzorzec `ostry szczegół / nieostry szczegół` bez opuszczania kroku.
 - Status: zależny od V01/V02.
 
 ## Materiały, których po korekcie nie wymagamy
