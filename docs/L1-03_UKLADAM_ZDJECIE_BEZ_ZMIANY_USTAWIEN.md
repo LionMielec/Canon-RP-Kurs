@@ -14,7 +14,7 @@ Po tej lekcji Ania:
 
 Główny nawyk:
 
-**zanim zrobię zdjęcie, patrzę na główny temat, brzegi kadru i tło.**
+**zanim zrobię zdjęcie, patrzę na główny przedmiot, brzegi kadru i tło.**
 
 ## Punkt startowy
 Zostaw aparat w trybie **A+**.
@@ -50,11 +50,11 @@ Kiedy patrzysz na główny przedmiot, łatwo przestać zauważać to, co dzieje 
 
 Przed naciśnięciem spustu zrób prostą kontrolę:
 
-**lewa krawędź → góra → prawa krawędź → dół.**
+**lewy brzeg → góra → prawy brzeg → dół.**
 
 Sprawdź:
 - czy coś niepotrzebnego nie „wchodzi” do zdjęcia z boku,
-- czy przy samej krawędzi nie został przypadkowy fragment przedmiotu,
+- czy przy samym brzegu nie został przypadkowy fragment przedmiotu,
 - czy w tle nie ma jasnego, kolorowego albo wyraźnego elementu, który odciąga wzrok od tego, co chcesz pokazać.
 
 Jeżeli coś przeszkadza, nie zmieniaj ustawień aparatu.
@@ -72,7 +72,7 @@ Ten sam przedmiot można pokazać inaczej tylko przez obrócenie aparatu.
 
 **Kadr poziomy** daje więcej miejsca po bokach.
 
-**Kadr pionowy** daje więcej miejsca nad i pod głównym tematem i może ograniczyć to, co wpada do zdjęcia z boków.
+**Kadr pionowy** daje więcej miejsca nad i pod głównym przedmiotem i może ograniczyć to, co wpada do zdjęcia z boków.
 
 Nie ma zasady, że jeden układ jest zawsze lepszy.
 
@@ -217,7 +217,7 @@ Zamiast tego zapytaj:
 
 - Na którym zdjęciu główny przedmiot zauważam najszybciej?
 - Na którym tło najmniej przeszkadza?
-- Czy przy którejś krawędzi zostało coś przypadkowego?
+- Czy przy którymś brzegu zostało coś przypadkowego?
 - Co zmieniło się po obróceniu aparatu?
 - Co zmieniło się po zmianie mojego miejsca?
 
@@ -276,7 +276,7 @@ Cel ćwiczenia: świadome uporządkowanie kadru przez orientację i zmianę pozy
 
 AI ma w pierwszej kolejności sprawdzać:
 1. czy główny przedmiot jest łatwiejszy do zauważenia,
-2. czy użytkowniczka potrafi wskazać konkretną zmianę w tle / przy krawędzi / w orientacji.
+2. czy użytkowniczka potrafi wskazać konkretną zmianę w tle / przy brzegu kadru / w orientacji.
 
 AI nie ma jeszcze:
 - oceniać kompozycji według reguły trójpodziału,

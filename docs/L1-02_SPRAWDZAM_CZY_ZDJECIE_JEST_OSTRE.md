@@ -6,26 +6,26 @@
 
 ## Cel lekcji
 Po tej lekcji Ania:
-- rozpoznaje na gotowych przykładach, jak wygląda detal ostry i mniej ostry,
+- rozpoznaje na gotowych przykładach, jak wygląda szczegół ostry i nieostry,
 - wie, że ostrość sprawdza się na konkretnym szczególe, a nie po małym podglądzie całego zdjęcia,
 - potrafi otworzyć zdjęcie na Canon EOS RP, powiększyć ważny szczegół i sprawdzić go,
 - stosuje tę metodę do własnych zdjęć wykonanych w [[L1-01|poprzedniej lekcji]].
 
 Główny nawyk:
 
-**najpierw wiem, czego szukam; potem powiększam ważny szczegół i sprawdzam, czy naprawdę jest wyraźny.**
+**najpierw wiem, czego szukam; potem powiększam ważny szczegół i sprawdzam, czy naprawdę jest ostry.**
 
 ## L1-02-S01 — Najpierw zobacz, co znaczy „ostre”
 
 W kursie pojawiają się przygotowane wcześniej przykłady tego samego rodzaju sceny.
 
-Na pierwszym przykładzie ważny element jest wyraźny: jego krawędzie są czytelne i łatwo zobaczyć drobne szczegóły.
+Na pierwszym przykładzie ważny szczegół jest ostry: jego krawędzie są czytelne i łatwo zobaczyć drobne szczegóły.
 
-Na drugim przykładzie ostrość znajduje się w niewłaściwym miejscu. Ważny element wygląda miękko, mimo że inna część zdjęcia może być wyraźna.
+Na drugim przykładzie ostrość znajduje się w niewłaściwym miejscu. Ważny szczegół wygląda nieostro, mimo że inna część zdjęcia może być ostra.
 
 Nie uczymy się jeszcze nazw błędów ani ich przyczyn. Chodzi tylko o jedną rzecz:
 
-**ostre zdjęcie to nie takie, na którym „cokolwiek” jest ostre. Ostry ma być ten element, który chcieliśmy pokazać wyraźnie.**
+**ostre zdjęcie to nie takie, na którym „cokolwiek” jest ostre. Ostry ma być ten szczegół, który chcieliśmy pokazać.**
 
 ## L1-02-S02 — Mały podgląd może oszukiwać
 
@@ -34,7 +34,7 @@ Kurs pokazuje teraz jedno zdjęcie w dwóch wersjach prezentacji:
 1. całe zdjęcie,
 2. powiększony ważny szczegół.
 
-Na małym podglądzie trudno dokładnie ocenić drobne szczegóły. Po powiększeniu łatwiej zobaczyć, czy krawędzie i faktura są naprawdę wyraźne.
+Na małym podglądzie trudno dokładnie ocenić drobne szczegóły. Po powiększeniu łatwiej zobaczyć, czy krawędzie i faktura są naprawdę ostre.
 
 To właśnie będziesz za chwilę robiła na swoim Canonie.
 
@@ -56,31 +56,31 @@ Znajdź jedno z trzech zdjęć wykonanych w [[L1-01|poprzedniej lekcji]].
 
 ## L1-02-S04 — Powiększ ważny szczegół
 
-Najpierw wybierz jeden konkretny element, który miał być wyraźny: literę, fragment logo, krawędź albo drobny wzór.
+Najpierw wybierz jeden konkretny szczegół, który miał być ostry: literę, fragment logo, krawędź albo drobny wzór.
 
-Na tylnej ściance aparatu znajdź przycisk oznaczony **niebieską lupą**.
+Na tylnej ściance aparatu znajdź **przycisk lupy** — przycisk z niebieską lupą w prawym górnym rogu.
 
 Naciśnij go podczas oglądania zdjęcia.
 
 Następnie obróć **główne pokrętło przy spuście migawki**, aby zwiększyć lub zmniejszyć powiększenie.
 
-Jeżeli wybrany detal nie znajduje się na środku ekranu, użyj tego samego **tylnego wybieraka**, który był pokazany przed chwilą. Naciskaj odpowiedni kierunek, aby przesunąć powiększony widok.
+Jeżeli wybrany szczegół nie znajduje się na środku ekranu, użyj tego samego **tylnego wybieraka**, który był pokazany przed chwilą. Naciskaj odpowiedni kierunek, aby przesunąć powiększony widok.
 
 Nie musisz powiększać maksymalnie. Powiększ tylko tyle, żeby dobrze widzieć krawędzie i drobne szczegóły.
 
 ## L1-02-S05 — Sprawdź swoje pierwsze zdjęcie
 
-Patrz tylko na wybrany detal.
+Patrz tylko na wybrany szczegół.
 
 Porównaj go w myślach z [[L1-02-S01|gotowymi przykładami]], które przed chwilą widziałaś w kursie.
 
 Zapytaj:
 
-**„Czy ten element jest naprawdę wyraźny?”**
+**„Czy ten szczegół jest naprawdę ostry?”**
 
 Jeżeli jego krawędzie są czytelne i drobne szczegóły łatwo rozpoznać — ten fragment wygląda ostro.
 
-Jeżeli jest miękki albo rozmazany — ten fragment jest mniej ostry.
+Jeżeli wygląda miękko — ten fragment jest nieostry.
 
 Nie zgaduj jeszcze dlaczego. W tej lekcji uczysz się najpierw zauważać rezultat.
 
@@ -92,26 +92,26 @@ Zrób to samo z trzecim zdjęciem.
 
 Porównaj tylko ostrość. Nie oceniaj teraz jasności, koloru, kadru ani tła.
 
-Jeżeli wszystkie trzy są wyraźne, to dobrze — nie trzeba na siłę szukać błędu.
+Jeżeli wszystkie trzy są ostre, to dobrze — nie trzeba na siłę szukać błędu.
 
 ## L1-02-S07 — Wróć do fotografowania
 
-Po zakończeniu oglądania możesz ponownie nacisnąć przycisk odtwarzania albo nacisnąć spust migawki do połowy, aby wrócić do gotowości fotografowania.
+Po zakończeniu oglądania możesz ponownie nacisnąć przycisk odtwarzania albo nacisnąć spust do połowy, aby wrócić do gotowości fotografowania.
 
 ## Ćwiczenie
 
-1. Najpierw obejrzyj w kursie [[L1-02-S01|gotowe przykłady ostrego i mniej ostrego detalu]].
+1. Najpierw obejrzyj w kursie [[L1-02-S01|gotowe przykłady ostrego i nieostrego szczegółu]].
 2. Otwórz jedno ze swoich zdjęć z [[L1-01|poprzedniej lekcji]].
 3. Wybierz jeden ważny szczegół.
 4. Powiększ go na aparacie.
-5. Oceń tylko jego wyrazistość.
+5. Oceń tylko jego ostrość.
 6. Powtórz to dla dwóch pozostałych zdjęć.
 7. Wróć do fotografowania.
 
 ## Kiedy lekcja jest ukończona?
 
 Lekcja jest ukończona, jeżeli potrafisz:
-- na gotowym przykładzie wskazać detal wyraźny i mniej wyraźny,
+- na gotowym przykładzie wskazać szczegół ostry i nieostry,
 - otworzyć własne zdjęcie na EOS RP,
 - powiększyć wybrany szczegół,
 - sprawdzić jego ostrość,
@@ -121,7 +121,7 @@ Nie musisz jeszcze znać przyczyn nieostrości.
 
 ## Co zapamiętać
 
-**Najpierw wybieram, co miało być wyraźne. Potem powiększam właśnie ten szczegół i sprawdzam go.**
+**Najpierw wybieram, co miało być ostre. Potem powiększam właśnie ten szczegół i sprawdzam go.**
 
 ## Źródła dydaktycznych materiałów wizualnych
 

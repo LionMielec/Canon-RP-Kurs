@@ -9,7 +9,7 @@ Warstwa wizualna ma pokazać cztery rzeczy:
 1. tło można uprościć bez zmiany ustawień,
 2. warto kontrolować brzegi kadru,
 3. orientacja pozioma i pionowa zmienia to, co mieści się w zdjęciu,
-4. zmiana miejsca i wysokości aparatu zmienia relację głównego tematu do tła.
+4. zmiana miejsca i wysokości aparatu zmienia relację głównego przedmiotu do tła.
 
 Nie używamy zdjęć Ani jako materiału demonstracyjnego nowego zagadnienia.
 
@@ -46,12 +46,12 @@ Bez etykiety „złe / dobre”.
 
 **Powiązanie:** L1-03-S02  
 **Typ:** para edukacyjna + statyczne oznaczenia  
-**Cel dydaktyczny:** nauczyć szybkiej kontroli krawędzi przed naciśnięciem spustu.
+**Cel dydaktyczny:** nauczyć szybkiej kontroli brzegów kadru przed naciśnięciem spustu.
 
 ### Scena
 Gotowy kadr z:
-- przypadkowym fragmentem przedmiotu przy jednej krawędzi,
-- wyraźnym rozpraszaczem przy drugiej,
+- przypadkowym fragmentem przedmiotu przy jednym brzegu kadru,
+- wyraźnym rozpraszaczem przy drugim,
 - głównym przedmiotem nadal łatwym do rozpoznania.
 
 Druga wersja: kadr uporządkowany zmianą pozycji / framingu.
@@ -74,7 +74,7 @@ Nie stosować animacji. Nie zasłaniać elementów.
 
 **Powiązanie:** L1-03-S03  
 **Typ:** para zdjęć  
-**Cel dydaktyczny:** pokazać, że sama orientacja aparatu zmienia ilość miejsca po bokach oraz nad/pod tematem.
+**Cel dydaktyczny:** pokazać, że sama orientacja aparatu zmienia ilość miejsca po bokach oraz nad/pod głównym przedmiotem.
 
 ### Scena
 Ten sam główny przedmiot, ta sama pozycja fotografa, podobna odległość:
@@ -95,7 +95,7 @@ Nie „upiększać” jednego wariantu bardziej od drugiego. Oba mają być sens
 **Cel dydaktyczny:** pokazać zmianę układu tła po ruchu aparatu w lewo / prawo.
 
 ### Scena
-Główny przedmiot pozostaje nieruchomy. Za nim znajduje się wyraźny element tła. Fotograf przesuwa się o niewielki krok w bok, aż element tła przestanie konkurować z głównym tematem.
+Główny przedmiot pozostaje nieruchomy. Za nim znajduje się wyraźny element tła. Fotograf przesuwa się o niewielki krok w bok, aż element tła przestanie konkurować z głównym przedmiotem.
 
 ### Prezentacja
 Etykiety:

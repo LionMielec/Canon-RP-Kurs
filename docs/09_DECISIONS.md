@@ -724,3 +724,27 @@ Zatwierdzone 02.10.2026. Uzupełnia D-063.
 - Obowiązujące nazwy są zapisane w `docs/24_SLOWNIK_NAZW.md`. Nowa nazwa trafia do słownika przed użyciem w lekcji.
 
 Zasada: **słownik nazw jest jeden dla całego kursu.**
+
+## D-066 — Rozstrzygnięte nazwy w słowniku
+Zatwierdzone 02.10.2026. Realizuje D-065.
+
+- „spust” (opis „spust migawki” najwyżej raz),
+- „przełącznik zasilania”,
+- „przycisk lupy” — ten sam przycisk w L1-02 (powiększanie zdjęcia) i w L1-04 (przesuwanie punktu ostrości); zastępuje nazwę „przycisk punktu ostrości”,
+- „ramka ostrości” — znacznik na ekranie w A+ i przy oglądaniu zdjęcia; kolor (biała, zielona, czerwona) opisuje stan, nie jest osobną nazwą; mały kwadrat w trybie P to „punkt ostrości”,
+- „szczegół” — to, co Ania sprawdza w powiększeniu,
+- „ostry” / „nieostry” — „rozmazany” zostaje zarezerwowane dla zdjęć poruszonych (lekcja o ruchu),
+- „brzeg kadru” — „krawędź” tylko w znaczeniu krawędzi przedmiotu,
+- „przedmiot” / „główny przedmiot” — „cel” tylko w znaczeniu celu lekcji lub ćwiczenia,
+- „przycisk odtwarzania”.
+
+Zasada: **słownik rozstrzyga, lekcje się dostosowują.**
+
+## D-067 — Przebieg pracy nad lekcją i lista kontrolna
+Zatwierdzone 02.10.2026, na próbę. Porządkuje D-049 w praktyce; bramy właściciela bez zmian.
+
+- Lekcja powstaje w pięciu krokach: (1) zakres — brama 1; (2) jedno zadanie odczytu źródeł z instrukcji Canon; (3) komplet od Claude w czacie: tekst, opis wszystkich materiałów i wynik listy kontrolnej — brama 2; (4) jedno zadanie wdrożenia dla Claude Code: materiały, aplikacja i zrzuty ekranu wszystkich ekranów lekcji w szerokości telefonu, a potem najwyżej jedna runda poprawek po kontroli Claude w czacie; (5) odbiór właściciela w aplikacji — brama 3.
+- Przed pokazaniem właścicielowi Claude w czacie przepuszcza tekst przez `docs/25_LISTA_KONTROLNA_LEKCJI.md` i ogląda zrzuty wszystkich ekranów (poza rysunkami Canon, które ogląda właściciel).
+- Wiadomości Claude w czacie są krótkie: najpierw konkret, decyzja do podjęcia w jednym zdaniu.
+
+Zasada: **błędy wyłapuje Claude w czacie, zanim zobaczy je właściciel.**

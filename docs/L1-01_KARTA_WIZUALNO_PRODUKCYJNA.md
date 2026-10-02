@@ -9,7 +9,7 @@ Audyt materiałów: 2026-09-24 — wykonany na pakiecie zdjęć Ani z 24.09.2026
 Materiały mają pomóc Ani wykonać pierwszy świadomy cykl zdjęcia bez przeciążania jej elementami aparatu. Pokazujemy tylko to, czego potrzebuje w danym momencie.
 
 ## Wynik audytu — skrót
-- V01 Włącznik: **źródło wybrane; trzeba przygotować kadr/oznaczenie**.
+- V01 Przełącznik zasilania: **źródło wybrane; trzeba przygotować kadr/oznaczenie**.
 - V02 A+: **źródło wybrane; trzeba przygotować kadr/oznaczenie**.
 - V03 Trzymanie aparatu: **brak właściwego materiału; trzeba wykonać zdjęcie instruktażowe lub zaprojektować grafikę na bazie nowego zdjęcia**.
 - V04 Dwustopniowy spust: **mamy referencje aparatu, ale nie mamy materiału pokazującego ruch; potrzebny dedykowany close-up i animacja**.
@@ -18,7 +18,7 @@ Materiały mają pomóc Ani wykonać pierwszy świadomy cykl zdjęcia bez przeci
 
 ## Plan materiałów po audycie
 
-### L1-01-V01 — Włącznik aparatu
+### L1-01-V01 — Przełącznik zasilania
 - Krok: `L1-01-S01` — „Włącz aparat”.
 - Typ finalny: rzeczywiste zdjęcie Canon EOS RP Ani, z delikatnym oznaczeniem przełącznika `ON/OFF`; opcjonalnie później mikroanimacja ruchu.
 - Cel: pokazać dokładnie gdzie i jak włączyć aparat.
@@ -46,7 +46,7 @@ Materiały mają pomóc Ani wykonać pierwszy świadomy cykl zdjęcia bez przeci
 - Docelowy asset: `assets/lessons/l1-01/l1-01-v03-camera-hold.jpg`.
 - Status: `TO_CAPTURE`.
 
-### L1-01-V04 — Dwustopniowy spust migawki
+### L1-01-V04 — Dwustopniowy spust
 - Krok: `L1-01-S05` — naciśnięcie do połowy i do końca.
 - Typ finalny: krótka animacja.
 - Cel: pokazać różnicę między pierwszym i drugim etapem naciśnięcia.
@@ -91,7 +91,7 @@ Nie robimy nowych zdjęć „na zapas”. Do L1-01 potrzebujemy tylko:
 4. **czterech prostych scen do planszy o trudności AF** (V06) — mogą zostać wykonane osobno podczas produkcji grafiki.
 
 ## Materiały celowo niepotrzebne w L1-01
-Nie dodajemy pełnej mapy przycisków, montażu obiektywu, menu AF, nauki wizjera, przysłony, ISO, czasu naświetlania ani ręcznego wyboru punktu AF.
+Nie dodajemy pełnej mapy przycisków, montażu obiektywu, menu AF, nauki wizjera, przysłony, ISO, czasu naświetlania ani ręcznego wyboru punktu ostrości.
 
 ## Kontrola przed implementacją
 V01 i V02 mają wybrane źródło. L1-01 nie jest jeszcze `PRODUCTION_READY`, ponieważ brakuje V03–V06. Braki są jednak dokładnie zidentyfikowane i **nie blokują pracy nad treścią L1-02**. Po wykonaniu brakujących materiałów przechodzą kolejno przez `SOURCE_SELECTED` / `TO_PREPARE` / `APPROVAL_PENDING` / `APPROVED`.
