@@ -1080,6 +1080,9 @@ def main():
     parser.add_argument("--res", help="rozdzielczość dłuższego boku w pikselach (domyślnie 2400)", type=int)
     parser.add_argument("--shot", choices=sorted(SHOTS),
                         help="pozostałe ujęcia L1-03 (V01, V02, V03, V04B) oraz ujęcia L1-04")
+    parser.add_argument("--exposure-offset", type=float, default=0.0,
+                        help="L1-05-V01: zmiana ekspozycji w zarządzaniu kolorem (stopnie), "
+                             "dodana po kalibracji; scena i aparat bez zmian")
     args = parser.parse_args(argv)
 
     shot = SHOTS.get(args.shot)
@@ -1114,6 +1117,10 @@ def main():
         os.makedirs(os.path.dirname(os.path.abspath(args.calibrate)), exist_ok=True)
         with open(args.calibrate, "w") as f:
             json.dump(cal, f, indent=2)
+    if args.exposure_offset:
+        bpy.context.scene.view_settings.exposure += args.exposure_offset
+        print(f"EKSPOZYCJA: {bpy.context.scene.view_settings.exposure:.3f} "
+              f"(przesuniecie {args.exposure_offset:+g})")
 
     bpy.ops.render.render(write_still=True)
     if shot and shot.get("no_measure"):
