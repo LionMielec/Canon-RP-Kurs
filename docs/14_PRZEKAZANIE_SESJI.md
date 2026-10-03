@@ -30,3 +30,35 @@
 
 ### Start następnej sesji
 Claude w czacie czyta całą dokumentację (D-061), potwierdza stan i cel.
+
+## HANDOFF 02.10.2026 — poprawki L1-04, jedna nazwa dla elementu
+Uzupełnione 03.10.2026 wyłącznie na podstawie historii commitów.
+
+### Co zostało wykonane
+- Decyzje D-063–D-067.
+- L1-04: poprawki tekstu; materiały V11–V18 w karcie wizualno-produkcyjnej i manifeście assetów; opisy V06 i V07.
+- Słownik nazw `docs/24_SLOWNIK_NAZW.md` (D-065, D-066) i lista kontrolna lekcji `docs/25_LISTA_KONTROLNA_LEKCJI.md` (D-067); nazwy zastosowane w dokumentach L1-01–L1-04.
+- Aplikacja (gałąź `wip/l1-02-l1-03`): poprawki L1-04 po przeglądzie właściciela, odwołania jako linki (D-060), obrazy przy podpunktach (D-064), naprzemienne karty lekcji na stronie głównej; nazwy z D-065 i D-066 w L1-01–L1-04; zrzuty wszystkich ekranów w szerokości 430 px.
+
+## HANDOFF 03.10.2026 — L1-05 wdrożona na gałęzi roboczej
+
+### Co zostało wykonane
+- Decyzje D-068 (oszczędzanie limitu) i D-069 (rozstrzygnięcia właściciela dla L1-05).
+- Cele lekcji L1-01–L1-04 w bezpośredniej formie zwracania się do Ani (dokumenty i aplikacja); w `CLAUDE.md` zapis o zgodzie na commit i push.
+- Dokumenty historyczne przeniesione do `docs/archiwum/` (D-068).
+- L1-05: zakres (brama 1) i tekst (brama 2) zatwierdzone; źródła z instrukcji w `docs/L1-05_ZRODLA_INSTRUKCJA.md`; tekst lekcji, karta wizualno-produkcyjna, nazwy w słowniku, wpisy w manifeście; podglądy V01 i V02 w `review/`.
+- Skrypt sceny `production/l1-03/scene/build_v04a_scene.py`: opcja przesunięcia ekspozycji dla L1-05-V01.
+- Aplikacja (gałąź `wip/l1-02-l1-03`): lekcja L1-05; arkusz zrzutów `review/app/l1-05/arkusz.jpg`. W L1-04 i L1-05 rysunek z instrukcji Canon, którego brak w wersji publicznej, zastępuje jawne miejsce „Materiał w przygotowaniu” (D-069).
+
+### Stan
+- L1-01–L1-03 — czekają na odbiór właściciela.
+- L1-04 — szkic po poprawkach; czeka na sprawdzenie na aparacie Ani.
+- L1-05 — czeka na odbiór właściciela (brama 3) i sprawdzenie na aparacie Ani.
+
+### Otwarte
+- Wspólne sprawdzenie L1-04 i L1-05 na aparacie Ani po powrocie właściciela (połowa października) — listy w `docs/L1-04_ZRODLA_INSTRUKCJA.md` i `docs/L1-05_ZRODLA_INSTRUKCJA.md`; tam też wpływ [Autom. optymalizator jasności] przy −1 (D-069).
+- Zdjęcia do zrobienia: L1-04-V07, L1-04-V18, L1-05-V03.
+- Hosting i publikacja — wstrzymane (D-047).
+
+### Start następnej sesji
+Claude w czacie czyta całą aktywną dokumentację (D-061, D-068). Następny cel: do decyzji właściciela.

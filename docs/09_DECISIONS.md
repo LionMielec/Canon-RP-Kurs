@@ -759,3 +759,14 @@ Zatwierdzone 03.10.2026. Uzupełnia D-061 i D-067.
 - Wiadomości i polecenia Claude w czacie są krótkie i mają jedną wersję.
 
 Zasada: **limit idzie na lekcje, nie na powtarzanie.**
+
+## D-069 — L1-05 — rozstrzygnięcia właściciela
+Zatwierdzone 03.10.2026.
+
+- Zakres L1-05 zatwierdzony (brama 1) i tekst lekcji zatwierdzony (brama 2) 03.10.2026.
+- Jasność zmienia się wyłącznie pokrętłem przy LOCK; sposoby przez Q/SET i przez menu są w lekcji pominięte.
+- Nazwa elementu: „pokrętło przy LOCK” (D-065).
+- Lekcja nie zmienia ustawienia [Autom. optymalizator jasności]. Jego wpływ przy −1 zostanie sprawdzony na aparacie Ani; ewentualna zmiana — jako osobna decyzja.
+- V01: zostaje wersja +1 (prawie biały kubek z czytelnym napisem).
+- Napis kategorii „Decyduję o jasności” zaakceptowany.
+- W wersji publicznej każdy rysunek z instrukcji Canon (L1-04, L1-05) zastępuje jawne miejsce „Materiał w przygotowaniu”; lokalnie, gdy plik jest obecny, rysunek wyświetla się normalnie (D-056).

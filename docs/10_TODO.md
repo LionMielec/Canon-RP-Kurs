@@ -128,3 +128,13 @@ Wcześniejsze sekcje są historyczne; role według D-047.
 ## POPRAWKI PO PRZEGLĄDZIE WŁAŚCICIELA — 01.10.2026
 - [ ] Po powrocie właściciela: zdjęcie ekranu aparatu Ani z pomarańczowym punktem ostrości (L1-04-V18; skierować aparat na gładką ścianę i nacisnąć spust do połowy).
 - [ ] Po powrocie właściciela: zdjęcie ekranu aparatu Ani z punktem ostrości przesuniętym w bok (L1-04-V07).
+
+## L1-05 — 03.10.2026
+- [x] Krok 2: odczyt źródeł z instrukcji Canon (`docs/L1-05_ZRODLA_INSTRUKCJA.md`).
+- [x] Krok 3: tekst, karta wizualno-produkcyjna i lista kontrolna — brama 2 (D-069).
+- [x] Krok 4: wdrożenie w aplikacji na gałęzi `wip/l1-02-l1-03` i arkusz zrzutów.
+- [ ] Krok 5: odbiór właściciela w aplikacji — brama 3.
+
+## PO POWROCIE WŁAŚCICIELA — połowa października 2026
+- [ ] Sprawdzenie na aparacie L1-04 + L1-05 (listy w L1-04_ZRODLA_INSTRUKCJA.md i L1-05_ZRODLA_INSTRUKCJA.md).
+- [ ] Zdjęcia: L1-04-V07, L1-04-V18, L1-05-V03.
