@@ -5,11 +5,11 @@
 **Czas:** około 15–20 minut
 
 ## Cel lekcji
-Po tej lekcji Ania:
-- wie, że aparat ustawia ostrość na jedną odległość i że to, co jest bliżej albo dalej, może wyglądać nieostro,
-- przestawia aparat z A+ na tryb P,
-- ustawia jeden punkt ostrości i przesuwa go na wybrany przedmiot,
-- sprawdza w powiększeniu, czy ostry jest ten przedmiot, który wybrała.
+Po tej lekcji:
+- będziesz wiedzieć, że aparat ustawia ostrość na jedną odległość, a to, co jest bliżej albo dalej, może wyglądać nieostro,
+- przestawisz aparat z A+ na tryb P,
+- ustawisz jeden punkt ostrości i przesuniesz go na wybrany przedmiot,
+- sprawdzisz w powiększeniu, czy ostry jest przedmiot, który wybrałaś.
 
 Główny nawyk:
 

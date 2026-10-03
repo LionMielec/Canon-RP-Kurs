@@ -5,11 +5,11 @@
 **Czas:** około 10–15 minut
 
 ## Cel lekcji
-Po tej lekcji Ania:
-- rozpoznaje na gotowych przykładach, jak wygląda szczegół ostry i nieostry,
-- wie, że ostrość sprawdza się na konkretnym szczególe, a nie po małym podglądzie całego zdjęcia,
-- potrafi otworzyć zdjęcie na Canon EOS RP, powiększyć ważny szczegół i sprawdzić go,
-- stosuje tę metodę do własnych zdjęć wykonanych w [[L1-01|poprzedniej lekcji]].
+Po tej lekcji:
+- rozpoznasz na gotowych przykładach, jak wygląda szczegół ostry i nieostry,
+- będziesz wiedzieć, że ostrość sprawdza się na konkretnym szczególe, a nie po małym podglądzie całego zdjęcia,
+- otworzysz zdjęcie na Canon EOS RP, powiększysz ważny szczegół i sprawdzisz go,
+- zastosujesz tę metodę do własnych zdjęć z [[L1-01|poprzedniej lekcji]].
 
 Główny nawyk:
 

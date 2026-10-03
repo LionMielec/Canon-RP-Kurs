@@ -4,7 +4,7 @@ Stosuje Claude w czacie przed pokazaniem tekstu właścicielowi i po wdrożeniu,
 
 ## Treść i język
 1. Jasny cel, czas i punkt startowy; jedna nowa rzecz w kroku.
-2. Tekst nie brzmi jak instrukcja obsługi (D-062): problem opisany tak, jak widzi go Ania; co widzi, co zrobić, po co.
+2. Tekst nie brzmi jak instrukcja obsługi (D-062): tekst zwraca się bezpośrednio do Ani (Ty), nigdy nie mówi o niej w trzeciej osobie; problem opisany tak, jak widzi go Ania; co widzi, co zrobić, po co.
 3. Brak niewyjaśnionych terminów i skrótów (dokument 03).
 4. Każda nazwa zgodna ze słownikiem `24_SLOWNIK_NAZW.md`; nowa nazwa najpierw trafia do słownika (D-063, D-065, D-066).
 5. Każde odwołanie do kroku, części lub lekcji jest linkiem (D-060).

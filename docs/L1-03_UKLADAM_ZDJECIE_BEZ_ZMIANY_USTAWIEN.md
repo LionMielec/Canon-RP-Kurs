@@ -5,12 +5,12 @@
 **Czas:** około 15–20 minut
 
 ## Cel lekcji
-Po tej lekcji Ania:
-- zauważa, że zdjęcie można wyraźnie poprawić bez zmiany ustawień aparatu,
-- świadomie wybiera kadr poziomy albo pionowy,
-- przed wykonaniem zdjęcia sprawdza cztery brzegi kadru,
-- potrafi uprościć tło przez zmianę własnej pozycji lub wysokości aparatu,
-- rozumie, że RF 50 mm F1.8 STM jest obiektywem stałoogniskowym: aby zmienić wielkość przedmiotu w kadrze, zmienia miejsce fotografowania, a nie „zoom”.
+Po tej lekcji:
+- zauważysz, że zdjęcie można wyraźnie poprawić bez zmiany ustawień aparatu,
+- świadomie wybierzesz kadr poziomy albo pionowy,
+- przed zrobieniem zdjęcia sprawdzisz cztery brzegi kadru,
+- uprościsz tło, zmieniając swoją pozycję albo wysokość aparatu,
+- zrozumiesz, że RF 50 mm F1.8 STM jest obiektywem stałoogniskowym: żeby zmienić wielkość przedmiotu w kadrze, zmieniasz miejsce fotografowania, a nie „zoom”.
 
 Główny nawyk:
 
