@@ -748,3 +748,14 @@ Zatwierdzone 02.10.2026, na próbę. Porządkuje D-049 w praktyce; bramy właśc
 - Wiadomości Claude w czacie są krótkie: najpierw konkret, decyzja do podjęcia w jednym zdaniu.
 
 Zasada: **błędy wyłapuje Claude w czacie, zanim zobaczy je właściciel.**
+
+## D-068 — Oszczędzanie limitu
+Zatwierdzone 03.10.2026. Uzupełnia D-061 i D-067.
+
+- Każda sesja pracy to nowa rozmowa w projekcie claude.ai; ciągłość zapewniają repozytorium i pamięć projektu. Claude w czacie sam proponuje nową rozmowę, gdy bieżąca robi się długa albo kończy się większy etap.
+- Na starcie sesji Claude w czacie czyta całą aktywną dokumentację; `docs/archiwum/` tylko wtedy, gdy jest potrzebne. W trwającej rozmowie czyta tylko zmiany od ostatniego odczytu.
+- Przed każdym nowym zadaniem w Claude Code właściciel wpisuje `/clear`; Claude w czacie mówi o tym przy każdym poleceniu.
+- Zrzuty ekranu Claude Code składa w jeden obraz na lekcję (`review/app/<lekcja>/arkusz.jpg`); Claude w czacie ogląda arkusz i tylko zmienione ekrany.
+- Wiadomości i polecenia Claude w czacie są krótkie i mają jedną wersję.
+
+Zasada: **limit idzie na lekcje, nie na powtarzanie.**

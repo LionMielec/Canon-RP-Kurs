@@ -9,7 +9,7 @@ Zaktualizować istniejącą prywatną aplikację Canon RP tak, aby dwie zatwierd
 Nie tworzyć nowej aplikacji od zera.
 
 ## Gdzie pracować
-Właściwy kod istniejącej aplikacji znajduje się w checkoutcie Sites opisanym w `docs/13_PIERWSZA_APLIKACJA.md`:
+Właściwy kod istniejącej aplikacji znajduje się w checkoutcie Sites opisanym w `docs/archiwum/13_PIERWSZA_APLIKACJA.md`:
 
 `/Users/pawelsiedleczka/.codex/.chatgpt-projects/g-p-6aabf9b9dd848191b1f8a77f4f9213d0/canon-rp-app`
 
@@ -26,7 +26,7 @@ Przeczytać:
 7. `docs/L1-01_KARTA_WIZUALNO_PRODUKCYJNA.md`
 8. `docs/L1-02_SPRAWDZAM_CZY_ZDJECIE_JEST_OSTRE.md`
 9. `docs/L1-02_KARTA_WIZUALNO_PRODUKCYJNA.md`
-10. `docs/13_PIERWSZA_APLIKACJA.md`
+10. `docs/archiwum/13_PIERWSZA_APLIKACJA.md`
 
 ## Zakres
 ### 1. Lekcja 1 — „Robię swoje pierwsze zdjęcie”
