@@ -7,7 +7,7 @@ window.CANON_LESSONS = [
     "category": "Oswajam aparat",
     "duration": "Około 15 minut",
     "intro": {
-      "title": "Cel",
+      "title": "Cel lekcji",
       "body": "Nauczyć się jednego świadomego cyklu wykonania zdjęcia: **wyceluj → naciśnij spust do połowy → poczekaj na wizualne potwierdzenie ostrości → spokojnie dociśnij spust do końca.**\n\nNie musisz jeszcze znać przysłony, czasu naświetlania, ISO ani menu."
     },
     "steps": [
@@ -239,7 +239,7 @@ window.CANON_LESSONS = [
     "duration": "Około 10–15 minut",
     "intro": {
       "title": "Cel lekcji",
-      "body": "Po tej lekcji Ania:\n- rozpoznaje na gotowych przykładach, jak wygląda szczegół ostry i nieostry,\n- wie, że ostrość sprawdza się na konkretnym szczególe, a nie po małym podglądzie całego zdjęcia,\n- potrafi otworzyć zdjęcie na Canon EOS RP, powiększyć ważny szczegół i sprawdzić go,\n- stosuje tę metodę do własnych zdjęć wykonanych w [[L1-01|poprzedniej lekcji]].\n\nGłówny nawyk:\n\n**najpierw wiem, czego szukam; potem powiększam ważny szczegół i sprawdzam, czy naprawdę jest ostry.**"
+      "body": "Po tej lekcji:\n- rozpoznasz na gotowych przykładach, jak wygląda szczegół ostry i nieostry,\n- będziesz wiedzieć, że ostrość sprawdza się na konkretnym szczególe, a nie po małym podglądzie całego zdjęcia,\n- otworzysz zdjęcie na Canon EOS RP, powiększysz ważny szczegół i sprawdzisz go,\n- zastosujesz tę metodę do własnych zdjęć z [[L1-01|poprzedniej lekcji]].\n\nGłówny nawyk:\n\n**najpierw wiem, czego szukam; potem powiększam ważny szczegół i sprawdzam, czy naprawdę jest ostry.**"
     },
     "steps": [
       {
@@ -544,7 +544,7 @@ window.CANON_LESSONS = [
     "duration": "Około 15–20 minut",
     "intro": {
       "title": "Cel lekcji",
-      "body": "Po tej lekcji Ania:\n- zauważa, że zdjęcie można wyraźnie poprawić bez zmiany ustawień aparatu,\n- świadomie wybiera kadr poziomy albo pionowy,\n- przed wykonaniem zdjęcia sprawdza cztery brzegi kadru,\n- potrafi uprościć tło przez zmianę własnej pozycji lub wysokości aparatu,\n- rozumie, że RF 50 mm F1.8 STM jest obiektywem stałoogniskowym: aby zmienić wielkość przedmiotu w kadrze, zmienia miejsce fotografowania, a nie „zoom”.\n\nGłówny nawyk:\n\n**zanim zrobię zdjęcie, patrzę na główny przedmiot, brzegi kadru i tło.**\n\n**Punkt startowy**\n\nZostaw aparat w trybie **A+**.\n\nW tej lekcji nie zmieniasz żadnych ustawień aparatu.\n\nWybierz jeden nieruchomy przedmiot, który później wykorzystasz w ćwiczeniu. Najlepiej coś prostego i wyraźnego: kubek, książkę, roślinę, figurkę albo inny przedmiot, który łatwo zauważyć na tle otoczenia."
+      "body": "Po tej lekcji:\n- zauważysz, że zdjęcie można wyraźnie poprawić bez zmiany ustawień aparatu,\n- świadomie wybierzesz kadr poziomy albo pionowy,\n- przed zrobieniem zdjęcia sprawdzisz cztery brzegi kadru,\n- uprościsz tło, zmieniając swoją pozycję albo wysokość aparatu,\n- zrozumiesz, że RF 50 mm F1.8 STM jest obiektywem stałoogniskowym: żeby zmienić wielkość przedmiotu w kadrze, zmieniasz miejsce fotografowania, a nie „zoom”.\n\nGłówny nawyk:\n\n**zanim zrobię zdjęcie, patrzę na główny przedmiot, brzegi kadru i tło.**\n\n**Punkt startowy**\n\nZostaw aparat w trybie **A+**.\n\nW tej lekcji nie zmieniasz żadnych ustawień aparatu.\n\nWybierz jeden nieruchomy przedmiot, który później wykorzystasz w ćwiczeniu. Najlepiej coś prostego i wyraźnego: kubek, książkę, roślinę, figurkę albo inny przedmiot, który łatwo zauważyć na tle otoczenia."
     },
     "steps": [
       {
@@ -780,7 +780,7 @@ window.CANON_LESSONS = [
     "duration": "Około 15–20 minut",
     "intro": {
       "title": "Cel lekcji",
-      "body": "Po tej lekcji Ania:\n- wie, że aparat ustawia ostrość na jedną odległość i że to, co jest bliżej albo dalej, może wyglądać nieostro,\n- przestawia aparat z A+ na tryb P,\n- ustawia jeden punkt ostrości i przesuwa go na wybrany przedmiot,\n- sprawdza w powiększeniu, czy ostry jest ten przedmiot, który wybrała.\n\nGłówny nawyk:\n\n**zanim nacisnę spust, decyduję, co ma być ostre, i ustawiam tam punkt ostrości.**\n\n**Punkt startowy**\n\nAparat jest w trybie **A+**, tak jak po poprzednich lekcjach.\n\nPrzygotuj dwa nieruchome przedmioty. Najlepiej takie, na których jest wyraźny szczegół: napis, krawędź, wzór. Na przykład kubek z napisem i książkę.\n\nĆwicz w dobrym świetle dziennym."
+      "body": "Po tej lekcji:\n- będziesz wiedzieć, że aparat ustawia ostrość na jedną odległość, a to, co jest bliżej albo dalej, może wyglądać nieostro,\n- przestawisz aparat z A+ na tryb P,\n- ustawisz jeden punkt ostrości i przesuniesz go na wybrany przedmiot,\n- sprawdzisz w powiększeniu, czy ostry jest przedmiot, który wybrałaś.\n\nGłówny nawyk:\n\n**zanim nacisnę spust, decyduję, co ma być ostre, i ustawiam tam punkt ostrości.**\n\n**Punkt startowy**\n\nAparat jest w trybie **A+**, tak jak po poprzednich lekcjach.\n\nPrzygotuj dwa nieruchome przedmioty. Najlepiej takie, na których jest wyraźny szczegół: napis, krawędź, wzór. Na przykład kubek z napisem i książkę.\n\nĆwicz w dobrym świetle dziennym."
     },
     "steps": [
       {
