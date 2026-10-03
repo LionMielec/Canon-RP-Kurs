@@ -770,3 +770,14 @@ Zatwierdzone 03.10.2026.
 - V01: zostaje wersja +1 (prawie biały kubek z czytelnym napisem).
 - Napis kategorii „Decyduję o jasności” zaakceptowany.
 - W wersji publicznej każdy rysunek z instrukcji Canon (L1-04, L1-05) zastępuje jawne miejsce „Materiał w przygotowaniu”; lokalnie, gdy plik jest obecny, rysunek wyświetla się normalnie (D-056).
+
+## D-071 — Wyjątek dla materiału »Jak trzymać aparat« w lekcji 1
+Zatwierdzone 03.10.2026. Zmienia D-050 i D-058 w zakresie L1-01-V03; uzupełnia D-057.
+
+- Wyjątek od D-050 dotyczy tylko materiału L1-01-V03. Liczy się ułożenie dłoni i łokci zgodne z tekstem lekcji. Wygląd aparatu i obiektywu nie jest oceniany, poza jednym warunkiem: brak czytelnych napisów marki.
+- Pozostałe zasady D-050 bez zmian: sprzęt Ani i ekrany menu w pozostałych materiałach nadal tylko prawdziwe.
+- Nowa kategoria pochodzenia w rejestrze materiałów: GENEROWANE (narzędzie, data).
+- Rysunek z instrukcji Canon w tym miejscu zastępuje obraz wygenerowany w Higgsfield; działa on także w wersji publicznej.
+- Warunek z D-050 sprawdza właściciel przed odbiorem: plan Higgsfield pozwala na użycie komercyjne.
+
+Zasada: **wyjątek uczy ułożenia ciała, nie wyglądu aparatu.**

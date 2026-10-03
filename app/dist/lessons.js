@@ -125,14 +125,14 @@ window.CANON_LESSONS = [
         "step": "L1-01-S03",
         "title": "Prawidłowe trzymanie aparatu",
         "status": "w aplikacji — APPROVAL_PENDING",
-        "note": "Rysunek z instrukcji Canon (D-056); plik lokalny, do podmiany.",
+        "note": "Obraz wygenerowany w Higgsfield (D-071).",
         "frames": [
           {
-            "target": "./assets/lessons/l1-01/l1-01-v03-camera-hold-canon.png",
+            "target": "./assets/lessons/l1-01/l1-01-v03-camera-hold.jpg",
             "title": "Prawidłowe trzymanie aparatu",
-            "width": 668,
-            "height": 722,
-            "alt": "Rysunek: osoba trzyma aparat obiema rękami przed sobą i patrzy na ekran"
+            "width": 1264,
+            "height": 848,
+            "alt": "Osoba trzyma aparat obiema rękami przed sobą: prawa dłoń na uchwycie, lewa pod obiektywem, łokcie przy ciele"
           }
         ]
       },

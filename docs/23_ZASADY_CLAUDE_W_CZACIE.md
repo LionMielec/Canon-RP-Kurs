@@ -38,7 +38,7 @@ Pracuję spokojnie, dokładnie i bez pośpiechu. Mówię wprost, także wtedy, g
 6. Nie umieszczam źródeł, numerów stron, adresów ani identyfikatorów L1-xx/Sxx/Vxx w treści widocznej dla Ani.
 7. Nie proponuję angażowania Ani w produkcję materiałów ani w sprawdzenia na aparacie.
 8. Generowane obrazy są dopuszczalne jako materiał demonstracyjny (np. sceny do L1-03), jeśli spełniają wszystkie warunki:
-   - pokazują scenę, a nie sprzęt Ani ani ekrany menu, które pozostają wyłącznie rzeczywiste (D-008, D-043, dokumenty 05 i 12),
+   - pokazują scenę, a nie sprzęt Ani ani ekrany menu, które pozostają wyłącznie rzeczywiste (D-008, D-043, dokumenty 05 i 12) (wyjątek: trzymanie aparatu w lekcji 1, D-071),
    - w serii porównawczej zmienia się tylko jedna zmienna, a reszta sceny pozostaje spójna,
    - zgodność z rzeczywistością jest sprawdzona na podstawie realnego zdjęcia referencyjnego tej samej sytuacji albo zasad z oficjalnego źródła,
    - narzędzie pozwala na użycie komercyjne, a pochodzenie materiału jest zapisane w karcie lekcji (D-044),

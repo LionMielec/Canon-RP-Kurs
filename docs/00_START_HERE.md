@@ -30,7 +30,7 @@ Dokumenty historyczne są w `docs/archiwum/` (D-068).
 ## Zasady, których nie otwieramy ponownie
 - obecna ikona, kolorystyka i kierunek wizualny zostają,
 - agent kodujący implementuje zatwierdzoną treść; nie wymyśla własnej,
-- brakujących materiałów nie zastępujemy domysłem; generowane sceny tylko na warunkach D-050, nigdy sprzęt Ani ani ekrany menu,
+- brakujących materiałów nie zastępujemy domysłem; generowane sceny tylko na warunkach D-050, nigdy sprzęt Ani ani ekrany menu (wyjątek: trzymanie aparatu w lekcji 1, D-071),
 - Ania nie produkuje materiałów, na których dopiero ma się uczyć,
 - źródłowe zdjęcia aparatu i menu są lokalnie w `materials/camera-source-pack-2026-09-24/`,
 - każda informacja w kursie ma sprawdzone, autentyczne źródło, niewidoczne dla Ani (D-048),

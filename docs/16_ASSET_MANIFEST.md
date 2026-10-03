@@ -10,7 +10,7 @@ Ten plik jest rejestrem materiałów wizualnych przypisanych do konkretnych lekc
 - Źródło z Library jest etapem roboczym; przed implementacją finalny plik trafia do repozytorium pod czytelną nazwą.
 - Codex używa docelowego pliku zgodnie z przypisaniem; nie wybiera samodzielnie zamienników.
 - Statusy: `SOURCE_SELECTED`, `TO_CAPTURE`, `TO_DESIGN`, `TO_ANIMATE`, `TO_PREPARE`, `APPROVAL_PENDING`, `APPROVED`.
-- Każdy asset ma pochodzenie: WŁASNE, RENDER, WOLNA LICENCJA albo CANON — DO PODMIANY (D-057). Pliki z instrukcji Canon mają w nazwie końcówkę `-canon`.
+- Każdy asset ma pochodzenie: WŁASNE, RENDER, WOLNA LICENCJA, GENEROWANE (narzędzie, data) (D-071) albo CANON — DO PODMIANY (D-057). Pliki z instrukcji Canon mają w nazwie końcówkę `-canon`.
 
 ## L1-01 — Robię swoje pierwsze zdjęcie
 
@@ -18,7 +18,7 @@ Ten plik jest rejestrem materiałów wizualnych przypisanych do konkretnych lekc
 |---|---|---|---|---|---|---|
 | L1-01-V01 | Włącz aparat | zdjęcie/crop | wyłącznie `fbe2fd62-e8ab-465b-b340-b6d0b4458622.jpg` / `libfile_167abe23e1488191ba89b2d851b2155c` | WŁASNE | `assets/lessons/l1-01/l1-01-v01-power-switch.jpg` | `PREPARED` + `APPROVAL_PENDING` |
 | L1-01-V02 | Ustaw A+ | zdjęcie/crop | wyłącznie `fbe2fd62-e8ab-465b-b340-b6d0b4458622.jpg` / `libfile_167abe23e1488191ba89b2d851b2155c` | WŁASNE | `assets/lessons/l1-01/l1-01-v02-mode-a-plus.jpg` | `PREPARED` + `APPROVAL_PENDING` |
-| L1-01-V03 | Prawidłowe trzymanie | zdjęcie instruktażowe | brak — nowe ujęcie osoby z aparatem | CANON — DO PODMIANY (instrukcja PL, s. 53: postać trzymająca aparat przed sobą i patrząca na ekran; plik `l1-01-v03-camera-hold-canon.png`) | `assets/lessons/l1-01/l1-01-v03-camera-hold.jpg` | w aplikacji — APPROVAL_PENDING |
+| L1-01-V03 | Prawidłowe trzymanie | zdjęcie instruktażowe | `Ułożenie_dłoni.jpg` (Higgsfield) | GENEROWANE (Higgsfield, 03.10.2026) | `assets/lessons/l1-01/l1-01-v03-camera-hold.jpg` | `APPROVAL_PENDING` |
 | L1-01-V04 | Pół / pełne naciśnięcie spustu | animacja | brak finalnego źródła ruchu | CANON — DO PODMIANY (instrukcja PL, s. 54: góra aparatu ze strzałką na spust; plik `l1-01-v04-shutter-canon.png`) | `assets/lessons/l1-01/l1-01-v04-shutter-half-full.mp4` | w aplikacji — APPROVAL_PENDING |
 | L1-01-V05 | Potwierdzenie AF | 2 ekrany / sekwencja | brak ekranu fotografowania z AF | CANON — DO PODMIANY (instrukcja PL, s. 191: sam obszar z ramką ostrości na twarzy, biała przed i zielona po; pliki `l1-01-v05-af-before-canon.png`, `l1-01-v05-af-confirmed-canon.png`) | `assets/lessons/l1-01/l1-01-v05-af-before.jpg`, `l1-01-v05-af-confirmed.jpg` | w aplikacji — APPROVAL_PENDING |
 | L1-01-V06 | Łatwy/trudny przedmiot dla AF | plansza | brak scen referencyjnych | RENDER (cztery ujęcia sceny 3D: `l1-01-v06-1-napis`, `-2-gladka-sciana`, `-3-ciemno`, `-4-za-blisko`) | `assets/lessons/l1-01/l1-01-v06-af-easy-hard.jpg` | w aplikacji — APPROVAL_PENDING |
