@@ -50,12 +50,15 @@ Uzupełnione 03.10.2026 wyłącznie na podstawie historii commitów.
 - Skrypt sceny `production/l1-03/scene/build_v04a_scene.py`: opcja przesunięcia ekspozycji dla L1-05-V01.
 - Aplikacja (gałąź `wip/l1-02-l1-03`): lekcja L1-05; arkusz zrzutów `review/app/l1-05/arkusz.jpg`. W L1-04 i L1-05 rysunek z instrukcji Canon, którego brak w wersji publicznej, zastępuje jawne miejsce „Materiał w przygotowaniu” (D-069).
 
+- Odbiór właściciela w aplikacji (brama 3): L1-01–L1-05 odebrane 03.10.2026 (D-070).
+
 ### Stan
-- L1-01–L1-03 — czekają na odbiór właściciela.
-- L1-04 — szkic po poprawkach; czeka na sprawdzenie na aparacie Ani.
-- L1-05 — czeka na odbiór właściciela (brama 3) i sprawdzenie na aparacie Ani.
+- L1-01–L1-05 — odebrane w aplikacji na gałęzi `wip/l1-02-l1-03` (D-070).
+- L1-04 i L1-05 — czekają na sprawdzenie na aparacie Ani.
 
 ### Otwarte
+- Decyzja o scaleniu gałęzi `wip/l1-02-l1-03` do `main` (D-070).
+- L1-01: trzy rysunki z instrukcji Canon (V03, V04, V05) nie mają jawnego miejsca w wersji publicznej — ta sama poprawka co w L1-04 (D-069).
 - Wspólne sprawdzenie L1-04 i L1-05 na aparacie Ani po powrocie właściciela (połowa października) — listy w `docs/L1-04_ZRODLA_INSTRUKCJA.md` i `docs/L1-05_ZRODLA_INSTRUKCJA.md`; tam też wpływ [Autom. optymalizator jasności] przy −1 (D-069).
 - Zdjęcia do zrobienia: L1-04-V07, L1-04-V18, L1-05-V03.
 - Hosting i publikacja — wstrzymane (D-047).

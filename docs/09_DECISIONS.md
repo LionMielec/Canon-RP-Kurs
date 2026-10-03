@@ -770,3 +770,10 @@ Zatwierdzone 03.10.2026.
 - V01: zostaje wersja +1 (prawie biały kubek z czytelnym napisem).
 - Napis kategorii „Decyduję o jasności” zaakceptowany.
 - W wersji publicznej każdy rysunek z instrukcji Canon (L1-04, L1-05) zastępuje jawne miejsce „Materiał w przygotowaniu”; lokalnie, gdy plik jest obecny, rysunek wyświetla się normalnie (D-056).
+
+## D-070 — Odbiór lekcji w aplikacji (brama 3)
+Zatwierdzone 03.10.2026.
+
+- Właściciel obejrzał L1-01–L1-05 w aplikacji na gałęzi `wip/l1-02-l1-03` i odebrał je 03.10.2026.
+- L1-04 i L1-05 nadal wymagają sprawdzenia na aparacie Ani (listy w `docs/L1-04_ZRODLA_INSTRUKCJA.md` i `docs/L1-05_ZRODLA_INSTRUKCJA.md`) oraz zdjęć L1-04-V07, L1-04-V18, L1-05-V03.
+- Scalenie gałęzi `wip/l1-02-l1-03` do `main`: do decyzji właściciela w następnej sesji.
