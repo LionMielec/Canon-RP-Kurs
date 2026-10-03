@@ -169,4 +169,7 @@ Numer strony drukowanej i strony PDF jest ten sam. Żaden obraz nie został wyci
 7. Obecne ustawienie [Symulacja ekspoz.] i wygląd ikony Exp.SIM (punkt 5).
 8. Położenie przełącznika LOCK i ustawienie [Blokada kilku funkcji] — czy pokrętło nie jest zablokowane (punkt 1).
 9. Czy pierścień sterowania obiektywu ma przypisaną jakąś funkcję (punkt 1, sposób 4).
-10. Wersja oprogramowania aparatu (D-056).
+10. Wersja oprogramowania: sprawdzona 01.10.2026 — 1.6.3 (docs/05)
+11. Czy trzeba trzymać spust wciśnięty do połowy podczas obracania pokrętła.
+12. Jak mocno pomocnik rozjaśniający osłabia −1.
+13. Zdjęcie ekranu do L1-05-V03.

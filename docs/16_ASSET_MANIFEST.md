@@ -68,5 +68,15 @@ Ten plik jest rejestrem materiałów wizualnych przypisanych do konkretnych lekc
 | L1-04-V17 | Ekran fotografowania w trybie P z ramką ostrości na twarzy, statyczne oznaczenie ramki ostrości (Pomoc, „Widzę dużą ramkę ostrości…”) | rysunek ekranu | instrukcja PL, s. 191 (krok 1) | CANON — DO PODMIANY | `assets/lessons/l1-04/l1-04-v17-ramka-na-twarzy-canon.png` | `APPROVAL_PENDING` |
 | L1-04-V18 | Ekran z pomarańczowym punktem ostrości (Pomoc, „Punkt ostrości robi się pomarańczowy”) | — | BRAK — w instrukcji PL nie ma rysunku z pomarańczowym punktem ostrości (sprawdzone s. 70, 163, 185, 191–197, 565: tylko tekst); w pakiecie zdjęć Ani też go nie ma | — | — | brak źródła — do decyzji właściciela; w aplikacji nie wstawiono zamiennika |
 
+## L1-05 — Robię zdjęcie jaśniejsze lub ciemniejsze
+
+| ID | Zastosowanie | Typ | Źródło / brak | Pochodzenie | Docelowa ścieżka | Status |
+|---|---|---|---|---|---|---|
+| L1-05-V01 | Trzy rendery jednej sceny: −1, 0, +1 stopnia; aparat, przedmioty i światło stałe (S01) | 3 rendery | render: ujęcie `l1-04-blizej`, kubek 1, kalibracja `shot-1.json`; zmienia się tylko ekspozycja w zarządzaniu kolorem | RENDER | `assets/lessons/l1-05/l1-05-v01-minus1.jpg`, `l1-05-v01-zero.jpg`, `l1-05-v01-plus1.jpg` | `APPROVAL_PENDING` |
+| L1-05-V02 | Góra aparatu Ani: pokrętło trybów, statyczne oznaczenie pokrętła przy LOCK i napisu LOCK (S02, Pomoc) | zdjęcie/crop | `fbe2fd62-e8ab-465b-b340-b6d0b4458622.jpg` | WŁASNE | `assets/lessons/l1-05/l1-05-v02-pokretlo-przy-lock.jpg` | `APPROVAL_PENDING` |
+| L1-05-V03 | Ekran aparatu Ani w trybie P, skala jasności, znacznik przy 0 (S03, Pomoc) | — | BRAK — zdjęcie po powrocie właściciela, razem z L1-04 V07 i V18 | — | — | brak źródła; w aplikacji jawne miejsce na brakujący materiał, bez zamiennika |
+| L1-05-V04 | Dwa paski skali, znacznik w stronę plusa i minusa (S04) | rysunek ekranu | instrukcja PL, s. 128 | CANON — DO PODMIANY | `assets/lessons/l1-05/l1-05-v04-skala-jasnosci-canon.png` (tylko lokalnie) | `APPROVAL_PENDING` |
+| L1-05-V05 | Karta przed ćwiczeniem: „0 → minus 1 → plus 1 → porównaj → wróć do 0” | komponent UI | bez osobnego pliku | — | komponent aplikacji | komponent UI |
+
 ## Następny wpis
 Kolejne assety dopisywać przy opracowywaniu następnej lekcji. Nie tworzyć osobnego, równoległego rejestru.
