@@ -69,7 +69,7 @@
 
   function photoMarkup(asset, frame) {
     return `<figure class="asset-photo" data-asset-id="${escape(asset.id)}">
-      <div class="asset-image"><img src="${escape(frame.target)}" alt="${escape(frame.alt || `${frame.title} na rzeczywistym aparacie Canon EOS RP`)}" width="${frame.width}" height="${frame.height}">
+      <div class="asset-image"><img${asset.localOnly ? ' data-local-only' : ''} src="${escape(frame.target)}" alt="${escape(frame.alt || `${frame.title} na rzeczywistym aparacie Canon EOS RP`)}" width="${frame.width}" height="${frame.height}">
         ${(frame.markers || []).map(markerMarkup).join('')}</div>
       <figcaption><strong>${escape(frame.title)}</strong><span>Kadr roboczy · do zatwierdzenia</span></figcaption>
     </figure>`;
@@ -106,8 +106,9 @@
   }
 
   function render() {
-    const match = location.hash.match(/^#lekcja-([1-4])(?:\/([\w-]+))?$/);
-    if (!match) {
+    const match = location.hash.match(/^#lekcja-(\d+)(?:\/([\w-]+))?$/);
+    const lesson = match && window.CANON_LESSONS.find(item => item.id === Number(match[1]));
+    if (!lesson) {
       app.innerHTML = home;
       document.title = 'Canon RP — Kurs';
       if (window.matchMedia('(display-mode: standalone)').matches || navigator.standalone) {
@@ -117,7 +118,6 @@
       return;
     }
 
-    const lesson = window.CANON_LESSONS.find(item => item.id === Number(match[1]));
     const pages = pagesFor(lesson);
     const requested = match[2];
     const index = requested && /^\d+$/.test(requested)
@@ -145,6 +145,13 @@
       </nav>
       ${!next && lesson.id === 1 ? '<a class="end-nav subtle-link" href="#lekcja-2">Przejdź do lekcji 2</a>' : ''}
     </article>`;
+    // Plik tylko lokalny (rysunek Canon, D-056) nie trafia do wersji publicznej;
+    // gdy go brak, w jego miejscu stoi jawne miejsce na brakujący materiał.
+    app.querySelectorAll('img[data-local-only]').forEach(img => img.addEventListener('error', () => {
+      const figure = img.closest('figure');
+      const asset = lesson.assets.find(item => item.id === figure.dataset.assetId);
+      figure.outerHTML = placeholderMarkup(asset);
+    }, { once: true }));
     document.title = `${lesson.title} · Canon RP`;
     window.scrollTo(0, 0);
     app.querySelector('h1').focus({ preventScroll: true });

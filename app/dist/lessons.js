@@ -1375,5 +1375,273 @@ window.CANON_LESSONS = [
         ]
       }
     ]
+  },
+  {
+    "id": 5,
+    "code": "L1-05",
+    "title": "Robię zdjęcie jaśniejsze lub ciemniejsze",
+    "category": "Decyduję o jasności",
+    "duration": "Około 15 minut",
+    "intro": {
+      "title": "Cel lekcji",
+      "body": "Po tej lekcji:\n- zobaczysz, że aparat sam decyduje, jak jasne będzie zdjęcie, i czasem wybiera inaczej, niż chcesz,\n- jednym pokrętłem zrobisz zdjęcie jaśniejsze albo ciemniejsze,\n- sprawdzisz na ekranie, że ustawienie wróciło do zera.\n\nGłówny nawyk:\n\n**gdy zmieniam jasność, na koniec zawsze wracam do zera.**\n\n**Punkt startowy**\n\nAparat jest w trybie **P**, tak jak po [[L1-04|poprzedniej lekcji]].\n\nPrzygotuj jeden nieruchomy przedmiot, najlepiej jasny, na przykład biały kubek albo białą kartkę z napisem.\n\nĆwicz w dobrym świetle dziennym."
+    },
+    "steps": [
+      {
+        "id": "L1-05-S01",
+        "title": "Najpierw zobacz, o co chodzi",
+        "mediaPlacement": "after",
+        "body": "Kurs pokazuje trzy zdjęcia tej samej sceny. Wszystko jest takie samo: aparat, przedmioty, światło. Zmienia się tylko jasność: jedno jest ciemniejsze, jedno takie, jakie wybrał aparat, a jedno jaśniejsze.\n\nAparat sam decyduje, jak jasne ma być zdjęcie. Zwykle robi to dobrze, ale nie wie, co fotografujesz. Biały kubek potrafi mu wyjść szarawy, a ciemny przedmiot jaśniejszy, niż jest naprawdę.\n\nNie ma jednej „poprawnej” jasności. Jest ta, która pasuje do tego, co chcesz pokazać.\n\n**Dlatego warto umieć powiedzieć aparatowi: „trochę jaśniej” albo „trochę ciemniej”.**"
+      },
+      {
+        "id": "L1-05-S02",
+        "title": "Znajdź pokrętło przy LOCK",
+        "mediaPlacement": "after",
+        "body": "Na górze aparatu, na prawo od pokrętła trybów, jest duże okrągłe pokrętło. Tuż obok niego jest mały przełącznik z napisem **LOCK**.\n\nTo **pokrętło przy LOCK**. Nim zmienisz jasność zdjęcia."
+      },
+      {
+        "id": "L1-05-S03",
+        "title": "Zobacz skalę jasności",
+        "mediaPlacement": "after",
+        "blocks": [
+          {
+            "text": "1. Skieruj aparat na przedmiot i naciśnij spust do połowy, jak zawsze.\n   → Na dole ekranu pojawi się **skala jasności**: kreski i liczby od −3 do +3.\n2. Na skali jest mały znacznik. Teraz stoi na środku, przy **0**. To znaczy: jasność wybiera aparat."
+          },
+          {
+            "asset": "L1-05-V03"
+          }
+        ]
+      },
+      {
+        "id": "L1-05-S04",
+        "title": "Obróć pokrętło przy LOCK",
+        "mediaPlacement": "after",
+        "blocks": [
+          {
+            "text": "1. Patrząc na ekran, powoli obróć pokrętło przy LOCK.\n   → Znacznik przesuwa się po skali.\n2. Gdy idzie w stronę **plusa**, obraz na ekranie robi się jaśniejszy. Gdy idzie w stronę **minusa**, robi się ciemniejszy."
+          },
+          {
+            "asset": "L1-05-V04",
+            "frame": 0
+          },
+          {
+            "text": "3. Ustaw znacznik przy **1** po stronie plusa.\n\nLiczby obok skali też mogą się przy tym zmieniać. To aparat dopasowuje swoje ustawienia. Na razie nie musisz się nimi zajmować."
+          }
+        ]
+      },
+      {
+        "id": "L1-05-S05",
+        "title": "Zrób zdjęcie i obejrzyj je",
+        "mediaPlacement": "after",
+        "blocks": [
+          {
+            "text": "1. Ustaw ostrość i zrób zdjęcie, tak jak w [[L1-04-S06|poprzedniej lekcji]].\n2. Naciśnij **przycisk odtwarzania** i obejrzyj zdjęcie.\n   → Jest jaśniejsze, niż wybrałby sam aparat."
+          },
+          {
+            "asset": "L1-02-V03",
+            "frame": 0
+          },
+          {
+            "text": "Ekran aparatu ma też osobne ustawienie jasności, ale ono zmienia tylko to, jak jasno świeci ekran. Pokrętło przy LOCK zmienia samo zdjęcie, to, które potem obejrzysz w telefonie czy na komputerze."
+          }
+        ]
+      },
+      {
+        "id": "L1-05-S06",
+        "title": "Wróć do zera",
+        "mediaPlacement": "after",
+        "body": "Obróć pokrętło przy LOCK w drugą stronę, aż znacznik stanie na środku skali, przy **0**.\n\nDlaczego to ważne: aparat pamięta ustawioną jasność nawet po wyłączeniu. Jeśli zostawisz plus, następne zdjęcia (także za tydzień) wyjdą jaśniejsze, a Ty nie będziesz wiedziała dlaczego.\n\nFotografowie nazywają to, co właśnie zrobiłaś, **korektą ekspozycji**. Wystarczy, że pamiętasz: plus — jaśniej, minus — ciemniej.\n\n**Teraz przejdźmy do ćwiczenia.**"
+      }
+    ],
+    "exercise": {
+      "title": "Trzy jasności",
+      "body": "Postaw przedmiot w dobrym świetle. Usiądź albo stań tak, żeby nie zmieniać miejsca między zdjęciami.\n\n**Zdjęcie 1 — tak, jak wybiera aparat**\n\nSprawdź, że znacznik stoi przy 0. Ustaw ostrość i zrób zdjęcie.\n\n**Zdjęcie 2 — ciemniej**\n\nPrzesuń znacznik do **1 po stronie minusa**. Zrób zdjęcie.\n\n**Zdjęcie 3 — jaśniej**\n\nPrzesuń znacznik do **1 po stronie plusa**. Zrób zdjęcie.\n\n**Porównaj**\n\nObejrzyj trzy zdjęcia jedno po drugim.\n\nSprawdź:\n- Czy drugie jest ciemniejsze od pierwszego?\n- Czy trzecie jest jaśniejsze?\n- Które najlepiej pokazuje Twój przedmiot?\n\nDokończ zdanie:\n\n**„Wybieram zdjęcie…, bo…”**\n\n**Na koniec**\n\nUstaw znacznik z powrotem przy **0**."
+    },
+    "help": {
+      "id": "L1-05-POMOC",
+      "title": "Jeśli coś nie działa",
+      "blocks": [
+        {
+          "text": "**Obracam pokrętło przy LOCK, a znacznik się nie rusza.**  \nSpójrz na pokrętło trybów: czy przy kresce jest litera **P**? W trybie A+ to pokrętło nie zmienia jasności."
+        },
+        {
+          "asset": "L1-04-V02",
+          "frame": 0
+        },
+        {
+          "text": "Jeśli jest P, przesuń przełącznik LOCK w drugie położenie i spróbuj jeszcze raz."
+        },
+        {
+          "asset": "L1-05-V02",
+          "frame": 0
+        },
+        {
+          "text": "**Znacznik się przesuwa, ale obraz na ekranie się nie zmienia.**  \nNic złego się nie dzieje. Zrób zdjęcie i obejrzyj je. Zdjęcie i tak będzie jaśniejsze albo ciemniejsze, zgodnie z położeniem znacznika.\n\n**Zdjęcie z minusem wygląda prawie tak samo jak to z zerem.**  \nAparat ma pomocnika, który sam lekko rozjaśnia ciemniejsze zdjęcia, i czasem zjada część różnicy. Przesuń znacznik dalej, do 2 po stronie minusa, i porównaj jeszcze raz.\n\n**Nagle wszystkie zdjęcia wychodzą za jasne albo za ciemne.**  \nNaciśnij spust do połowy i spójrz na skalę. Jeśli znacznik nie stoi przy 0, pokrętło przy LOCK zostało przekręcone, łatwo zrobić to niechcący. Wróć do 0."
+        },
+        {
+          "asset": "L1-05-V03"
+        }
+      ]
+    },
+    "summary": [
+      {
+        "title": "Na koniec lekcji",
+        "body": "- Sprawdź, że znacznik stoi przy 0.\n- Zostaw aparat w trybie **P**."
+      },
+      {
+        "title": "Kiedy lekcja jest ukończona?",
+        "body": "Lekcja jest ukończona, jeżeli potrafisz:\n- znaleźć pokrętło przy LOCK i skalę jasności,\n- zrobić trzy zdjęcia: tak jak wybiera aparat, ciemniej i jaśniej,\n- wybrać zdjęcie i powiedzieć dlaczego,\n- wrócić do 0."
+      },
+      {
+        "title": "Co zapamiętać",
+        "body": "**Plus — jaśniej, minus — ciemniej. A na koniec zawsze zero.**"
+      }
+    ],
+    "assets": [
+      {
+        "id": "L1-05-V01",
+        "step": "L1-05-S01",
+        "title": "Trzy jasności tej samej sceny",
+        "status": "w aplikacji — APPROVAL_PENDING",
+        "note": "Rendery sceny 3D z L1-04; zmienia się tylko ekspozycja.",
+        "frames": [
+          {
+            "target": "./assets/lessons/l1-05/l1-05-v01-minus1.jpg",
+            "title": "Ciemniej",
+            "width": 1200,
+            "height": 800,
+            "alt": "Jasny kubek z napisem na stole; całe zdjęcie ciemniejsze"
+          },
+          {
+            "target": "./assets/lessons/l1-05/l1-05-v01-zero.jpg",
+            "title": "Tak jak aparat",
+            "width": 1200,
+            "height": 800,
+            "alt": "Ten sam kubek i stół w jasności wybranej przez aparat"
+          },
+          {
+            "target": "./assets/lessons/l1-05/l1-05-v01-plus1.jpg",
+            "title": "Jaśniej",
+            "width": 1200,
+            "height": 800,
+            "alt": "Ten sam kubek i stół; całe zdjęcie jaśniejsze"
+          }
+        ]
+      },
+      {
+        "id": "L1-05-V02",
+        "step": "L1-05-S02",
+        "title": "Pokrętło przy LOCK i przełącznik LOCK",
+        "status": "w aplikacji — APPROVAL_PENDING",
+        "note": "Wycinek zdjęcia aparatu Ani.",
+        "source": "fbe2fd62-e8ab-465b-b340-b6d0b4458622.jpg",
+        "frames": [
+          {
+            "target": "./assets/lessons/l1-05/l1-05-v02-pokretlo-przy-lock.jpg",
+            "title": "Pokrętło przy LOCK i przełącznik LOCK",
+            "width": 800,
+            "height": 480,
+            "alt": "Góra aparatu: po lewej pokrętło trybów, po prawej duże okrągłe pokrętło i obok niego mały przełącznik z napisem LOCK",
+            "markers": [
+              {
+                "x": 66.0,
+                "y": 64.5,
+                "width": 24,
+                "height": 40,
+                "kind": "halo"
+              },
+              {
+                "x": 84.5,
+                "y": 46.0,
+                "width": 11,
+                "height": 18,
+                "kind": "halo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "L1-05-V03",
+        "step": "L1-05-S03",
+        "title": "Skala jasności ze znacznikiem przy 0"
+      },
+      {
+        "id": "L1-05-V04",
+        "step": "L1-05-S04",
+        "title": "Znacznik w stronę plusa i w stronę minusa",
+        "status": "w aplikacji — APPROVAL_PENDING",
+        "note": "Rysunek z instrukcji Canon (D-056); plik lokalny, do podmiany. Bez pliku aplikacja pokazuje jawne miejsce na brakujący materiał.",
+        "localOnly": true,
+        "frames": [
+          {
+            "target": "./assets/lessons/l1-05/l1-05-v04-skala-jasnosci-canon.png",
+            "title": "Znacznik w stronę plusa i w stronę minusa",
+            "width": 1364,
+            "height": 468,
+            "alt": "Dwa paski z dołu ekranu: na górnym znacznik na skali przesunięty w stronę plusa, na dolnym w stronę minusa"
+          }
+        ]
+      },
+      {
+        "id": "L1-05-V05",
+        "step": "L1-05-S06",
+        "title": "Karta przed ćwiczeniem",
+        "status": "UI_COMPONENT",
+        "target": "komponent aplikacji",
+        "kind": "card",
+        "body": "**0 → minus 1 → plus 1 → porównaj → wróć do 0**"
+      },
+      {
+        "id": "L1-02-V03",
+        "step": "L1-05-S05",
+        "title": "Przycisk odtwarzania",
+        "status": "materiał z lekcji 2",
+        "note": "Ten sam plik i oznaczenie co L1-02-V03 (pierwszy kadr).",
+        "source": "57652b89-ae48-4cd1-b998-e883aee8aa1f.jpg",
+        "frames": [
+          {
+            "target": "./assets/lessons/l1-02/l1-02-v03-playback-button.jpg",
+            "title": "Przycisk odtwarzania — naciśnij",
+            "width": 500,
+            "height": 500,
+            "markers": [
+              {
+                "x": 47.0,
+                "y": 80.5,
+                "width": 16,
+                "height": 17,
+                "kind": "halo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "L1-04-V02",
+        "step": "L1-05-POMOC",
+        "title": "Pokrętło trybów — litera P",
+        "status": "materiał z lekcji 4",
+        "note": "Ten sam plik i oznaczenie co L1-04-V02.",
+        "source": "fbe2fd62-e8ab-465b-b340-b6d0b4458622.jpg",
+        "frames": [
+          {
+            "target": "./assets/lessons/l1-04/l1-04-v02-pokretlo-p.jpg",
+            "title": "Pokrętło trybów — litera P",
+            "width": 620,
+            "height": 620,
+            "markers": [
+              {
+                "x": 38.0,
+                "y": 35.0,
+                "width": 13,
+                "height": 13,
+                "kind": "halo"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 ];
