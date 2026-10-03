@@ -1,6 +1,6 @@
 # 24 — Słownik nazw
 
-Stan: 02.10.2026. Dokument produkcyjny; obejmuje lekcje L1-01–L1-04.
+Stan: 03.10.2026. Dokument produkcyjny; obejmuje lekcje L1-01–L1-05.
 
 Każdy przycisk, pokrętło, napis, ikona i pojęcie ma w całym kursie jedną nazwę (D-063). Rozstrzygnięcia właściciela zapisuje D-066. Nazwę wybieramy według reguły z D-065: najpierw napis na aparacie Ani albo na jego ekranie; gdy napisu nie ma — nazwa z zatwierdzonych lekcji L1-01 i L1-02; gdy i tam jej nie ma — jedna prosta nazwa opisowa, nadana raz. Inne określenie może pojawić się najwyżej raz w lekcji, jako opis wyglądu.
 
@@ -42,5 +42,10 @@ Nowa nazwa trafia do tej tabeli, zanim zostanie użyta w lekcji.
 | Opcja w pozycji Działanie AF | One-Shot AF | napis na ekranie | — |
 | Część menu z ikoną aparatu | czerwona część menu | nadana | „ta z ikoną aparatu” |
 | Obiektyw Ani | RF 50 mm F1.8 STM | lekcja L1-03; napis na obiektywie do potwierdzenia | „RF 50 mm” |
+| Duże okrągłe pokrętło na górze aparatu, na prawo od pokrętła trybów, obok przełącznika LOCK (w instrukcji: Pokrętło szybkiej kontroli) | pokrętło przy LOCK | nadana (D-065), lekcja L1-05 | „duże okrągłe pokrętło na prawo od pokrętła trybów” |
+| Mały przełącznik obok pokrętła przy LOCK | przełącznik LOCK | napis na aparacie | „mały przełącznik z napisem LOCK” |
+| Skala od −3 do +3 na dole ekranu (w instrukcji: wskaźnik poziomu ekspozycji) | skala jasności | nadana (D-065), lekcja L1-05 | „kreski i liczby od −3 do +3” |
+| Mały znak na skali jasności, który przesuwa się po obrocie pokrętła przy LOCK | znacznik | nadana, lekcja L1-05 — tylko na skali jasności | — |
+| Zmiana jasności zdjęcia pokrętłem przy LOCK | korekta ekspozycji | pojęcie, lekcja L1-05 — użyte raz w lekcji | „to, co właśnie zrobiłaś” |
 
 Napisy z menu aparatu zapisujemy dokładnie tak, jak na ekranie — także wtedy, gdy zawierają słowa, których sami nie używamy (np. „Wyśw. punktu AF”).

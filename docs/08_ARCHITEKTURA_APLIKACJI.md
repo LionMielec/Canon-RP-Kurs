@@ -1,6 +1,6 @@
 # Architektura aplikacji — wymagania i kierunek
 
-Status: od 18.09.2026 istnieje zatwierdzony minimalny szkielet aplikacji internetowej (D-18). Statyczne HTML/CSS/JavaScript i prywatny hosting Sites, bez frameworka, bazy i własnego logowania. Pozostałe wymagania poniżej opisują przyszły rozwój, nie obecne możliwości. Szczegóły: [13 — Pierwsza aplikacja](13_PIERWSZA_APLIKACJA.md).
+Status: od 18.09.2026 istnieje zatwierdzony minimalny szkielet aplikacji internetowej (D-18). Statyczne HTML/CSS/JavaScript i prywatny hosting Sites, bez frameworka, bazy i własnego logowania. Pozostałe wymagania poniżej opisują przyszły rozwój, nie obecne możliwości. Szczegóły: [13 — Pierwsza aplikacja](archiwum/13_PIERWSZA_APLIKACJA.md).
 
 ## Kierunek z rozmowy
 

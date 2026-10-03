@@ -16,6 +16,8 @@ Zasady pracy Claude w czacie: [23 — zasady Claude w czacie](23_ZASADY_CLAUDE_W
 
 Claude w czacie na starcie sesji czyta całą dokumentację (D-061).
 
+Dokumenty historyczne są w `docs/archiwum/` (D-068).
+
 ## Stan lekcji
 - L1-01 i L1-02 — zatwierdzone; stara wersja opublikowana na ChatGPT Sites. Nowe materiały i mikrokorekta L1-02 na gałęzi `wip/l1-02-l1-03`, czekają na odbiór właściciela.
 - L1-03 — treść zaakceptowana; komplet materiałów w aplikacji na gałęzi `wip/l1-02-l1-03`; czeka na odbiór właściciela.
