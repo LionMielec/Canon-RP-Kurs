@@ -7,5 +7,6 @@
 - Przy każdym zadaniu implementacyjnym użyj skilla `canon-rp-precision` z `.claude/skills/canon-rp-precision/SKILL.md`.
 - Zadanie opisane jako audyt wykonuj wyłącznie w trybie odczytu.
 - Nigdy nie wykonuj git push bez wyraźnej zgody w bieżącym zadaniu. Nie twórz pull requestów.
+- Polecenie od właściciela, którego pierwsza linia brzmi „Wykonaj, zgoda na commit i push.”, zawiera jego zgodę na commit i push dla tego zadania. Nie pytaj o nią ponownie.
 - Publikacja aplikacji jest wstrzymana do decyzji o hostingu (D-047).
 - Pracę wykraczającą poza zakres polecenia zgłaszaj właścicielowi przed jej wykonaniem (D-052).
