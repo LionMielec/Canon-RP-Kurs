@@ -1058,6 +1058,7 @@ window.CANON_LESSONS = [
         "title": "Szybkie ustawienia — napis Metoda AF",
         "status": "w aplikacji — APPROVAL_PENDING",
         "note": "Rysunek z instrukcji Canon (D-056); plik lokalny, do podmiany.",
+        "localOnly": true,
         "frames": [
           {
             "target": "./assets/lessons/l1-04/l1-04-v04-ekran-q-canon.png",
@@ -1074,6 +1075,7 @@ window.CANON_LESSONS = [
         "title": "Ikona z jednym małym kwadratem — 1-punktowy AF",
         "status": "w aplikacji — APPROVAL_PENDING",
         "note": "Rysunek z instrukcji Canon (D-056); plik lokalny, do podmiany.",
+        "localOnly": true,
         "frames": [
           {
             "target": "./assets/lessons/l1-04/l1-04-v05-1-punktowy-af-canon.png",
@@ -1129,6 +1131,7 @@ window.CANON_LESSONS = [
         "title": "Ekran przesuwania punktu ostrości — jest jeszcze na środku",
         "status": "w aplikacji — APPROVAL_PENDING",
         "note": "Rysunek z instrukcji Canon (D-056); plik lokalny, do podmiany.",
+        "localOnly": true,
         "frames": [
           {
             "target": "./assets/lessons/l1-04/l1-04-v07-przesuwanie-punktu-canon.png",
@@ -1145,6 +1148,7 @@ window.CANON_LESSONS = [
         "title": "Zielony punkt ostrości — ostrość ustawiona",
         "status": "w aplikacji — APPROVAL_PENDING",
         "note": "Rysunek z instrukcji Canon (D-056); plik lokalny, do podmiany.",
+        "localOnly": true,
         "frames": [
           {
             "target": "./assets/lessons/l1-04/l1-04-v08-zielony-punkt-canon.png",
@@ -1161,6 +1165,7 @@ window.CANON_LESSONS = [
         "title": "Ikona w lewym dolnym rogu ekranu",
         "status": "w aplikacji — APPROVAL_PENDING",
         "note": "Rysunek z instrukcji Canon (D-056); plik lokalny, do podmiany.",
+        "localOnly": true,
         "frames": [
           {
             "target": "./assets/lessons/l1-04/l1-04-v09-migawka-dotykowa-canon.png",
@@ -1186,6 +1191,7 @@ window.CANON_LESSONS = [
         "title": "Napis ONE SHOT",
         "status": "w aplikacji — APPROVAL_PENDING",
         "note": "Rysunek z instrukcji Canon (D-056); plik lokalny, do podmiany. Ten sam rysunek co V04.",
+        "localOnly": true,
         "frames": [
           {
             "target": "./assets/lessons/l1-04/l1-04-v04-ekran-q-canon.png",
@@ -1289,6 +1295,7 @@ window.CANON_LESSONS = [
         "title": "Ikona z jednym małym kwadratem — 1-punktowy AF",
         "status": "w aplikacji — APPROVAL_PENDING",
         "note": "Rysunek z instrukcji Canon (D-056); plik lokalny, do podmiany. Ten sam rysunek co V05.",
+        "localOnly": true,
         "frames": [
           {
             "target": "./assets/lessons/l1-04/l1-04-v05-1-punktowy-af-canon.png",
@@ -1314,6 +1321,7 @@ window.CANON_LESSONS = [
         "title": "Napis Działanie AF i wybór One-Shot AF",
         "status": "w aplikacji — APPROVAL_PENDING",
         "note": "Rysunek z instrukcji Canon (D-056); plik lokalny, do podmiany.",
+        "localOnly": true,
         "frames": [
           {
             "target": "./assets/lessons/l1-04/l1-04-v16-dzialanie-af-menu-canon.png",
@@ -1355,6 +1363,7 @@ window.CANON_LESSONS = [
         "title": "Ramka ostrości na twarzy",
         "status": "w aplikacji — APPROVAL_PENDING",
         "note": "Rysunek z instrukcji Canon (D-056); plik lokalny, do podmiany.",
+        "localOnly": true,
         "frames": [
           {
             "target": "./assets/lessons/l1-04/l1-04-v17-ramka-na-twarzy-canon.png",
