@@ -133,7 +133,11 @@ Wcześniejsze sekcje są historyczne; role według D-047.
 - [x] Krok 2: odczyt źródeł z instrukcji Canon (`docs/L1-05_ZRODLA_INSTRUKCJA.md`).
 - [x] Krok 3: tekst, karta wizualno-produkcyjna i lista kontrolna — brama 2 (D-069).
 - [x] Krok 4: wdrożenie w aplikacji na gałęzi `wip/l1-02-l1-03` i arkusz zrzutów.
-- [ ] Krok 5: odbiór właściciela w aplikacji — brama 3.
+- [x] Krok 5: odbiór właściciela w aplikacji — brama 3 (D-070).
+
+## OTWARTE PO 03.10.2026
+- [ ] L1-01: jawne miejsce dla rysunków Canon V04–V05 w wersji publicznej (jak D-069); V03 rozwiązane przez D-071.
+- [ ] Decyzja: scalenie `wip/l1-02-l1-03` do `main`.
 
 ## PO POWROCIE WŁAŚCICIELA — połowa października 2026
 - [ ] Sprawdzenie na aparacie L1-04 + L1-05 (listy w L1-04_ZRODLA_INSTRUKCJA.md i L1-05_ZRODLA_INSTRUKCJA.md).

@@ -46,8 +46,8 @@ Materiały mają pomóc Ani wykonać pierwszy świadomy cykl zdjęcia bez przeci
 - Docelowy asset: `assets/lessons/l1-01/l1-01-v03-camera-hold.jpg`.
 - Status: `TO_CAPTURE`.
 - Typ finalny (03.10.2026): obraz wygenerowany w Higgsfield (D-071).
-- Źródło: `Ułożenie_dłoni.jpg` (Higgsfield). Pochodzenie: GENEROWANE (Higgsfield, 03.10.2026).
-- Status: `APPROVAL_PENDING`.
+- Źródło: `Ułożenie_dłoni.jpg` (Higgsfield). Pochodzenie: GENEROWANE (Higgsfield, 03.10.2026); licencja do potwierdzenia przed komercjalizacją (D-071).
+- Status: `APPROVED`.
 
 ### L1-01-V04 — Dwustopniowy spust
 - Krok: `L1-01-S05` — naciśnięcie do połowy i do końca.

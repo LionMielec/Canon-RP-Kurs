@@ -19,10 +19,9 @@ Claude w czacie na starcie sesji czyta całą dokumentację (D-061).
 Dokumenty historyczne są w `docs/archiwum/` (D-068).
 
 ## Stan lekcji
-- L1-01 i L1-02 — zatwierdzone; stara wersja opublikowana na ChatGPT Sites. Nowe materiały i mikrokorekta L1-02 na gałęzi `wip/l1-02-l1-03`, czekają na odbiór właściciela.
-- L1-03 — treść zaakceptowana; komplet materiałów w aplikacji na gałęzi `wip/l1-02-l1-03`; czeka na odbiór właściciela.
-- L1-04 — szkic po poprawkach, w aplikacji na gałęzi `wip/l1-02-l1-03`; czeka na sprawdzenie na aparacie Ani.
-- L1-05 — wdrożona na gałęzi `wip/l1-02-l1-03` (D-069); czeka na odbiór właściciela (brama 3) i sprawdzenie na aparacie Ani.
+- L1-01–L1-05 — odebrane przez właściciela w aplikacji 03.10.2026 (brama 3, D-070), na gałęzi `wip/l1-02-l1-03`. Stara wersja L1-01 i L1-02 opublikowana na ChatGPT Sites.
+- L1-04 i L1-05 — czekają na sprawdzenie na aparacie Ani.
+- Scalenie gałęzi `wip/l1-02-l1-03` do `main` — do decyzji właściciela (D-070).
 - Wspólne sprawdzenie L1-04 i L1-05 na aparacie po powrocie właściciela (połowa października); zdjęcia do zrobienia: L1-04-V07, L1-04-V18, L1-05-V03.
 - Następny cel: do decyzji właściciela.
 - L1-06–L1-14 — program roboczy, analizowany kolejno.

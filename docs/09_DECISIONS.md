@@ -771,6 +771,13 @@ Zatwierdzone 03.10.2026.
 - Napis kategorii „Decyduję o jasności” zaakceptowany.
 - W wersji publicznej każdy rysunek z instrukcji Canon (L1-04, L1-05) zastępuje jawne miejsce „Materiał w przygotowaniu”; lokalnie, gdy plik jest obecny, rysunek wyświetla się normalnie (D-056).
 
+## D-070 — Odbiór lekcji w aplikacji (brama 3)
+Zatwierdzone 03.10.2026.
+
+- Właściciel obejrzał L1-01–L1-05 w aplikacji na gałęzi `wip/l1-02-l1-03` i odebrał je 03.10.2026.
+- L1-04 i L1-05 nadal wymagają sprawdzenia na aparacie Ani (listy w `docs/L1-04_ZRODLA_INSTRUKCJA.md` i `docs/L1-05_ZRODLA_INSTRUKCJA.md`) oraz zdjęć L1-04-V07, L1-04-V18, L1-05-V03.
+- Scalenie gałęzi `wip/l1-02-l1-03` do `main`: do decyzji właściciela w następnej sesji.
+
 ## D-071 — Wyjątek dla materiału »Jak trzymać aparat« w lekcji 1
 Zatwierdzone 03.10.2026. Zmienia D-050 i D-058 w zakresie L1-01-V03; uzupełnia D-057.
 
@@ -778,6 +785,8 @@ Zatwierdzone 03.10.2026. Zmienia D-050 i D-058 w zakresie L1-01-V03; uzupełnia 
 - Pozostałe zasady D-050 bez zmian: sprzęt Ani i ekrany menu w pozostałych materiałach nadal tylko prawdziwe.
 - Nowa kategoria pochodzenia w rejestrze materiałów: GENEROWANE (narzędzie, data).
 - Rysunek z instrukcji Canon w tym miejscu zastępuje obraz wygenerowany w Higgsfield; działa on także w wersji publicznej.
-- Warunek z D-050 sprawdza właściciel przed odbiorem: plan Higgsfield pozwala na użycie komercyjne.
+- Licencja: obraz powstał na darmowych kredytach Higgsfield. Źródła są sprzeczne co do użycia komercyjnego na planie darmowym: centrum pomocy Higgsfield podaje, że prawo wynika z regulaminu dla wszystkich użytkowników, a cennik oznacza plan darmowy jako bez użycia komercyjnego. Kurs jest niekomercyjny (D-001, D-056); licencję trzeba potwierdzić przed ewentualną komercjalizacją.
 
 Zasada: **wyjątek uczy ułożenia ciała, nie wyglądu aparatu.**
+
+Materiał odebrany przez właściciela 03.10.2026.
