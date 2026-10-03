@@ -1,6 +1,6 @@
 # Zacznij tutaj
 
-**Stan 01.10.2026:** projekt pracuje w nowym układzie (D-047). Paweł podejmuje decyzje końcowe, Claude w czacie (projekt claude.ai) jest architektem i audytorem, Claude Code implementuje. Dokumentacja i kod aplikacji są w jednym repozytorium; kod w `app/dist/`.
+**Stan 03.10.2026:** projekt pracuje w nowym układzie (D-047). Paweł podejmuje decyzje końcowe, Claude w czacie (projekt claude.ai) jest architektem i audytorem, Claude Code implementuje. Dokumentacja i kod aplikacji są w jednym repozytorium; kod w `app/dist/`.
 
 ## Najpierw przeczytaj
 1. [14 — najnowszy handoff](14_PRZEKAZANIE_SESJI.md) — aktualny stan jest na końcu pliku
@@ -21,8 +21,11 @@ Dokumenty historyczne są w `docs/archiwum/` (D-068).
 ## Stan lekcji
 - L1-01 i L1-02 — zatwierdzone; stara wersja opublikowana na ChatGPT Sites. Nowe materiały i mikrokorekta L1-02 na gałęzi `wip/l1-02-l1-03`, czekają na odbiór właściciela.
 - L1-03 — treść zaakceptowana; komplet materiałów w aplikacji na gałęzi `wip/l1-02-l1-03`; czeka na odbiór właściciela.
-- L1-04 — szkic, karta i materiały w aplikacji na gałęzi `wip/l1-02-l1-03`; poprawki po przeglądzie właściciela w toku (handoff 01.10.2026).
-- L1-05–L1-14 — program roboczy, analizowany kolejno.
+- L1-04 — szkic po poprawkach, w aplikacji na gałęzi `wip/l1-02-l1-03`; czeka na sprawdzenie na aparacie Ani.
+- L1-05 — wdrożona na gałęzi `wip/l1-02-l1-03` (D-069); czeka na odbiór właściciela (brama 3) i sprawdzenie na aparacie Ani.
+- Wspólne sprawdzenie L1-04 i L1-05 na aparacie po powrocie właściciela (połowa października); zdjęcia do zrobienia: L1-04-V07, L1-04-V18, L1-05-V03.
+- Następny cel: do decyzji właściciela.
+- L1-06–L1-14 — program roboczy, analizowany kolejno.
 
 ## Zasady, których nie otwieramy ponownie
 - obecna ikona, kolorystyka i kierunek wizualny zostają,
