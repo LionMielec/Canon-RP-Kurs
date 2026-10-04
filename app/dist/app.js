@@ -71,7 +71,7 @@
     return `<figure class="asset-photo" data-asset-id="${escape(asset.id)}">
       <div class="asset-image"><img${asset.localOnly ? ' data-local-only' : ''} src="${escape(frame.target)}" alt="${escape(frame.alt || `${frame.title} na rzeczywistym aparacie Canon EOS RP`)}" width="${frame.width}" height="${frame.height}">
         ${(frame.markers || []).map(markerMarkup).join('')}</div>
-      <figcaption><strong>${escape(frame.title)}</strong><span>Kadr roboczy · do zatwierdzenia</span></figcaption>
+      <figcaption><strong>${escape(frame.title)}</strong></figcaption>
     </figure>`;
   }
 

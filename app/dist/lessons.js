@@ -74,7 +74,6 @@ window.CANON_LESSONS = [
         "id": "L1-01-V01",
         "step": "L1-01-S01",
         "title": "Przełącznik zasilania",
-        "status": "APPROVAL_PENDING",
         "note": "Kadr z wybranego mastera fbe2fd62-e8ab-465b-b340-b6d0b4458622.jpg przygotowany lokalnie; oczekuje na zatwierdzenie.",
         "source": "fbe2fd62-e8ab-465b-b340-b6d0b4458622.jpg",
         "frames": [
@@ -99,7 +98,6 @@ window.CANON_LESSONS = [
         "id": "L1-01-V02",
         "step": "L1-01-S02",
         "title": "Tryb A+",
-        "status": "APPROVAL_PENDING",
         "note": "Kadr z wybranego mastera fbe2fd62-e8ab-465b-b340-b6d0b4458622.jpg przygotowany lokalnie; oczekuje na zatwierdzenie.",
         "source": "fbe2fd62-e8ab-465b-b340-b6d0b4458622.jpg",
         "frames": [
@@ -124,7 +122,6 @@ window.CANON_LESSONS = [
         "id": "L1-01-V03",
         "step": "L1-01-S03",
         "title": "Prawidłowe trzymanie aparatu",
-        "status": "w aplikacji — APPROVAL_PENDING",
         "note": "Obraz wygenerowany w Higgsfield (D-071).",
         "frames": [
           {
@@ -140,7 +137,6 @@ window.CANON_LESSONS = [
         "id": "L1-01-V04",
         "step": "L1-01-S05",
         "title": "Półnaciśnięcie i pełne naciśnięcie spustu",
-        "status": "w aplikacji — APPROVAL_PENDING",
         "note": "Rysunek z instrukcji Canon (D-056, D-058); plik lokalny, do podmiany. Animacja później.",
         "frames": [
           {
@@ -172,7 +168,6 @@ window.CANON_LESSONS = [
         "id": "L1-01-V05",
         "step": "L1-01-S05",
         "title": "Potwierdzenie ostrości na ekranie",
-        "status": "w aplikacji — APPROVAL_PENDING",
         "note": "Rysunki z instrukcji Canon (D-056); pliki lokalne, do podmiany.",
         "frames": [
           {
@@ -195,7 +190,6 @@ window.CANON_LESSONS = [
         "id": "L1-01-V06",
         "step": "L1-01-S08",
         "title": "Łatwy i trudny przedmiot dla AF",
-        "status": "w aplikacji — APPROVAL_PENDING",
         "note": "Cztery rendery sceny 3D (D-058).",
         "layout": "grid",
         "frames": [
@@ -354,7 +348,6 @@ window.CANON_LESSONS = [
         "id": "L1-02-V01",
         "step": "L1-02-S01",
         "title": "Ważny szczegół ostry i ostrość przesunięta",
-        "status": "w aplikacji — APPROVAL_PENDING",
         "note": "Para renderów sceny 3D; zmienia się tylko odległość ostrości.",
         "frames": [
           {
@@ -377,7 +370,6 @@ window.CANON_LESSONS = [
         "id": "L1-02-V02",
         "step": "L1-02-S02",
         "title": "Całe zdjęcie i powiększony szczegół",
-        "status": "w aplikacji — APPROVAL_PENDING",
         "note": "Render V04A pozycja 1 v3: całe zdjęcie i wycinek napisu z pełnej rozdzielczości.",
         "frames": [
           {
@@ -400,7 +392,6 @@ window.CANON_LESSONS = [
         "id": "L1-02-V03",
         "step": "L1-02-S03",
         "title": "Przycisk odtwarzania i tylny wybierak na aparacie Ani",
-        "status": "APPROVAL_PENDING",
         "note": "Kadr z wybranego zdjęcia 57652b89-ae48-4cd1-b998-e883aee8aa1f.jpg przygotowany lokalnie; oczekuje na zatwierdzenie.",
         "source": "57652b89-ae48-4cd1-b998-e883aee8aa1f.jpg",
         "frames": [
@@ -456,7 +447,6 @@ window.CANON_LESSONS = [
         "id": "L1-02-V04",
         "step": "L1-02-S04",
         "title": "Jak powiększyć i przesunąć widok",
-        "status": "APPROVAL_PENDING",
         "note": "Kadry z dwóch wskazanych zdjęć źródłowych; oznaczenia CSS. Oczekują na zatwierdzenie.",
         "sources": [
           "57652b89-ae48-4cd1-b998-e883aee8aa1f.jpg",
@@ -514,7 +504,6 @@ window.CANON_LESSONS = [
         "id": "L1-02-V05",
         "step": "L1-02-S05",
         "title": "Karta przypominająca wzorzec",
-        "status": "w aplikacji — APPROVAL_PENDING",
         "note": "Karta z wycinków V02 (ostry) i V01 (nieostry).",
         "layout": "grid",
         "frames": [
@@ -620,7 +609,6 @@ window.CANON_LESSONS = [
         "id": "L1-03-V01",
         "step": "L1-03-S01",
         "title": "Ten sam przedmiot, prostsze tło",
-        "status": "w aplikacji — APPROVAL_PENDING",
         "note": "Rendery sceny 3D (D-051, D-058).",
         "frames": [
           {
@@ -643,7 +631,6 @@ window.CANON_LESSONS = [
         "id": "L1-03-V02",
         "step": "L1-03-S02",
         "title": "Zobacz brzegi kadru",
-        "status": "w aplikacji — APPROVAL_PENDING",
         "note": "Rendery wariantu sceny (D-054).",
         "frames": [
           {
@@ -666,7 +653,6 @@ window.CANON_LESSONS = [
         "id": "L1-03-V03",
         "step": "L1-03-S03",
         "title": "Poziomo / pionowo",
-        "status": "w aplikacji — APPROVAL_PENDING",
         "note": "Rendery sceny 3D (D-051, D-054).",
         "frames": [
           {
@@ -689,7 +675,6 @@ window.CANON_LESSONS = [
         "id": "L1-03-V04A",
         "step": "L1-03-S04",
         "title": "Jeden krok w bok",
-        "status": "w aplikacji — APPROVAL_PENDING",
         "note": "Rendery sceny 3D, V04A v3 (D-051).",
         "frames": [
           {
@@ -712,7 +697,6 @@ window.CANON_LESSONS = [
         "id": "L1-03-V04B",
         "step": "L1-03-S05",
         "title": "Trzy wysokości aparatu",
-        "status": "w aplikacji — APPROVAL_PENDING",
         "note": "Rendery finalne wariantu sceny (D-054).",
         "frames": [
           {
@@ -742,7 +726,6 @@ window.CANON_LESSONS = [
         "id": "L1-03-V05",
         "step": "L1-03-S06",
         "title": "RF 50 mm: stała ogniskowa",
-        "status": "w aplikacji — APPROVAL_PENDING",
         "note": "Zdjęcie obiektywu Ani i własny schemat.",
         "frames": [
           {
@@ -765,7 +748,6 @@ window.CANON_LESSONS = [
         "id": "L1-03-V06",
         "step": "L1-03-S07",
         "title": "Karta przed ćwiczeniem",
-        "status": "w aplikacji — APPROVAL_PENDING",
         "target": "komponent aplikacji",
         "kind": "card",
         "body": "**Poziomo czy pionowo? → brzegi i tło → moje miejsce → zdjęcie.**"
@@ -983,7 +965,6 @@ window.CANON_LESSONS = [
         "id": "L1-04-V01",
         "step": "L1-04-S01",
         "title": "Ostry bliższy i ostry dalszy",
-        "status": "w aplikacji — APPROVAL_PENDING",
         "note": "Rendery sceny 3D; zmienia się tylko odległość ostrości.",
         "frames": [
           {
@@ -1006,7 +987,6 @@ window.CANON_LESSONS = [
         "id": "L1-04-V02",
         "step": "L1-04-S03",
         "title": "Pokrętło trybów — litera P",
-        "status": "w aplikacji — APPROVAL_PENDING",
         "note": "Wycinek zdjęcia aparatu Ani.",
         "source": "fbe2fd62-e8ab-465b-b340-b6d0b4458622.jpg",
         "frames": [
@@ -1031,7 +1011,6 @@ window.CANON_LESSONS = [
         "id": "L1-04-V03",
         "step": "L1-04-S04",
         "title": "Przycisk Q/SET na tylnym wybieraku",
-        "status": "w aplikacji — APPROVAL_PENDING",
         "note": "Wycinek zdjęcia aparatu Ani.",
         "source": "57652b89-ae48-4cd1-b998-e883aee8aa1f.jpg",
         "frames": [
@@ -1056,7 +1035,6 @@ window.CANON_LESSONS = [
         "id": "L1-04-V04",
         "step": "L1-04-S04",
         "title": "Szybkie ustawienia — napis Metoda AF",
-        "status": "w aplikacji — APPROVAL_PENDING",
         "note": "Rysunek z instrukcji Canon (D-056); plik lokalny, do podmiany.",
         "localOnly": true,
         "frames": [
@@ -1073,7 +1051,6 @@ window.CANON_LESSONS = [
         "id": "L1-04-V05",
         "step": "L1-04-S04",
         "title": "Ikona z jednym małym kwadratem — 1-punktowy AF",
-        "status": "w aplikacji — APPROVAL_PENDING",
         "note": "Rysunek z instrukcji Canon (D-056); plik lokalny, do podmiany.",
         "localOnly": true,
         "frames": [
@@ -1090,7 +1067,6 @@ window.CANON_LESSONS = [
         "id": "L1-04-V06",
         "step": "L1-04-S05",
         "title": "Przycisk lupy, Q/SET i przycisk kosza",
-        "status": "w aplikacji — APPROVAL_PENDING",
         "note": "Wycinek zdjęcia aparatu Ani.",
         "source": "57652b89-ae48-4cd1-b998-e883aee8aa1f.jpg",
         "frames": [
@@ -1129,7 +1105,6 @@ window.CANON_LESSONS = [
         "id": "L1-04-V07",
         "step": "L1-04-S05",
         "title": "Ekran przesuwania punktu ostrości — jest jeszcze na środku",
-        "status": "w aplikacji — APPROVAL_PENDING",
         "note": "Rysunek z instrukcji Canon (D-056); plik lokalny, do podmiany.",
         "localOnly": true,
         "frames": [
@@ -1146,7 +1121,6 @@ window.CANON_LESSONS = [
         "id": "L1-04-V08",
         "step": "L1-04-S06",
         "title": "Zielony punkt ostrości — ostrość ustawiona",
-        "status": "w aplikacji — APPROVAL_PENDING",
         "note": "Rysunek z instrukcji Canon (D-056); plik lokalny, do podmiany.",
         "localOnly": true,
         "frames": [
@@ -1163,7 +1137,6 @@ window.CANON_LESSONS = [
         "id": "L1-04-V09",
         "step": "L1-04-POMOC",
         "title": "Ikona w lewym dolnym rogu ekranu",
-        "status": "w aplikacji — APPROVAL_PENDING",
         "note": "Rysunek z instrukcji Canon (D-056); plik lokalny, do podmiany.",
         "localOnly": true,
         "frames": [
@@ -1180,7 +1153,6 @@ window.CANON_LESSONS = [
         "id": "L1-04-V10",
         "step": "L1-04-S07",
         "title": "Karta przed ćwiczeniem",
-        "status": "UI_COMPONENT",
         "target": "komponent aplikacji",
         "kind": "card",
         "body": "**P → jeden punkt ostrości → punkt ostrości na przedmiot → spust do połowy → zielony punkt ostrości → zdjęcie → powiększ**"
@@ -1189,7 +1161,6 @@ window.CANON_LESSONS = [
         "id": "L1-04-V11",
         "step": "L1-04-S04",
         "title": "Napis ONE SHOT",
-        "status": "w aplikacji — APPROVAL_PENDING",
         "note": "Rysunek z instrukcji Canon (D-056); plik lokalny, do podmiany. Ten sam rysunek co V04.",
         "localOnly": true,
         "frames": [
@@ -1215,7 +1186,6 @@ window.CANON_LESSONS = [
         "id": "L1-04-V12",
         "step": "L1-04-POMOC",
         "title": "Przycisk MENU",
-        "status": "w aplikacji — APPROVAL_PENDING",
         "note": "Wycinek zdjęcia aparatu Ani.",
         "source": "57652b89-ae48-4cd1-b998-e883aee8aa1f.jpg",
         "frames": [
@@ -1241,7 +1211,6 @@ window.CANON_LESSONS = [
         "id": "L1-04-V13",
         "step": "L1-04-POMOC",
         "title": "Czerwona część menu z ikoną aparatu",
-        "status": "w aplikacji — APPROVAL_PENDING",
         "note": "Zdjęcie ekranu aparatu Ani.",
         "source": "10a55454-d36b-4e92-9568-1b4dd40ffa5e.jpg",
         "frames": [
@@ -1267,7 +1236,6 @@ window.CANON_LESSONS = [
         "id": "L1-04-V14",
         "step": "L1-04-POMOC",
         "title": "Napis Metoda AF",
-        "status": "w aplikacji — APPROVAL_PENDING",
         "note": "Zdjęcie ekranu aparatu Ani.",
         "source": "336149b5-debf-4a74-b168-12d210f1b591.jpg",
         "frames": [
@@ -1293,7 +1261,6 @@ window.CANON_LESSONS = [
         "id": "L1-04-V15",
         "step": "L1-04-POMOC",
         "title": "Ikona z jednym małym kwadratem — 1-punktowy AF",
-        "status": "w aplikacji — APPROVAL_PENDING",
         "note": "Rysunek z instrukcji Canon (D-056); plik lokalny, do podmiany. Ten sam rysunek co V05.",
         "localOnly": true,
         "frames": [
@@ -1319,7 +1286,6 @@ window.CANON_LESSONS = [
         "id": "L1-04-V16",
         "step": "L1-04-POMOC",
         "title": "Napis Działanie AF i wybór One-Shot AF",
-        "status": "w aplikacji — APPROVAL_PENDING",
         "note": "Rysunek z instrukcji Canon (D-056); plik lokalny, do podmiany.",
         "localOnly": true,
         "frames": [
@@ -1361,7 +1327,6 @@ window.CANON_LESSONS = [
         "id": "L1-04-V17",
         "step": "L1-04-POMOC",
         "title": "Ramka ostrości na twarzy",
-        "status": "w aplikacji — APPROVAL_PENDING",
         "note": "Rysunek z instrukcji Canon (D-056); plik lokalny, do podmiany.",
         "localOnly": true,
         "frames": [
@@ -1511,7 +1476,6 @@ window.CANON_LESSONS = [
         "id": "L1-05-V01",
         "step": "L1-05-S01",
         "title": "Trzy jasności tej samej sceny",
-        "status": "w aplikacji — APPROVAL_PENDING",
         "note": "Rendery sceny 3D z L1-04; zmienia się tylko ekspozycja.",
         "frames": [
           {
@@ -1541,7 +1505,6 @@ window.CANON_LESSONS = [
         "id": "L1-05-V02",
         "step": "L1-05-S02",
         "title": "Pokrętło przy LOCK i przełącznik LOCK",
-        "status": "w aplikacji — APPROVAL_PENDING",
         "note": "Wycinek zdjęcia aparatu Ani.",
         "source": "fbe2fd62-e8ab-465b-b340-b6d0b4458622.jpg",
         "frames": [
@@ -1579,7 +1542,6 @@ window.CANON_LESSONS = [
         "id": "L1-05-V04",
         "step": "L1-05-S04",
         "title": "Znacznik w stronę plusa i w stronę minusa",
-        "status": "w aplikacji — APPROVAL_PENDING",
         "note": "Rysunek z instrukcji Canon (D-056); plik lokalny, do podmiany. Bez pliku aplikacja pokazuje jawne miejsce na brakujący materiał.",
         "localOnly": true,
         "frames": [
@@ -1596,7 +1558,6 @@ window.CANON_LESSONS = [
         "id": "L1-05-V05",
         "step": "L1-05-S06",
         "title": "Karta przed ćwiczeniem",
-        "status": "UI_COMPONENT",
         "target": "komponent aplikacji",
         "kind": "card",
         "body": "**0 → minus 1 → plus 1 → porównaj → wróć do 0**"
@@ -1605,7 +1566,6 @@ window.CANON_LESSONS = [
         "id": "L1-02-V03",
         "step": "L1-05-S05",
         "title": "Przycisk odtwarzania",
-        "status": "materiał z lekcji 2",
         "note": "Ten sam plik i oznaczenie co L1-02-V03 (pierwszy kadr).",
         "source": "57652b89-ae48-4cd1-b998-e883aee8aa1f.jpg",
         "frames": [
@@ -1630,7 +1590,6 @@ window.CANON_LESSONS = [
         "id": "L1-04-V02",
         "step": "L1-05-POMOC",
         "title": "Pokrętło trybów — litera P",
-        "status": "materiał z lekcji 4",
         "note": "Ten sam plik i oznaczenie co L1-04-V02.",
         "source": "fbe2fd62-e8ab-465b-b340-b6d0b4458622.jpg",
         "frames": [

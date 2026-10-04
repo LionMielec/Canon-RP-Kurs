@@ -14,7 +14,7 @@ Surowe zdjęcia pozostają w lokalnym pakiecie `/Users/pawelsiedleczka/Documents
 
 ### Lokalne korekty K-01–K-04 — 27.09.2026
 
-Lekcja 1 ma osobne domknięcie teorii przed ćwiczeniem i przycisk „Przejdź do ćwiczenia”. Identyfikatory, statusy oraz notatki produkcyjne pozostają w danych, ale nie są renderowane Ani. Niegotowe materiały nadal mają jawne, naturalnie opisane placeholdery.
+Lekcja 1 ma osobne domknięcie teorii przed ćwiczeniem i przycisk „Przejdź do ćwiczenia”. Identyfikatory oraz notatki produkcyjne pozostają w danych, ale nie są renderowane Ani. Statusy materiałów są prowadzone wyłącznie w `docs/16_ASSET_MANIFEST.md`, nie w danych aplikacji. Niegotowe materiały nadal mają jawne, naturalnie opisane placeholdery.
 
 Powyższy opis trzech kadrów dotyczy wcześniejszej wersji. Materiał odtwarzania w Lekcji 2 ma teraz dwa ujęcia (odtwarzanie i wybierak), a powiększenie — trzy (lupa, główne pokrętło, wybierak). Wszystkie są wyświetlane przed tekstem używającym tych elementów. Nowe kadry pochodzą wyłącznie ze wskazanych masterów:
 
