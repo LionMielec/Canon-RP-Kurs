@@ -136,12 +136,15 @@ Wcześniejsze sekcje są historyczne; role według D-047.
 - [x] Krok 5: odbiór właściciela w aplikacji — brama 3 (D-070).
 
 ## OTWARTE PO 03.10.2026
-- [ ] L1-01: jawne miejsce dla rysunków Canon V04–V05 w wersji publicznej (jak D-069); V03 rozwiązane przez D-071.
-- [ ] Decyzja: scalenie `wip/l1-02-l1-03` do `main`.
-- [ ] Decyzja: podpis „Kadr roboczy · do zatwierdzenia” pod obrazami w aplikacji i pole status w lessons.js (propozycja z 03.10).
+- [x] L1-01: jawne miejsce dla rysunków Canon V04–V05 w wersji publicznej (jak D-069); V03 rozwiązane przez D-071.
+- [x] Decyzja: scalenie `wip/l1-02-l1-03` do `main`.
+- [x] Decyzja: podpis „Kadr roboczy · do zatwierdzenia” pod obrazami w aplikacji i pole status w lessons.js (propozycja z 03.10).
 - [ ] Decyzja: wykluczenie w .gitignore lokalnych renderów i podglądów production/l1-0*/ oraz __pycache__ (propozycja z 03.10).
 - [ ] L1-06: grafiki z Higgsfield po płatnym koncie i zatwierdzeniu zakresu (D-019).
 
 ## PO POWROCIE WŁAŚCICIELA — połowa października 2026
 - [ ] Sprawdzenie na aparacie L1-04 + L1-05 (listy w L1-04_ZRODLA_INSTRUKCJA.md i L1-05_ZRODLA_INSTRUKCJA.md).
 - [ ] Zdjęcia: L1-04-V07, L1-04-V18, L1-05-V03.
+
+## NASTĘPNY CEL — L1-06
+- [ ] Zakres L1-06 — brama 1 (D-067).

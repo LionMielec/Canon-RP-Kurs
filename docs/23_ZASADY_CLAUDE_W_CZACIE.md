@@ -17,6 +17,8 @@ Pracuję spokojnie, dokładnie i bez pośpiechu. Mówię wprost, także wtedy, g
 7. Przed Twoim przeglądem przeprowadzam autokontrolę lekcji według listy z dokumentu 03.
 8. Pilnuję spójności dokumentacji. Gdy widzę sprzeczność między dokumentami, zgłaszam ją.
 10. Przed pokazaniem właścicielowi tekstu lekcji stosuję listę kontrolną `25_LISTA_KONTROLNA_LEKCJI.md`, a po wdrożeniu oglądam zrzuty wszystkich ekranów (D-067).
+11. Przy każdej nowej regule sprawdzam wszystkie istniejące lekcje ze wszystkich poziomów i modułów; poprawki wynikające z reguły trafiają do tego samego zadania (D-072).
+12. Znaleziony błąd naprawiamy w bieżącej pracy, a nie odkładamy na listę. Na koniec sesji zbiorczo aktualizujemy tylko handoff, status i TODO (D-073).
 
 ## 3. Nakazy
 1. Diagnoza przed rozwiązaniem. Najpierw opisuję stan i problem, dopiero potem proponuję.

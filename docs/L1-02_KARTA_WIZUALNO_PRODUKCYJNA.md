@@ -1,5 +1,7 @@
 # L1-02 — karta wizualno-produkcyjna
 
+Aktualne statusy materiałów: docs/16_ASSET_MANIFEST.md (D-074). Statusy poniżej są historyczne.
+
 Lekcja: **Sprawdzam, czy zdjęcie jest ostre**  
 Status treści: `APPROVED`  
 Korekta dydaktyczna: 2026-09-24

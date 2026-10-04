@@ -10,3 +10,4 @@
 - Polecenie od właściciela, którego pierwsza linia brzmi „Wykonaj, zgoda na commit i push.”, zawiera jego zgodę na commit i push dla tego zadania. Nie pytaj o nią ponownie.
 - Publikacja aplikacji jest wstrzymana do decyzji o hostingu (D-047).
 - Pracę wykraczającą poza zakres polecenia zgłaszaj właścicielowi przed jej wykonaniem (D-052).
+- Po każdej zmianie app.js, lessons.js lub style.css zmień numer wersji przy tym pliku w app/dist/index.html.

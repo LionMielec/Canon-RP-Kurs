@@ -1,6 +1,6 @@
 # Canon RP kurs — STATUS
 
-Stan na: 2026-10-03
+Stan na: 2026-10-04
 
 ## Koniec sesji — 30.09.2026
 Sposób produkcji materiałów L1-03 rozwiązany: render 3D w Blenderze 4.5 LTS (D-051). Ujęcie próbne V04A odebrane. Pozostałe kadry V01–V04B czekają na decyzje właściciela i rendery finalne, V05 do przygotowania. Szczegóły w handoffie 30.09.2026.
@@ -23,3 +23,13 @@ Szczegóły w handoffie 03.10.2026.
 - Następny cel: do decyzji właściciela.
 
 Szczegóły w handoffie 03.10.2026 (wieczór).
+
+## Koniec sesji — 04.10.2026
+- Gałąź `wip/l1-02-l1-03` scalona do `main` (scalenia 7b9c330 i ecb2b36).
+- Z aplikacji usunięto podpis „Kadr roboczy” i pole status w `lessons.js`; statusy materiałów tylko w `docs/16_ASSET_MANIFEST.md` (D-074).
+- L1-01: rysunki Canon tylko lokalnie, w wersji publicznej jawne miejsce na brakujący materiał.
+- Test aplikacji dostosowany do statycznych oznaczeń (D-038) i rysunków tylko lokalnych.
+- Decyzje D-072–D-074.
+- Następny cel: L1-06 (zakres, brama 1).
+
+Szczegóły w handoffie 04.10.2026.

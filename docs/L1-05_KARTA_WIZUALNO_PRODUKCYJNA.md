@@ -1,5 +1,7 @@
 # L1-05 — karta wizualno-produkcyjna
 
+Aktualne statusy materiałów: docs/16_ASSET_MANIFEST.md (D-074). Statusy poniżej są historyczne.
+
 Stan: 03.10.2026. Dokument produkcyjny; zgodnie z D-048 jego treść nie jest widoczna w kursie.
 
 ## Zasady dla materiałów L1-05

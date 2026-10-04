@@ -9,7 +9,9 @@ const url = process.env.PREVIEW_URL || 'http://127.0.0.1:8766/';
 const context = { window: {} };
 vm.runInNewContext(fs.readFileSync(path.join(root, 'dist/lessons.js'), 'utf8'), context);
 const lessons = context.window.CANON_LESSONS;
-const keys = lesson => ['cel', ...lesson.steps.flatMap(s => s.screens ? s.screens.map(p => p.key) : [s.id]), 'cwiczenie', ...(lesson.help ? ['pomoc'] : []), ...lesson.summary.map((s, i) => `podsumowanie-${i + 1}`)];
+const keys = lesson => ['cel', ...lesson.steps.flatMap(s => s.screens ? s.screens.map(p => p.key) : [s.id]), 'cwiczenie', ...(lesson.afterExercise || []).map(s => s.id), ...(lesson.help ? ['pomoc'] : []), ...lesson.summary.map((s, i) => `podsumowanie-${i + 1}`)];
+// Files of assets marked "localOnly" are absent from the public version (D-056, D-069); only they may return 404.
+const localOnly = new Set(lessons.flatMap(l => l.assets.filter(a => a.localOnly).flatMap(a => a.frames.map(f => new URL(f.target, url).href))));
 fs.mkdirSync(output, { recursive: true });
 (async () => {
   const browser = await chromium.launch({ headless: true, ...(process.env.CHROME_EXECUTABLE ? { executablePath: process.env.CHROME_EXECUTABLE } : {}) });
@@ -21,8 +23,8 @@ fs.mkdirSync(output, { recursive: true });
         const page = await ctx.newPage();
         const errors = [];
         page.on('pageerror', e => errors.push(e.message));
-        page.on('console', m => { if (m.type() === 'error') errors.push(m.text()); });
-        page.on('response', r => { if (r.status() >= 400) errors.push(`${r.status()} ${r.url()}`); });
+        page.on('console', m => { if (m.type() === 'error' && !(m.text().includes('404') && localOnly.has(m.location().url))) errors.push(m.text()); });
+        page.on('response', r => { if (r.status() >= 400 && !(r.status() === 404 && localOnly.has(r.url()))) errors.push(`${r.status()} ${r.url()}`); });
         let screens = 0;
         for (const lesson of [null, ...lessons]) {
           for (const key of lesson ? keys(lesson) : ['']) {
@@ -31,26 +33,28 @@ fs.mkdirSync(output, { recursive: true });
             const text = await page.locator('body').innerText();
             assert(!/L1-\d|\b[SV]\d{2}\b/.test(text), `Internal label: ${key}`);
             assert(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), `Overflow: ${key}`);
-            await page.locator('img').evaluateAll(async imgs => Promise.all(imgs.map(i => i.decode())));
+            await page.locator('img').evaluateAll(async imgs => Promise.all(imgs.map(i => i.decode().catch(e => { if (!i.hasAttribute('data-local-only')) throw e; }))));
+            // A missing local-only file is replaced by the visible placeholder; no broken image may remain.
+            await page.waitForFunction(() => [...document.images].every(i => i.complete && i.naturalWidth > 0));
             const geometry = await page.locator('.camera-marker').evaluateAll(markers => markers.map(m => {
               const image = m.parentElement.querySelector('img').getBoundingClientRect();
               const r = m.getBoundingClientRect();
               const s = getComputedStyle(m);
               const glow = getComputedStyle(m, '::before');
               return { x: (r.x + r.width / 2 - image.x) / image.width * 100, y: (r.y + r.height / 2 - image.y) / image.height * 100, width: r.width / image.width * 100, height: r.height / image.height * 100,
-                expected: ['x', 'y', 'width', 'height'].map(k => parseFloat(s.getPropertyValue('--marker-' + k))), animation: glow.animationName, duration: glow.animationDuration, iterations: glow.animationIterationCount, opacity: parseFloat(glow.opacity), border: s.borderWidth };
+                expected: ['x', 'y', 'width', 'height'].map(k => parseFloat(s.getPropertyValue('--marker-' + k))), animation: glow.animationName, animations: m.getAnimations({ subtree: true }).length, opacity: parseFloat(glow.opacity), border: s.borderWidth };
             }));
             for (const m of geometry) {
               ['x', 'y', 'width', 'height'].forEach((k, i) => assert(Math.abs(m[k] - m.expected[i]) < .08, `Misaligned ${key} ${k}`));
               assert.equal(m.border, '0px');
               assert.equal(m.opacity, 1);
-              assert.equal(m.duration, motion === 'reduce' ? '0s' : '6s');
-              assert.equal(m.iterations, motion === 'reduce' ? '1' : '2');
-              assert.equal(m.animation, motion === 'reduce' ? 'none' : 'camera-glow');
+              // Markers are static in both motion settings (D-038).
+              assert.equal(m.animation, 'none', `Animated marker: ${key}`);
+              assert.equal(m.animations, 0, `Animated marker: ${key}`);
             }
             if (key === 'odtwarzanie' || key === 'wybierak') {
               assert.equal(await page.locator('.asset-photo').count(), 1);
-              const expected = key === 'odtwarzanie' ? 'Odtwarzanie — naciśnij przycisk ▶' : 'Tylny wybierak — lewo / prawo';
+              const expected = key === 'odtwarzanie' ? 'Przycisk odtwarzania — naciśnij' : 'Tylny wybierak — lewo / prawo';
               assert.equal(await page.locator('.asset-photo strong').innerText(), expected);
               assert(await page.evaluate(() => document.querySelector('.lesson-text').nextElementSibling.matches('.asset-photo')));
               assert.equal(await page.locator('.camera-marker--direction').count(), key === 'wybierak' ? 2 : 0);
@@ -93,8 +97,8 @@ fs.mkdirSync(output, { recursive: true });
     }
     await page.emulateMedia({ reducedMotion: 'no-preference' });
     await page.reload();
-    await page.waitForTimeout(12500);
-    assert(await page.locator('.camera-marker').evaluateAll(ms => ms.every(m => getComputedStyle(m, '::before').transform === 'none' && getComputedStyle(m, '::before').opacity === '1' && m.getAnimations({subtree:true}).every(a => a.playState === 'finished'))));
+    await page.locator('.camera-marker').first().waitFor();
+    assert(await page.locator('.camera-marker').evaluateAll(ms => ms.every(m => getComputedStyle(m, '::before').transform === 'none' && getComputedStyle(m, '::before').opacity === '1' && m.getAnimations({ subtree: true }).length === 0)));
     fs.writeFileSync(path.join(output, 'results.json'), JSON.stringify({ results, resize: 'PASS' }, null, 2));
     console.log(JSON.stringify({ results, resize: 'PASS' }, null, 2));
   } finally { await browser.close(); }

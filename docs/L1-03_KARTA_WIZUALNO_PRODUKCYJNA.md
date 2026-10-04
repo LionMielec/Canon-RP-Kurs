@@ -1,5 +1,7 @@
 # L1-03 — karta wizualno-produkcyjna
 
+Aktualne statusy materiałów: docs/16_ASSET_MANIFEST.md (D-074). Statusy poniżej są historyczne.
+
 **Status:** PEŁNY SZKIC DO OSTATECZNEGO REVIEW — 28.09.2026
 
 ## Cel warstwy wizualnej

@@ -1,7 +1,7 @@
 # L1-04 — Wybieram, co ma być ostre
 
 **Poziom 1 · Decyduję, co ma być ostre i jasne**  
-**Status:** SZKIC — DO SPRAWDZENIA NA APARACIE — 01.10.2026  
+**Status:** ODEBRANA W APLIKACJI — 03.10.2026 (D-070); DO SPRAWDZENIA NA APARACIE  
 **Czas:** około 15–20 minut
 
 ## Cel lekcji

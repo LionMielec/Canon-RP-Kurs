@@ -85,3 +85,23 @@ Claude w czacie czyta całą aktywną dokumentację (D-061, D-068). Następny ce
 
 ### Start następnej sesji
 Claude w czacie czyta całą aktywną dokumentację z gałęzi `wip/l1-02-l1-03` (D-061, D-068). Następny cel: do decyzji właściciela.
+
+## HANDOFF 04.10.2026 — porządki i scalenie do main
+
+### Co zostało wykonane
+- Scalenie `wip/l1-02-l1-03` do `main`: commity scalenia 7b9c330 i ecb2b36.
+- Aplikacja: usunięty podpis „Kadr roboczy” pod obrazami i pole status w `app/dist/lessons.js`; statusy materiałów prowadzi wyłącznie `docs/16_ASSET_MANIFEST.md` (D-074).
+- L1-01: rysunki Canon V04 i V05 tylko lokalnie; w wersji publicznej jawne miejsce „Materiał w przygotowaniu” (jak D-069).
+- Test `app/tests/camera-guidance.cjs` dostosowany do statycznych oznaczeń (D-038) i do rysunków tylko lokalnych.
+- Numery wersji przy `app.js` i `lessons.js` w `app/dist/index.html` zmienione na `2026-10-04`; w `CLAUDE.md` zasada zmiany numeru wersji po każdej zmianie tych plików.
+- Decyzje D-072 (nowa reguła obejmuje wszystkie istniejące lekcje), D-073 (błędy naprawiamy od razu), D-074 (statusy w jednym miejscu i arkusze zrzutów).
+- Manifest materiałów: materiały wyświetlane w L1-01–L1-05 ze statusem APPROVED (D-070).
+
+### Otwarte
+- Bez zmian: sprawdzenie L1-04 i L1-05 na aparacie Ani oraz zdjęcia L1-04-V07, L1-04-V18, L1-05-V03 (połowa października).
+- Propozycja: wykluczyć w `.gitignore` lokalne rendery i podglądy w `production/l1-0*/` oraz pliki `__pycache__`.
+- Grafiki z Higgsfield — po wykupieniu płatnego konta.
+- Hosting i publikacja — wstrzymane (D-047).
+
+### Start następnej sesji
+Nowa rozmowa w projekcie claude.ai (D-068). Claude w czacie czyta całą aktywną dokumentację. Następny cel: L1-06, od zakresu (brama 1).
