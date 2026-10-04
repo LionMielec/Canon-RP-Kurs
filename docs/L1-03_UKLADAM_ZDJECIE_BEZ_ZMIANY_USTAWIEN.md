@@ -1,7 +1,7 @@
 # L1-03 — Układam zdjęcie bez zmiany ustawień
 
 **Poziom 1 · Oswajam kadr**  
-**Status:** PEŁNY SZKIC DO OSTATECZNEGO REVIEW — 28.09.2026  
+**Status:** ODEBRANA W APLIKACJI — 03.10.2026 (D-070)  
 **Czas:** około 15–20 minut
 
 ## Cel lekcji

@@ -1,5 +1,7 @@
 # L1-01 — karta wizualno-produkcyjna
 
+Aktualne statusy materiałów: docs/16_ASSET_MANIFEST.md (D-074). Statusy poniżej są historyczne.
+
 Lekcja: **Robię swoje pierwsze zdjęcie**  
 Status treści: zatwierdzona baza  
 Standard: `LESSON_PRODUCTION_STANDARD.md`  

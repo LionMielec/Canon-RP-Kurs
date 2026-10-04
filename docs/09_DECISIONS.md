@@ -790,3 +790,26 @@ Zatwierdzone 03.10.2026. Zmienia D-050 i D-058 w zakresie L1-01-V03; uzupełnia 
 Zasada: **wyjątek uczy ułożenia ciała, nie wyglądu aparatu.**
 
 Materiał odebrany przez właściciela 03.10.2026.
+
+## D-072 — Nowa reguła obejmuje wszystkie istniejące lekcje
+Zatwierdzone 04.10.2026.
+
+- Przy każdej nowej regule Claude w czacie sprawdza wszystkie istniejące lekcje ze wszystkich poziomów i modułów.
+- Poprawki wynikające z reguły trafiają do tego samego zadania.
+
+Zasada: **reguła nie wraca jako osobne poprawki.**
+
+## D-073 — Błędy naprawiamy od razu
+Zatwierdzone 04.10.2026. Uzupełnia D-052.
+
+- Znaleziony błąd jest naprawiany w bieżącej pracy, a nie odkładany na listę.
+- Zbiorcze aktualizacje na koniec sesji (D-052) dotyczą tylko handoffu, statusu i TODO.
+
+Zasada: **poprawić i iść dalej z programem.**
+
+## D-074 — Statusy w jednym miejscu i arkusze zrzutów
+Zatwierdzone 04.10.2026. Uzupełnia D-053 i D-068.
+
+- Statusy materiałów prowadzi wyłącznie `docs/16_ASSET_MANIFEST.md`; pole status usunięto z `app/dist/lessons.js` 04.10.2026.
+- Podpis „Kadr roboczy” usunięty z aplikacji.
+- Limit 2000 px z D-053 dotyczy kopii materiałów i zdjęć, nie arkuszy zrzutów z D-068.
