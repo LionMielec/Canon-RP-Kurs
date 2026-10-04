@@ -65,3 +65,23 @@ Uzupełnione 03.10.2026 wyłącznie na podstawie historii commitów.
 
 ### Start następnej sesji
 Claude w czacie czyta całą aktywną dokumentację (D-061, D-068). Następny cel: do decyzji właściciela.
+
+## HANDOFF 03.10.2026 (wieczór) — zdjęcie trzymania aparatu z Higgsfield
+
+### Co zostało wykonane
+- D-071: wyjątek od D-050 dla materiału L1-01-V03 (ułożenie ciała, nie wygląd aparatu); nowa kategoria pochodzenia GENEROWANE; licencja obrazu z darmowych kredytów do potwierdzenia przed ewentualną komercjalizacją.
+- L1-01-V03: obraz z Higgsfield zastępuje rysunek z instrukcji Canon i działa także w wersji publicznej; status APPROVED; zrzut `review/app/l1-01/s03-trzymanie.jpg`.
+- Gałąź `main` wciągnięta do `wip/l1-02-l1-03` (commit 961a7f1).
+
+### Stan
+- Aktualna dokumentacja jest na gałęzi `wip/l1-02-l1-03`; `main` jest w tyle do czasu scalenia.
+
+### Otwarte
+- Decyzja o scaleniu `wip/l1-02-l1-03` do `main` (D-070).
+- Propozycja: podpis „Kadr roboczy · do zatwierdzenia” jest wpisany na sztywno pod każdym obrazem w aplikacji (`app/dist/app.js`), także po odbiorze (D-070, D-071); przy tej samej zmianie ujednolicić pole status w `app/dist/lessons.js` z manifestem. Do decyzji właściciela, pełny tryb.
+- Propozycja: wykluczyć w `.gitignore` lokalne rendery i podglądy w `production/l1-0*/` oraz pliki `__pycache__` (zgodnie z D-053).
+- Grafiki do L1-06 z Higgsfield — po wykupieniu płatnego konta (planowane w tygodniu od 05.10.2026) i po zatwierdzeniu zakresu L1-06 (D-019).
+- Bez zmian: sprawdzenie L1-04 i L1-05 na aparacie Ani oraz zdjęcia L1-04-V07, L1-04-V18, L1-05-V03 (połowa października); hosting i publikacja wstrzymane (D-047).
+
+### Start następnej sesji
+Claude w czacie czyta całą aktywną dokumentację z gałęzi `wip/l1-02-l1-03` (D-061, D-068). Następny cel: do decyzji właściciela.

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" role="img" aria-labelledby="t d" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+  <title id="t">Dalej i bliżej</title>
+  <desc id="d">U góry fotograf stoi dalej: przedmiot jest mały w kadrze i widać więcej otoczenia. U dołu fotograf stoi bliżej: przedmiot jest duży w kadrze.</desc>
+  <defs>
+    <g id="osoba">
+      <circle cx="0" cy="-118" r="17" fill="#70429b"/>
+      <path d="M-17 -96 h34 a10 10 0 0 1 10 10 v52 h-12 v34 h-30 v-34 h-12 v-52 a10 10 0 0 1 10 -10z" fill="#70429b"/>
+      <rect x="20" y="-92" width="30" height="20" rx="4" fill="#51316f"/>
+      <rect x="50" y="-88" width="12" height="12" rx="2" fill="#51316f"/>
+    </g>
+    <g id="kubek">
+      <path d="M-18 -40 h36 v32 a8 8 0 0 1 -8 8 h-20 a8 8 0 0 1 -8 -8z" fill="#a33284"/>
+      <path d="M-18 -30 h-6 a8 8 0 0 0 0 20 h6" fill="none" stroke="#a33284" stroke-width="5"/>
+    </g>
+  </defs>
+  <rect width="800" height="560" fill="#f8f3fc"/>
+
+  <!-- Dalej -->
+  <text x="30" y="46" font-size="26" font-weight="700" fill="#382343">Dalej — więcej otoczenia</text>
+  <rect x="30" y="64" width="410" height="186" rx="16" fill="#fffdfd" stroke="#e6dcec" stroke-width="2"/>
+  <line x1="50" y1="222" x2="420" y2="222" stroke="#e6dcec" stroke-width="4" stroke-linecap="round"/>
+  <path d="M146 136 L372 176 L372 222 Z" fill="#ece2f7"/>
+  <use href="#osoba" x="84" y="222"/>
+  <use href="#kubek" x="372" y="222" transform="translate(372 222) scale(0.8) translate(-372 -222)"/>
+  <rect x="490" y="64" width="280" height="186" rx="10" fill="#fffdfd" stroke="#70429b" stroke-width="4"/>
+  <rect x="492" y="182" width="276" height="66" rx="0" fill="#f6e2ee"/>
+  <rect x="520" y="92" width="52" height="38" rx="3" fill="#ece2f7" stroke="#e6dcec" stroke-width="2"/>
+  <rect x="700" y="112" width="8" height="70" fill="#e6dcec"/>
+  <path d="M682 112 h44 l-10 -28 h-24z" fill="#ece2f7"/>
+  <rect x="540" y="196" width="46" height="12" rx="3" fill="#e6dcec"/>
+  <use href="#kubek" transform="translate(630 206) scale(0.9)"/>
+
+  <!-- Bliżej -->
+  <text x="30" y="316" font-size="26" font-weight="700" fill="#382343">Bliżej — przedmiot większy</text>
+  <rect x="30" y="334" width="410" height="186" rx="16" fill="#fffdfd" stroke="#e6dcec" stroke-width="2"/>
+  <line x1="50" y1="492" x2="420" y2="492" stroke="#e6dcec" stroke-width="4" stroke-linecap="round"/>
+  <path d="M316 406 L372 440 L372 492 Z" fill="#ece2f7"/>
+  <use href="#osoba" x="254" y="492"/>
+  <use href="#kubek" transform="translate(372 492) scale(0.8)"/>
+  <rect x="490" y="334" width="280" height="186" rx="10" fill="#fffdfd" stroke="#70429b" stroke-width="4"/>
+  <rect x="492" y="462" width="276" height="56" fill="#f6e2ee"/>
+  <use href="#kubek" transform="translate(636 498) scale(3.2)"/>
+</svg>

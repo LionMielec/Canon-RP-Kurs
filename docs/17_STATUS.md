@@ -16,3 +16,10 @@ Materiały L1-01–L1-03 i pełna lekcja L1-04 są w aplikacji na gałęzi roboc
 - Następny cel: do decyzji właściciela.
 
 Szczegóły w handoffie 03.10.2026.
+
+## Koniec sesji — 03.10.2026 (wieczór)
+- L1-01-V03: obraz z Higgsfield w aplikacji, odebrany (D-071).
+- Aktualna dokumentacja na gałęzi `wip/l1-02-l1-03`; scalenie do `main` — do decyzji właściciela.
+- Następny cel: do decyzji właściciela.
+
+Szczegóły w handoffie 03.10.2026 (wieczór).

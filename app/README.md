@@ -14,7 +14,7 @@ Surowe zdjęcia pozostają w lokalnym pakiecie `/Users/pawelsiedleczka/Documents
 
 ### Lokalne korekty K-01–K-04 — 27.09.2026
 
-Lekcja 1 ma osobne domknięcie teorii przed ćwiczeniem i przycisk „Przejdź do ćwiczenia”. Identyfikatory, statusy oraz notatki produkcyjne pozostają w danych, ale nie są renderowane Ani. Niegotowe materiały nadal mają jawne, naturalnie opisane placeholdery.
+Lekcja 1 ma osobne domknięcie teorii przed ćwiczeniem i przycisk „Przejdź do ćwiczenia”. Identyfikatory oraz notatki produkcyjne pozostają w danych, ale nie są renderowane Ani. Statusy materiałów są prowadzone wyłącznie w `docs/16_ASSET_MANIFEST.md`, nie w danych aplikacji. Niegotowe materiały nadal mają jawne, naturalnie opisane placeholdery.
 
 Powyższy opis trzech kadrów dotyczy wcześniejszej wersji. Materiał odtwarzania w Lekcji 2 ma teraz dwa ujęcia (odtwarzanie i wybierak), a powiększenie — trzy (lupa, główne pokrętło, wybierak). Wszystkie są wyświetlane przed tekstem używającym tych elementów. Nowe kadry pochodzą wyłącznie ze wskazanych masterów:
 
@@ -39,3 +39,15 @@ Instalowanie na iPhonie: otworzyć adres w Safari, wybrać udostępnianie i doda
 Z katalogu projektu: `python3 -m http.server 8766 --bind 127.0.0.1 --directory dist`.
 
 Treści i polskie oznaczenia menu nadal wymagają testów na aparacie Ani. Ta wersja nie zatwierdza finalnej palety ani animacji pozostałych lekcji.
+
+## Wspólny mechanizm instrukcji i podświetleń — lokalnie, 27.09.2026
+
+Krok może zawierać `screens` z własnymi kluczami adresów, a ekran — uporządkowane `blocks`: `{text: '...'}` albo `{asset: 'identyfikator', frame: 0}`. Dzięki temu tekst i właściwe zdjęcie sąsiadują w danych; renderer nie rozpoznaje numerów konkretnych lekcji. Proste istniejące kroki zachowują `body` i `mediaPlacement`. Stary adres kroku prowadzi do jego pierwszego ekranu.
+
+Odtwarzanie: `#lekcja-2/odtwarzanie`; następny ekran: `#lekcja-2/wybierak`. W powiększaniu każda z trzech instrukcji ma własne zdjęcie bezpośrednio poniżej.
+
+Każda ramka zdjęcia ma tablicę `markers`. Wspólna konfiguracja: `x`, `y` (środek), `width`, `height` — procenty rozmiaru zdjęcia. `kind: 'halo'` oznacza miękką poświatę, a `kind: 'direction'` dodaje kierunek z `label`, np. `←`. Ten sam komponent obsługuje włącznik, A+, spust, odtwarzanie, lupę, pokrętło i wybierak. Nie ma klas CSS przypisanych do konkretnych elementów aparatu.
+
+Zdjęcie zachowuje proporcje (`width: 100%; height: auto`), a nakładka ma ten sam układ odniesienia. Gradient z wcześniejszym różem poświaty (#e9a8d8) i stałe rozmycie zmiękczają krawędzie. Środek pozostaje pusty, aby nie zakrywać elementu aparatu. Po wejściu poświata wykonuje dwa spokojne oddechy po 6 s (skala nakładki 1–1,06), następnie pozostaje statyczna. Przezroczystość jest stała (opacity 1); pozycja i rozmiar kontenera markera nie są animowane. `prefers-reduced-motion: reduce` wyłącza pulsowanie i pozostawia widoczną poświatę. Oznaczenia są `aria-hidden`, zdjęcie i podpis nadal opisują czynność. Pliki zdjęć są niezmienione.
+
+Test: `tests/camera-guidance.cjs` wymaga Playwright (można wskazać ścieżkę przez `PLAYWRIGHT_MODULE`), opcjonalnie `CHROME_EXECUTABLE`, działającego lokalnego podglądu (`PREVIEW_URL`, domyślnie port 8766) i `QA_OUTPUT` na zrzuty/wyniki. Testuje wszystkie widoki, brak technicznych ID, ładowanie obrazów, kolejność materiałów, nawigację, tryby ruchu, brak poziomego scrolla i geometrię markerów podczas skalowania. Nie wymaga zmian zależności publikowanej aplikacji.
