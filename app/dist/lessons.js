@@ -138,6 +138,7 @@ window.CANON_LESSONS = [
         "step": "L1-01-S05",
         "title": "Półnaciśnięcie i pełne naciśnięcie spustu",
         "note": "Rysunek z instrukcji Canon (D-056, D-058); plik lokalny, do podmiany. Animacja później.",
+        "localOnly": true,
         "frames": [
           {
             "target": "./assets/lessons/l1-02/l1-02-main-dial.jpg",
@@ -169,6 +170,7 @@ window.CANON_LESSONS = [
         "step": "L1-01-S05",
         "title": "Potwierdzenie ostrości na ekranie",
         "note": "Rysunki z instrukcji Canon (D-056); pliki lokalne, do podmiany.",
+        "localOnly": true,
         "frames": [
           {
             "target": "./assets/lessons/l1-01/l1-01-v05-af-before-canon.png",
