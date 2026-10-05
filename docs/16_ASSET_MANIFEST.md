@@ -1,6 +1,6 @@
 # Canon RP kurs — ASSET MANIFEST
 
-Stan na: 2026-10-04
+Stan na: 2026-10-05
 
 Ten plik jest rejestrem materiałów wizualnych przypisanych do konkretnych lekcji. Nie jest magazynem wszystkich zdjęć projektu. Do manifestu trafiają materiały dopiero wtedy, gdy mają określone zastosowanie dydaktyczne.
 
@@ -77,6 +77,15 @@ Ten plik jest rejestrem materiałów wizualnych przypisanych do konkretnych lekc
 | L1-05-V03 | Ekran aparatu Ani w trybie P, skala jasności, znacznik przy 0 (S03, Pomoc) | — | BRAK — zdjęcie po powrocie właściciela, razem z L1-04 V07 i V18 | — | — | brak źródła; w aplikacji jawne miejsce na brakujący materiał, bez zamiennika |
 | L1-05-V04 | Dwa paski skali, znacznik w stronę plusa i minusa (S04) | rysunek ekranu | instrukcja PL, s. 128 | CANON — DO PODMIANY | `assets/lessons/l1-05/l1-05-v04-skala-jasnosci-canon.png` (tylko lokalnie) | `APPROVED (D-070)` |
 | L1-05-V05 | Karta przed ćwiczeniem: „0 → minus 1 → plus 1 → porównaj → wróć do 0” | komponent UI | bez osobnego pliku | — | komponent aplikacji | `APPROVED (D-070)` |
+
+## L1-06 — Szukam lepszego światła
+
+| ID | Zastosowanie | Typ | Źródło / brak | Pochodzenie | Docelowa ścieżka | Status |
+|---|---|---|---|---|---|---|
+| L1-06-V01 | Ten sam kubek w trzech wersjach: światło z okna z przodu, z boku, od tyłu; aparat i kubek stałe, zmienia się tylko położenie okna; w wersji „od tyłu” okno za kubkiem, w kadrze (S01–S04) | 3 rendery | render: scena Blender z L1-03/L1-04 z dodanym źródłem światła w kształcie okna; najpierw ujęcie próbne „z boku” (D-075) | RENDER | `assets/lessons/l1-06/l1-06-v01-przod.jpg`, `l1-06-v01-bok.jpg`, `l1-06-v01-tyl.jpg` | `TO_ANIMATE` |
+| L1-06-V02 | Schemat z góry: okno, przedmiot, trzy miejsca Ani (1 z przodu, 2 z boku, 3 od tyłu); w każdym kroku podświetlone inne miejsce (S02–S04) | grafika SVG | własny schemat, jak L1-03-V05 część B | WŁASNE | `assets/lessons/l1-06/l1-06-v02-schemat-1.svg`, `-2.svg`, `-3.svg` | `TO_DESIGN` |
+| L1-06-V03 | Para: światło od tyłu przy 0 i przy plus 1 (S04) | 2 rendery | render: ta sama scena, opcja przesunięcia ekspozycji | RENDER | `assets/lessons/l1-06/l1-06-v03-tyl-zero.jpg`, `l1-06-v03-tyl-plus1.jpg` | `TO_ANIMATE` |
+| L1-06-V04 | Karta przed ćwiczeniem: „z przodu → z boku → od tyłu → porównaj → znacznik na 0” | komponent UI | bez osobnego pliku | — | komponent aplikacji | komponent UI |
 
 ## Następny wpis
 Kolejne assety dopisywać przy opracowywaniu następnej lekcji. Nie tworzyć osobnego, równoległego rejestru.

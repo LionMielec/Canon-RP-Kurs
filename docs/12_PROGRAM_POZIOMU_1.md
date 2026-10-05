@@ -82,6 +82,8 @@ Zakres: korekta ekspozycji, kierunek plus/minus, porównanie zapisanych zdjęć.
 
 ### L1-06. Szukam lepszego światła
 
+Zakres i tekst zatwierdzone 05.10.2026 (D-075); pełna treść: [L1-06](L1-06_SZUKAM_LEPSZEGO_SWIATLA.md).
+
 **Cel:** zobaczyć zmianę wyglądu twarzy lub przedmiotu po zmianie miejsca względem okna.
 
 Zakres: kierunek światła, cienie, jasne tło; bez dodatkowego sprzętu. Na początku bez bezpośredniego słońca.

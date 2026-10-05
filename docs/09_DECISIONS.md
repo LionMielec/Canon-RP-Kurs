@@ -813,3 +813,16 @@ Zatwierdzone 04.10.2026. Uzupełnia D-053 i D-068.
 - Statusy materiałów prowadzi wyłącznie `docs/16_ASSET_MANIFEST.md`; pole status usunięto z `app/dist/lessons.js` 04.10.2026.
 - Podpis „Kadr roboczy” usunięty z aplikacji.
 - Limit 2000 px z D-053 dotyczy kopii materiałów i zdjęć, nie arkuszy zrzutów z D-068.
+
+## D-075 — L1-06: zakres i tekst zatwierdzone
+Zatwierdzone 05.10.2026.
+
+- Zakres (brama 1) i tekst lekcji z opisem materiałów (brama 2) zatwierdzone 05.10.2026.
+- Tylko nieruchomy przedmiot; osoby w L1-09.
+- Ania zmienia swoje miejsce wokół przedmiotu, przedmiot stoi. Zmiana względem docs/12: obracanie przedmiotu w miejscu nie zmienia kierunku światła względem aparatu.
+- Trzy kierunki światła: z przodu, z boku, od tyłu. Przy świetle od tyłu korekta pokrętłem przy LOCK znana z L1-05, na koniec powrót do 0.
+- Napis kategorii „Patrzę na światło”.
+- Instrukcja Canon nie opisuje kierunku światła; część fotograficzna opiera się na źródłach w karcie L1-06.
+- V01 i V03 jako render w Blenderze; najpierw jedno ujęcie próbne (V01 „z boku”) do oceny właściciela, potem reszta. V02 — schemat SVG; V04 — komponent aplikacji. Bez Higgsfield.
+
+Zasada: **najpierw kierunek światła, potem ustawienia aparatu.**
