@@ -1,6 +1,6 @@
 # 24 — Słownik nazw
 
-Stan: 03.10.2026. Dokument produkcyjny; obejmuje lekcje L1-01–L1-05.
+Stan: 05.10.2026. Dokument produkcyjny; obejmuje lekcje L1-01–L1-06.
 
 Każdy przycisk, pokrętło, napis, ikona i pojęcie ma w całym kursie jedną nazwę (D-063). Rozstrzygnięcia właściciela zapisuje D-066. Nazwę wybieramy według reguły z D-065: najpierw napis na aparacie Ani albo na jego ekranie; gdy napisu nie ma — nazwa z zatwierdzonych lekcji L1-01 i L1-02; gdy i tam jej nie ma — jedna prosta nazwa opisowa, nadana raz. Inne określenie może pojawić się najwyżej raz w lekcji, jako opis wyglądu.
 
@@ -47,5 +47,10 @@ Nowa nazwa trafia do tej tabeli, zanim zostanie użyta w lekcji.
 | Skala od −3 do +3 na dole ekranu (w instrukcji: wskaźnik poziomu ekspozycji) | skala jasności | nadana (D-065), lekcja L1-05 | „kreski i liczby od −3 do +3” |
 | Mały znak na skali jasności, który przesuwa się po obrocie pokrętła przy LOCK | znacznik | nadana, lekcja L1-05 — tylko na skali jasności | — |
 | Zmiana jasności zdjęcia pokrętłem przy LOCK | korekta ekspozycji | pojęcie, lekcja L1-05 — użyte raz w lekcji | „to, co właśnie zrobiłaś” |
+| Ustawienie, w którym okno jest za plecami Ani | światło z przodu | nadana, lekcja L1-06 | — |
+| Ustawienie, w którym okno jest z boku | światło z boku | nadana, lekcja L1-06 | — |
+| Ustawienie, w którym okno jest za przedmiotem | światło od tyłu | nadana, lekcja L1-06 | — |
+| Strona, z której światło pada na przedmiot | kierunek światła | pojęcie, lekcja L1-06 — użyte raz w lekcji | — |
+| Ciemny kształt przedmiotu bez szczegółów | sylwetka | pojęcie, lekcja L1-06 — wyjaśnione raz w lekcji | „ciemny kształt bez szczegółów” |
 
 Napisy z menu aparatu zapisujemy dokładnie tak, jak na ekranie — także wtedy, gdy zawierają słowa, których sami nie używamy (np. „Wyśw. punktu AF”).
