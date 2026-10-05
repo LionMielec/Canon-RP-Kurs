@@ -826,3 +826,14 @@ Zatwierdzone 05.10.2026.
 - V01 i V03 jako render w Blenderze; najpierw jedno ujęcie próbne (V01 „z boku”) do oceny właściciela, potem reszta. V02 — schemat SVG; V04 — komponent aplikacji. Bez Higgsfield.
 
 Zasada: **najpierw kierunek światła, potem ustawienia aparatu.**
+
+## D-076 — Pasek „Wróć” po odsyłaczu
+Zatwierdzone 05.10.2026. Uzupełnia D-060.
+
+- Kliknięcie odsyłacza w tekście lekcji zapamiętuje miejsce, w którym Ania była; na stronie docelowej na górze widać pasek „← Wróć do lekcji {numer} · {tytuł strony}”.
+- Pasek zostaje przy przechodzeniu po stronach docelowych; kolejny odsyłacz go nie nadpisuje; znika po powrocie albo po wejściu do spisu lekcji.
+- Zapamiętanie tylko w pamięci otwartej aplikacji, bez zapisu w telefonie.
+- Działa dla wszystkich lekcji, bo dotyczy sposobu wyświetlania odsyłaczy.
+- Pasek znika też, gdy Ania wróci na zapamiętaną stronę inną drogą (np. „Wstecz”). Odebrane przez właściciela 05.10.2026.
+
+Zasada: **z każdego odsyłacza jest jedna droga z powrotem.**

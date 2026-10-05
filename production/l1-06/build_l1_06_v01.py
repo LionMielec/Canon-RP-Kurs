@@ -6,15 +6,18 @@
 # Scena, kubek, materiały i aparat pochodzą bez zmian ze skryptu L1-03
 # (production/l1-03/scene/build_v04a_scene.py): kubek 1 z kalibracją koloru
 # shot-1.json, aparat w położeniu V04A pozycja 1 (50 mm, f/8). Ten skrypt
-# zastępuje wyłącznie światło: zamiast światła z lewej z przodu jest jedno
-# prostokątne okno z rozproszonym światłem dnia; słabe światło otoczenia
-# zostaje jak w scenie L1-03.
+# zastępuje światło: zamiast światła z lewej z przodu jest jedno prostokątne
+# okno z rozproszonym światłem dnia i jest to jedyne źródło światła (światło
+# otoczenia sceny wyłączone, ściany odbijają tylko światło okna). Z kadru
+# usunięta jest lampa stojąca za kubkiem, bo sugerowała inne źródło światła.
 #
 # Przykład:
 #   B=/Applications/Blender.app/Contents/MacOS/Blender
 #   S=production/l1-06/build_l1_06_v01.py
 #   $B -b --factory-startup --python $S -- --window bok \
-#      --out production/l1-06/renders/l1-06-v01-bok.png
+#      --out production/l1-06/renders/l1-06-v01-bok-proba1.png
+#   $B -b --factory-startup --python $S -- --window bok --dark-wall \
+#      --out production/l1-06/renders/l1-06-v01-bok-proba2.png
 
 import argparse
 import json
@@ -97,6 +100,28 @@ def build_window(azimuth_deg, distance=WINDOW_DISTANCE):
     return obj
 
 
+LAMP_OBJECTS = ("Lampa_podstawa", "Lampa_slup", "Lampa_abazur")
+# Ściana naprzeciw okna (prawa, poza kadrem) w wariancie --dark-wall: matowa farba
+# w ciepłym szarobeżowym kolorze, jaki bywa w domu (wybór produkcyjny, nie pomiar).
+DARK_WALL_HEX = "#8c8378"
+
+
+def prepare_room(dark_wall=False):
+    """Usuwa lampę stojącą i wyłącza światło otoczenia sceny L1-03; opcjonalnie
+    przyciemnia ścianę naprzeciw okna, która odbija światło na stronę w cieniu."""
+    for name in LAMP_OBJECTS:
+        obj = bpy.data.objects[name]
+        mesh = obj.data
+        bpy.data.objects.remove(obj)
+        bpy.data.meshes.remove(mesh)
+    bpy.context.scene.world.node_tree.nodes["Background"].inputs["Strength"].default_value = 0.0
+    print("POKOJ: bez lampy stojacej, bez swiatla otoczenia (jedyne zrodlo: okno)")
+    if dark_wall:
+        wall = bpy.data.objects["Sciana_prawa"]
+        wall.data.materials[0] = base.principled("Sciana_prawa_ciemna", base.hex_to_linear(DARK_WALL_HEX), roughness=1.0)
+        print(f"POKOJ: sciana naprzeciw okna {DARK_WALL_HEX}, matowa")
+
+
 def glaze_luminance(path, offsets_deg, z=0.030):
     """Jasność (liniowo) szkliwa w łatach na ściance kubka, obróconych o podane
     kąty od kierunku do aparatu (ujemny kąt = lewa strona w kadrze)."""
@@ -159,12 +184,15 @@ def main():
     parser.add_argument("--scale", type=int, default=100)
     parser.add_argument("--distance", type=float, default=WINDOW_DISTANCE,
                         help="odległość okna od osi kubka [m]")
+    parser.add_argument("--dark-wall", action="store_true",
+                        help="ściana naprzeciw okna ciemniejsza i matowa")
     parser.add_argument("--frame-report", action="store_true")
     args = parser.parse_args(argv)
     out = os.path.abspath(args.out)
     os.makedirs(os.path.dirname(out), exist_ok=True)
 
     base.build_scene(DESIGN)
+    prepare_room(args.dark_wall)
     base.make_camera(base.camera_location(1, base.SIDE_STEP), base.AIM_POINT, base.CAMERA_PITCH_DEG)
     build_window(WINDOWS[args.window]["azimuth_deg"], args.distance)
     if args.frame_report:
