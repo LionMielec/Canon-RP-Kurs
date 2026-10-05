@@ -11,7 +11,19 @@
   const inline = value => escape(value)
     .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
     .replace(/\[\[(L1-(\d+)(-[\w-]+)?)\|(.+?)\]\]/g, (match, id, lesson, section, text) =>
-      `<a class="subtle-link" href="#lekcja-${Number(lesson)}${section ? `/${id}` : ''}">${text}</a>`);
+      `<a class="subtle-link" data-xref href="#lekcja-${Number(lesson)}${section ? `/${id}` : ''}">${text}</a>`);
+
+  // Pasek „Wróć” (D-076): pierwszy kliknięty odsyłacz zapamiętuje stronę, z której Ania przyszła.
+  // Tylko w pamięci otwartej strony; kolejne odsyłacze go nie nadpisują. Znika po powrocie
+  // (pasek albo dojście do tej strony) i po wejściu do spisu lekcji.
+  let current = null;
+  let origin = null;
+  app.addEventListener('click', event => {
+    const target = event.target.closest('a');
+    if (!target || !current) return;
+    if (target.matches('.back-bar')) origin = null;
+    else if (target.matches('[data-xref]') && !origin && target.getAttribute('href') !== location.hash) origin = current;
+  });
 
   function markdown(value) {
     return value.trim().split(/\n\s*\n/).map(block => {
@@ -109,6 +121,7 @@
     const match = location.hash.match(/^#lekcja-(\d+)(?:\/([\w-]+))?$/);
     const lesson = match && window.CANON_LESSONS.find(item => item.id === Number(match[1]));
     if (!lesson) {
+      current = origin = null;
       app.innerHTML = home;
       document.title = 'Canon RP — Kurs';
       if (window.matchMedia('(display-mode: standalone)').matches || navigator.standalone) {
@@ -130,8 +143,11 @@
     const position = page.kind === 'step'
       ? `Krok ${lesson.steps.findIndex(step => step.id === page.id) + 1} z ${lesson.steps.length}`
       : ({ intro: 'Cel', exercise: 'Ćwiczenie', reflection: 'Porównanie', help: 'Pomoc', summary: 'Podsumowanie' })[page.kind];
+    current = { lesson: lesson.id, href: link(page), title: page.title };
+    if (origin && origin.href === current.href) origin = null;
 
     app.innerHTML = `<article data-lesson="${lesson.code}" data-section-id="${escape(page.id || page.key)}">
+      ${origin ? `<a class="back-bar" href="${origin.href}">← Wróć do lekcji ${origin.lesson} · ${escape(origin.title)}</a>` : ''}
       <a class="crumb" href="#">← Spis lekcji</a>
       <p class="lesson-name">${escape(lesson.title)}</p>
       <div class="lesson-meta"><span>Lekcja ${lesson.id} · ${escape(lesson.duration)}</span><span>${position}</span></div>
