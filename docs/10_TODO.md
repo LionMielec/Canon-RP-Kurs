@@ -146,5 +146,17 @@ Wcześniejsze sekcje są historyczne; role według D-047.
 - [ ] Sprawdzenie na aparacie L1-04 + L1-05 (listy w L1-04_ZRODLA_INSTRUKCJA.md i L1-05_ZRODLA_INSTRUKCJA.md).
 - [ ] Zdjęcia: L1-04-V07, L1-04-V18, L1-05-V03.
 
-## NASTĘPNY CEL — L1-06
-- [ ] Zakres L1-06 — brama 1 (D-067).
+## L1-06 — 05.10.2026
+- [x] Zakres L1-06 — brama 1 (D-075).
+- [x] Źródła z instrukcji (`docs/L1-06_ZRODLA_INSTRUKCJA.md`), tekst i karta — brama 2 (D-075).
+- [x] Materiały V01, V02, V03 odebrane przez właściciela (D-075).
+- [x] Pasek „Wróć” po odsyłaczu (D-076) odebrany i scalony do `main`.
+
+## NASTĘPNY CEL — wdrożenie L1-06 w aplikacji
+- [ ] Treść lekcji w `app/dist/lessons.js`.
+- [ ] Karta 06 na stronie głównej: „Patrzę na światło”, około 15 minut, naprzemienność kolorów kart.
+- [ ] Kopie V01, V03 i schematów V02 (z `production/l1-06/v02/`) do `app/dist/assets/lessons/l1-06/`.
+- [ ] Komponent V04.
+- [ ] Materiały z wcześniejszych lekcji: L1-05-V02, L1-05-V04 (lokalnie), L1-02-V03.
+- [ ] Arkusz zrzutów i odbiór właściciela — brama 3.
+- [ ] Sprawdzenie L1-06 na aparacie (lista w `docs/L1-06_ZRODLA_INSTRUKCJA.md`, zwłaszcza ile plusa przy świetle od tyłu).

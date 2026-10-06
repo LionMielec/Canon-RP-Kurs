@@ -1,6 +1,6 @@
 # Canon RP kurs — STATUS
 
-Stan na: 2026-10-04
+Stan na: 2026-10-05
 
 ## Koniec sesji — 30.09.2026
 Sposób produkcji materiałów L1-03 rozwiązany: render 3D w Blenderze 4.5 LTS (D-051). Ujęcie próbne V04A odebrane. Pozostałe kadry V01–V04B czekają na decyzje właściciela i rendery finalne, V05 do przygotowania. Szczegóły w handoffie 30.09.2026.
@@ -33,3 +33,11 @@ Szczegóły w handoffie 03.10.2026 (wieczór).
 - Następny cel: L1-06 (zakres, brama 1).
 
 Szczegóły w handoffie 04.10.2026.
+
+## Koniec sesji — 05.10.2026
+- L1-06: zakres i tekst zatwierdzone (D-075); źródła z instrukcji i karta gotowe; materiały V01–V03 odebrane przez właściciela.
+- Pasek „Wróć” po odsyłaczu (D-076) odebrany; gałąź `wip/l1-02-l1-03` scalona do `main`.
+- Otwarte: sprawdzenie L1-06 na aparacie (zwłaszcza ile plusa przy świetle od tyłu); pozostałe punkty bez zmian.
+- Następny cel: wdrożenie L1-06 w aplikacji i odbiór (brama 3).
+
+Szczegóły w handoffie 05.10.2026.
