@@ -824,6 +824,7 @@ Zatwierdzone 05.10.2026.
 - Napis kategorii „Patrzę na światło”.
 - Instrukcja Canon nie opisuje kierunku światła; część fotograficzna opiera się na źródłach w karcie L1-06.
 - V01 i V03 jako render w Blenderze; najpierw jedno ujęcie próbne (V01 „z boku”) do oceny właściciela, potem reszta. V02 — schemat SVG; V04 — komponent aplikacji. Bez Higgsfield.
+- Materiały V01, V02, V03 odebrane przez właściciela 05.10.2026. Zatwierdzone przy odbiorze: okno jedynym źródłem światła, ciemna matowa ściana naprzeciw okna; obraz ze ściany zdjęty w wersji »od tyłu«; okno w wersji »od tyłu« prześwietlone (jak w prawdziwym aparacie); jasność wersji »od tyłu« według średniej jasności kadru (przybliżenie, nie algorytm Canon); schematy V02 w production/l1-06/v02/, do aplikacji kopią przy wdrożeniu.
 
 Zasada: **najpierw kierunek światła, potem ustawienia aparatu.**
 

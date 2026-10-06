@@ -105,3 +105,29 @@ Claude w czacie czyta całą aktywną dokumentację z gałęzi `wip/l1-02-l1-03`
 
 ### Start następnej sesji
 Nowa rozmowa w projekcie claude.ai (D-068). Claude w czacie czyta całą aktywną dokumentację. Następny cel: L1-06, od zakresu (brama 1).
+
+## HANDOFF 05.10.2026 — L1-06: tekst i materiały odebrane
+
+### Co zostało wykonane
+- L1-06: zakres i tekst zatwierdzone (D-075); źródła z instrukcji w `docs/L1-06_ZRODLA_INSTRUKCJA.md`; karta wizualno-produkcyjna.
+- L1-06: materiały V01, V02, V03 odebrane przez właściciela 05.10.2026 (D-075); statusy w `docs/16_ASSET_MANIFEST.md`.
+- Aplikacja: pasek „Wróć” po odsyłaczu (D-076), odebrany przez właściciela 05.10.2026; w `main` po scaleniu.
+- Gałąź `wip/l1-02-l1-03` scalona do `main`.
+
+### Następny cel — wdrożenie L1-06 w aplikacji
+- Treść lekcji w `app/dist/lessons.js`.
+- Karta 06 na stronie głównej: napis kategorii „Patrzę na światło”, około 15 minut, zachowana naprzemienność kolorów kart.
+- Kopie V01, V03 oraz schematów V02 (z `production/l1-06/v02/`) do `app/dist/assets/lessons/l1-06/`.
+- Komponent V04.
+- Materiały z wcześniejszych lekcji: L1-05-V02, L1-05-V04 (lokalnie), L1-02-V03.
+- Arkusz zrzutów i odbiór właściciela w aplikacji (brama 3).
+
+### Otwarte
+- Sprawdzenie L1-06 na aparacie — lista w `docs/L1-06_ZRODLA_INSTRUKCJA.md`, zwłaszcza ile plusa przy świetle od tyłu.
+- Bez zmian: sprawdzenie L1-04 i L1-05 na aparacie Ani oraz zdjęcia L1-04-V07, L1-04-V18, L1-05-V03 (połowa października).
+- Propozycja: wykluczyć w `.gitignore` lokalne rendery i podglądy w `production/l1-0*/` oraz pliki `__pycache__`.
+- Grafiki z Higgsfield — po wykupieniu płatnego konta.
+- Hosting i publikacja — wstrzymane (D-047).
+
+### Start następnej sesji
+Nowa rozmowa w projekcie claude.ai (D-068). Claude w czacie czyta całą aktywną dokumentację. Następny cel: wdrożenie L1-06 w aplikacji.
