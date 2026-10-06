@@ -158,5 +158,5 @@ Wcześniejsze sekcje są historyczne; role według D-047.
 - [x] Kopie V01, V03 i schematów V02 (z `production/l1-06/v02/`) do `app/dist/assets/lessons/l1-06/`.
 - [x] Komponent V04.
 - [x] Materiały z wcześniejszych lekcji: L1-05-V02, L1-05-V04 (lokalnie), L1-02-V03.
-- [ ] Arkusz zrzutów i odbiór właściciela — brama 3.
+- [x] Arkusz zrzutów i odbiór właściciela — brama 3.
 - [ ] Sprawdzenie L1-06 na aparacie (lista w `docs/L1-06_ZRODLA_INSTRUKCJA.md`, zwłaszcza ile plusa przy świetle od tyłu).
