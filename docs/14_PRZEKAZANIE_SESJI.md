@@ -131,3 +131,22 @@ Nowa rozmowa w projekcie claude.ai (D-068). Claude w czacie czyta całą aktywn�
 
 ### Start następnej sesji
 Nowa rozmowa w projekcie claude.ai (D-068). Claude w czacie czyta całą aktywną dokumentację. Następny cel: wdrożenie L1-06 w aplikacji.
+
+## HANDOFF 06.10.2026 — L1-06 wdrożona i odebrana
+
+### Co zostało wykonane
+- L1-06 w aplikacji: tekst lekcji, materiały V01–V04 oraz L1-05-V02, L1-05-V04 (lokalnie) i L1-02-V03; karta 06 na stronie głównej (D-077).
+- Rozmieszczenie obrazów, podpisy i rozmiar renderów 1200 × 800 zatwierdzone przez właściciela (D-077).
+- Arkusz zrzutów `review/app/l1-06/arkusz.jpg`; testy `camera-guidance.cjs` i `back-bar.cjs` zaliczone.
+- Odbiór właściciela w aplikacji 06.10.2026 (brama 3, D-077); gałąź `wip/l1-02-l1-03` scalona do `main`.
+- Uwaga techniczna: testy aplikacji wymagają pakietu `playwright-core`; pobierany za zgodą właściciela do katalogu tymczasowego, poza projektem, i uruchamiany na zainstalowanym Google Chrome.
+
+### Otwarte
+- Sprawdzenie L1-06 na aparacie — lista w `docs/L1-06_ZRODLA_INSTRUKCJA.md`, zwłaszcza ile plusa przy świetle od tyłu (tekst lekcji podaje 1, pomoc 2).
+- Bez zmian: sprawdzenie L1-04 i L1-05 na aparacie Ani oraz zdjęcia L1-04-V07, L1-04-V18, L1-05-V03 (połowa października).
+- Propozycja: wykluczyć w `.gitignore` lokalne rendery i podglądy w `production/l1-0*/` oraz pliki `__pycache__`.
+- Grafiki z Higgsfield — po wykupieniu płatnego konta.
+- Hosting i publikacja — wstrzymane (D-047).
+
+### Start następnej sesji
+Nowa rozmowa w projekcie claude.ai (D-068). Claude w czacie czyta całą aktywną dokumentację. Następny cel: do decyzji właściciela; według programu w `docs/12_PROGRAM_POZIOMU_1.md` kolejna jest L1-07 „Rozmywam tło”.
