@@ -153,10 +153,10 @@ Wcześniejsze sekcje są historyczne; role według D-047.
 - [x] Pasek „Wróć” po odsyłaczu (D-076) odebrany i scalony do `main`.
 
 ## NASTĘPNY CEL — wdrożenie L1-06 w aplikacji
-- [ ] Treść lekcji w `app/dist/lessons.js`.
-- [ ] Karta 06 na stronie głównej: „Patrzę na światło”, około 15 minut, naprzemienność kolorów kart.
-- [ ] Kopie V01, V03 i schematów V02 (z `production/l1-06/v02/`) do `app/dist/assets/lessons/l1-06/`.
-- [ ] Komponent V04.
-- [ ] Materiały z wcześniejszych lekcji: L1-05-V02, L1-05-V04 (lokalnie), L1-02-V03.
+- [x] Treść lekcji w `app/dist/lessons.js`.
+- [x] Karta 06 na stronie głównej: „Patrzę na światło”, około 15 minut, naprzemienność kolorów kart.
+- [x] Kopie V01, V03 i schematów V02 (z `production/l1-06/v02/`) do `app/dist/assets/lessons/l1-06/`.
+- [x] Komponent V04.
+- [x] Materiały z wcześniejszych lekcji: L1-05-V02, L1-05-V04 (lokalnie), L1-02-V03.
 - [ ] Arkusz zrzutów i odbiór właściciela — brama 3.
 - [ ] Sprawdzenie L1-06 na aparacie (lista w `docs/L1-06_ZRODLA_INSTRUKCJA.md`, zwłaszcza ile plusa przy świetle od tyłu).
