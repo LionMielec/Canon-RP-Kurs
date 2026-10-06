@@ -838,3 +838,15 @@ Zatwierdzone 05.10.2026. Uzupełnia D-060.
 - Pasek znika też, gdy Ania wróci na zapamiętaną stronę inną drogą (np. „Wstecz”). Odebrane przez właściciela 05.10.2026.
 
 Zasada: **z każdego odsyłacza jest jedna droga z powrotem.**
+
+## D-077 — L1-06 — wdrożenie w aplikacji
+Zatwierdzone 06.10.2026. Uzupełnia D-075.
+
+- Rozmieszczenie obrazów w krokach o kierunkach światła: najpierw schemat „gdzie stanąć” (V02), potem zdjęcie „co zobaczysz” (V01, przy świetle od tyłu V03).
+- Przy świetle od tyłu, po punkcie 3: pokrętło przy LOCK (L1-05-V02), skala jasności (L1-05-V04, tylko lokalnie), zdjęcie przy plus 1 (V03).
+- Ćwiczenie: przycisk odtwarzania (L1-02-V03) po zdaniu o przycisku odtwarzania. Pomoc: pokrętło przy LOCK (L1-05-V02) po dwóch pierwszych pytaniach.
+- Podpisy pod obrazami: „Światło z przodu”, „Światło z boku”, „Światło od tyłu”; „Gdzie stanąć: światło z przodu / z boku / od tyłu”; „Światło od tyłu, znacznik przy 0” i „…przy plus 1”.
+- Obrazy renderów w aplikacji 1200 × 800, jak w L1-05; schematy V02 jako SVG bez zmian.
+- Lekcja L1-06 odebrana przez właściciela w aplikacji 06.10.2026 (brama 3).
+
+Zasada: **najpierw gdzie stanąć, potem co zobaczysz.**

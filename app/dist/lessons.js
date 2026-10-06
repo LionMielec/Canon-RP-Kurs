@@ -1613,5 +1613,324 @@ window.CANON_LESSONS = [
         ]
       }
     ]
+  },
+  {
+    "id": 6,
+    "code": "L1-06",
+    "title": "Szukam lepszego światła",
+    "category": "Patrzę na światło",
+    "duration": "Około 15 minut",
+    "intro": {
+      "title": "Cel lekcji",
+      "body": "Po tej lekcji:\n- zobaczysz, że ten sam przedmiot wygląda inaczej, gdy światło z okna pada na niego z przodu, z boku albo od tyłu,\n- znajdziesz cień i powiesz, skąd przyszło światło,\n- wybierzesz ustawienie, które najlepiej pokazuje Twój przedmiot.\n\nGłówny nawyk:\n\n**zanim zmienię ustawienia, sprawdzam, skąd pada światło.**\n\n**Punkt startowy**\n\nAparat jest w trybie **P**, a znacznik na skali jasności stoi przy **0** — tak jak po [[L1-05|poprzedniej lekcji]].\n\nPrzygotuj jeden przedmiot o wyraźnym kształcie, na przykład jabłko albo kubek z uchem. Postaw go blisko okna, na stole albo na krześle.\n\nĆwicz w dzień. Jeśli przez okno wpada słońce, wybierz inne okno albo poczekaj, aż słońce przejdzie dalej. Nigdy nie kieruj aparatu prosto na słońce — może to uszkodzić aparat i Twój wzrok."
+    },
+    "steps": [
+      {
+        "id": "L1-06-S01",
+        "title": "Najpierw zobacz, o co chodzi",
+        "mediaPlacement": "after",
+        "body": "Kurs pokazuje trzy zdjęcia tego samego kubka. Kubek i aparat się nie zmieniają. Zmienia się tylko jedno: z której strony wpada światło z okna.\n\nPopatrz na dwie rzeczy:\n- gdzie jest cień,\n- na którym zdjęciu najlepiej widać kształt kubka.\n\nOkno to najtańsza lampa w domu. Nie da się jej przesunąć — ale Ty możesz przesunąć się wokół przedmiotu."
+      },
+      {
+        "id": "L1-06-S02",
+        "title": "Światło z przodu",
+        "mediaPlacement": "after",
+        "blocks": [
+          {
+            "text": "1. Stań plecami do okna, przedmiot przed Tobą.\n   → Światło idzie zza Ciebie prosto na przedmiot."
+          },
+          {
+            "asset": "L1-06-V02",
+            "frame": 0
+          },
+          {
+            "text": "2. Spójrz na ekran.\n   → Przedmiot jest oświetlony równo, dobrze widać kolory i szczegóły. Cieni prawie nie ma, dlatego zdjęcie może wyglądać trochę płasko."
+          },
+          {
+            "asset": "L1-06-V01",
+            "frame": 0
+          },
+          {
+            "text": "Uważaj na jedno: łatwo zasłonić przedmiot własnym cieniem. Jeśli go widzisz na przedmiocie, przesuń się trochę w bok albo kucnij."
+          }
+        ]
+      },
+      {
+        "id": "L1-06-S03",
+        "title": "Światło z boku",
+        "mediaPlacement": "after",
+        "blocks": [
+          {
+            "text": "1. Stań tak, żeby okno było po Twojej lewej albo prawej stronie.\n   → Światło pada na przedmiot z boku."
+          },
+          {
+            "asset": "L1-06-V02",
+            "frame": 1
+          },
+          {
+            "text": "2. Spójrz na ekran.\n   → Jedna strona przedmiotu jest jasna, druga w cieniu. Cień jest zawsze po stronie przeciwnej do okna."
+          },
+          {
+            "asset": "L1-06-V01",
+            "frame": 1
+          },
+          {
+            "text": "Dzięki temu cieniowi widać, że przedmiot jest okrągły, a nie płaski. Im bliżej okna stoi przedmiot, tym mocniejsza różnica między jasną stroną a cieniem."
+          }
+        ]
+      },
+      {
+        "id": "L1-06-S04",
+        "title": "Światło od tyłu",
+        "mediaPlacement": "after",
+        "blocks": [
+          {
+            "text": "1. Stań twarzą do okna, tak żeby przedmiot był między Tobą a oknem.\n   → Za przedmiotem jest jasne okno."
+          },
+          {
+            "asset": "L1-06-V02",
+            "frame": 2
+          },
+          {
+            "text": "2. Spójrz na ekran.\n   → Tło jest bardzo jasne, a przedmiot ciemny. Czasem wygląda jak sylwetka — ciemny kształt bez szczegółów."
+          },
+          {
+            "asset": "L1-06-V03",
+            "frame": 0
+          },
+          {
+            "text": "Taki ciemny kształt może być ładny. Jeśli jednak chcesz zobaczyć przedmiot, pomoże Ci to, co już umiesz:\n\n3. Obróć **pokrętło przy LOCK** w stronę plusa, tak jak w [[L1-05-S04|poprzedniej lekcji]]. Ustaw znacznik przy **1** po stronie plusa.\n   → Przedmiot robi się jaśniejszy, a jasne tło jeszcze jaśniejsze."
+          },
+          {
+            "asset": "L1-05-V02",
+            "frame": 0
+          },
+          {
+            "asset": "L1-05-V04",
+            "frame": 0
+          },
+          {
+            "asset": "L1-06-V03",
+            "frame": 1
+          },
+          {
+            "text": "4. Po zdjęciu wróć znacznikiem do **0**."
+          }
+        ]
+      },
+      {
+        "id": "L1-06-S05",
+        "title": "Które światło wybrać?",
+        "mediaPlacement": "after",
+        "body": "Nie ma jednego najlepszego światła. Jest to, które pasuje do tego, co chcesz pokazać:\n- **z przodu** — gdy chcesz pokazać kolory i szczegóły,\n- **z boku** — gdy chcesz pokazać kształt,\n- **od tyłu** — gdy chcesz pokazać zarys albo nastrój.\n\nFotografowie mówią o tym **kierunek światła**. Często wystarczy zrobić kilka kroków wokół przedmiotu, zamiast zmieniać cokolwiek w aparacie.\n\nUmiesz już rozpoznać, skąd pada światło, i wiesz, co robi z przedmiotem.\n\n**Teraz przejdźmy do ćwiczenia.**"
+      }
+    ],
+    "exercise": {
+      "title": "Trzy strony jednego okna",
+      "blocks": [
+        {
+          "text": "Przedmiot stoi w jednym miejscu, blisko okna. Ty go obchodzisz.\n\nZa każdym razem ustaw ostrość na przedmiocie, tak jak w [[L1-04-S06|lekcji o ostrości]].\n\n**Zdjęcie 1 — z przodu**\n\nStań plecami do okna. Zrób zdjęcie.\n\n**Zdjęcie 2 — z boku**\n\nStań tak, żeby okno było z boku. Zrób zdjęcie.\n\n**Zdjęcie 3 — od tyłu**\n\nStań twarzą do okna. Zrób zdjęcie. Jeśli przedmiot wyszedł bardzo ciemny, zrób jeszcze jedno z plus 1.\n\nZa przedmiotem może być teraz zupełnie inne tło niż na zdjęciu 1 — to normalne, bo patrzysz na niego z innej strony.\n\n**Porównaj**\n\nNaciśnij **przycisk odtwarzania** i obejrzyj zdjęcia jedno po drugim."
+        },
+        {
+          "asset": "L1-02-V03",
+          "frame": 0
+        },
+        {
+          "text": "Sprawdź:\n- Na którym zdjęciu widać cień i po której stronie jest?\n- Na którym najlepiej widać szczegóły?\n- Na którym przedmiot wygląda najbardziej „okrągło”?\n\nDokończ zdanie:\n\n**„Wybieram zdjęcie…, bo widzę…”**\n\n**Na koniec**\n\nJeśli zmieniałaś jasność, ustaw znacznik z powrotem przy **0**."
+        }
+      ]
+    },
+    "help": {
+      "id": "L1-06-POMOC",
+      "title": "Jeśli coś nie działa",
+      "blocks": [
+        {
+          "text": "**Na zdjęciu z przodu widzę swój cień.**  \nStoisz między oknem a przedmiotem i zasłaniasz światło. Przesuń się trochę w bok albo kucnij.\n\n**Przy świetle od tyłu przedmiot jest prawie czarny, nawet z plus 1.**  \nTo normalne przy bardzo jasnym oknie. Przesuń znacznik do 2 po stronie plusa i zrób zdjęcie jeszcze raz. Potem wróć do 0."
+        },
+        {
+          "asset": "L1-05-V02",
+          "frame": 0
+        },
+        {
+          "text": "**Wszystkie trzy zdjęcia wyglądają prawie tak samo.**  \nPrzedmiot stoi chyba za daleko od okna albo dzień jest bardzo pochmurny. Przysuń przedmiot bliżej okna i spróbuj jeszcze raz.\n\n**Cienie są bardzo ciemne i mają ostre brzegi.**  \nPrawdopodobnie przez okno wpada słońce. Wybierz okno, przez które słońce nie świeci, albo wróć do ćwiczenia później."
+        }
+      ]
+    },
+    "summary": [
+      {
+        "title": "Na koniec lekcji",
+        "body": "- Sprawdź, że znacznik stoi przy 0.\n- Zostaw aparat w trybie **P**."
+      },
+      {
+        "title": "Kiedy lekcja jest ukończona?",
+        "body": "Lekcja jest ukończona, jeżeli potrafisz:\n- zrobić zdjęcie tego samego przedmiotu ze światłem z przodu, z boku i od tyłu,\n- pokazać cień i powiedzieć, skąd przyszło światło,\n- wybrać zdjęcie i powiedzieć dlaczego,\n- wrócić znacznikiem do 0."
+      },
+      {
+        "title": "Co zapamiętać",
+        "body": "**Skąd pada światło — tam jasno. Cień zawsze po drugiej stronie.**"
+      }
+    ],
+    "assets": [
+      {
+        "id": "L1-06-V01",
+        "step": "L1-06-S01",
+        "title": "Ten sam kubek, trzy kierunki światła",
+        "note": "Rendery sceny 3D z L1-03/L1-04; zmienia się tylko położenie okna.",
+        "frames": [
+          {
+            "target": "./assets/lessons/l1-06/l1-06-v01-przod.jpg",
+            "title": "Światło z przodu",
+            "width": 1200,
+            "height": 800,
+            "alt": "Jasny kubek z napisem na drewnianym stole, oświetlony równo od strony aparatu, prawie bez cieni"
+          },
+          {
+            "target": "./assets/lessons/l1-06/l1-06-v01-bok.jpg",
+            "title": "Światło z boku",
+            "width": 1200,
+            "height": 800,
+            "alt": "Ten sam kubek: lewa strona jasna, prawa w cieniu, cień na stole po prawej"
+          },
+          {
+            "target": "./assets/lessons/l1-06/l1-06-v01-tyl.jpg",
+            "title": "Światło od tyłu",
+            "width": 1200,
+            "height": 800,
+            "alt": "Ten sam kubek przed jasnym oknem; okno prawie białe, kubek ciemny"
+          }
+        ]
+      },
+      {
+        "id": "L1-06-V02",
+        "step": "L1-06-S02",
+        "title": "Gdzie stanąć",
+        "note": "Własny schemat SVG, jak L1-03-V05 część B.",
+        "frames": [
+          {
+            "target": "./assets/lessons/l1-06/l1-06-v02-schemat-1.svg",
+            "title": "Gdzie stanąć: światło z przodu",
+            "width": 800,
+            "height": 640,
+            "alt": "Widok z góry: okno, przedmiot i miejsce 1 między oknem a przedmiotem"
+          },
+          {
+            "target": "./assets/lessons/l1-06/l1-06-v02-schemat-2.svg",
+            "title": "Gdzie stanąć: światło z boku",
+            "width": 800,
+            "height": 640,
+            "alt": "Widok z góry: okno, przedmiot i miejsce 2 z boku przedmiotu"
+          },
+          {
+            "target": "./assets/lessons/l1-06/l1-06-v02-schemat-3.svg",
+            "title": "Gdzie stanąć: światło od tyłu",
+            "width": 800,
+            "height": 640,
+            "alt": "Widok z góry: okno, przedmiot i miejsce 3 za przedmiotem, naprzeciw okna"
+          }
+        ]
+      },
+      {
+        "id": "L1-06-V03",
+        "step": "L1-06-S04",
+        "title": "Światło od tyłu: przy 0 i przy plus 1",
+        "note": "Ta sama scena; zmienia się tylko ekspozycja.",
+        "frames": [
+          {
+            "target": "./assets/lessons/l1-06/l1-06-v03-tyl-zero.jpg",
+            "title": "Światło od tyłu, znacznik przy 0",
+            "width": 1200,
+            "height": 800,
+            "alt": "Kubek przed jasnym oknem, kubek ciemny"
+          },
+          {
+            "target": "./assets/lessons/l1-06/l1-06-v03-tyl-plus1.jpg",
+            "title": "Światło od tyłu, znacznik przy plus 1",
+            "width": 1200,
+            "height": 800,
+            "alt": "Ten sam kubek jaśniejszy, okno i tło jeszcze jaśniejsze"
+          }
+        ]
+      },
+      {
+        "id": "L1-06-V04",
+        "step": "L1-06-S05",
+        "title": "Karta przed ćwiczeniem",
+        "target": "komponent aplikacji",
+        "kind": "card",
+        "body": "**z przodu → z boku → od tyłu → porównaj → znacznik na 0**"
+      },
+      {
+        "id": "L1-05-V02",
+        "step": "L1-06-S04",
+        "title": "Pokrętło przy LOCK i przełącznik LOCK",
+        "note": "Ten sam plik i oznaczenie co L1-05-V02.",
+        "source": "fbe2fd62-e8ab-465b-b340-b6d0b4458622.jpg",
+        "frames": [
+          {
+            "target": "./assets/lessons/l1-05/l1-05-v02-pokretlo-przy-lock.jpg",
+            "title": "Pokrętło przy LOCK i przełącznik LOCK",
+            "width": 800,
+            "height": 480,
+            "alt": "Góra aparatu: po lewej pokrętło trybów, po prawej duże okrągłe pokrętło i obok niego mały przełącznik z napisem LOCK",
+            "markers": [
+              {
+                "x": 66.0,
+                "y": 64.5,
+                "width": 24,
+                "height": 40,
+                "kind": "halo"
+              },
+              {
+                "x": 84.5,
+                "y": 46.0,
+                "width": 11,
+                "height": 18,
+                "kind": "halo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "L1-05-V04",
+        "step": "L1-06-S04",
+        "title": "Znacznik w stronę plusa i w stronę minusa",
+        "note": "Ten sam plik i oznaczenie co L1-05-V04.",
+        "localOnly": true,
+        "frames": [
+          {
+            "target": "./assets/lessons/l1-05/l1-05-v04-skala-jasnosci-canon.png",
+            "title": "Znacznik w stronę plusa i w stronę minusa",
+            "width": 1364,
+            "height": 468,
+            "alt": "Dwa paski z dołu ekranu: na górnym znacznik na skali przesunięty w stronę plusa, na dolnym w stronę minusa"
+          }
+        ]
+      },
+      {
+        "id": "L1-02-V03",
+        "step": "L1-06-CWICZENIE",
+        "title": "Przycisk odtwarzania",
+        "note": "Ten sam plik i oznaczenie co L1-02-V03 (pierwszy kadr).",
+        "source": "57652b89-ae48-4cd1-b998-e883aee8aa1f.jpg",
+        "frames": [
+          {
+            "target": "./assets/lessons/l1-02/l1-02-v03-playback-button.jpg",
+            "title": "Przycisk odtwarzania — naciśnij",
+            "width": 500,
+            "height": 500,
+            "markers": [
+              {
+                "x": 47.0,
+                "y": 80.5,
+                "width": 16,
+                "height": 17,
+                "kind": "halo"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 ];
