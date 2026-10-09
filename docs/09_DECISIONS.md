@@ -850,3 +850,12 @@ Zatwierdzone 06.10.2026. Uzupełnia D-075.
 - Lekcja L1-06 odebrana przez właściciela w aplikacji 06.10.2026 (brama 3).
 
 Zasada: **najpierw gdzie stanąć, potem co zobaczysz.**
+
+## D-078 — Pliki lokalne poza Git
+Zatwierdzone 09.10.2026. Uzupełnia D-053 i D-056.
+
+- Lokalne rendery i podglądy (`production/l1-*/renders/`, `production/l1-*/previews/`) oraz pliki `__pycache__` są wykluczone w `.gitignore`. Materiały użyte w aplikacji trafiają do `app/dist/assets/` jako kopie, jak dotąd.
+- Lokalne ustawienia agentów i podglądu (`.agents/`, `.claude/launch.json`) są wykluczone w `.gitignore`. Skill `canon-rp-precision` w `.claude/skills/` pozostaje w repozytorium.
+- Pliki `.md` z opisem materiałów w `materials/` trafiają do repozytorium; same materiały zostają lokalnie.
+
+Zasada: **w Git tylko to, co jest źródłem projektu; pliki robocze zostają na komputerze.**

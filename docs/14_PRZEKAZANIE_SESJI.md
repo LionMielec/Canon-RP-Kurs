@@ -150,3 +150,20 @@ Nowa rozmowa w projekcie claude.ai (D-068). Claude w czacie czyta całą aktywn�
 
 ### Start następnej sesji
 Nowa rozmowa w projekcie claude.ai (D-068). Claude w czacie czyta całą aktywną dokumentację. Następny cel: do decyzji właściciela; według programu w `docs/12_PROGRAM_POZIOMU_1.md` kolejna jest L1-07 „Rozmywam tło”.
+
+## HANDOFF 09.10.2026 — porządki w Git
+
+### Co zostało wykonane
+- `.gitignore` wyklucza lokalne rendery i podglądy (`production/l1-*/renders/`, `production/l1-*/previews/`), pliki `__pycache__` oraz lokalne ustawienia `.agents/` i `.claude/launch.json` (commit 05fdfb2, D-078). Propozycja z 03.10 zamknięta.
+- `materials/camera-source-pack-2026-09-24/README_FOR_CODEX.md` dodany do repozytorium.
+- Pliki lokalne odłożone przez GitHub Desktop do schowka przy zmianie gałęzi przywrócone do folderu projektu.
+- Gałąź `wip/l1-02-l1-03` zaktualizowana do `main`; obie gałęzie zgodne z GitHub.
+
+### Otwarte
+- Sprawdzenie L1-06 na aparacie — lista w `docs/L1-06_ZRODLA_INSTRUKCJA.md`, zwłaszcza ile plusa przy świetle od tyłu (tekst lekcji podaje 1, pomoc 2).
+- Bez zmian: sprawdzenie L1-04 i L1-05 na aparacie Ani oraz zdjęcia L1-04-V07, L1-04-V18, L1-05-V03 (połowa października).
+- Grafiki z Higgsfield — po wykupieniu płatnego konta.
+- Hosting i publikacja — wstrzymane (D-047).
+
+### Start następnej sesji
+Nowa rozmowa w projekcie claude.ai (D-068). Claude w czacie czyta całą aktywną dokumentację. Następny cel: do decyzji właściciela; według programu w `docs/12_PROGRAM_POZIOMU_1.md` kolejna jest L1-07 „Rozmywam tło”.

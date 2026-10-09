@@ -139,7 +139,7 @@ Wcześniejsze sekcje są historyczne; role według D-047.
 - [x] L1-01: jawne miejsce dla rysunków Canon V04–V05 w wersji publicznej (jak D-069); V03 rozwiązane przez D-071.
 - [x] Decyzja: scalenie `wip/l1-02-l1-03` do `main`.
 - [x] Decyzja: podpis „Kadr roboczy · do zatwierdzenia” pod obrazami w aplikacji i pole status w lessons.js (propozycja z 03.10).
-- [ ] Decyzja: wykluczenie w .gitignore lokalnych renderów i podglądów production/l1-0*/ oraz __pycache__ (propozycja z 03.10).
+- [x] Decyzja: wykluczenie w .gitignore lokalnych renderów i podglądów production/l1-0*/ oraz __pycache__ (propozycja z 03.10).
 - [ ] L1-06: grafiki z Higgsfield po płatnym koncie i zatwierdzeniu zakresu (D-019).
 
 ## PO POWROCIE WŁAŚCICIELA — połowa października 2026
