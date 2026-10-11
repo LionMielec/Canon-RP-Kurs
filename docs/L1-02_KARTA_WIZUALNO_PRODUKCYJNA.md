@@ -16,6 +16,7 @@ Ania otrzymuje **gotową lekcję z gotowymi materiałami wzorcowymi**. Jej włas
 - Prezentacja dla Ani: dwa przykłady z jednoznacznym wskazaniem szczegółu, który miał być ostry; etykiety `ważny szczegół ostry` / `ostrość przesunięta gdzie indziej`. Bez terminów front/back focus.
 - Cel: nauczyć, że ważny jest konkretny element, a nie samo występowanie ostrości gdziekolwiek w kadrze.
 - Status: `SOURCE_IDENTIFIED` → pobrać oryginały → przygotować układ → `APPROVAL_PENDING`.
+- Aktualizacja: zastąpione renderami sceny 3D (manifest 16); zdjęcia z Wikimedia odrzucone 01.10.2026.
 
 ## L1-02-V02 — Całe zdjęcie kontra powiększony szczegół
 - Krok: `L1-02-S02`.
@@ -24,6 +25,7 @@ Ania otrzymuje **gotową lekcję z gotowymi materiałami wzorcowymi**. Jej włas
 - Cel: pokazać, dlaczego mały podgląd całego zdjęcia nie wystarcza do kontroli ostrości.
 - Produkcja: ten sam plik źródłowy; drugi kadr jest tylko dużym cropem, bez sztucznego tworzenia interfejsu aparatu.
 - Status: `SOURCE_IDENTIFIED` → `TO_PREPARE`.
+- Aktualizacja: zastąpione renderami sceny 3D (manifest 16); zdjęcia z Wikimedia odrzucone 01.10.2026.
 
 ## L1-02-V03 — Przycisk odtwarzania i tylny wybierak na aparacie Ani
 - Krok: `L1-02-S03`.

@@ -125,12 +125,7 @@ Nie musisz jeszcze znać przyczyn nieostrości.
 
 ## Źródła dydaktycznych materiałów wizualnych
 
-Materiały wzorcowe są częścią gotowego kursu i są przygotowywane przez autorów kursu przed oddaniem aplikacji Ani.
-
-Preferowane źródła dla L1-02:
-- `Correct.Focus.jpg` i `Front.Focus.jpg`, autor Bautsch — materiały CC0 z Wikimedia Commons; tworzą prostą parę `ważny element ostry` / `ostrość przesunięta gdzie indziej`,
-- wysokorozdzielcze zdjęcie CC0 z wyraźnymi drobnymi detalami do demonstracji `całe zdjęcie → powiększony fragment`, np. `Chive flower close-up.jpg` z Wikimedia Commons,
-- rzeczywiste zdjęcia Canon EOS RP Ani, które już znajdują się w projekcie — wyłącznie do pokazania fizycznych przycisków i pokręteł aparatu.
+Materiały wzorcowe V01 i V02 to rendery sceny 3D (manifest 16). Zdjęcia z Wikimedia odrzucone po przeglądzie 01.10.2026.
 
 Nie uzależniamy gotowości lekcji od tego, czy Ania wykona jakiekolwiek dodatkowe zdjęcia poza ćwiczeniem przewidzianym w samej lekcji.
 
