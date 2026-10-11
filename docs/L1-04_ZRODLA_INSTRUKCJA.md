@@ -142,10 +142,13 @@ Numer strony drukowanej i strony PDF jest ten sam. Żaden obraz nie został wyci
 
 ## Do sprawdzenia na aparacie Ani
 
-1. Czy pod Q w trybie P są [Działanie AF] i [Metoda AF] i jak wyglądają te ekrany (punkt 3).
-2. Na której karcie menu w trybie P są [Działanie AF] i [Metoda AF] (punkt 3).
-3. Czy dotyk przesuwa punkt bez naciskania Przycisku punktu AF (punkt 4).
+Zdjęcia ze sprawdzenia 11.10.2026: `review/camera-check-2026-10-11/` (numer w nawiasie).
+
+1. Czy pod Q w trybie P są [Działanie AF] i [Metoda AF] i jak wyglądają te ekrany (punkt 3). — **Wynik (11.10.2026):** tak — pod Q/SET w P są Metoda AF i kafelek ONE SHOT; przy zaznaczeniu ONE SHOT obok pojawia się napis „Działanie AF”.
+2. Na której karcie menu w trybie P są [Działanie AF] i [Metoda AF] (punkt 3). — **Wynik (11.10.2026):** w trybie P menu ma 9 stron; Działanie AF i Metoda AF są na stronie 7 (009, 012). Zdjęcia L1-04-V13 i V14 pokazują menu z trybu A+ (5 stron, Metoda AF na stronie 3) — do wymiany na zdjęcia z P (003 jako V13, 012 jako V14); 009 i 013 pasują do V16.
+3. Czy dotyk przesuwa punkt bez naciskania Przycisku punktu AF (punkt 4). — **Wynik (11.10.2026):** tak — dotyk przesuwa punkt ostrości także bez przycisku lupy. Przycisk kosza wraca na środek.
 4. Czy migawka dotykowa działa w A+ i jak brzmią jej opcje w menu (punkt 5).
 5. Jak wygląda czerwony punkt AF przy oglądaniu zdjęcia (punkt 6).
 6. Czy ustawienia AF z P zostają po przejściu do A+ i z powrotem (punkt 7).
-7. Wersja oprogramowania aparatu (D-056).
+7. Wersja oprogramowania aparatu (D-056). — **Wynik (11.10.2026):** oprogramowanie 1.6.3 (019).
+8. Kolor punktu ostrości przy nieudanym ustawieniu ostrości. — **Wynik (11.10.2026):** przy nieudanym ustawieniu ostrości (aparat ok. 10 cm od przedmiotu) punkt ostrości robi się czerwony, nie pomarańczowy jak w instrukcji PL 194; zielony punkt na napisie — zgodnie z lekcją; gładka ściana dała zielony punkt.

@@ -144,7 +144,10 @@ Wcześniejsze sekcje są historyczne; role według D-047.
 
 ## PO POWROCIE WŁAŚCICIELA — połowa października 2026
 - [ ] Sprawdzenie na aparacie L1-04 + L1-05 (listy w L1-04_ZRODLA_INSTRUKCJA.md i L1-05_ZRODLA_INSTRUKCJA.md).
-- [ ] Zdjęcia: L1-04-V07, L1-04-V18, L1-05-V03.
+- [x] Zdjęcia: L1-04-V07, L1-04-V18, L1-05-V03 — rezygnacja — D-080.
+- [ ] Etap 3 sprawdzania (tryb A+) — od pytania 17 (handoff 11.10.2026).
+- [ ] Etap 4 sprawdzania przy oknie, w dziennym świetle (lista w L1-06_ZRODLA_INSTRUKCJA.md oraz alarm prześwietlenia).
+- [ ] Zadanie poprawek lekcji (D-080): nowy cel lekcji 1, poprawki L1-04, wymiana zdjęć menu L1-04-V13/V14/V16, wyniki etapów 3–4.
 
 ## L1-06 — 05.10.2026
 - [x] Zakres L1-06 — brama 1 (D-075).

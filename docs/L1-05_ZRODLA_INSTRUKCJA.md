@@ -160,16 +160,18 @@ Numer strony drukowanej i strony PDF jest ten sam. Żaden obraz nie został wyci
 
 ## Do sprawdzenia na aparacie Ani
 
-1. W którą stronę obracać Pokrętło szybkiej kontroli, żeby zdjęcie było jaśniejsze (punkt 1).
-2. Jak wygląda skala i ikona korekty na ekranie fotografowania w trybie P i czy ikona znika przy 0 (punkty 1–2).
+Zdjęcia ze sprawdzenia 11.10.2026: `review/camera-check-2026-10-11/` (numer w nawiasie).
+
+1. W którą stronę obracać Pokrętło szybkiej kontroli, żeby zdjęcie było jaśniejsze (punkt 1). — **Wynik (11.10.2026):** obrót w lewo (przeciwnie do wskazówek zegara) — jaśniej, w prawo — ciemniej.
+2. Jak wygląda skala i ikona korekty na ekranie fotografowania w trybie P i czy ikona znika przy 0 (punkty 1–2). — **Wynik (11.10.2026):** po naciśnięciu spustu do połowy skala −3…+3 jest widoczna; znacznik przy 0.
 3. Czy w szybkich nastawach w trybie P jest pole korekty jak na PL 65 i co robi naciśnięcie Q/SET na tym polu (punkt 1).
-4. Na której karcie menu w trybie P są [Koryg.exp./AEB], [Autom. optymalizator jasności] i [Symulacja ekspoz.] (punkty 1, 4, 5).
+4. Na której karcie menu w trybie P są [Koryg.exp./AEB], [Autom. optymalizator jasności] i [Symulacja ekspoz.] (punkty 1, 4, 5). — **Wynik (11.10.2026):** Koryg.exp./AEB, Autom. optymalizator jasności i Symulacja ekspoz. są w trybie P na stronie 3 (005).
 5. Czy korekta zostaje po przejściu P → A+ → P (punkt 3).
-6. Obecne ustawienie [Autom. optymalizator jasności] i napis najsilniejszej opcji: [Wysoki] czy [Mocny] (punkt 4).
-7. Obecne ustawienie [Symulacja ekspoz.] i wygląd ikony Exp.SIM (punkt 5).
-8. Położenie przełącznika LOCK i ustawienie [Blokada kilku funkcji] — czy pokrętło nie jest zablokowane (punkt 1).
+6. Obecne ustawienie [Autom. optymalizator jasności] i napis najsilniejszej opcji: [Wysoki] czy [Mocny] (punkt 4). — **Wynik (11.10.2026):** Autom. optymalizator jasności = Słaby (014).
+7. Obecne ustawienie [Symulacja ekspoz.] i wygląd ikony Exp.SIM (punkt 5). — **Wynik (11.10.2026):** Symulacja ekspoz. = Włącz (005).
+8. Położenie przełącznika LOCK i ustawienie [Blokada kilku funkcji] — czy pokrętło nie jest zablokowane (punkt 1). — **Wynik (11.10.2026):** LOCK był w położeniu blokady; Blokada kilku funkcji ma zaznaczone 2. i 4. pole (najpewniej pokrętło szybkiej kontroli i pierścień sterowania) (020). Pokrętło przy LOCK działało dopiero po przestawieniu LOCK; zostaje odblokowany (D-080).
 9. Czy pierścień sterowania obiektywu ma przypisaną jakąś funkcję (punkt 1, sposób 4).
 10. Wersja oprogramowania: sprawdzona 01.10.2026 — 1.6.3 (docs/05)
-11. Czy trzeba trzymać spust wciśnięty do połowy podczas obracania pokrętła.
+11. Czy trzeba trzymać spust wciśnięty do połowy podczas obracania pokrętła. — **Wynik (11.10.2026):** nie trzeba trzymać spustu — wystarczy nacisnąć do połowy i puścić; skala widoczna kilka sekund (Timer pomiarowy 8 sek., 005).
 12. Jak mocno pomocnik rozjaśniający osłabia −1.
-13. Zdjęcie ekranu do L1-05-V03.
+13. Zdjęcie ekranu do L1-05-V03. — **Wynik (11.10.2026):** zdjęcie L1-05-V03 nie powstanie (D-080); zostaje rysunek i miejsce na materiał.

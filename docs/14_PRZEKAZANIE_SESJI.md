@@ -184,3 +184,29 @@ Uzupełnione 11.10.2026 na podstawie zmian w dokumentach z 10.10.2026.
 
 ### Start następnej sesji
 Nowa rozmowa w projekcie claude.ai (D-068). Claude w czacie czyta całą aktywną dokumentację. Następny cel: do decyzji właściciela; według programu w `docs/12_PROGRAM_POZIOMU_1.md` kolejna jest L1-07 „Rozmywam tło”.
+
+## HANDOFF 11.10.2026 — sprawdzenie na aparacie (przerwane)
+
+### Wykonane
+- Poprawki dokumentów (23d5122).
+- Kopie zdjęć 001–020 w `review/camera-check-2026-10-11/`.
+- Etap 1 (menu) i etap 2 (ekran w trybie P) sprawdzania zakończone; wyniki w listach „Do sprawdzenia na aparacie Ani” w `docs/L1-04_ZRODLA_INSTRUKCJA.md`, `docs/L1-05_ZRODLA_INSTRUKCJA.md` i `docs/L1-06_ZRODLA_INSTRUKCJA.md`.
+- Decyzja D-080.
+
+### Uwagi
+- W aparacie Ani ustawiony kadr 16:9 (Przycinanie/Format obr., 003) — bez zmian.
+- Właściciel nie robi już zdjęć ekranu; sprawdzanie idzie pytaniami tak/nie.
+
+### Stan aparatu po przerwie
+Pokrętło trybów na A+, LOCK odblokowany, korekta 0, punkt ostrości na środku; bateria rozładowana.
+
+### Start następnej sesji
+- Etap 3 (tryb A+), pytanie 17 — na A+ spust do połowy na napisie na kubku: jaki kolor ramki ostrości.
+- Dalej w etapie 3: czy po powrocie A+ → P zostają Metoda AF, ONE SHOT i korekta jasności; czy przy oglądaniu zdjęcia w P widać czerwoną ramkę ostrości.
+- Na koniec etapu 3 pokrętło z powrotem na P.
+
+### Potem
+1. Etap 4 przy oknie, w dziennym świetle (lista w `docs/L1-06_ZRODLA_INSTRUKCJA.md` oraz alarm prześwietlenia).
+2. Jedno zadanie poprawek lekcji (D-080, wymiana zdjęć menu L1-04-V13/V14/V16, wyniki etapów 3–4).
+3. Hosting (nowa rozmowa).
+4. L1-07.

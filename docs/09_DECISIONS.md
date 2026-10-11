@@ -868,3 +868,15 @@ Zatwierdzone 10.10.2026. Uzupełnia D-050 i D-071.
 - Pierwsze zastosowanie: obraz startowy animacji L1-01-V04.
 
 Zasada: **dłoń w materiałach kursu jest zawsze kobieca i spójna z lekcją 1.**
+
+## D-080 — Sprawdzenie na aparacie 11.10.2026: rozstrzygnięcia właściciela
+Zatwierdzone 11.10.2026. Uzupełnia D-048 i D-056.
+
+- Nowy cel lekcji 1: „Nauczysz się jednego świadomego cyklu wykonania zdjęcia: **wyceluj → naciśnij spust do połowy → poczekaj na potwierdzenie ostrości → spokojnie dociśnij spust do końca.**” Wdrożenie w dokumencie i aplikacji w zadaniu poprawek lekcji.
+- Rysunki z instrukcji Canon w lekcjach 1, 4 i 5 zostają; nie fotografujemy ich zastępników. Ekrany aparatu i menu nadal wyłącznie prawdziwe (D-050 bez zmian).
+- Przełącznik LOCK w aparacie Ani zostaje w położeniu odblokowanym.
+- L1-04: przy nieudanym ustawieniu ostrości punkt ostrości jest „czerwony” (nie „pomarańczowy”) — w krokach i w pomocy.
+- L1-04: przy ONE SHOT pół zdania, że obok pojawia się napis „Działanie AF”.
+- L1-04: przesuwanie punktu ostrości zaczyna się od dotknięcia ekranu, bez wcześniejszego naciskania przycisku lupy; przycisk lupy zostaje do przesuwania przyciskami tylnego wybieraka i do powrotu na środek (przycisk kosza).
+
+Zasada: **rozstrzyga aparat Ani.**

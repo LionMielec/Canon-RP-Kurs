@@ -126,11 +126,13 @@ Lekcja L1-06 nie wprowadza nowych przycisków ani ustawień, więc nie potrzebuj
 
 ## Do sprawdzenia na aparacie Ani
 
+Zdjęcia ze sprawdzenia 11.10.2026: `review/camera-check-2026-10-11/` (numer w nawiasie).
+
 1. Jaki tryb pomiaru jest ustawiony w trybie P (wniosek z rysunku: pomiar wielosegmentowy) (punkt 2).
 2. Jak wychodzi nieruchomy przedmiot na tle jasnego okna w trybie P bez korekty — czy jest za ciemny (punkt 2).
 3. Obecne ustawienie [Autom. optymalizator jasności] w trybie P i czy wyraźnie rozjaśnia przedmiot pod światło (punkt 2; patrz też L1-05, punkt 6 listy).
 4. Czy przy fotografowaniu w stronę okna migają „1/4000” i wartość przysłony (punkt 3).
 5. Jak okno wygląda na ekranie — przyciemnione czy czarne (różnica PL/EN 233) (punkty 3, 5).
-6. Obecne ustawienie [Alarm prześwietl.] (wniosek z rysunku: [Wyłącz]) (punkt 3).
+6. Obecne ustawienie [Alarm prześwietl.] (wniosek z rysunku: [Wyłącz]) (punkt 3). — **Wynik (11.10.2026):** Alarm prześwietl. = Włącz (018) — inaczej niż rysunek w instrukcji; prześwietlone okno będzie migać przy oglądaniu zdjęcia. Do sprawdzenia przy oknie i decyzji właściciela.
 7. Czy przy oknie w kadrze widać odbicia na zdjęciu (punkt 4).
 8. Ile dodatniej korekty pokrętłem przy LOCK potrzeba, żeby przedmiot przy świetle od tyłu był dobrze widoczny (punkty 1–2).
