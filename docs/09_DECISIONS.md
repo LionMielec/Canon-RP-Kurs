@@ -859,3 +859,12 @@ Zatwierdzone 09.10.2026. Uzupełnia D-053 i D-056.
 - Pliki `.md` z opisem materiałów w `materials/` trafiają do repozytorium; same materiały zostają lokalnie.
 
 Zasada: **w Git tylko to, co jest źródłem projektu; pliki robocze zostają na komputerze.**
+
+## D-079 — Kobieca dłoń we wszystkich materiałach kursu
+Zatwierdzone 10.10.2026. Uzupełnia D-050 i D-071.
+
+- We wszystkich grafikach, zdjęciach i filmach kursu, w których widać dłoń obsługującą aparat, jest to dłoń kobieca: smukła, jasna skóra, krótkie naturalne paznokcie, bez pierścionków i bez lakieru. Wygląd jest spójny z L1-01-V03.
+- Reguła dotyczy materiałów generowanych, renderowanych i nagrywanych.
+- Pierwsze zastosowanie: obraz startowy animacji L1-01-V04.
+
+Zasada: **dłoń w materiałach kursu jest zawsze kobieca i spójna z lekcją 1.**

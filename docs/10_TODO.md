@@ -160,3 +160,6 @@ Wcześniejsze sekcje są historyczne; role według D-047.
 - [x] Materiały z wcześniejszych lekcji: L1-05-V02, L1-05-V04 (lokalnie), L1-02-V03.
 - [x] Arkusz zrzutów i odbiór właściciela — brama 3.
 - [ ] Sprawdzenie L1-06 na aparacie (lista w `docs/L1-06_ZRODLA_INSTRUKCJA.md`, zwłaszcza ile plusa przy świetle od tyłu).
+
+## 10.10.2026 — animacja spustu (L1-01-V04)
+- [ ] Animacja spustu wstrzymana decyzją właściciela; w lekcji zostaje rysunek Canon. Stan i wnioski: `production/l1-01/v04/PLAN_UJEC_SZKIC.md`. Przy powrocie rozważyć prawdziwe nagranie (kobieca dłoń, D-079; nie Ania, D-044).

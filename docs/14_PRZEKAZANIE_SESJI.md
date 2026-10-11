@@ -167,3 +167,20 @@ Nowa rozmowa w projekcie claude.ai (D-068). Claude w czacie czyta całą aktywn�
 
 ### Start następnej sesji
 Nowa rozmowa w projekcie claude.ai (D-068). Claude w czacie czyta całą aktywną dokumentację. Następny cel: do decyzji właściciela; według programu w `docs/12_PROGRAM_POZIOMU_1.md` kolejna jest L1-07 „Rozmywam tło”.
+
+## HANDOFF 10.10.2026 — animacja spustu L1-01-V04 wstrzymana
+Uzupełnione 11.10.2026 na podstawie zmian w dokumentach z 10.10.2026.
+
+### Co zostało wykonane
+- D-079: we wszystkich materiałach kursu dłoń obsługująca aparat jest kobieca, spójna z L1-01-V03.
+- L1-01-V04: plan ujęć animacji spustu i próby w Higgsfield (obraz startowy, filmy Kling 3.0, montaż, wariant trzech klatek z dźwiękiem); koszt prób około 57 kredytów. Stan i wnioski w `production/l1-01/v04/PLAN_UJEC_SZKIC.md`.
+- Animacja wstrzymana decyzją właściciela; w lekcji zostaje rysunek Canon. Podglądy prób tylko lokalnie w `production/l1-01/previews/v04/` (D-078).
+
+### Otwarte
+- Animacja spustu: przy powrocie rozważyć prawdziwe nagranie (kobieca dłoń, statyw; nie Ania, D-044). Do wykorzystania obraz startowy H i prawdziwe dźwięki aparatu Ani.
+- Sprawdzenie L1-06 na aparacie — lista w `docs/L1-06_ZRODLA_INSTRUKCJA.md`, zwłaszcza ile plusa przy świetle od tyłu (tekst lekcji podaje 1, pomoc 2).
+- Bez zmian: sprawdzenie L1-04 i L1-05 na aparacie Ani oraz zdjęcia L1-04-V07, L1-04-V18, L1-05-V03 (połowa października).
+- Hosting i publikacja — wstrzymane (D-047).
+
+### Start następnej sesji
+Nowa rozmowa w projekcie claude.ai (D-068). Claude w czacie czyta całą aktywną dokumentację. Następny cel: do decyzji właściciela; według programu w `docs/12_PROGRAM_POZIOMU_1.md` kolejna jest L1-07 „Rozmywam tło”.
