@@ -1,6 +1,6 @@
 # Canon RP kurs — STATUS
 
-Stan na: 2026-10-06
+Stan na: 2026-10-10
 
 ## Koniec sesji — 30.09.2026
 Sposób produkcji materiałów L1-03 rozwiązany: render 3D w Blenderze 4.5 LTS (D-051). Ujęcie próbne V04A odebrane. Pozostałe kadry V01–V04B czekają na decyzje właściciela i rendery finalne, V05 do przygotowania. Szczegóły w handoffie 30.09.2026.
@@ -48,3 +48,17 @@ Szczegóły w handoffie 05.10.2026.
 - Następny cel: do decyzji właściciela (według programu L1-07).
 
 Szczegóły w handoffie 06.10.2026.
+
+## Koniec sesji — 09.10.2026
+- `.gitignore` wyklucza lokalne rendery, podglądy, `__pycache__` i lokalne ustawienia agentów (D-078).
+- Następny cel: do decyzji właściciela (według programu L1-07).
+
+Szczegóły w handoffie 09.10.2026.
+
+## Koniec sesji — 10.10.2026
+- D-079: dłoń w materiałach kursu jest zawsze kobieca, spójna z L1-01-V03.
+- L1-01-V04: animacja spustu wstrzymana decyzją właściciela; w lekcji zostaje rysunek Canon. Stan i wnioski w `production/l1-01/v04/PLAN_UJEC_SZKIC.md`.
+- Otwarte bez zmian: sprawdzenie L1-04, L1-05 i L1-06 na aparacie (połowa października); hosting i publikacja wstrzymane (D-047).
+- Następny cel: do decyzji właściciela (według programu L1-07).
+
+Szczegóły w handoffie 10.10.2026.
