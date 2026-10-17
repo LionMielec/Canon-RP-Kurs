@@ -8,7 +8,7 @@ window.CANON_LESSONS = [
     "duration": "Około 15 minut",
     "intro": {
       "title": "Cel lekcji",
-      "body": "Nauczyć się jednego świadomego cyklu wykonania zdjęcia: **wyceluj → naciśnij spust do połowy → poczekaj na wizualne potwierdzenie ostrości → spokojnie dociśnij spust do końca.**\n\nNie musisz jeszcze znać przysłony, czasu naświetlania, ISO ani menu."
+      "body": "Nauczysz się jednego świadomego cyklu wykonania zdjęcia: **wyceluj → naciśnij spust do połowy → poczekaj na potwierdzenie ostrości → spokojnie dociśnij spust do końca.**\n\nNie musisz jeszcze znać przysłony, czasu naświetlania, ISO ani menu."
     },
     "steps": [
       {
@@ -812,7 +812,7 @@ window.CANON_LESSONS = [
             "frame": 0
           },
           {
-            "text": "4. W ten sam sposób znajdź napis **ONE SHOT** i sprawdź, czy jest wybrany. Dzięki niemu aparat ustawia ostrość raz i ją trzyma — w sam raz dla przedmiotów, które się nie ruszają."
+            "text": "4. W ten sam sposób zaznacz **ONE SHOT** — obok pojawi się napis **Działanie AF**. Sprawdź, czy ONE SHOT jest wybrany. Dzięki niemu aparat ustawia ostrość raz i ją trzyma — w sam raz dla przedmiotów, które się nie ruszają."
           },
           {
             "asset": "L1-04-V11",
@@ -836,7 +836,10 @@ window.CANON_LESSONS = [
         "mediaPlacement": "after",
         "blocks": [
           {
-            "text": "1. Naciśnij **przycisk lupy** — ten sam, którym w lekcji 2 [[L1-02-S04|powiększałaś zdjęcie]]. Podczas robienia zdjęć służy do przesuwania punktu ostrości.\n   → Punkt ostrości można teraz przesuwać."
+            "text": "1. **Dotknij ekranu** w miejscu, gdzie jest przedmiot, który ma być ostry.\n   → Punkt ostrości przesuwa się w to miejsce.\n\nW Twoim aparacie dotknięcie ekranu nie robi zdjęcia — tylko wskazuje miejsce."
+          },
+          {
+            "text": "Wolisz przyciski? Naciśnij **przycisk lupy** — ten sam, którym w lekcji 2 [[L1-02-S04|powiększałaś zdjęcie]] — i przesuwaj punkt ostrości przyciskami tylnego wybieraka. Gdy jest na przedmiocie, naciśnij **Q/SET**."
           },
           {
             "asset": "L1-04-V06",
@@ -847,7 +850,7 @@ window.CANON_LESSONS = [
             "frame": 0
           },
           {
-            "text": "2. **Dotknij ekranu** w miejscu, gdzie jest przedmiot, który ma być ostry. Możesz też przesuwać punkt ostrości przyciskami tylnego wybieraka.\n   → Punkt ostrości przesuwa się w wybrane miejsce.\n3. Gdy punkt ostrości jest na przedmiocie, naciśnij **Q/SET**.\n\nW Twoim aparacie dotknięcie ekranu nie robi zdjęcia — tylko wskazuje miejsce.\n\nAby wrócić z punktem ostrości na środek: naciśnij przycisk lupy, a potem **przycisk kosza**."
+            "text": "Aby wrócić z punktem ostrości na środek: naciśnij przycisk lupy, a potem **przycisk kosza**."
           }
         ]
       },
@@ -864,7 +867,7 @@ window.CANON_LESSONS = [
             "frame": 0
           },
           {
-            "text": "3. Spokojnie dociśnij spust do końca.\n\nJeśli punkt ostrości zrobi się **pomarańczowy**, aparat nie ustawił ostrości. Przesuń go na wyraźniejszy fragment — napis albo krawędź — i spróbuj jeszcze raz."
+            "text": "3. Spokojnie dociśnij spust do końca.\n\nJeśli punkt ostrości zrobi się **czerwony**, aparat nie ustawił ostrości. Przesuń go na wyraźniejszy fragment — napis albo krawędź — i spróbuj jeszcze raz."
           }
         ]
       },
@@ -898,7 +901,7 @@ window.CANON_LESSONS = [
           "frame": 0
         },
         {
-          "text": "3. Znajdź napis **Metoda AF**, zaznacz go i naciśnij **Q/SET**."
+          "text": "3. Na stronie **7** znajdź napis **Metoda AF**, zaznacz go i naciśnij **Q/SET**."
         },
         {
           "asset": "L1-04-V14",
@@ -912,7 +915,7 @@ window.CANON_LESSONS = [
           "frame": 0
         },
         {
-          "text": "5. Na czerwonych stronach menu znajdź jeszcze napis **Działanie AF**. Wybierz **One-Shot AF** i naciśnij **Q/SET**."
+          "text": "5. Na tej samej stronie, tuż nad napisem Metoda AF, jest napis **Działanie AF**. Wybierz **One-Shot AF** i naciśnij **Q/SET**."
         },
         {
           "asset": "L1-04-V16",
@@ -944,7 +947,7 @@ window.CANON_LESSONS = [
           "frame": 0
         },
         {
-          "text": "**Punkt ostrości nie chce dojść do samego brzegu ekranu.**  \nTak ma być — punkt ostrości nie sięga do samego brzegu. Przesuń aparat odrobinę, żeby przedmiot był bliżej środka.\n\n**Punkt ostrości robi się pomarańczowy.**  \nAparat mówi w ten sposób: „tu nie mam się czego złapać”. Przesuń punkt ostrości na napis albo wyraźną krawędź. Jeśli jesteś bardzo blisko, odsuń się trochę. Pamiętasz [[L1-01-S08|planszę z łatwymi i trudnymi przedmiotami z pierwszej lekcji]]? Tu działa dokładnie to samo."
+          "text": "**Punkt ostrości nie chce dojść do samego brzegu ekranu.**  \nTak ma być — punkt ostrości nie sięga do samego brzegu. Przesuń aparat odrobinę, żeby przedmiot był bliżej środka.\n\n**Punkt ostrości robi się czerwony.**  \nAparat mówi w ten sposób: „tu nie mam się czego złapać”. Przesuń punkt ostrości na napis albo wyraźną krawędź. Jeśli jesteś bardzo blisko, odsuń się trochę. Pamiętasz [[L1-01-S08|planszę z łatwymi i trudnymi przedmiotami z pierwszej lekcji]]? Tu działa dokładnie to samo."
         }
       ]
     },
@@ -1214,19 +1217,19 @@ window.CANON_LESSONS = [
         "step": "L1-04-POMOC",
         "title": "Czerwona część menu z ikoną aparatu",
         "note": "Zdjęcie ekranu aparatu Ani.",
-        "source": "10a55454-d36b-4e92-9568-1b4dd40ffa5e.jpg",
+        "source": "IMG_3915.JPG",
         "frames": [
           {
             "target": "./assets/lessons/l1-04/l1-04-v13-menu-czerwona-czesc.jpg",
             "title": "Czerwona część menu z ikoną aparatu",
-            "width": 1000,
-            "height": 773,
-            "alt": "Ekran menu aparatu: u góry czerwone pole z ikoną aparatu, pod nim numery stron od 1 do 5",
+            "width": 1200,
+            "height": 800,
+            "alt": "Ekran menu aparatu: u góry czerwone pole z ikoną aparatu, pod nim numery stron od 1 do 9",
             "markers": [
               {
-                "x": 11.5,
-                "y": 15.5,
-                "width": 27,
+                "x": 10.5,
+                "y": 5.5,
+                "width": 15,
                 "height": 13,
                 "kind": "halo"
               }
@@ -1239,18 +1242,18 @@ window.CANON_LESSONS = [
         "step": "L1-04-POMOC",
         "title": "Napis Metoda AF",
         "note": "Zdjęcie ekranu aparatu Ani.",
-        "source": "336149b5-debf-4a74-b168-12d210f1b591.jpg",
+        "source": "IMG_3924.JPG",
         "frames": [
           {
             "target": "./assets/lessons/l1-04/l1-04-v14-menu-metoda-af.jpg",
             "title": "Napis Metoda AF",
-            "width": 1000,
-            "height": 738,
-            "alt": "Ekran menu aparatu: zaznaczony napis Metoda AF",
+            "width": 1200,
+            "height": 800,
+            "alt": "Ekran menu aparatu, strona 7: zaznaczony napis Metoda AF",
             "markers": [
               {
-                "x": 23.0,
-                "y": 35.5,
+                "x": 19.5,
+                "y": 39.5,
                 "width": 29,
                 "height": 12,
                 "kind": "halo"
@@ -1288,37 +1291,37 @@ window.CANON_LESSONS = [
         "id": "L1-04-V16",
         "step": "L1-04-POMOC",
         "title": "Napis Działanie AF i wybór One-Shot AF",
-        "note": "Rysunek z instrukcji Canon (D-056); plik lokalny, do podmiany.",
-        "localOnly": true,
+        "note": "Zdjęcia ekranu aparatu Ani.",
+        "source": "IMG_3921.JPG, IMG_3926.JPG",
         "frames": [
           {
-            "target": "./assets/lessons/l1-04/l1-04-v16-dzialanie-af-menu-canon.png",
+            "target": "./assets/lessons/l1-04/l1-04-v16-dzialanie-af-menu.jpg",
             "title": "Napis Działanie AF",
-            "width": 1302,
-            "height": 868,
-            "alt": "Ekran menu aparatu: zaznaczony napis Działanie AF",
+            "width": 1200,
+            "height": 800,
+            "alt": "Ekran menu aparatu, strona 7: zaznaczony napis Działanie AF, tuż nad napisem Metoda AF",
             "markers": [
               {
                 "x": 21.0,
-                "y": 29.0,
-                "width": 40,
-                "height": 15,
+                "y": 28.8,
+                "width": 32,
+                "height": 12,
                 "kind": "halo"
               }
             ]
           },
           {
-            "target": "./assets/lessons/l1-04/l1-04-v16-one-shot-af-canon.png",
+            "target": "./assets/lessons/l1-04/l1-04-v16-one-shot-af.jpg",
             "title": "Wybór One-Shot AF",
-            "width": 1302,
-            "height": 869,
+            "width": 1200,
+            "height": 800,
             "alt": "Ekran wyboru: podpis One-Shot AF, zaznaczone pole ONE SHOT, obok pole SERVO",
             "markers": [
               {
-                "x": 34.0,
+                "x": 34.2,
                 "y": 41.0,
-                "width": 40,
-                "height": 27,
+                "width": 36,
+                "height": 26,
                 "kind": "halo"
               }
             ]

@@ -5,7 +5,7 @@
 **Czas:** około 15 minut
 
 ## Cel lekcji
-Nauczyć się jednego świadomego cyklu wykonania zdjęcia: **wyceluj → naciśnij spust do połowy → poczekaj na wizualne potwierdzenie ostrości → spokojnie dociśnij spust do końca.**
+Nauczysz się jednego świadomego cyklu wykonania zdjęcia: **wyceluj → naciśnij spust do połowy → poczekaj na potwierdzenie ostrości → spokojnie dociśnij spust do końca.**
 
 Nie musisz jeszcze znać przysłony, czasu naświetlania, ISO ani menu.
 

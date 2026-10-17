@@ -73,7 +73,7 @@ Teraz powiesz aparatowi: „ostrość ustawiam ja, w jednym miejscu”.
 2. Naciskaj tylny wybierak w górę albo w dół, aż zaznaczysz napis **Metoda AF**.  
    → Na dole ekranu zobaczysz rząd małych ikon.
 3. Naciskaj w lewo albo w prawo, aż zaznaczysz ikonę z **jednym małym kwadratem**. Aparat podpisze ją **1-punktowy AF**.
-4. W ten sam sposób znajdź napis **ONE SHOT** i sprawdź, czy jest wybrany. Dzięki niemu aparat ustawia ostrość raz i ją trzyma — w sam raz dla przedmiotów, które się nie ruszają.
+4. W ten sam sposób zaznacz **ONE SHOT** — obok pojawi się napis **Działanie AF**. Sprawdź, czy ONE SHOT jest wybrany. Dzięki niemu aparat ustawia ostrość raz i ją trzyma — w sam raz dla przedmiotów, które się nie ruszają.
 5. Naciśnij **Q/SET**, żeby zatwierdzić.  
    → Na środku ekranu zostaje jeden mały kwadrat. To Twój punkt ostrości.
 
@@ -90,17 +90,17 @@ Jeśli po naciśnięciu Q/SET nie widzisz tych napisów, zajrzyj do części [[L
 
 ## L1-04-S05 — Przesuń punkt ostrości na wybrany przedmiot
 
-1. Naciśnij **przycisk lupy** — ten sam, którym w lekcji 2 [[L1-02-S04|powiększałaś zdjęcie]]. Podczas robienia zdjęć służy do przesuwania punktu ostrości.  
-   → Punkt ostrości można teraz przesuwać.
-2. **Dotknij ekranu** w miejscu, gdzie jest przedmiot, który ma być ostry. Możesz też przesuwać punkt ostrości przyciskami tylnego wybieraka.  
-   → Punkt ostrości przesuwa się w wybrane miejsce.
-3. Gdy punkt ostrości jest na przedmiocie, naciśnij **Q/SET**.
+1. **Dotknij ekranu** w miejscu, gdzie jest przedmiot, który ma być ostry.  
+   → Punkt ostrości przesuwa się w to miejsce.
 
 W Twoim aparacie dotknięcie ekranu nie robi zdjęcia — tylko wskazuje miejsce.
+
+Wolisz przyciski? Naciśnij **przycisk lupy** — ten sam, którym w lekcji 2 [[L1-02-S04|powiększałaś zdjęcie]] — i przesuwaj punkt ostrości przyciskami tylnego wybieraka. Gdy jest na przedmiocie, naciśnij **Q/SET**.
 
 Aby wrócić z punktem ostrości na środek: naciśnij przycisk lupy, a potem **przycisk kosza**.
 
 ### Materiał dla Ani
+Bezpośrednio przy akapicie „Wolisz przyciski?”:
 - L1-04-V06: przycisk lupy, Q/SET i przycisk kosza na tylnej ściance.
 - L1-04-V07: ekran po naciśnięciu przycisku lupy — punkt ostrości jeszcze na środku.
 
@@ -115,7 +115,7 @@ Teraz znany już cykl:
    → Punkt ostrości robi się **zielony** i słychać sygnał. Ostrość jest ustawiona.
 3. Spokojnie dociśnij spust do końca.
 
-Jeśli punkt ostrości zrobi się **pomarańczowy**, aparat nie ustawił ostrości. Przesuń go na wyraźniejszy fragment — napis albo krawędź — i spróbuj jeszcze raz.
+Jeśli punkt ostrości zrobi się **czerwony**, aparat nie ustawił ostrości. Przesuń go na wyraźniejszy fragment — napis albo krawędź — i spróbuj jeszcze raz.
 
 ### Materiał dla Ani
 L1-04-V08: ekran z zielonym punktem ostrości na przedmiocie po ustawieniu ostrości.
@@ -168,9 +168,9 @@ Dokończ zdanie:
 Nic straconego — to samo ustawisz w menu.
 1. Naciśnij **MENU**.
 2. Przejdź do czerwonej części menu — tej z ikoną aparatu. Ma kilka stron; przechodzisz między nimi, naciskając tylny wybierak w lewo albo w prawo.
-3. Znajdź napis **Metoda AF**, zaznacz go i naciśnij **Q/SET**.
+3. Na stronie **7** znajdź napis **Metoda AF**, zaznacz go i naciśnij **Q/SET**.
 4. Wybierz ikonę z jednym małym kwadratem — **1-punktowy AF** — i znów naciśnij **Q/SET**.
-5. Na czerwonych stronach menu znajdź jeszcze napis **Działanie AF**. Wybierz **One-Shot AF** i naciśnij **Q/SET**.
+5. Na tej samej stronie, tuż nad napisem Metoda AF, jest napis **Działanie AF**. Wybierz **One-Shot AF** i naciśnij **Q/SET**.
 6. Naciśnij **MENU**, żeby wrócić do robienia zdjęć.
 
 **Widzę dużą ramkę ostrości albo ramkę ostrości na czyjejś twarzy, a nie punkt ostrości.**  
@@ -182,7 +182,7 @@ Włączyło się robienie zdjęć dotknięciem ekranu. Spójrz w lewy dolny róg
 **Punkt ostrości nie chce dojść do samego brzegu ekranu.**  
 Tak ma być — punkt ostrości nie sięga do samego brzegu. Przesuń aparat odrobinę, żeby przedmiot był bliżej środka.
 
-**Punkt ostrości robi się pomarańczowy.**  
+**Punkt ostrości robi się czerwony.**  
 Aparat mówi w ten sposób: „tu nie mam się czego złapać”. Przesuń punkt ostrości na napis albo wyraźną krawędź. Jeśli jesteś bardzo blisko, odsuń się trochę. Pamiętasz [[L1-01-S08|planszę z łatwymi i trudnymi przedmiotami z pierwszej lekcji]]? Tu działa dokładnie to samo.
 
 ### Materiał dla Ani
@@ -193,7 +193,7 @@ Aparat mówi w ten sposób: „tu nie mam się czego złapać”. Przesuń punkt
 - menu, podpunkt 5: L1-04-V16 — napis Działanie AF i wybór One-Shot AF,
 - „Widzę dużą ramkę ostrości…”: L1-04-V17 — ekran z dużą ramką ostrości lub ramką ostrości na twarzy,
 - „Dotknęłam ekranu…”: L1-04-V09 — ikona w lewym dolnym rogu,
-- „Punkt ostrości robi się pomarańczowy”: L1-04-V18 — ekran z pomarańczowym punktem ostrości.
+- „Punkt ostrości robi się czerwony”: L1-04-V18 — ekran z czerwonym punktem ostrości.
 
 ---
 
@@ -253,8 +253,8 @@ Układ lekcji, kolejność kroków i ćwiczenie „raz bliższy, raz dalszy” s
 
 - zgodność zakresu z programem Poziomu 1: SPRAWDZONA (brama 1 zatwierdzona 01.10.2026),
 - kroki P, punkt ostrości, przesuwanie, kosz, kolory punktu ostrości, migawka dotykowa, czerwona ramka ostrości przy oglądaniu: ZWERYFIKOWANE W INSTRUKCJI CANON PL (2019),
-- ustawianie [Metoda AF] i ONE SHOT przez Q/SET: WYNIKA Z RYSUNKU PL 65 — DO SPRAWDZENIA NA APARACIE,
-- czy dotyk przesuwa punkt ostrości bez naciśnięcia przycisku lupy: DO SPRAWDZENIA NA APARACIE,
-- położenie pozycji menu w trybie P: DO SPRAWDZENIA NA APARACIE,
+- ustawianie [Metoda AF] i ONE SHOT przez Q/SET: ZWERYFIKOWANE NA APARACIE ANI 11.10.2026,
+- przesuwanie punktu ostrości dotykiem bez przycisku lupy: ZWERYFIKOWANE NA APARACIE ANI 11.10.2026,
+- położenie pozycji menu w trybie P: ZWERYFIKOWANE NA APARACIE ANI 11.10.2026,
 - materiały wizualne: DO PRZYGOTOWANIA I ODBIORU (karta L1-04),
 - treść dla Ani: SZKIC DO PRZEGLĄDU WŁAŚCICIELA.

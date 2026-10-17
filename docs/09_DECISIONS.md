@@ -880,3 +880,12 @@ Zatwierdzone 11.10.2026. Uzupełnia D-048 i D-056.
 - L1-04: przesuwanie punktu ostrości zaczyna się od dotknięcia ekranu, bez wcześniejszego naciskania przycisku lupy; przycisk lupy zostaje do przesuwania przyciskami tylnego wybieraka i do powrotu na środek (przycisk kosza).
 
 Zasada: **rozstrzyga aparat Ani.**
+
+## D-081 — Poprawki D-080 w lekcjach 1 i 4
+Zatwierdzone 17.10.2026. Realizuje D-080.
+
+- Teksty: nowy cel lekcji 1; L1-04: pół zdania o napisie „Działanie AF” przy ONE SHOT, przesuwanie punktu ostrości zaczyna się od dotknięcia ekranu, „czerwony” zamiast „pomarańczowy”, w pomocy przez menu strona 7 i Działanie AF tuż nad Metodą AF.
+- L1-04-V13 i V14: zdjęcia menu z trybu P ze sprawdzenia 11.10.2026.
+- L1-04-V16: zdjęcia ekranu aparatu Ani zastępują rysunki Canon (D-064).
+- Przy napisie „Działanie AF” zostaje rysunek ONE SHOT (V11) bez tego napisu; zdjęcia tego stanu ekranu nie ma.
+- Wyniki etapów 3–4 sprawdzania na aparacie wejdą osobną poprawką.
