@@ -16,6 +16,7 @@ Pierwszą użytkowniczką jest Ania, ale projekt od początku ma standard produk
 - `materials/` — lokalne materiały źródłowe; pliki zdjęć są poza Git.
 - `materials/canon-official/` — oficjalne instrukcje Canon EOS RP w PDF (polska i angielska); tylko lokalnie, poza Git.
 - `review/` — lekkie kopie materiałów do przeglądu przez Claude w czacie (D-053); bez GPS i numerów seryjnych; nie jest częścią aplikacji.
+- `production/hosting/` — skrypty serwera i wysyłki kursu (D-082).
 - Dawny folder aplikacji w katalogu Codexa jest zamrożonym archiwum. Nie edytuj go.
 
 ## Nadrzędne zasady pracy

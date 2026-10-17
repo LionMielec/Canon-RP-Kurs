@@ -226,3 +226,31 @@ Pokrętło trybów na A+, LOCK odblokowany, korekta 0, punkt ostrości na środk
 
 ### Start następnej sesji
 Nowa rozmowa w projekcie claude.ai (D-068). Claude w czacie czyta całą aktywną dokumentację. Następny cel: hosting. Etapy 3–4 sprawdzania — gdy aparat będzie dostępny.
+
+## HANDOFF 17.10.2026 — hosting (D-082)
+
+### Wykonane
+- Audyt serwera hermes-vps-1 (Ubuntu 24.04, Helsinki): działa Hermes (hermes-gateway), Tailscale i synchronizacja notatek co 30 minut; brak stron WWW; z internetu otwarty tylko port 22; kopie zapasowe Hetznera włączone (7 dziennych).
+- Dostęp administratora z Maca przywrócony (klucz hermes_hetzner odblokowany w pęku kluczy macOS).
+- Konto canonkurs, folder /srv/canon-rp-kurs i tailscale serve — skrypt `production/hosting/setup-canonkurs.sh`, uruchomiony przez właściciela.
+- Skrypt wysyłki `production/hosting/deploy.sh`; kurs wgrany (75 plików, w tym 13 rysunków Canon).
+- Reguła dostępu w Tailscale: autogroup:member — wszystko; autogroup:shared — tylko port 443.
+- Test właściciela na iPhonie 15 Pro Max zaliczony.
+- Zaproszenie Tailscale dla Ani przygotowane (link jednorazowy u właściciela; niewykorzystany wygasa po 30 dniach).
+- Gałąź wip/hosting scalona do main; decyzja D-082.
+
+### Uwagi
+- Konsola Hetznera w przeglądarce przekręca znaki pisane z Shiftem; komendy do niej tylko bez takich znaków albo z dopełnianiem klawiszem Tab.
+- Po restarcie Maca klucz administratora trzeba odblokować ponownie: `ssh-add --apple-use-keychain ~/.ssh/hermes_hetzner_ed25519`. Wgrywanie kursu (klucz canonkurs) tego nie wymaga.
+- Polecenia administratora na serwerze wymagają hasła konta hermesadmin; wpisuje je wyłącznie właściciel.
+
+### Otwarte
+- iPhone Ani: Tailscale, przyjęcie zaproszenia, VPN On Demand, ikona; test na iPhonie 17 Pro Max.
+- Stara wersja L1-01 i L1-02 na ChatGPT Sites — decyzja o wyłączeniu.
+- Serwer: zaległe aktualizacje i wymagany restart — osobno, za zgodą właściciela (działa Hermes).
+- Pytanie właściciela, co jeszcze może dać serwer — do omówienia.
+- Ewentualne rozszerzenie D-056 na rodzinę.
+- Bez zmian: etapy 3–4 sprawdzania na aparacie.
+
+### Start następnej sesji
+Nowa rozmowa w projekcie claude.ai (D-068). Claude w czacie czyta całą aktywną dokumentację. Następny cel: L1-07 „Rozmywam tło” od zakresu (brama 1); dostęp Ani po powrocie właściciela.

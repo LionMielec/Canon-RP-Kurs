@@ -30,7 +30,7 @@ Ikona jest prostym własnym znakiem obiektywu z literami RP. Nie używa logo pro
 
 ## Urządzenia i dostęp
 
-Docelowe urządzenie Ani: iPhone 17 Pro Max. Telefon do pierwszych prób: iPhone 15 Pro Max. Rzeczywiste działanie dodawania ikony i otwierania prywatnej aplikacji wymaga testu na telefonie. Publikacja Sites jest prywatna dla właściciela; udostępnienie Ani wymaga osobnego ustalenia dostępu. Nie zmieniać publiczności na publiczną.
+Docelowe urządzenie Ani: iPhone 17 Pro Max. Telefon do pierwszych prób: iPhone 15 Pro Max. Rzeczywiste działanie dodawania ikony i otwierania prywatnej aplikacji wymaga testu na telefonie. Hosting i dostęp: production/hosting/README.md (D-082).
 
 Instalowanie na iPhonie: otworzyć adres w Safari, wybrać udostępnianie i dodanie do ekranu początkowego, pozostawić otwieranie jako aplikacja internetowa, jeśli taka opcja jest widoczna. Źródło: https://support.apple.com/guide/iphone/open-as-web-app-iphea86e5236/ios
 

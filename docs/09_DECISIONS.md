@@ -890,3 +890,16 @@ Zatwierdzone 17.10.2026. Realizuje D-080.
 - Przy napisie „Działanie AF” zostaje rysunek ONE SHOT (V11) bez tego napisu; zdjęcia tego stanu ekranu nie ma.
 - Wyniki etapów 3–4 sprawdzania na aparacie wejdą osobną poprawką.
 Odebrane przez właściciela 17.10.2026 na zrzutach ekranu (brama 3); scalone do main.
+
+## D-082 — Hosting kursu: prywatnie przez Tailscale na serwerze Hetzner
+Zatwierdzone 17.10.2026. Zmienia D-047 w zakresie publikacji; realizuje D-056.
+
+- Kurs działa na serwerze właściciela w Hetzner (hermes-vps-1), wyłącznie w prywatnej sieci Tailscale (tailscale serve, port 443, „tailnet only”). Nie jest dostępny w otwartym internecie; Funnel jest wyłączony.
+- Wersja na serwerze zawiera rysunki Canon (D-056). Wgrywa ją z Maca skrypt `production/hosting/deploy.sh`, wyłącznie w wersji zgodnej z `main`, za zgodą właściciela.
+- Do wgrywania służy osobne konto `canonkurs` z kluczem wdrożeniowym z Maca (opcja restrict); zapisuje tylko w `/srv/canon-rp-kurs`, bez sudo i bez dostępu do innych projektów na serwerze.
+- Reguła dostępu Tailscale: urządzenia właściciela (autogroup:member) — pełny dostęp; osoby, którym udostępniono serwer (autogroup:shared) — tylko port 443, czyli kurs.
+- Dostęp Ani: zaproszenie Tailscale do serwera hermes-vps-1, automatyczne łączenie (VPN On Demand) i ikona na ekranie początkowym — po powrocie właściciela do domu.
+- Udostępnienie innym osobom (np. syn, synowa) jest technicznie możliwe; wymaga wcześniejszego rozszerzenia D-056 przez właściciela.
+- Test właściciela 17.10.2026 na iPhonie 15 Pro Max: strona główna z sześcioma lekcjami, rysunki Canon, ikona i tryb pełnoekranowy działają.
+
+Zasada: **kurs tylko w prywatnej sieci; publikacja jednym skryptem za zgodą właściciela.**

@@ -8,6 +8,6 @@
 - Zadanie opisane jako audyt wykonuj wyłącznie w trybie odczytu.
 - Nigdy nie wykonuj git push bez wyraźnej zgody w bieżącym zadaniu. Nie twórz pull requestów.
 - Polecenie od właściciela, którego pierwsza linia brzmi „Wykonaj, zgoda na commit i push.”, zawiera jego zgodę na commit i push dla tego zadania. Nie pytaj o nią ponownie.
-- Publikacja aplikacji jest wstrzymana do decyzji o hostingu (D-047).
+- Publikacja wyłącznie skryptem production/hosting/deploy.sh, za zgodą właściciela w bieżącym zadaniu (D-082).
 - Pracę wykraczającą poza zakres polecenia zgłaszaj właścicielowi przed jej wykonaniem (D-052).
 - Po każdej zmianie app.js, lessons.js lub style.css zmień numer wersji przy tym pliku w app/dist/index.html.

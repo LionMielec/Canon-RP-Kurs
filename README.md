@@ -4,7 +4,7 @@
 
 Prywatny, niekomercyjny kurs dla Ani, łączący naukę fotografii z obsługą jej aparatu. Zaczynamy od absolutnych podstaw i zostawiamy miejsce na kolejne poziomy.
 
-Etap: lekcje 1–6 są w aplikacji i odebrane przez właściciela. Publikacja jest wstrzymana do decyzji o hostingu (D-047). Aktualny stan i następne kroki: [przekazanie sesji](docs/14_PRZEKAZANIE_SESJI.md). Kod aplikacji jest w `app/` (D-047).
+Etap: lekcje 1–6 są w aplikacji i odebrane przez właściciela. Kurs jest dostępny wyłącznie w prywatnej sieci Tailscale (D-082). Aktualny stan i następne kroki: [przekazanie sesji](docs/14_PRZEKAZANIE_SESJI.md). Kod aplikacji jest w `app/` (D-047).
 
 Zacznij od [przewodnika po projekcie](docs/00_START_HERE.md). Przyjęte ustalenia i otwarte propozycje rozdziela [rejestr decyzji](docs/09_DECISIONS.md).
 

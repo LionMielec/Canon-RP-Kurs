@@ -21,7 +21,7 @@ Dokumenty historyczne są w `docs/archiwum/` (D-068).
 ## Stan lekcji
 - L1-01–L1-06 — odebrane przez właściciela w aplikacji (L1-01–L1-05: 03.10.2026, D-070; L1-06: 06.10.2026, D-077); w `main`. Stara wersja L1-01 i L1-02 opublikowana na ChatGPT Sites.
 - L1-04, L1-05 i L1-06 — czekają na sprawdzenie na aparacie Ani.
-- Plan od 17.10.2026: hosting → L1-07; etapy 3–4 sprawdzania na aparacie, gdy aparat będzie dostępny (D-081).
+- Hosting gotowy (D-082); dostęp Ani po powrocie właściciela; następnie L1-07; etapy 3–4 sprawdzania na aparacie, gdy aparat będzie dostępny.
 - L1-07–L1-14 — program roboczy, analizowany kolejno.
 
 ## Zasady, których nie otwieramy ponownie
@@ -32,4 +32,4 @@ Dokumenty historyczne są w `docs/archiwum/` (D-068).
 - źródłowe zdjęcia aparatu i menu są lokalnie w `materials/camera-source-pack-2026-09-24/`,
 - każda informacja w kursie ma sprawdzone, autentyczne źródło, niewidoczne dla Ani (D-048),
 - tekst dla Ani nie brzmi jak instrukcja obsługi (D-062),
-- publikacja jest wstrzymana do decyzji o hostingu (D-047).
+- kurs jest dostępny wyłącznie w prywatnej sieci Tailscale (D-082).

@@ -111,7 +111,7 @@ Wcześniejsze sekcje są historyczne; role według D-047.
 - [ ] Osadzenie assetów w L1-03, aktualizacja manifestu 16 i karty L1-03 z tabelą źródeł.
 - [ ] Rozdzielić mikrokorektę L1-02 od L1-03 na gałęzi `wip/l1-02-l1-03`; odbiór L1-01 i L1-02 przez właściciela.
 - [ ] Poprawić zbędne znaki w polach statusu L1-03.
-- [ ] Zdecydować o hostingu i sposobie publikacji.
+- [x] Zdecydować o hostingu i sposobie publikacji. — D-082
 - [ ] Uporządkować ścieżki z dawnego folderu Codexa w testach i `app/README.md`.
 - [ ] Przy pierwszej nowej lekcji sprawdzić w praktyce standard pracy ze źródłami z D-048.
 - [ ] Przy pierwszej animacji ustalić techniczne połączenie Claude Code z Higgsfield oraz koszt.
@@ -120,10 +120,10 @@ Wcześniejsze sekcje są historyczne; role według D-047.
 - [ ] L1-03: odbiór wszystkich materiałów przez właściciela i zamknięcie lekcji.
 - [ ] L1-04: redakcja według D-049, równolegle z materiałami L1-03 (D-055).
 - [ ] L1-04: po powrocie właściciela porównać rysunki z instrukcji z ekranami aparatu Ani i ustalić wersję oprogramowania (D-056).
-- [ ] Hosting: wersja aplikacji z rysunkami Canon dostępna wyłącznie dla Ani (D-056).
+- [x] Hosting: wersja aplikacji z rysunkami Canon dostępna wyłącznie dla Ani (D-056). — D-082
 - [ ] L1-04: sprawdzić na aparacie Ani punkty z docs/L1-04_ZRODLA_INSTRUKCJA.md (D-056).
 - [ ] Nauczyciel AI: przepisać dokumenty 06 i 11 pod model Claude przy integracji (D-059).
-- [ ] Hosting: główny kandydat — VPS właściciela w Hetzner; do ustalenia: domena, co już działa na serwerze, wygodne logowanie Ani z ikony na iPhonie.
+- [x] Hosting: główny kandydat — VPS właściciela w Hetzner; do ustalenia: domena, co już działa na serwerze, wygodne logowanie Ani z ikony na iPhonie. — D-082
 
 ## POPRAWKI PO PRZEGLĄDZIE WŁAŚCICIELA — 01.10.2026
 - [x] Po powrocie właściciela: zdjęcie ekranu aparatu Ani z pomarańczowym punktem ostrości (L1-04-V18; skierować aparat na gładką ścianę i nacisnąć spust do połowy). — rezygnacja (D-080)
@@ -170,5 +170,12 @@ Wcześniejsze sekcje są historyczne; role według D-047.
 ## OTWARTE PO 17.10.2026
 - [ ] Gdy aparat będzie dostępny: etap 3 (tryb A+) od pytania 17 i etap 4 przy oknie — pytania tak/nie z list „Do sprawdzenia na aparacie Ani” w docs/L1-04_ZRODLA_INSTRUKCJA.md, docs/L1-05_ZRODLA_INSTRUKCJA.md i docs/L1-06_ZRODLA_INSTRUKCJA.md (punkty bez wyniku).
 - [ ] Po etapach 3–4: osobna poprawka lekcji z wynikami (D-081), m.in. ile plusa przy świetle od tyłu w L1-06.
-- [ ] Hosting (nowa rozmowa).
+- [x] Hosting (nowa rozmowa). — D-082
 - [ ] L1-07 „Rozmywam tło” — od zakresu (brama 1).
+
+## OTWARTE PO HOSTINGU — 17.10.2026
+- [ ] iPhone Ani: Tailscale, przyjęcie zaproszenia, VPN On Demand, ikona; test na iPhonie 17 Pro Max.
+- [ ] Stara wersja L1-01 i L1-02 na ChatGPT Sites — decyzja o wyłączeniu.
+- [ ] Serwer: zaległe aktualizacje i wymagany restart — osobno, za zgodą właściciela (działa Hermes).
+- [ ] Pytanie właściciela, co jeszcze może dać serwer — do omówienia.
+- [ ] Ewentualne rozszerzenie D-056 na rodzinę.

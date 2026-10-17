@@ -76,3 +76,10 @@ Szczegóły w handoffie 11.10.2026.
 - Następny cel: hosting (nowa rozmowa), potem L1-07.
 
 Szczegóły w handoffie 17.10.2026.
+
+## Koniec etapu — 17.10.2026 (hosting)
+- Hosting gotowy; kurs tylko w prywatnej sieci Tailscale (D-082).
+- Dostęp Ani po powrocie właściciela.
+- Następny cel: L1-07.
+
+Szczegóły w handoffie 17.10.2026 (hosting).
