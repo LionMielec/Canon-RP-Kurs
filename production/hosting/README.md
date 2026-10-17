@@ -48,6 +48,22 @@ Skrypt niczego nie instaluje i nie zmienia ustawień SSH, zapory, Hermesa, `/srv
    ssh canonkurs-vps true
    ```
 
+## Wgrywanie nowej wersji
+
+Na Macu, w folderze projektu, uruchom jedną komendę:
+
+```bash
+bash production/hosting/deploy.sh
+```
+
+Skrypt:
+- zatrzymuje się, jeśli w `app/` są niezapisane zmiany albo `app/` różni się od wersji w `main` na GitHubie,
+- wysyła cały folder `app/dist/` na serwer, razem z rysunkami Canon,
+- usuwa z serwera pliki, których nie ma już na Macu (pomija pliki `.DS_Store`),
+- na końcu pisze, ile plików jest na serwerze i ile z nich to rysunki Canon.
+
+Kurs jest potem pod adresem `https://hermes-vps-1.taila20cd6.ts.net/` (tylko w sieci Tailscale).
+
 ## Jak cofnąć
 
 Każdy punkt można cofnąć osobno. Komendy uruchamia się na serwerze, przez `sudo`.
