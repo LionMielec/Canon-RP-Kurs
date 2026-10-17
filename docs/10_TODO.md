@@ -126,7 +126,7 @@ Wcześniejsze sekcje są historyczne; role według D-047.
 - [ ] Hosting: główny kandydat — VPS właściciela w Hetzner; do ustalenia: domena, co już działa na serwerze, wygodne logowanie Ani z ikony na iPhonie.
 
 ## POPRAWKI PO PRZEGLĄDZIE WŁAŚCICIELA — 01.10.2026
-- [ ] Po powrocie właściciela: zdjęcie ekranu aparatu Ani z pomarańczowym punktem ostrości (L1-04-V18; skierować aparat na gładką ścianę i nacisnąć spust do połowy).
+- [x] Po powrocie właściciela: zdjęcie ekranu aparatu Ani z pomarańczowym punktem ostrości (L1-04-V18; skierować aparat na gładką ścianę i nacisnąć spust do połowy). — rezygnacja (D-080)
 - [ ] Po powrocie właściciela: zdjęcie ekranu aparatu Ani z punktem ostrości przesuniętym w bok (L1-04-V07).
 
 ## L1-05 — 03.10.2026
@@ -147,7 +147,7 @@ Wcześniejsze sekcje są historyczne; role według D-047.
 - [x] Zdjęcia: L1-04-V07, L1-04-V18, L1-05-V03 — rezygnacja — D-080.
 - [ ] Etap 3 sprawdzania (tryb A+) — od pytania 17 (handoff 11.10.2026).
 - [ ] Etap 4 sprawdzania przy oknie, w dziennym świetle (lista w L1-06_ZRODLA_INSTRUKCJA.md oraz alarm prześwietlenia).
-- [ ] Zadanie poprawek lekcji (D-080): nowy cel lekcji 1, poprawki L1-04, wymiana zdjęć menu L1-04-V13/V14/V16, wyniki etapów 3–4.
+- [x] Zadanie poprawek lekcji (D-080): nowy cel lekcji 1, poprawki L1-04, wymiana zdjęć menu L1-04-V13/V14/V16, wyniki etapów 3–4. — wykonane 17.10.2026 bez wyników etapów 3–4 (D-081)
 
 ## L1-06 — 05.10.2026
 - [x] Zakres L1-06 — brama 1 (D-075).
@@ -166,3 +166,9 @@ Wcześniejsze sekcje są historyczne; role według D-047.
 
 ## 10.10.2026 — animacja spustu (L1-01-V04)
 - [ ] Animacja spustu wstrzymana decyzją właściciela; w lekcji zostaje rysunek Canon. Stan i wnioski: `production/l1-01/v04/PLAN_UJEC_SZKIC.md`. Przy powrocie rozważyć prawdziwe nagranie (kobieca dłoń, D-079; nie Ania, D-044).
+
+## OTWARTE PO 17.10.2026
+- [ ] Gdy aparat będzie dostępny: etap 3 (tryb A+) od pytania 17 i etap 4 przy oknie — pytania tak/nie z list „Do sprawdzenia na aparacie Ani” w docs/L1-04_ZRODLA_INSTRUKCJA.md, docs/L1-05_ZRODLA_INSTRUKCJA.md i docs/L1-06_ZRODLA_INSTRUKCJA.md (punkty bez wyniku).
+- [ ] Po etapach 3–4: osobna poprawka lekcji z wynikami (D-081), m.in. ile plusa przy świetle od tyłu w L1-06.
+- [ ] Hosting (nowa rozmowa).
+- [ ] L1-07 „Rozmywam tło” — od zakresu (brama 1).

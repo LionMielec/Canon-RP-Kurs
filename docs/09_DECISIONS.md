@@ -889,3 +889,4 @@ Zatwierdzone 17.10.2026. Realizuje D-080.
 - L1-04-V16: zdjęcia ekranu aparatu Ani zastępują rysunki Canon (D-064).
 - Przy napisie „Działanie AF” zostaje rysunek ONE SHOT (V11) bez tego napisu; zdjęcia tego stanu ekranu nie ma.
 - Wyniki etapów 3–4 sprawdzania na aparacie wejdą osobną poprawką.
+Odebrane przez właściciela 17.10.2026 na zrzutach ekranu (brama 3); scalone do main.

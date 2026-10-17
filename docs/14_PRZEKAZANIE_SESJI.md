@@ -210,3 +210,19 @@ Pokrętło trybów na A+, LOCK odblokowany, korekta 0, punkt ostrości na środk
 2. Jedno zadanie poprawek lekcji (D-080, wymiana zdjęć menu L1-04-V13/V14/V16, wyniki etapów 3–4).
 3. Hosting (nowa rozmowa).
 4. L1-07.
+
+## HANDOFF 17.10.2026 — poprawki D-080 w lekcjach 1 i 4
+
+### Wykonane
+- Lekcja 1: nowy cel (D-080).
+- Lekcja 4: pół zdania o napisie „Działanie AF” przy ONE SHOT; przesuwanie punktu ostrości zaczyna się od dotknięcia ekranu; „czerwony” zamiast „pomarańczowy”; w pomocy przez menu strona 7 i Działanie AF tuż nad Metodą AF.
+- Zdjęcia menu z trybu P: L1-04-V13, V14; V16 — zdjęcia ekranu Ani zamiast rysunków Canon (D-064), widoczne także w wersji publicznej. Skrypt kadrowania: production/l1-04/menu/prepare_menu_photos.swift.
+- Decyzja D-081; odbiór właściciela na zrzutach 17.10.2026; scalone do main.
+- Właściciel nie miał przy sobie aparatu — etapy 3–4 sprawdzania przesunięte.
+
+### Uwagi
+- Mechanik pracuje jako sesja Claude Code „Mechanik - Canon” w aplikacji na Macu, sterowana z telefonu. Polecenia dla Mechanika są w jednym bloku do skopiowania.
+- Przy zadaniach z przygotowaniem zdjęć, testami i zrzutami polecenie zawiera limit czasu na każdy krok (pierwsze podejście 17.10 trwało ponad dwie godziny bez informacji o postępie).
+
+### Start następnej sesji
+Nowa rozmowa w projekcie claude.ai (D-068). Claude w czacie czyta całą aktywną dokumentację. Następny cel: hosting. Etapy 3–4 sprawdzania — gdy aparat będzie dostępny.

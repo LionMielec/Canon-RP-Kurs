@@ -1,6 +1,6 @@
 # Canon RP kurs — STATUS
 
-Stan na: 2026-10-11
+Stan na: 2026-10-17
 
 ## Koniec sesji — 30.09.2026
 Sposób produkcji materiałów L1-03 rozwiązany: render 3D w Blenderze 4.5 LTS (D-051). Ujęcie próbne V04A odebrane. Pozostałe kadry V01–V04B czekają na decyzje właściciela i rendery finalne, V05 do przygotowania. Szczegóły w handoffie 30.09.2026.
@@ -69,3 +69,10 @@ Szczegóły w handoffie 10.10.2026.
 - Następny cel: etap 3 (tryb A+) od pytania 17, potem etap 4 przy oknie, jedno zadanie poprawek lekcji (D-080), hosting, L1-07.
 
 Szczegóły w handoffie 11.10.2026.
+
+## Koniec etapu — 17.10.2026
+- Poprawki D-080 w lekcjach 1 i 4 wdrożone, odebrane i scalone do main (D-081).
+- Etapy 3–4 sprawdzania na aparacie — gdy aparat będzie dostępny.
+- Następny cel: hosting (nowa rozmowa), potem L1-07.
+
+Szczegóły w handoffie 17.10.2026.

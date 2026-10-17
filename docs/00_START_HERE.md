@@ -1,6 +1,6 @@
 # Zacznij tutaj
 
-**Stan 11.10.2026:** projekt pracuje w nowym układzie (D-047). Paweł podejmuje decyzje końcowe, Claude w czacie (projekt claude.ai) jest architektem i audytorem, Claude Code implementuje. Dokumentacja i kod aplikacji są w jednym repozytorium; kod w `app/dist/`.
+**Stan 17.10.2026:** projekt pracuje w nowym układzie (D-047). Paweł podejmuje decyzje końcowe, Claude w czacie (projekt claude.ai) jest architektem i audytorem, Claude Code implementuje. Dokumentacja i kod aplikacji są w jednym repozytorium; kod w `app/dist/`.
 
 ## Najpierw przeczytaj
 1. [14 — najnowszy handoff](14_PRZEKAZANIE_SESJI.md) — aktualny stan jest na końcu pliku
@@ -21,7 +21,7 @@ Dokumenty historyczne są w `docs/archiwum/` (D-068).
 ## Stan lekcji
 - L1-01–L1-06 — odebrane przez właściciela w aplikacji (L1-01–L1-05: 03.10.2026, D-070; L1-06: 06.10.2026, D-077); w `main`. Stara wersja L1-01 i L1-02 opublikowana na ChatGPT Sites.
 - L1-04, L1-05 i L1-06 — czekają na sprawdzenie na aparacie Ani.
-- Plan sesji 11.10.2026 zatwierdzony przez właściciela: sprawdzenie na aparacie → hosting → L1-07.
+- Plan od 17.10.2026: hosting → L1-07; etapy 3–4 sprawdzania na aparacie, gdy aparat będzie dostępny (D-081).
 - L1-07–L1-14 — program roboczy, analizowany kolejno.
 
 ## Zasady, których nie otwieramy ponownie
