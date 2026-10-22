@@ -1,7 +1,7 @@
 # L1-07 — Rozmywam tło
 
 **Poziom 1 · Wpływam na tło**
-**Status:** TREŚĆ ZATWIERDZONA — 22.10.2026 (brama 2, D-084); DO SPRAWDZENIA NA APARACIE
+**Status:** ODEBRANA W APLIKACJI — 22.10.2026 (D-086); DO SPRAWDZENIA NA APARACIE
 **Czas:** około 15 minut
 
 ## Cel lekcji

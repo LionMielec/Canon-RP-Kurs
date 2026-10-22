@@ -939,3 +939,13 @@ Zatwierdzone 22.10.2026. Uzupełnia D-084.
 - Oznaczenie Av rysuje aplikacja, jak literę P w L1-04-V02.
 
 Zasada: **porównanie uczciwe — zmienia się tylko przysłona.**
+
+## D-086 — L1-07: odbiór w aplikacji i publikacja
+Zatwierdzone 22.10.2026. Uzupełnia D-084 i D-085.
+
+- Lekcja L1-07 odebrana przez właściciela w lokalnym podglądzie 22.10.2026 (brama 3), razem z materiałami V03 i V04.
+- Gałąź wip/l1-07 scalona do main.
+- Kurs z lekcją 7 wgrany na serwer skryptem production/hosting/deploy.sh (D-082).
+- Do sprawdzenia na aparacie: napis „F1.8” na ekranie, ustawienia ostrości po przejściu P → Av, pierścień na obiektywie (lista w docs/L1-07_ZRODLA_INSTRUKCJA.md).
+
+Zasada: **odebrane, scalone, na telefonie.**
