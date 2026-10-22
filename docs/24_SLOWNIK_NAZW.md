@@ -1,6 +1,6 @@
 # 24 — Słownik nazw
 
-Stan: 05.10.2026. Dokument produkcyjny; obejmuje lekcje L1-01–L1-06.
+Stan: 22.10.2026. Dokument produkcyjny; obejmuje lekcje L1-01–L1-07.
 
 Każdy przycisk, pokrętło, napis, ikona i pojęcie ma w całym kursie jedną nazwę (D-063). Rozstrzygnięcia właściciela zapisuje D-066. Nazwę wybieramy według reguły z D-065: najpierw napis na aparacie Ani albo na jego ekranie; gdy napisu nie ma — nazwa z zatwierdzonych lekcji L1-01 i L1-02; gdy i tam jej nie ma — jedna prosta nazwa opisowa, nadana raz. Inne określenie może pojawić się najwyżej raz w lekcji, jako opis wyglądu.
 
@@ -52,5 +52,9 @@ Nowa nazwa trafia do tej tabeli, zanim zostanie użyta w lekcji.
 | Ustawienie, w którym okno jest za przedmiotem | światło od tyłu | nadana, lekcja L1-06 | — |
 | Strona, z której światło pada na przedmiot | kierunek światła | pojęcie, lekcja L1-06 — użyte raz w lekcji | — |
 | Ciemny kształt przedmiotu bez szczegółów | sylwetka | pojęcie, lekcja L1-06 — wyjaśnione raz w lekcji | „ciemny kształt bez szczegółów” |
+| Tryb na pokrętle trybów używany od L1-07 | Av | napis na aparacie | — |
+| Liczba z literą F na dole ekranu (w instrukcji: przysłona, wartość przysłony) | liczba przy F | nadana, lekcja L1-07 | „liczba z literą F przed nią” |
+| Tło celowo nieostre za przedmiotem | rozmyte tło | nadana, lekcja L1-07 | „miękkie” — raz w lekcji |
+| To, co zmienia liczba przy F | przysłona | pojęcie, lekcja L1-07 — użyte raz w lekcji | — |
 
 Napisy z menu aparatu zapisujemy dokładnie tak, jak na ekranie — także wtedy, gdy zawierają słowa, których sami nie używamy (np. „Wyśw. punktu AF”).

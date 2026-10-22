@@ -129,7 +129,7 @@ Rysunku ekranu z symbolem „Av” w rogu ani rysunku z liczbą „F1.8” w ins
 
 ## Nazwy
 
-Lekcja wprowadza nowe nazwy: „pokrętło główne” (PL 56) i tryb Av. Zgodnie z D-065 trzeba je wpisać do `docs/24_SLOWNIK_NAZW.md` przed użyciem w lekcji; w tym zadaniu słownika nie zmieniałem.
+Lekcja wprowadza tryb Av i liczbę przy F. Pokrętło przy spuście ma już w słowniku nazwę „główne pokrętło” (lekcja L1-02) i tej nazwy używamy. Nowe nazwy wpisane do docs/24_SLOWNIK_NAZW.md (D-084).
 
 ## Do sprawdzenia na aparacie Ani
 

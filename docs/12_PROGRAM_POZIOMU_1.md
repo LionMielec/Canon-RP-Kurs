@@ -98,6 +98,8 @@ Zakres: kierunek światła, cienie, jasne tło; bez dodatkowego sprzętu. Na poc
 
 ### L1-07. Rozmywam tło
 
+Zakres i tekst zatwierdzone 22.10.2026 (D-083, D-084); pełna treść: [L1-07](L1-07_ROZMYWAM_TLO.md).
+
 **Cel:** zobaczyć wpływ przysłony na wygląd tła.
 
 Zakres: tryb Av, liczba f, stały punkt ostrości, odległość przedmiotu od tła. W Av aparat dobiera czas, dlatego przed zdjęciem trzeba zwrócić uwagę, czy warunki pozwalają utrzymać aparat nieruchomo.

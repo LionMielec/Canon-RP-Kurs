@@ -917,3 +917,16 @@ Zatwierdzone 22.10.2026.
 - Pomijamy: pierścień obiektywu (najwyżej w pomocy), pojęcie „głębia ostrości”, tryby Tv i M, ISO, więcej rzeczy ostrych naraz (L1-08).
 
 Zasada: **jedno ustawienie, jeden widoczny efekt — tło.**
+
+## D-084 — L1-07: tekst i materiały zatwierdzone (brama 2)
+Zatwierdzone 22.10.2026. Realizuje D-083.
+
+- Tekst lekcji i opis materiałów zatwierdzone (brama 2); pełna treść w docs/L1-07_ROZMYWAM_TLO.md.
+- Nazwy: Av, liczba przy F, rozmyte tło, przysłona (pojęcie, raz); pokrętło przy spuście — „główne pokrętło” jak w L1-02.
+- Krok „Sprawdź punkt ostrości” po przejściu na Av działa niezależnie od tego, czy ustawienia ostrości zostają po zmianie trybu.
+- Porównanie rozmycia na zapisanych zdjęciach, nie na podglądzie przed zdjęciem.
+- Na koniec lekcji aparat zostaje w trybie Av (L1-08 też z niego korzysta).
+- Pomoc o pierścieniu na obiektywie — dopiero po sprawdzeniu na aparacie (EN 58).
+- Materiały: V01 para renderów F1.8 / F5.6; V02 pokrętło trybów z Av; V03 rysunek Canon (tylko prywatnie, D-056); V04 karta przed ćwiczeniem.
+
+Zasada: **porównujemy zdjęcia, nie obietnice ekranu.**
