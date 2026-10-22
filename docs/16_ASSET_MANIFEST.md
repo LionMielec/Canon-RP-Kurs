@@ -91,10 +91,10 @@ Ten plik jest rejestrem materiałów wizualnych przypisanych do konkretnych lekc
 
 | ID | Zastosowanie | Typ | Źródło / brak | Pochodzenie | Docelowa ścieżka | Status |
 |---|---|---|---|---|---|---|
-| L1-07-V01 | Para tej samej sceny: kubek z napisem, wyraźne tło 2–3 m za kubkiem, aparat ok. 1 m od kubka, ostrość na napisie, 50 mm i matryca jak w istniejącej scenie; f/1.8 i f/5.6; zmienia się tylko przysłona, jasność obu zdjęć taka sama (S01) | para renderów | render: scena Blender z `production/l1-03/scene/` | RENDER | `assets/lessons/l1-07/l1-07-v01-f18.jpg`, `l1-07-v01-f56.jpg` | `TO_DESIGN` |
-| L1-07-V02 | Pokrętło trybów ze statycznym oznaczeniem napisu Av (S02, Pomoc) | zdjęcie/crop | `fbe2fd62-e8ab-465b-b340-b6d0b4458622.jpg` (jak L1-04-V02) | WŁASNE | `assets/lessons/l1-07/l1-07-v02-pokretlo-av.jpg` | `TO_PREPARE` |
-| L1-07-V03 | Dolny pasek ekranu z F5.6 i skalą jasności (S04) | rysunek ekranu | instrukcja PL, s. 100 (krok 2) | CANON — DO PODMIANY | `assets/lessons/l1-07/l1-07-v03-liczba-f-canon.png` (tylko lokalnie) | `TO_PREPARE` |
-| L1-07-V04 | Karta przed ćwiczeniem: „F1.8 → F5.6 → porównaj tło” | komponent UI | bez osobnego pliku, jak L1-05-V05 | — | komponent aplikacji | `TO_DESIGN` |
+| L1-07-V01 | Para tej samej sceny: kubek z napisem, wyraźne tło 2–3 m za kubkiem, aparat ok. 1 m od kubka, ostrość na napisie, 50 mm i matryca jak w istniejącej scenie; f/1.8 i f/5.6; zmienia się tylko przysłona, jasność obu zdjęć taka sama (S01) | para renderów | render: scena Blender z `production/l1-03/scene/` | RENDER | `assets/lessons/l1-07/l1-07-v01-f18.jpg`, `l1-07-v01-f56.jpg` | `APPROVED (D-085)` |
+| L1-07-V02 | Pokrętło trybów ze statycznym oznaczeniem napisu Av (S02, Pomoc) | zdjęcie/crop | `fbe2fd62-e8ab-465b-b340-b6d0b4458622.jpg` (jak L1-04-V02) | WŁASNE | `assets/lessons/l1-07/l1-07-v02-pokretlo-av.jpg` | `APPROVED (D-085)` |
+| L1-07-V03 | Dolny pasek ekranu z F5.6 i skalą jasności (S04) | rysunek ekranu | instrukcja PL, s. 100 (krok 2) | CANON — DO PODMIANY | `assets/lessons/l1-07/l1-07-v03-liczba-f-canon.png` (tylko lokalnie) | `APPROVAL_PENDING` |
+| L1-07-V04 | Karta przed ćwiczeniem: „F1.8 → F5.6 → porównaj tło” | komponent UI | bez osobnego pliku, jak L1-05-V05 | — | komponent aplikacji | `APPROVAL_PENDING` |
 
 ## Następny wpis
 Kolejne assety dopisywać przy opracowywaniu następnej lekcji. Nie tworzyć osobnego, równoległego rejestru.

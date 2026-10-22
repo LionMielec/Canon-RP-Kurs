@@ -930,3 +930,12 @@ Zatwierdzone 22.10.2026. Realizuje D-083.
 - Materiały: V01 para renderów F1.8 / F5.6; V02 pokrętło trybów z Av; V03 rysunek Canon (tylko prywatnie, D-056); V04 karta przed ćwiczeniem.
 
 Zasada: **porównujemy zdjęcia, nie obietnice ekranu.**
+
+## D-085 — L1-07: materiały V01 i V02 odebrane
+Zatwierdzone 22.10.2026. Uzupełnia D-084.
+
+- V01 (para renderów F1.8 / F5.6) i V02 (pokrętło trybów z oznaczeniem Av) odebrane przez właściciela 22.10.2026.
+- Niebieska książka przy lewym brzegu V01 zostaje — decyzja właściciela; jest na obu ujęciach, więc nie zaburza porównania.
+- Oznaczenie Av rysuje aplikacja, jak literę P w L1-04-V02.
+
+Zasada: **porównanie uczciwe — zmienia się tylko przysłona.**

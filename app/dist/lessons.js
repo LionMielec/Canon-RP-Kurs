@@ -1935,5 +1935,270 @@ window.CANON_LESSONS = [
         ]
       }
     ]
+  },
+  {
+    "id": 7,
+    "code": "L1-07",
+    "title": "Rozmywam tło",
+    "category": "Wpływam na tło",
+    "duration": "Około 15 minut",
+    "intro": {
+      "title": "Cel lekcji",
+      "body": "Po tej lekcji:\n- zobaczysz, że jedno ustawienie zmienia tło za przedmiotem z wyraźnego na rozmyte,\n- przestawisz aparat z P na tryb Av,\n- zmienisz liczbę przy F głównym pokrętłem,\n- porównasz dwa zdjęcia i wskażesz różnicę w tle.\n\nGłówny nawyk:\n\n**gdy chcę rozmyte tło, ustawiam małą liczbę przy F.**\n\n**Punkt startowy**\n\nAparat jest w trybie **P**, a znacznik na skali jasności stoi przy **0** — tak jak po [[L1-06|poprzedniej lekcji]].\n\nPrzygotuj jeden nieruchomy przedmiot z wyraźnym szczegółem, na przykład kubek z napisem. Postaw go tak, żeby daleko za nim było coś widocznego: półka, drzwi, drugi koniec pokoju.\n\nĆwicz w jasnym miejscu, w dzień."
+    },
+    "steps": [
+      {
+        "id": "L1-07-S01",
+        "title": "Najpierw zobacz, o co chodzi",
+        "mediaPlacement": "after",
+        "body": "Kurs pokazuje dwa zdjęcia tego samego kubka. Aparat, kubek i tło stoją tak samo. Zmieniło się tylko jedno ustawienie.\n\nNa pierwszym zdjęciu tło jest miękkie i rozmyte, a kubek od razu przyciąga wzrok. Na drugim tło jest wyraźniejsze: widać więcej rzeczy za kubkiem i odciągają one uwagę.\n\nNa obu zdjęciach kubek jest ostry. Zmienia się tylko tło.\n\n**To ustawienie poznasz w tej lekcji.**"
+      },
+      {
+        "id": "L1-07-S02",
+        "title": "Przestaw pokrętło na Av",
+        "mediaPlacement": "after",
+        "body": "W trybie P aparat sam decyduje, jak bardzo rozmyte będzie tło. Żeby decydować Ty, potrzebny jest tryb **Av**.\n\nNa górze aparatu jest pokrętło trybów — teraz stoi na P. Obróć je dalej w tę samą stronę co w [[L1-04-S03|lekcji 4]], o dwa położenia, aż przy kresce będzie **Av**. Po drodze minie Tv — tam się nie zatrzymuj."
+      },
+      {
+        "id": "L1-07-S03",
+        "title": "Sprawdź punkt ostrości",
+        "mediaPlacement": "after",
+        "body": "Spójrz na ekran. Na środku powinien być jeden mały kwadrat — Twój punkt ostrości z lekcji 4.\n\nJeśli widzisz coś innego, ustaw go jeszcze raz, tak jak w kroku [[L1-04-S04|Ustaw jeden punkt ostrości]]."
+      },
+      {
+        "id": "L1-07-S04",
+        "title": "Znajdź liczbę przy F",
+        "mediaPlacement": "after",
+        "body": "1. Skieruj aparat na przedmiot i naciśnij spust do połowy.\n   → Na dole ekranu jest liczba z literą F przed nią, na przykład **F5.6**. To **liczba przy F**.\n2. Obok niej jest skala jasności z [[L1-05-S03|lekcji 5]]. Znacznik powinien stać przy 0."
+      },
+      {
+        "id": "L1-07-S05",
+        "title": "Zmień liczbę głównym pokrętłem",
+        "mediaPlacement": "after",
+        "blocks": [
+          {
+            "text": "1. Patrząc na ekran, obróć **główne pokrętło** — to samo, którym w [[L1-02-S04|lekcji 2]] powiększałaś zdjęcie.\n   → Liczba przy F się zmienia."
+          },
+          {
+            "asset": "L1-02-V04",
+            "frame": 0
+          },
+          {
+            "text": "2. Obracaj, aż zobaczysz **F1.8**. Mniejszej liczby Twój obiektyw nie ma.\n3. Obróć w drugą stronę, aż zobaczysz **F5.6**. Po drodze miną inne liczby — to normalne.\n\nDruga liczba obok też się zmienia. To czas, który aparat dobiera sam. Na razie nie musisz się nim zajmować."
+          }
+        ]
+      },
+      {
+        "id": "L1-07-S06",
+        "title": "Mała liczba, rozmyte tło",
+        "mediaPlacement": "after",
+        "body": "- **mała liczba przy F** (np. 1.8) — tło bardziej rozmyte,\n- **większa liczba przy F** (np. 5.6) — tło wyraźniejsze.\n\nBrzmi odwrotnie? Wielu fotografów też musiało to sobie kilka razy powtórzyć.\n\nTo, co zmieniasz, fotografowie nazywają **przysłoną**. Wystarczy, że pamiętasz: mała liczba — rozmyte tło.\n\nJeszcze jedno: w trybie Av czas dobiera aparat. Gdy jest ciemniej, może wybrać dłuższy czas, a wtedy łatwiej poruszyć zdjęcie. Dlatego ćwicz w jasnym miejscu i naciskaj spust spokojnie.\n\n**Teraz przejdźmy do ćwiczenia.**"
+      }
+    ],
+    "exercise": {
+      "title": "To samo zdjęcie, dwa razy",
+      "blocks": [
+        {
+          "text": "Postaw przedmiot około metra od siebie, tło daleko za nim. Usiądź albo stań tak, żeby nie zmieniać miejsca między zdjęciami.\n\n**Zdjęcie 1 — F1.8**\n\nUstaw F1.8. Punkt ostrości ustaw na wyraźnym szczególe przedmiotu. Naciśnij spust do połowy, poczekaj na zielony punkt ostrości i zrób zdjęcie.\n\n**Zdjęcie 2 — F5.6**\n\nNie ruszaj aparatu ani przedmiotu. Ustaw F5.6. Ustaw ostrość w tym samym miejscu i zrób zdjęcie.\n\n**Porównaj**\n\nNaciśnij **przycisk odtwarzania** i obejrzyj oba zdjęcia jedno po drugim. Najpierw patrz na tło, potem na przedmiot."
+        },
+        {
+          "asset": "L1-02-V03",
+          "frame": 0
+        },
+        {
+          "text": "Sprawdź:\n- Na którym zdjęciu tło jest bardziej rozmyte?\n- Czy przedmiot jest ostry na obu? W razie wątpliwości powiększ szczegół, tak jak w [[L1-02|lekcji 2]].\n- Na którym przedmiot szybciej przyciąga wzrok?\n\nDokończ zdanie:\n\n**„Tło jest bardziej rozmyte na zdjęciu z F…, bo…”**"
+        }
+      ]
+    },
+    "help": {
+      "id": "L1-07-POMOC",
+      "title": "Jeśli coś nie działa",
+      "blocks": [
+        {
+          "text": "**Tło na obu zdjęciach wygląda prawie tak samo.**  \nTło jest pewnie za blisko przedmiotu. Ustaw przedmiot tak, żeby tło było dalej, i spróbuj jeszcze raz. Im dalej tło za przedmiotem, tym bardziej się rozmywa.\n\n**Całe zdjęcie jest rozmazane, także przedmiot.**  \nTo poruszenie. Przejdź w jaśniejsze miejsce, trzymaj aparat tak jak w [[L1-01-S03|lekcji 1]] i naciśnij spust spokojnie. O czasie będzie osobna lekcja.\n\n**Obracam pokrętło, a zmienia się jasność, nie liczba przy F.**  \nTo pokrętło przy LOCK — zmienia jasność, jak w lekcji 5. Liczbę przy F zmienia główne pokrętło, przy spuście. Wróć znacznikiem do 0."
+        },
+        {
+          "asset": "L1-05-V02",
+          "frame": 0
+        },
+        {
+          "text": "**Liczba przy F nie chce się zmienić.**  \nSpójrz na pokrętło trybów: czy przy kresce jest Av?"
+        },
+        {
+          "asset": "L1-07-V02",
+          "frame": 0
+        },
+        {
+          "text": "**Na dole ekranu miga jedna z liczb.**  \nJest za jasno albo za ciemno. Gdy miga 1/4000, przejdź w cień. Gdy miga 30\", przejdź w jaśniejsze miejsce."
+        }
+      ]
+    },
+    "summary": [
+      {
+        "title": "Na koniec lekcji",
+        "body": "- Sprawdź, że znacznik stoi przy 0.\n- Zostaw aparat w trybie **Av** — w następnej lekcji też z niego korzystamy."
+      },
+      {
+        "title": "Kiedy lekcja jest ukończona?",
+        "body": "Lekcja jest ukończona, jeżeli potrafisz:\n- przestawić aparat na Av,\n- ustawić F1.8 i F5.6 głównym pokrętłem,\n- zrobić dwa zdjęcia tego samego kadru,\n- wskazać, na którym tło jest bardziej rozmyte, i sprawdzić, że przedmiot jest ostry."
+      },
+      {
+        "title": "Co zapamiętać",
+        "body": "**Mała liczba przy F — rozmyte tło. Ostrość nadal ustawiasz Ty.**"
+      }
+    ],
+    "assets": [
+      {
+        "id": "L1-07-V01",
+        "step": "L1-07-S01",
+        "title": "Ta sama scena przy F1.8 i F5.6",
+        "note": "Rendery sceny 3D z L1-03; zmienia się tylko przysłona (D-085).",
+        "frames": [
+          {
+            "target": "./assets/lessons/l1-07/l1-07-v01-f18.jpg",
+            "title": "F1.8",
+            "width": 1200,
+            "height": 800,
+            "alt": "Jasny kubek z napisem na stole; półka za kubkiem miękko rozmyta"
+          },
+          {
+            "target": "./assets/lessons/l1-07/l1-07-v01-f56.jpg",
+            "title": "F5.6",
+            "width": 1200,
+            "height": 800,
+            "alt": "Ten sam kubek; półka i rzeczy za kubkiem wyraźniejsze"
+          }
+        ]
+      },
+      {
+        "id": "L1-07-V02",
+        "step": "L1-07-S02",
+        "title": "Pokrętło trybów — Av",
+        "note": "Ten sam wycinek co L1-04-V02; oznaczenie Av rysuje aplikacja (D-038, D-085).",
+        "source": "fbe2fd62-e8ab-465b-b340-b6d0b4458622.jpg",
+        "frames": [
+          {
+            "target": "./assets/lessons/l1-07/l1-07-v02-pokretlo-av.jpg",
+            "title": "Pokrętło trybów — Av",
+            "width": 620,
+            "height": 620,
+            "alt": "Pokrętło trybów na górze aparatu z zaznaczonym napisem Av",
+            "markers": [
+              {
+                "x": 58.0,
+                "y": 33.5,
+                "width": 12,
+                "height": 12,
+                "kind": "halo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "L1-07-V03",
+        "step": "L1-07-S04",
+        "title": "Liczba przy F i skala jasności",
+        "note": "Rysunek z instrukcji Canon (D-056); plik lokalny, do podmiany. Bez pliku aplikacja pokazuje jawne miejsce na brakujący materiał.",
+        "localOnly": true,
+        "frames": [
+          {
+            "target": "./assets/lessons/l1-07/l1-07-v03-liczba-f-canon.png",
+            "title": "Liczba przy F i skala jasności",
+            "width": 1365,
+            "height": 173,
+            "alt": "Dolny pasek ekranu: liczba F5.6 i obok skala jasności"
+          }
+        ]
+      },
+      {
+        "id": "L1-07-V04",
+        "step": "L1-07-S06",
+        "title": "Karta przed ćwiczeniem",
+        "target": "komponent aplikacji",
+        "kind": "card",
+        "body": "**F1.8 → F5.6 → porównaj tło**"
+      },
+      {
+        "id": "L1-02-V04",
+        "step": "L1-07-S05",
+        "title": "Główne pokrętło",
+        "note": "Ten sam plik i oznaczenie co L1-02-V04 (drugi kadr).",
+        "source": "fbe2fd62-e8ab-465b-b340-b6d0b4458622.jpg",
+        "frames": [
+          {
+            "target": "./assets/lessons/l1-02/l1-02-main-dial.jpg",
+            "title": "Główne pokrętło — obróć",
+            "width": 450,
+            "height": 370,
+            "markers": [
+              {
+                "x": 61.0,
+                "y": 62.5,
+                "width": 48,
+                "height": 23,
+                "kind": "halo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "L1-02-V03",
+        "step": "L1-07-CWICZENIE",
+        "title": "Przycisk odtwarzania",
+        "note": "Ten sam plik i oznaczenie co L1-02-V03 (pierwszy kadr).",
+        "source": "57652b89-ae48-4cd1-b998-e883aee8aa1f.jpg",
+        "frames": [
+          {
+            "target": "./assets/lessons/l1-02/l1-02-v03-playback-button.jpg",
+            "title": "Przycisk odtwarzania — naciśnij",
+            "width": 500,
+            "height": 500,
+            "markers": [
+              {
+                "x": 47.0,
+                "y": 80.5,
+                "width": 16,
+                "height": 17,
+                "kind": "halo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "L1-05-V02",
+        "step": "L1-07-POMOC",
+        "title": "Pokrętło przy LOCK i przełącznik LOCK",
+        "note": "Ten sam plik i oznaczenie co L1-05-V02.",
+        "source": "fbe2fd62-e8ab-465b-b340-b6d0b4458622.jpg",
+        "frames": [
+          {
+            "target": "./assets/lessons/l1-05/l1-05-v02-pokretlo-przy-lock.jpg",
+            "title": "Pokrętło przy LOCK i przełącznik LOCK",
+            "width": 800,
+            "height": 480,
+            "alt": "Góra aparatu: po lewej pokrętło trybów, po prawej duże okrągłe pokrętło i obok niego mały przełącznik z napisem LOCK",
+            "markers": [
+              {
+                "x": 66.0,
+                "y": 64.5,
+                "width": 24,
+                "height": 40,
+                "kind": "halo"
+              },
+              {
+                "x": 84.5,
+                "y": 46.0,
+                "width": 11,
+                "height": 18,
+                "kind": "halo"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 ];
