@@ -171,7 +171,7 @@ Wcześniejsze sekcje są historyczne; role według D-047.
 - [ ] Gdy aparat będzie dostępny: etap 3 (tryb A+) od pytania 17 i etap 4 przy oknie — pytania tak/nie z list „Do sprawdzenia na aparacie Ani” w docs/L1-04_ZRODLA_INSTRUKCJA.md, docs/L1-05_ZRODLA_INSTRUKCJA.md i docs/L1-06_ZRODLA_INSTRUKCJA.md (punkty bez wyniku).
 - [ ] Po etapach 3–4: osobna poprawka lekcji z wynikami (D-081), m.in. ile plusa przy świetle od tyłu w L1-06.
 - [x] Hosting (nowa rozmowa). — D-082
-- [ ] L1-07 „Rozmywam tło” — od zakresu (brama 1).
+- [x] L1-07 „Rozmywam tło” — od zakresu (brama 1). — D-086
 
 ## OTWARTE PO HOSTINGU — 17.10.2026
 - [ ] iPhone Ani: Tailscale, przyjęcie zaproszenia, VPN On Demand, ikona; test na iPhonie 17 Pro Max.
@@ -179,3 +179,8 @@ Wcześniejsze sekcje są historyczne; role według D-047.
 - [ ] Serwer: zaległe aktualizacje i wymagany restart — osobno, za zgodą właściciela (działa Hermes).
 - [ ] Pytanie właściciela, co jeszcze może dać serwer — do omówienia.
 - [ ] Ewentualne rozszerzenie D-056 na rodzinę.
+
+## OTWARTE PO 22.10.2026
+- [ ] Odświeżanie kursu na iPhonie — wariant A (D-087): audyt serwera, wybór programu, instalacja, test na iPhonie.
+- [ ] L1-07: sprawdzenie na aparacie (lista w docs/L1-07_ZRODLA_INSTRUKCJA.md).
+- [ ] L1-08 „Chcę mieć więcej rzeczy ostrych” — od zakresu (brama 1).

@@ -949,3 +949,15 @@ Zatwierdzone 22.10.2026. Uzupełnia D-084 i D-085.
 - Do sprawdzenia na aparacie: napis „F1.8” na ekranie, ustawienia ostrości po przejściu P → Av, pierścień na obiektywie (lista w docs/L1-07_ZRODLA_INSTRUKCJA.md).
 
 Zasada: **odebrane, scalone, na telefonie.**
+
+## D-087 — Odświeżanie kursu na iPhonie: wariant A
+Zatwierdzone 22.10.2026. Uzupełnia D-082.
+
+- Przyczyna: serwer (tailscale serve, udostępnianie folderu) wysyła strony bez nagłówków Cache-Control, ETag i Expires, tylko z datą ostatniej zmiany. Po wgraniu lekcji 7 ikona na ekranie początkowym iPhone'a pokazywała starą wersję, Safari — nową. Dokumentacja tailscale serve nie ma opcji ustawiania nagłówków. Plik manifest.webmanifest jest wysyłany jako text/plain.
+- Doraźnie 22.10.2026: właściciel usunął ikonę i dodał ją ponownie; lekcja 7 widoczna.
+- Decyzja: wariant A — mały serwer stron na hermes-vps-1, nasłuchujący tylko lokalnie (127.0.0.1); tailscale serve przekazuje do niego ruch. Reguła: telefon zawsze sprawdza, czy jest nowsza wersja strony i plików aplikacji; poprawny typ pliku manifestu. Z internetu nadal otwarty tylko port 22; Hermes bez zmian.
+- Kolejność: audyt serwera tylko do odczytu → wybór programu → instalacja za zgodą właściciela (polecenia z hasłem administratora wpisuje właściciel) → test na iPhonie. Możliwe połączenie z zaległymi aktualizacjami serwera.
+- Plan: wdrożenie przed udostępnieniem kursu Ani.
+- Odrzucone: wariant B (mechanizm w aplikacji — obchodzi problem zamiast go usunąć) i wariant C (ponowne dodawanie ikony po każdej lekcji — prowizorka).
+
+Zasada: **przyczynę usuwamy na serwerze, nie w telefonie Ani.**

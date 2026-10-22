@@ -1,6 +1,6 @@
 # Canon RP kurs — STATUS
 
-Stan na: 2026-10-17
+Stan na: 2026-10-22
 
 ## Koniec sesji — 30.09.2026
 Sposób produkcji materiałów L1-03 rozwiązany: render 3D w Blenderze 4.5 LTS (D-051). Ujęcie próbne V04A odebrane. Pozostałe kadry V01–V04B czekają na decyzje właściciela i rendery finalne, V05 do przygotowania. Szczegóły w handoffie 30.09.2026.
@@ -83,3 +83,10 @@ Szczegóły w handoffie 17.10.2026.
 - Następny cel: L1-07.
 
 Szczegóły w handoffie 17.10.2026 (hosting).
+
+## Koniec sesji — 22.10.2026
+- L1-07 „Rozmywam tło” odebrana, w main i na serwerze (D-083–D-086).
+- Odświeżanie kursu na iPhonie: wariant A (D-087), od audytu serwera.
+- Następny cel: D-087, potem L1-08.
+
+Szczegóły w handoffie 22.10.2026.

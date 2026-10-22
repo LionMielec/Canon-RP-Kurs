@@ -254,3 +254,24 @@ Nowa rozmowa w projekcie claude.ai (D-068). Claude w czacie czyta całą aktywn�
 
 ### Start następnej sesji
 Nowa rozmowa w projekcie claude.ai (D-068). Claude w czacie czyta całą aktywną dokumentację. Następny cel: L1-07 „Rozmywam tło” od zakresu (brama 1); dostęp Ani po powrocie właściciela.
+
+## HANDOFF 22.10.2026 — L1-07 i odświeżanie kursu na iPhonie
+
+### Wykonane
+- Audyt zamknięcia hostingu (commit adec523) — zgodny z poleceniem.
+- L1-07 „Rozmywam tło”: zakres (D-083), źródła z instrukcji Canon (docs/L1-07_ZRODLA_INSTRUKCJA.md), tekst i karta (D-084), materiały V01 i V02 odebrane (D-085), wdrożenie w aplikacji, odbiór właściciela w lokalnym podglądzie, scalenie wip/l1-07 do main i wgranie na serwer (D-086).
+- Ikona kursu na iPhonie właściciela pokazywała starą wersję strony; po ponownym dodaniu ikony lekcja 7 widoczna. Diagnoza i decyzja D-087 (wariant A).
+
+### Uwagi
+- Na Macu Mechanik w osobnym oknie: aplikacja Claude → Code → Cmd + kliknięcie sesji „Mechanik - Canon” (albo prawy przycisk → Open in → New window). W drugim oknie zostaje czat projektu.
+- Render L1-07-V01: production/l1-07/build_l1_07_v01.py na scenie z L1-03; niebieska książka przy lewym brzegu zostaje (D-085).
+
+### Otwarte
+- Odświeżanie kursu na iPhonie — wariant A (D-087): audyt serwera tylko do odczytu, potem decyzja o programie i instalacja.
+- Serwer: zaległe aktualizacje i wymagany restart — możliwe razem z D-087, za zgodą właściciela.
+- iPhone Ani: Tailscale, zaproszenie, VPN On Demand, ikona; test na iPhonie 17 Pro Max — po powrocie właściciela, po wdrożeniu D-087.
+- L1-07 do sprawdzenia na aparacie: lista w docs/L1-07_ZRODLA_INSTRUKCJA.md (zwłaszcza napis „F1.8”, ustawienia ostrości po przejściu P → Av, pierścień na obiektywie).
+- Bez zmian: etapy 3–4 sprawdzania na aparacie (L1-04–L1-06) i poprawka po nich; stara wersja L1-01 i L1-02 na ChatGPT Sites; pytanie, co jeszcze może dać serwer; ewentualne rozszerzenie D-056 na rodzinę.
+
+### Start następnej sesji
+Nowa rozmowa w projekcie claude.ai (D-068). Claude w czacie czyta całą aktywną dokumentację. Następny cel: odświeżanie kursu na iPhonie — wariant A (D-087), od audytu serwera. Potem L1-08.
