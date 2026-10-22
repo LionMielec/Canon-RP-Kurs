@@ -903,3 +903,17 @@ Zatwierdzone 17.10.2026. Zmienia D-047 w zakresie publikacji; realizuje D-056.
 - Test właściciela 17.10.2026 na iPhonie 15 Pro Max: strona główna z sześcioma lekcjami, rysunki Canon, ikona i tryb pełnoekranowy działają.
 
 Zasada: **kurs tylko w prywatnej sieci; publikacja jednym skryptem za zgodą właściciela.**
+
+## D-083 — L1-07: zakres zatwierdzony (brama 1)
+Zatwierdzone 22.10.2026.
+
+- Cel: Ania widzi, że jedno ustawienie zmienia tło z wyraźnego na miękkie i rozmyte.
+- Nowa rzecz: tryb Av i zmiana liczby przy literze F (np. 1.8 i 5.6); nazwa „przysłona” raz, po pokazaniu efektu.
+- Punkt ostrości: jeden punkt na przedmiocie, jak w L1-04.
+- Odległość tła od przedmiotu: jedna wskazówka, bez osobnego ćwiczenia; w pomocy „tło nie chce się rozmyć”.
+- Ćwiczenie: nieruchomy przedmiot, odległe tło, dwa zdjęcia (F1.8 i F5.6), aparat i przedmiot bez ruchu.
+- Bezpiecznik: w Av aparat sam dobiera czas; przy poruszonym zdjęciu jaśniejsze miejsce; czas — osobna lekcja.
+- Materiał pokazowy: para tej samej sceny różniąca się rozmyciem tła; kierunkowo render w Blenderze (jak L1-03, L1-06).
+- Pomijamy: pierścień obiektywu (najwyżej w pomocy), pojęcie „głębia ostrości”, tryby Tv i M, ISO, więcej rzeczy ostrych naraz (L1-08).
+
+Zasada: **jedno ustawienie, jeden widoczny efekt — tło.**
