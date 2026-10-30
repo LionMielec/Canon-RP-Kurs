@@ -2353,15 +2353,15 @@ window.CANON_LESSONS = [
       {
         "id": "L1-08-V02",
         "step": "L1-08-S05",
-        "title": "Pas ostrości przy F1.8 i przy F8",
+        "title": "Zasięg ostrości przy F1.8 i przy F8",
         "note": "Schemat własny SVG (D-090, D-091); plik bez zmian z production/l1-08/v02.",
         "frames": [
           {
             "target": "./assets/lessons/l1-08/l1-08-v02-pas-ostrosci.svg",
-            "title": "Pas ostrości przy F1.8 i przy F8",
+            "title": "Zasięg ostrości przy F1.8 i przy F8",
             "width": 800,
             "height": 640,
-            "alt": "Widok z góry: aparat i trzy przedmioty w szeregu. Przy F1.8 pas ostrości obejmuje tylko środkowy kubek, przy F8 wszystkie trzy przedmioty"
+            "alt": "Widok z góry: aparat i trzy przedmioty w szeregu. Przy F1.8 zasięg ostrości obejmuje tylko środkowy kubek, przy F8 wszystkie trzy przedmioty"
           }
         ]
       },

@@ -85,7 +85,7 @@ Trzy rzeczy, o których warto wiedzieć:
 **Teraz przejdźmy do ćwiczenia.**
 
 ### Materiał dla Ani
-Bezpośrednio po akapicie o głębi ostrości: L1-08-V02 (schemat z góry: pas ostrości przy F1.8 i F8).
+Bezpośrednio po akapicie o głębi ostrości: L1-08-V02 (schemat z góry: zasięg ostrości przy F1.8 i F8).
 
 ---
 

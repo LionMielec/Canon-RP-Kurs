@@ -56,6 +56,7 @@ Nowa nazwa trafia do tej tabeli, zanim zostanie użyta w lekcji.
 | Liczba z literą F na dole ekranu (w instrukcji: przysłona, wartość przysłony) | liczba przy F | nadana, lekcja L1-07 | „liczba z literą F przed nią” |
 | Tło celowo nieostre za przedmiotem | rozmyte tło | nadana, lekcja L1-07 | „miękkie” — raz w lekcji |
 | To, co zmienia liczba przy F | przysłona | pojęcie, lekcja L1-07 — użyte raz w lekcji | — |
-| Zasięg ostrości przed i za punktem ostrości | głębia ostrości | pojęcie, lekcja L1-08 — użyte raz w lekcji | — |
+| Pojęcie fotograficzne na zasięg ostrości | głębia ostrości | pojęcie, lekcja L1-08 — użyte raz w lekcji | — |
+| Odcinek przed i za punktem ostrości, w którym przedmioty są ostre | zasięg ostrości | nadana, lekcja L1-08 | — |
 
 Napisy z menu aparatu zapisujemy dokładnie tak, jak na ekranie — także wtedy, gdy zawierają słowa, których sami nie używamy (np. „Wyśw. punktu AF”).
