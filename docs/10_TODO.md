@@ -176,11 +176,11 @@ Wcześniejsze sekcje są historyczne; role według D-047.
 ## OTWARTE PO HOSTINGU — 17.10.2026
 - [ ] iPhone Ani: Tailscale, przyjęcie zaproszenia, VPN On Demand, ikona; test na iPhonie 17 Pro Max.
 - [ ] Stara wersja L1-01 i L1-02 na ChatGPT Sites — decyzja o wyłączeniu.
-- [ ] Serwer: zaległe aktualizacje i wymagany restart — osobno, za zgodą właściciela (działa Hermes).
+- [x] Serwer: zaległe aktualizacje i wymagany restart — osobno, za zgodą właściciela (działa Hermes). — aktualizacje zrobione 30.10.2026, restart niewymagany (D-088)
 - [ ] Pytanie właściciela, co jeszcze może dać serwer — do omówienia.
 - [ ] Ewentualne rozszerzenie D-056 na rodzinę.
 
 ## OTWARTE PO 22.10.2026
-- [ ] Odświeżanie kursu na iPhonie — wariant A (D-087): audyt serwera, wybór programu, instalacja, test na iPhonie.
+- [x] Odświeżanie kursu na iPhonie — wariant A (D-087): audyt serwera, wybór programu, instalacja, test na iPhonie. — D-088, 30.10.2026
 - [ ] L1-07: sprawdzenie na aparacie (lista w docs/L1-07_ZRODLA_INSTRUKCJA.md).
 - [ ] L1-08 „Chcę mieć więcej rzeczy ostrych” — od zakresu (brama 1).

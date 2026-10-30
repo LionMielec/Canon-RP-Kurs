@@ -275,3 +275,25 @@ Nowa rozmowa w projekcie claude.ai (D-068). Claude w czacie czyta całą aktywn�
 
 ### Start następnej sesji
 Nowa rozmowa w projekcie claude.ai (D-068). Claude w czacie czyta całą aktywną dokumentację. Następny cel: odświeżanie kursu na iPhonie — wariant A (D-087), od audytu serwera. Potem L1-08.
+
+## HANDOFF 30.10.2026 — odświeżanie kursu na iPhonie (D-088)
+
+### Wykonane
+- Przegląd serwera tylko do odczytu.
+- Decyzja D-088.
+- Skrypt i ustawienia nginx (production/hosting/).
+- Uruchomienie przez właściciela.
+- Sprawdzenie nagłówków i test na iPhonie.
+- Scalenie do main.
+
+### Uwagi
+- Klucz administratora po restarcie Maca trzeba wczytać osobno w Terminalu i osobno w sesji Mechanika (`ssh-add --apple-use-keychain ~/.ssh/hermes_hetzner_ed25519`). Stałe rozwiązanie (wpis w ustawieniach SSH na Macu) — propozycja do decyzji właściciela.
+- needrestart wskazał kilka usług systemowych do odświeżenia (m.in. dbus, polkit, systemd-logind); odświeżą się przy następnym restarcie serwera, bez pilności. Hermes nie był na liście.
+
+### Otwarte
+- iPhone Ani: Tailscale, przyjęcie zaproszenia (wygasa około 16.11.2026), VPN On Demand, ikona; test na iPhonie 17 Pro Max.
+- Pełne potwierdzenie D-088 przy wgraniu L1-08.
+- Bez zmian: L1-07 na aparacie; etapy 3–4 sprawdzania (L1-04–L1-06) i poprawka po nich; stara wersja L1-01 i L1-02 na ChatGPT Sites; co jeszcze może dać serwer; ewentualne rozszerzenie D-056 na rodzinę.
+
+### Start następnej sesji
+Nowa rozmowa w projekcie claude.ai (D-068). Claude w czacie czyta całą aktywną dokumentację. Następny cel: do decyzji właściciela (iPhone Ani albo L1-08).

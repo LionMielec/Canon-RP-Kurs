@@ -971,3 +971,4 @@ Zatwierdzone 30.10.2026. Realizuje D-087.
 - Aktualizacje 11 pakietów razem z instalacją — jedno okno przerwy (aktualizacja Tailscale chwilowo przerywa połączenia).
 - Odrzucone: Caddy (w Ubuntu 24.04 starsza wersja, nowsza wymaga obcego źródła) i serwer w Pythonie (prowizorka).
 - Kolejność: skrypt na gałęzi wip/d-088 → audyt Claude w czacie → uruchomienie przez właściciela (hasło administratora) → sprawdzenie nagłówków → test na iPhonie → scalenie do main.
+- Wdrożone 30.10.2026: skrypt setup-nginx.sh uruchomiony przez właściciela bez błędów; 11 pakietów zaktualizowanych, restart serwera niewymagany; nagłówki sprawdzone z Maca przez Tailscale (no-cache, ETag, ponowne sprawdzenie zwraca 304); test na iPhonie właściciela zaliczony. Pełne potwierdzenie (nowa wersja w ikonie bez ponownego dodawania) — przy wgraniu L1-08.

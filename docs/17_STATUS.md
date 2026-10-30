@@ -90,3 +90,10 @@ Szczegóły w handoffie 17.10.2026 (hosting).
 - Następny cel: D-087, potem L1-08.
 
 Szczegóły w handoffie 22.10.2026.
+
+## Koniec etapu — 30.10.2026 (D-088)
+- Odświeżanie kursu na iPhonie naprawione na serwerze: nginx + tailscale serve (D-087, D-088); aktualizacje serwera zrobione.
+- iPhone Ani może być teraz podłączony (zaproszenie Tailscale wygasa około 16.11.2026).
+- Następny cel: do decyzji właściciela (iPhone Ani albo L1-08).
+
+Szczegóły w handoffie 30.10.2026.
