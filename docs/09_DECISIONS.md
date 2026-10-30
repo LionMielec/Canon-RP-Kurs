@@ -972,3 +972,17 @@ Zatwierdzone 30.10.2026. Realizuje D-087.
 - Odrzucone: Caddy (w Ubuntu 24.04 starsza wersja, nowsza wymaga obcego źródła) i serwer w Pythonie (prowizorka).
 - Kolejność: skrypt na gałęzi wip/d-088 → audyt Claude w czacie → uruchomienie przez właściciela (hasło administratora) → sprawdzenie nagłówków → test na iPhonie → scalenie do main.
 - Wdrożone 30.10.2026: skrypt setup-nginx.sh uruchomiony przez właściciela bez błędów; 11 pakietów zaktualizowanych, restart serwera niewymagany; nagłówki sprawdzone z Maca przez Tailscale (no-cache, ETag, ponowne sprawdzenie zwraca 304); test na iPhonie właściciela zaliczony. Pełne potwierdzenie (nowa wersja w ikonie bez ponownego dodawania) — przy wgraniu L1-08.
+
+## D-089 — L1-08: zakres zatwierdzony (brama 1)
+Zatwierdzone 30.10.2026.
+
+- Cel: Ania widzi, że większa liczba przy F sprawia, że ostrych jest kilka rzeczy naraz, nie tylko jedna.
+- Nowa rzecz: większa liczba przy F (kierunek odwrotny niż w L1-07); bez nowego przycisku i trybu — Av i główne pokrętło.
+- Punkt startowy: Av, znacznik przy 0, jeden punkt ostrości (koniec L1-07).
+- Ćwiczenie: trzy przedmioty lekko jeden za drugim, ostrość na środkowym, trzy zdjęcia z tego samego miejsca: F1.8, F4, F8; porównanie czytelności przedniego i tylnego przedmiotu.
+- Lekcja mówi wprost: duża liczba przy F nie robi automatycznie wszystkiego ostrego; zdjęcie nie ciemnieje, bo aparat wydłuża czas, co ułatwia poruszenie — jasne miejsce i stabilne oparcie aparatu; kompromis: więcej rzeczy ostrych, mniej rozmyte tło.
+- Nazwa „głębia ostrości” — raz, po pokazaniu efektu; najpierw do słownika.
+- Pomijamy: pierścień na obiektywie, czas jako temat (L1-10), ISO, statyw, portret (L1-09), wpływ odległości aparatu od przedmiotu, podgląd głębi ostrości. Wyjątek: w pomocy jedna wskazówka „przysuń przedmioty bliżej siebie”, po potwierdzeniu w źródle.
+- Materiały kierunkowo: V01 — trzy rendery tej samej sceny (Blender, scena L1-03/L1-07) F1.8 / F4 / F8; V02 — karta przed ćwiczeniem (komponent aplikacji). Higgsfield dostępny dla pojedynczych obrazów scen na warunkach D-050 — do decyzji przy tekście (brama 2).
+
+Zasada: **ta sama przysłona, odwrotny kierunek — więcej rzeczy ostrych.**
