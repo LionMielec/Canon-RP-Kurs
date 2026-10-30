@@ -112,6 +112,8 @@ Zakres: tryb Av, liczba f, stały punkt ostrości, odległość przedmiotu od t�
 
 ### L1-08. Chcę mieć więcej rzeczy ostrych
 
+Zakres i tekst zatwierdzone 30.10.2026 (D-089, D-090); pełna treść: [L1-08](L1-08_CHCE_MIEC_WIECEJ_RZECZY_OSTRYCH.md).
+
 **Cel:** dobrać większy zakres ostrości do kilku przedmiotów.
 
 Zakres: ta sama przysłona jako narzędzie innego efektu; punkt ostrości i odległości nadal mają znaczenie. Większa liczba f nie sprawia automatycznie, że wszystko będzie ostre.
@@ -120,7 +122,7 @@ Zakres: ta sama przysłona jako narzędzie innego efektu; punkt ostrości i odle
 
 **Sprawdzenie:** Ania wybiera zdjęcie, na którym potrzebne elementy są dostatecznie czytelne, i zauważa kompromis z rozmyciem tła.
 
-**Źródła:** PL, s. 78, 100–101.
+**Źródła:** PL, s. 54, 100–101; Canon UK „Depth of field”. Wcześniej podana strona 78 opisuje tryb Zdjęcie grupowe (D-090).
 
 ### L1-09. Robię prosty portret
 

@@ -986,3 +986,16 @@ Zatwierdzone 30.10.2026.
 - Materiały kierunkowo: V01 — trzy rendery tej samej sceny (Blender, scena L1-03/L1-07) F1.8 / F4 / F8; V02 — karta przed ćwiczeniem (komponent aplikacji). Higgsfield dostępny dla pojedynczych obrazów scen na warunkach D-050 — do decyzji przy tekście (brama 2).
 
 Zasada: **ta sama przysłona, odwrotny kierunek — więcej rzeczy ostrych.**
+
+## D-090 — L1-08: tekst i materiały zatwierdzone (brama 2)
+Zatwierdzone 30.10.2026. Realizuje D-089.
+
+- Tekst lekcji i opis materiałów zatwierdzone (brama 2); pełna treść w docs/L1-08_CHCE_MIEC_WIECEJ_RZECZY_OSTRYCH.md.
+- Wartości na ekranie: F1.8, F4.0 (zapis potwierdzony, PL/EN 101), F8 (zapis do sprawdzenia na aparacie, jak „F1.8” w L1-07).
+- Wskazówka „przysuń bliżej środkowego”: źródło Canon UK (ostrość sięga tylko pewien kawałek przed i za punktem ostrości); PL 77 nie jest źródłem tej wskazówki.
+- Porównanie: najpierw całe zdjęcia, potem powiększenie napisu na przednim i tylnym przedmiocie; kryterium „da się przeczytać”, nie idealna ostrość.
+- Nazwa „głębia ostrości” — raz, po pokazaniu efektu; wpisana do słownika.
+- Materiały: V01 trzy rendery F1.8 / F4.0 / F8; V02 schemat pasa ostrości z góry (WŁASNE); V03 karta przed ćwiczeniem. Higgsfield w tej lekcji nie jest używany.
+- Poprawka programu: dla L1-08 źródło „PL, s. 78” było błędne (strona opisuje tryb Zdjęcie grupowe).
+
+Zasada: **ostrość ma zasięg — punkt na środku, większa liczba.**
