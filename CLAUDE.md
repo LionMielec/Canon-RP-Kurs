@@ -11,3 +11,4 @@
 - Publikacja wyłącznie skryptem production/hosting/deploy.sh, za zgodą właściciela w bieżącym zadaniu (D-082).
 - Pracę wykraczającą poza zakres polecenia zgłaszaj właścicielowi przed jej wykonaniem (D-052).
 - Po każdej zmianie app.js, lessons.js lub style.css zmień numer wersji przy tym pliku w app/dist/index.html.
+- Raport końcowy z zadania podawaj w jednym bloku kodu (```), żeby właściciel mógł go skopiować jednym kliknięciem.
