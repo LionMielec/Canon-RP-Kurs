@@ -2200,5 +2200,275 @@ window.CANON_LESSONS = [
         ]
       }
     ]
+  },
+  {
+    "id": 8,
+    "code": "L1-08",
+    "title": "Chcę mieć więcej rzeczy ostrych",
+    "category": "Wpływam na tło",
+    "duration": "Około 15 minut",
+    "intro": {
+      "title": "Cel lekcji",
+      "body": "Po tej lekcji:\n- zobaczysz, że to samo ustawienie co w lekcji 7 może sprawić, że ostrych jest kilka rzeczy naraz,\n- ustawisz większą liczbę przy F głównym pokrętłem,\n- zrobisz trzy zdjęcia tego samego kadru i wybierzesz to, na którym potrzebne rzeczy są czytelne.\n\nGłówny nawyk:\n\n**gdy chcę, żeby ostrych było kilka rzeczy, ustawiam większą liczbę przy F.**\n\n**Punkt startowy**\n\nAparat jest w trybie **Av**, a znacznik na skali jasności stoi przy **0** — tak jak po [[L1-07|poprzedniej lekcji]].\n\nPrzygotuj trzy nieruchome przedmioty z napisem albo wyraźnym wzorem, na przykład dwa kubki i książkę. Postaw je na stole jeden za drugim, co około 20 cm. Każdy przesuń trochę w bok, żeby z Twojego miejsca było widać wszystkie trzy.\n\nĆwicz w dzień, blisko okna."
+    },
+    "steps": [
+      {
+        "id": "L1-08-S01",
+        "title": "Najpierw zobacz, o co chodzi",
+        "mediaPlacement": "after",
+        "body": "Kurs pokazuje trzy zdjęcia tych samych trzech przedmiotów. Ostrość za każdym razem jest na środkowym kubku. Zmienia się tylko liczba przy F.\n\n- **F1.8** — ostry jest tylko środkowy kubek. Przedni kubek jest mocno rozmyty, książka z tyłu — miękka.\n- **F4.0** — przedni kubek i książka są wyraźniejsze, ale jeszcze nie całkiem.\n- **F8** — wszystkie trzy przedmioty da się dobrze odczytać. Tło też jest wyraźniejsze.\n\nNa wszystkich trzech zdjęciach jasność jest taka sama.\n\n**Tę zmianę zrobisz w tej lekcji sama.**"
+      },
+      {
+        "id": "L1-08-S02",
+        "title": "Sprawdź, czy aparat jest gotowy",
+        "mediaPlacement": "after",
+        "body": "Przy kresce na pokrętle trybów powinno stać **Av**. Na ekranie powinien być jeden punkt ostrości, jak w lekcji 4.\n\nJeśli widzisz coś innego, ustaw go jeszcze raz, tak jak w kroku [[L1-04-S04|Ustaw jeden punkt ostrości]]."
+      },
+      {
+        "id": "L1-08-S03",
+        "title": "Ustaw punkt ostrości na środkowym przedmiocie",
+        "mediaPlacement": "after",
+        "body": "Dotknij ekranu w miejscu środkowego przedmiotu, tak jak w kroku [[L1-04-S05|Przesuń punkt ostrości na wybrany przedmiot]].  \n→ Punkt ostrości przesuwa się na środkowy przedmiot.\n\nDlaczego środkowy? Wyjaśnimy za chwilę."
+      },
+      {
+        "id": "L1-08-S04",
+        "title": "Ustaw większą liczbę przy F",
+        "mediaPlacement": "after",
+        "blocks": [
+          {
+            "text": "1. Naciśnij spust do połowy i spójrz na liczbę przy F na dole ekranu."
+          },
+          {
+            "asset": "L1-07-V03",
+            "frame": 0
+          },
+          {
+            "text": "2. Obróć **główne pokrętło** w tę stronę, w którą liczba robi się **większa**. Zobaczysz po kolei kilka liczb, wśród nich **F4.0**, a dalej **F8**."
+          },
+          {
+            "asset": "L1-02-V04",
+            "frame": 0
+          },
+          {
+            "text": "Patrz też na drugą liczbę obok. To czas, który aparat dobiera sam. Przy większej liczbie przy F aparat wybiera dłuższy czas, dzięki czemu zdjęcie nie ciemnieje."
+          }
+        ]
+      },
+      {
+        "id": "L1-08-S05",
+        "title": "Większa liczba, więcej rzeczy ostrych",
+        "mediaPlacement": "after",
+        "blocks": [
+          {
+            "text": "- **mała liczba przy F** (np. 1.8) — ostry jest tylko przedmiot z punktem ostrości, reszta się rozmywa,\n- **większa liczba przy F** (np. 8) — ostrych jest więcej rzeczy przed i za tym przedmiotem.\n\nTen zasięg ostrości przed i za punktem ostrości fotografowie nazywają **głębią ostrości**. Wystarczy, że pamiętasz: większa liczba — więcej rzeczy ostrych."
+          },
+          {
+            "asset": "L1-08-V02",
+            "frame": 0
+          },
+          {
+            "text": "Trzy rzeczy, o których warto wiedzieć:\n- **Ostrość nie sięga w nieskończoność.** Nawet przy F8 obejmuje tylko pewien kawałek przed i za punktem ostrości. Dlatego punkt ustawiasz na środkowym przedmiocie: wtedy przedni i tylny mają szansę zmieścić się w zasięgu.\n- **Dłuższy czas łatwiej poruszyć.** Ćwicz blisko okna. Oprzyj łokcie o stół i naciskaj spust spokojnie.\n- **Nie da się mieć wszystkiego naraz.** Gdy ostrych jest więcej rzeczy, tło też robi się wyraźniejsze. Aparat nie spełni obu życzeń jednocześnie, więc wybierasz Ty.\n\n**Teraz przejdźmy do ćwiczenia.**"
+          },
+          {
+            "asset": "L1-08-V03"
+          }
+        ]
+      }
+    ],
+    "exercise": {
+      "title": "Trzy zdjęcia, jeden kadr",
+      "blocks": [
+        {
+          "text": "Usiądź przy stole tak, żeby środkowy przedmiot był około metra od aparatu. Oprzyj łokcie o stół i nie zmieniaj miejsca między zdjęciami. Punkt ostrości zostaje na środkowym przedmiocie.\n\n**Zdjęcie 1 — F1.8**\n\nNaciśnij spust do połowy, poczekaj na zielony punkt ostrości i zrób zdjęcie.\n\n**Zdjęcie 2 — F4.0**\n\nNie ruszaj aparatu ani przedmiotów. Ustaw ostrość tak samo i zrób zdjęcie.\n\n**Zdjęcie 3 — F8**\n\nTak samo.\n\n**Porównaj**\n\nNaciśnij **przycisk odtwarzania** i obejrzyj trzy zdjęcia po kolei. Potem powiększ napis na przednim i na tylnym przedmiocie, tak jak w [[L1-02-S04|lekcji 2]]. Napis nie musi być idealnie ostry — ważne, czy da się go przeczytać."
+        },
+        {
+          "asset": "L1-02-V03",
+          "frame": 0
+        },
+        {
+          "text": "Sprawdź:\n- Na którym zdjęciu przedni i tylny przedmiot są najbardziej czytelne?\n- Na którym tło jest najbardziej rozmyte?\n- Które zdjęcie wybierzesz, jeśli chcesz pokazać wszystkie trzy przedmioty?\n\nDokończ zdanie:\n\n**„Wszystkie trzy przedmioty są czytelne na zdjęciu z F…, ale tło jest wtedy…”**"
+        }
+      ]
+    },
+    "help": {
+      "id": "L1-08-POMOC",
+      "title": "Jeśli coś nie działa",
+      "blocks": [
+        {
+          "text": "**Przy F8 przedni albo tylny przedmiot nadal jest nieostry.**  \nStoi za daleko od środkowego — poza zasięgiem ostrości. Przysuń go bliżej środkowego i spróbuj jeszcze raz. Sprawdź też, czy punkt ostrości był na środkowym przedmiocie.\n\n**Przy F8 całe zdjęcie jest rozmazane, także środkowy przedmiot.**  \nTo poruszenie — aparat wybrał dłuższy czas. Przejdź bliżej okna, oprzyj łokcie o stół, trzymaj aparat tak jak w [[L1-01-S03|lekcji 1]] i naciśnij spust spokojnie.\n\n**Liczba przy F robi się mniejsza zamiast większej.**  \nObracasz główne pokrętło w drugą stronę. Obróć je w przeciwnym kierunku.\n\n**Obracam pokrętło, a zmienia się jasność, nie liczba przy F.**  \nTo pokrętło przy LOCK. Liczbę przy F zmienia główne pokrętło, przy spuście. Wróć znacznikiem do 0."
+        },
+        {
+          "asset": "L1-05-V02",
+          "frame": 0
+        },
+        {
+          "text": "**Na dole ekranu miga jedna z liczb.**  \nJest za jasno albo za ciemno. Gdy miga 30\", przejdź w jaśniejsze miejsce. Gdy miga 1/4000, przejdź w cień."
+        }
+      ]
+    },
+    "summary": [
+      {
+        "title": "Na koniec lekcji",
+        "body": "- Sprawdź, że znacznik stoi przy 0.\n- Zostaw aparat w trybie **Av** — w następnej lekcji też z niego korzystamy."
+      },
+      {
+        "title": "Kiedy lekcja jest ukończona?",
+        "body": "Lekcja jest ukończona, jeżeli potrafisz:\n- ustawić F1.8, F4.0 i F8 głównym pokrętłem,\n- zrobić trzy zdjęcia tego samego kadru z ostrością na środkowym przedmiocie,\n- wskazać zdjęcie, na którym wszystkie trzy przedmioty są czytelne, i powiedzieć, co stało się z tłem."
+      },
+      {
+        "title": "Co zapamiętać",
+        "body": "**Większa liczba przy F — więcej rzeczy ostrych, ale tło mniej rozmyte.**"
+      }
+    ],
+    "assets": [
+      {
+        "id": "L1-08-V01",
+        "step": "L1-08-S01",
+        "title": "Ta sama scena przy F1.8, F4.0 i F8",
+        "note": "Rendery sceny 3D z L1-03 i L1-07; zmienia się tylko przysłona (D-090, D-091).",
+        "frames": [
+          {
+            "target": "./assets/lessons/l1-08/l1-08-v01-f18.jpg",
+            "title": "F1.8",
+            "width": 1200,
+            "height": 800,
+            "alt": "Trzy przedmioty na stole: środkowy kubek ostry, przedni kubek mocno rozmyty, książka z tyłu miękka"
+          },
+          {
+            "target": "./assets/lessons/l1-08/l1-08-v01-f40.jpg",
+            "title": "F4.0",
+            "width": 1200,
+            "height": 800,
+            "alt": "Te same trzy przedmioty; przedni kubek i książka wyraźniejsze"
+          },
+          {
+            "target": "./assets/lessons/l1-08/l1-08-v01-f80.jpg",
+            "title": "F8",
+            "width": 1200,
+            "height": 800,
+            "alt": "Te same trzy przedmioty; wszystkie trzy napisy czytelne, tło wyraźniejsze"
+          }
+        ]
+      },
+      {
+        "id": "L1-08-V02",
+        "step": "L1-08-S05",
+        "title": "Pas ostrości przy F1.8 i przy F8",
+        "note": "Schemat własny SVG (D-090, D-091); plik bez zmian z production/l1-08/v02.",
+        "frames": [
+          {
+            "target": "./assets/lessons/l1-08/l1-08-v02-pas-ostrosci.svg",
+            "title": "Pas ostrości przy F1.8 i przy F8",
+            "width": 800,
+            "height": 640,
+            "alt": "Widok z góry: aparat i trzy przedmioty w szeregu. Przy F1.8 pas ostrości obejmuje tylko środkowy kubek, przy F8 wszystkie trzy przedmioty"
+          }
+        ]
+      },
+      {
+        "id": "L1-08-V03",
+        "step": "L1-08-S05",
+        "title": "Karta przed ćwiczeniem",
+        "target": "komponent aplikacji",
+        "kind": "card",
+        "body": "**F1.8 → F4.0 → F8 → porównaj przód i tył**"
+      },
+      {
+        "id": "L1-07-V03",
+        "step": "L1-08-S04",
+        "title": "Liczba przy F i skala jasności",
+        "note": "Ten sam plik co L1-07-V03. Rysunek z instrukcji Canon (D-056); plik lokalny, do podmiany. Bez pliku aplikacja pokazuje jawne miejsce na brakujący materiał.",
+        "localOnly": true,
+        "frames": [
+          {
+            "target": "./assets/lessons/l1-07/l1-07-v03-liczba-f-canon.png",
+            "title": "Liczba przy F i skala jasności",
+            "width": 1365,
+            "height": 173,
+            "alt": "Dolny pasek ekranu: liczba F5.6 i obok skala jasności"
+          }
+        ]
+      },
+      {
+        "id": "L1-02-V04",
+        "step": "L1-08-S04",
+        "title": "Główne pokrętło",
+        "note": "Ten sam plik i oznaczenie co L1-02-V04 (drugi kadr).",
+        "source": "fbe2fd62-e8ab-465b-b340-b6d0b4458622.jpg",
+        "frames": [
+          {
+            "target": "./assets/lessons/l1-02/l1-02-main-dial.jpg",
+            "title": "Główne pokrętło — obróć",
+            "width": 450,
+            "height": 370,
+            "markers": [
+              {
+                "x": 61.0,
+                "y": 62.5,
+                "width": 48,
+                "height": 23,
+                "kind": "halo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "L1-02-V03",
+        "step": "L1-08-CWICZENIE",
+        "title": "Przycisk odtwarzania",
+        "note": "Ten sam plik i oznaczenie co L1-02-V03 (pierwszy kadr).",
+        "source": "57652b89-ae48-4cd1-b998-e883aee8aa1f.jpg",
+        "frames": [
+          {
+            "target": "./assets/lessons/l1-02/l1-02-v03-playback-button.jpg",
+            "title": "Przycisk odtwarzania — naciśnij",
+            "width": 500,
+            "height": 500,
+            "markers": [
+              {
+                "x": 47.0,
+                "y": 80.5,
+                "width": 16,
+                "height": 17,
+                "kind": "halo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "L1-05-V02",
+        "step": "L1-08-POMOC",
+        "title": "Pokrętło przy LOCK i przełącznik LOCK",
+        "note": "Ten sam plik i oznaczenie co L1-05-V02.",
+        "source": "fbe2fd62-e8ab-465b-b340-b6d0b4458622.jpg",
+        "frames": [
+          {
+            "target": "./assets/lessons/l1-05/l1-05-v02-pokretlo-przy-lock.jpg",
+            "title": "Pokrętło przy LOCK i przełącznik LOCK",
+            "width": 800,
+            "height": 480,
+            "alt": "Góra aparatu: po lewej pokrętło trybów, po prawej duże okrągłe pokrętło i obok niego mały przełącznik z napisem LOCK",
+            "markers": [
+              {
+                "x": 66.0,
+                "y": 64.5,
+                "width": 24,
+                "height": 40,
+                "kind": "halo"
+              },
+              {
+                "x": 84.5,
+                "y": 46.0,
+                "width": 11,
+                "height": 18,
+                "kind": "halo"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 ];

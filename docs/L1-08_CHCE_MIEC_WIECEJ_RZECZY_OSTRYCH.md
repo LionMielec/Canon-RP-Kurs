@@ -27,8 +27,8 @@ Przygotuj trzy nieruchome przedmioty z napisem albo wyraźnym wzorem, na przykł
 
 Kurs pokazuje trzy zdjęcia tych samych trzech przedmiotów. Ostrość za każdym razem jest na środkowym kubku. Zmienia się tylko liczba przy F.
 
-- **F1.8** — ostry jest tylko środkowy kubek. Przedni i tylny są rozmyte.
-- **F4.0** — przedni i tylny są wyraźniejsze, ale jeszcze nie całkiem.
+- **F1.8** — ostry jest tylko środkowy kubek. Przedni kubek jest mocno rozmyty, książka z tyłu — miękka.
+- **F4.0** — przedni kubek i książka są wyraźniejsze, ale jeszcze nie całkiem.
 - **F8** — wszystkie trzy przedmioty da się dobrze odczytać. Tło też jest wyraźniejsze.
 
 Na wszystkich trzech zdjęciach jasność jest taka sama.

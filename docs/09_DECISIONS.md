@@ -999,3 +999,12 @@ Zatwierdzone 30.10.2026. Realizuje D-089.
 - Poprawka programu: dla L1-08 źródło „PL, s. 78” było błędne (strona opisuje tryb Zdjęcie grupowe).
 
 Zasada: **ostrość ma zasięg — punkt na środku, większa liczba.**
+
+## D-091 — L1-08: materiały V01 i V02 odebrane, poprawka kroku 1
+Zatwierdzone 30.10.2026. Uzupełnia D-090.
+
+- V01 (trzy rendery F1.8 / F4.0 / F8; napisy w odległości 0,74 / 0,92 / 1,12 m od aparatu) i V02 (schemat pasa ostrości) odebrane przez właściciela 30.10.2026.
+- Krok 1 lekcji dopasowany do obrazu: przy F1.8 przedni kubek mocno rozmyty, książka z tyłu miękka — ostrość sięga dalej za punktem ostrości niż przed nim (Canon UK). Scena bez zmian; odstępy zgodne z ćwiczeniem.
+- V02 upraszcza: przy F8 przedni kubek jest czytelny, choć mniej ostry niż środkowy — zgodne z kryterium „da się przeczytać”.
+
+Zasada: **tekst mówi to, co widać na obrazie.**
