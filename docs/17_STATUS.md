@@ -1,6 +1,6 @@
 # Canon RP kurs — STATUS
 
-Stan na: 2026-10-22
+Stan na: 2026-10-30
 
 ## Koniec sesji — 30.09.2026
 Sposób produkcji materiałów L1-03 rozwiązany: render 3D w Blenderze 4.5 LTS (D-051). Ujęcie próbne V04A odebrane. Pozostałe kadry V01–V04B czekają na decyzje właściciela i rendery finalne, V05 do przygotowania. Szczegóły w handoffie 30.09.2026.
@@ -97,3 +97,10 @@ Szczegóły w handoffie 22.10.2026.
 - Następny cel: do decyzji właściciela (iPhone Ani albo L1-08).
 
 Szczegóły w handoffie 30.10.2026.
+
+## Koniec sesji — 30.10.2026 (L1-08)
+- L1-08 „Chcę mieć więcej rzeczy ostrych” odebrana, w main i na serwerze (D-089–D-092).
+- Pełne potwierdzenie D-088 — przy najbliższym teście na iPhonie.
+- Następny cel: do decyzji właściciela (według programu L1-09).
+
+Szczegóły w handoffie 30.10.2026 (L1-08).

@@ -297,3 +297,23 @@ Nowa rozmowa w projekcie claude.ai (D-068). Claude w czacie czyta całą aktywn�
 
 ### Start następnej sesji
 Nowa rozmowa w projekcie claude.ai (D-068). Claude w czacie czyta całą aktywną dokumentację. Następny cel: do decyzji właściciela (iPhone Ani albo L1-08).
+
+## HANDOFF 30.10.2026 — L1-08 „Chcę mieć więcej rzeczy ostrych”
+
+### Wykonane
+- Zakres (D-089), źródła z instrukcji Canon (docs/L1-08_ZRODLA_INSTRUKCJA.md), tekst i karta (D-090), materiały V01 i V02 odebrane, poprawka kroku 1 (D-091), wdrożenie w aplikacji, poprawka nazwy „zasięg ostrości” (D-063), odbiór właściciela w lokalnym podglądzie, scalenie wip/l1-08 do main i wgranie na serwer (D-092).
+- Program Poziomu 1: dla L1-08 poprawione źródło (strona 78 opisuje tryb Zdjęcie grupowe).
+
+### Uwagi
+- Render L1-08-V01: production/l1-08/build_l1_08_v01.py na scenie L1-03 i regale L1-07; napisy w odległości 0,74 / 0,92 / 1,12 m.
+- Arkusze zrzutów w review/ tylko w wersji publicznej (bez rysunków Canon, D-056); wersja z rysunkami lokalnie w production/l1-08/renders/zrzuty-lokalne/.
+- Higgsfield w L1-08 nieużywany (D-090).
+
+### Otwarte
+- Pełne potwierdzenie D-088: ikona kursu na iPhonie właściciela pokazuje lekcję 8 bez ponownego dodawania — przy najbliższym teście na telefonie.
+- iPhone Ani: Tailscale, przyjęcie zaproszenia (wygasa około 16.11.2026), VPN On Demand, ikona; test na iPhonie 17 Pro Max.
+- L1-08 do sprawdzenia na aparacie: lista w docs/L1-08_ZRODLA_INSTRUKCJA.md.
+- Bez zmian: L1-07 na aparacie; etapy 3–4 sprawdzania (L1-04–L1-06) i poprawka po nich; stara wersja L1-01 i L1-02 na ChatGPT Sites; co jeszcze może dać serwer; ewentualne rozszerzenie D-056 na rodzinę; stałe wczytywanie klucza administratora SSH na Macu.
+
+### Start następnej sesji
+Nowa rozmowa w projekcie claude.ai (D-068). Claude w czacie czyta całą aktywną dokumentację. Następny cel: do decyzji właściciela; według programu w docs/12_PROGRAM_POZIOMU_1.md kolejna jest L1-09 „Robię prosty portret”.
