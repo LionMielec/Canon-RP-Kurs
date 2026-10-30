@@ -1008,3 +1008,13 @@ Zatwierdzone 30.10.2026. Uzupełnia D-090.
 - V02 upraszcza: przy F8 przedni kubek jest czytelny, choć mniej ostry niż środkowy — zgodne z kryterium „da się przeczytać”.
 
 Zasada: **tekst mówi to, co widać na obrazie.**
+
+## D-092 — L1-08: odbiór w aplikacji i publikacja
+Zatwierdzone 30.10.2026. Uzupełnia D-090 i D-091.
+
+- Lekcja L1-08 odebrana przez właściciela w lokalnym podglądzie 30.10.2026 (brama 3), razem z kartą V03 i poprawką nazwy „zasięg ostrości” (D-063).
+- Gałąź wip/l1-08 scalona do main; kurs z lekcją 8 wgrany na serwer skryptem production/hosting/deploy.sh (D-082).
+- Do sprawdzenia na aparacie: lista w docs/L1-08_ZRODLA_INSTRUKCJA.md (zwłaszcza zapis „F8”, ustawienie C.Fn I-1, czytelność przedniego i tylnego przedmiotu przy F8).
+- Pełne potwierdzenie D-088 (ikona na iPhonie pokazuje nową lekcję bez ponownego dodawania) — przy najbliższym teście właściciela na telefonie.
+
+Zasada: **odebrane, scalone, na serwerze.**

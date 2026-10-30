@@ -1,7 +1,7 @@
 # L1-08 — Chcę mieć więcej rzeczy ostrych
 
 **Poziom 1 · Wpływam na tło**
-**Status:** TEKST ZATWIERDZONY — 30.10.2026 (D-090); DO SPRAWDZENIA NA APARACIE
+**Status:** ODEBRANA W APLIKACJI — 30.10.2026 (D-092); DO SPRAWDZENIA NA APARACIE
 **Czas:** około 15 minut
 
 ## Cel lekcji

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 640" role="img" aria-labelledby="t d" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
   <title id="t">Zasięg ostrości przy F1.8 i przy F8</title>
-  <desc id="d">Widok z góry. Po lewej aparat, przed nim w szeregu trzy przedmioty: przedni kubek, środkowy kubek z punktem ostrości i książka. Górny panel F1.8: jasny zasięg ostrości jest wąski i obejmuje tylko środkowy kubek. Dolny panel F8: zasięg ostrości jest szeroki i obejmuje wszystkie trzy przedmioty; za punktem ostrości sięga nieco dalej niż przed nim.</desc>
+  <desc id="d">Widok z góry. Po lewej aparat, przed nim w szeregu trzy przedmioty: przedni kubek, środkowy kubek z punktem ostrości i książka. Górny panel F1.8: jasne pole pokazuje zasięg ostrości: krótki, tylko środkowy kubek. Dolny panel F8: jasne pole pokazuje zasięg ostrości: długi, wszystkie trzy przedmioty; za punktem ostrości sięga nieco dalej niż przed nim.</desc>
   <!-- Kolory ze zmiennych app/dist/style.css: bg #f8f3fc, paper #fffdfd, line #e6dcec,
        lavender #ece2f7, violet #70429b, violet-dark #51316f, focus #a33284, ink #382343.
        Odcień przedmiotów poza pasem (#c4b3d6) jak w schemacie L1-06-V02.
