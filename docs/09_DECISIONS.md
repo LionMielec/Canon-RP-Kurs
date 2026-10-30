@@ -961,3 +961,13 @@ Zatwierdzone 22.10.2026. Uzupełnia D-082.
 - Odrzucone: wariant B (mechanizm w aplikacji — obchodzi problem zamiast go usunąć) i wariant C (ponowne dodawanie ikony po każdej lekcji — prowizorka).
 
 Zasada: **przyczynę usuwamy na serwerze, nie w telefonie Ani.**
+
+## D-088 — Odświeżanie kursu: nginx i aktualizacje serwera
+Zatwierdzone 30.10.2026. Realizuje D-087.
+
+- Przegląd serwera 30.10.2026 (tylko odczyt): potwierdzona przyczyna z D-087 — brak Cache-Control, ETag i Expires; manifest.webmanifest wysyłany jako text/plain. Restart niewymagany; 11 pakietów do aktualizacji, bez poprawek bezpieczeństwa; brak serwera stron.
+- Program: nginx z oficjalnych pakietów Ubuntu, nasłuchuje wyłącznie na 127.0.0.1; tailscale serve przekazuje do niego ruch z portu 443. Z internetu nadal tylko port 22; Hermes bez zmian.
+- Reguła: każdy plik kursu z Cache-Control: no-cache i ETag (telefon zawsze sprawdza, czy jest nowsza wersja); manifest.webmanifest jako application/manifest+json.
+- Aktualizacje 11 pakietów razem z instalacją — jedno okno przerwy (aktualizacja Tailscale chwilowo przerywa połączenia).
+- Odrzucone: Caddy (w Ubuntu 24.04 starsza wersja, nowsza wymaga obcego źródła) i serwer w Pythonie (prowizorka).
+- Kolejność: skrypt na gałęzi wip/d-088 → audyt Claude w czacie → uruchomienie przez właściciela (hasło administratora) → sprawdzenie nagłówków → test na iPhonie → scalenie do main.
