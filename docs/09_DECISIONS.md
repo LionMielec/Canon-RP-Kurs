@@ -1033,3 +1033,15 @@ Zatwierdzone 01.11.2026.
 - Materiały kierunkowo: V01 — przykładowy portret przy oknie (ostre oko, rozmyte tło), Higgsfield na warunkach D-050, koszt i zgoda przy bramie 2; V02 — schemat „ostrość na bliższym oku”; V03 — karta przed ćwiczeniem; ponownie materiały L1-04 o dotknięciu ekranu.
 
 Zasada: **znane narzędzia, nowy cel — oko.**
+
+## D-094 — L1-09: tekst i materiały zatwierdzone (brama 2)
+Zatwierdzone 01.11.2026. Realizuje D-093.
+
+- Tekst lekcji i opis materiałów zatwierdzone (brama 2); pełna treść w docs/L1-09_ROBIE_PROSTY_PORTRET.md.
+- Bliższe oko i F2.8 potwierdzone w źródłach Canon (Canon U.S.A., Canon Asia SNAPSHOT); instrukcja Canon tych zaleceń nie podaje (docs/L1-09_ZRODLA_INSTRUKCJA.md, punkty d i h).
+- Materiały: V01 — portret przy oknie z Higgsfield (D-050) z twarzą Ani, postać z konta Higgsfield właściciela, pod nim wycinek bliższego oka z tego samego obrazu; V02 — schemat bliższe i dalsze oko (WŁASNE); V03 — karta przed ćwiczeniem. Każde płatne generowanie po podaniu kosztu i zgodzie właściciela; obraz zatwierdza właściciel.
+- Wizerunek Ani: właściciel zgadza się, żeby był widoczny publicznie, także w przyszłej publicznej wersji kursu. V01 traktujemy jak inne materiały (repozytorium, podglądy w review/).
+- Nowe nazwy w słowniku: osoba, portret, bliższe oko.
+- Karta na stronie głównej: „Fotografuję osobę”, około 20 minut.
+
+Zasada: **ostre oko — to bliższe aparatowi.**

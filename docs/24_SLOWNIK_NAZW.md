@@ -1,6 +1,6 @@
 # 24 — Słownik nazw
 
-Stan: 30.10.2026. Dokument produkcyjny; obejmuje lekcje L1-01–L1-08.
+Stan: 01.11.2026. Dokument produkcyjny; obejmuje lekcje L1-01–L1-09.
 
 Każdy przycisk, pokrętło, napis, ikona i pojęcie ma w całym kursie jedną nazwę (D-063). Rozstrzygnięcia właściciela zapisuje D-066. Nazwę wybieramy według reguły z D-065: najpierw napis na aparacie Ani albo na jego ekranie; gdy napisu nie ma — nazwa z zatwierdzonych lekcji L1-01 i L1-02; gdy i tam jej nie ma — jedna prosta nazwa opisowa, nadana raz. Inne określenie może pojawić się najwyżej raz w lekcji, jako opis wyglądu.
 
@@ -58,5 +58,8 @@ Nowa nazwa trafia do tej tabeli, zanim zostanie użyta w lekcji.
 | To, co zmienia liczba przy F | przysłona | pojęcie, lekcja L1-07 — użyte raz w lekcji | — |
 | Pojęcie fotograficzne na zasięg ostrości | głębia ostrości | pojęcie, lekcja L1-08 — użyte raz w lekcji | — |
 | Odcinek przed i za punktem ostrości, w którym przedmioty są ostre | zasięg ostrości | nadana, lekcja L1-08 | — |
+| To, co Ania fotografuje w portrecie | osoba | nadana, lekcja L1-09 | — |
+| Zdjęcie osoby, na którym najważniejsza jest twarz | portret | pojęcie, lekcja L1-09 | — |
+| Oko osoby, które jest bliżej aparatu | bliższe oko | nadana, lekcja L1-09 | „oko, które jest bliżej aparatu” |
 
 Napisy z menu aparatu zapisujemy dokładnie tak, jak na ekranie — także wtedy, gdy zawierają słowa, których sami nie używamy (np. „Wyśw. punktu AF”).

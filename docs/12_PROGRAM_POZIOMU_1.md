@@ -126,6 +126,8 @@ Zakres: ta sama przysłona jako narzędzie innego efektu; punkt ostrości i odle
 
 ### L1-09. Robię prosty portret
 
+Zakres i tekst zatwierdzone 01.11.2026 (D-093, D-094); pełna treść: [L1-09](L1-09_ROBIE_PROSTY_PORTRET.md).
+
 **Cel:** połączyć dobre światło, spokojne tło i ostrość na osobie.
 
 Zakres: jedna spokojnie siedząca osoba, Av, ostrość na twarzy/oku, kontrola zdjęcia. Detekcja oka jest pomocą, nie warunkiem powodzenia; przewidujemy wybór punktu ostrości, gdy aparat oka nie wykryje. Dokładna obsługa i dostępność funkcji wymagają późniejszego sprawdzenia na egzemplarzu.
