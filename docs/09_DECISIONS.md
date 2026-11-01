@@ -1018,3 +1018,18 @@ Zatwierdzone 30.10.2026. Uzupełnia D-090 i D-091.
 - Pełne potwierdzenie D-088 (ikona na iPhonie pokazuje nową lekcję bez ponownego dodawania) — przy najbliższym teście właściciela na telefonie.
 
 Zasada: **odebrane, scalone, na serwerze.**
+
+## D-093 — L1-09: zakres zatwierdzony (brama 1)
+Zatwierdzone 01.11.2026.
+
+- Cel: Ania robi portret siedzącej osoby przy oknie, łącząc to, co zna: światło (L1-06), rozmyte tło (L1-07) i punkt ostrości (L1-04).
+- Nowa rzecz: punkt ostrości na oku osoby — na oku bliższym aparatowi (do potwierdzenia w źródle).
+- Sposób: wariant A — jeden punkt ostrości przesuwany dotknięciem ekranu, jak w L1-04. Bez wykrywania oka i twarzy (wariant B nie w tej lekcji; wykrywanie twarzy do rozważenia przy L1-11). Po lekcji nic nie trzeba przywracać.
+- Punkt startowy: Av, znacznik przy 0, jeden punkt ostrości (koniec L1-08).
+- Liczba przy F: punkt startowy F2.8, nie F1.8 — więcej zapasu ostrości przy portrecie z bliska. Uzasadnienie i zapis na ekranie do potwierdzenia w źródłach.
+- Ćwiczenie: trzy portrety przy oknie; między zdjęciami zmienia się tylko jedna rzecz: ustawienie osoby względem okna, odległość tła albo kadr (pion/poziom). Na koniec powiększenie oka jak w L1-02.
+- Sprawdzenie: Ania wybiera zdjęcie z ostrym okiem i mówi, jaka jedna zmiana pomogła.
+- Pomijamy: wykrywanie oka i twarzy, śledzenie ostrości (Servo AF), tryb Portrety, czas jako temat, ISO, lampę, blendę.
+- Materiały kierunkowo: V01 — przykładowy portret przy oknie (ostre oko, rozmyte tło), Higgsfield na warunkach D-050, koszt i zgoda przy bramie 2; V02 — schemat „ostrość na bliższym oku”; V03 — karta przed ćwiczeniem; ponownie materiały L1-04 o dotknięciu ekranu.
+
+Zasada: **znane narzędzia, nowy cel — oko.**
