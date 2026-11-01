@@ -34,14 +34,16 @@ PORTRAIT_H=896
 # górnego rogu. Bliższe oko: to po lewej stronie zdjęcia (prawe oko osoby,
 # od strony okna). Głowa jest lekko obrócona w prawo: czubek nosa leży
 # na prawo od środka między oczami, oko po lewej jest szersze i widać
-# po jego stronie więcej policzka. Prostokąt obejmuje całe oko z brwią
-# i marginesem; środek prostokąta (1040, 520) leży na brwi i oku.
-# 600 × 400 → 1200 × 800 to powiększenie 2 razy; przy tej szerokości
-# w kadrze jest też dalsze oko i nos. Proporcja 3:2.
-EYE_X=740       # lewy brzeg wycinka
-EYE_Y=320       # górny brzeg wycinka
-EYE_W=600       # szerokość
-EYE_H=400       # wysokość
+# po jego stronie więcej policzka. Prostokąt obejmuje całe bliższe oko
+# z brwią; dalsze oko (od x ≈ 1222) jest całkowicie poza kadrem.
+# Bliższe oko (x ≈ 975–1110) leży na prawo od środka, przy około 2/3
+# szerokości; po prawej widać bok i grzbiet nosa (dopuszczone, wariant B).
+# 520 × 347 → 1200 × 800 to powiększenie około 2,3 razy. Proporcja 3:2
+# z zaokrągleniem do pełnego piksela (520 : 346,7).
+EYE_X=690       # lewy brzeg wycinka
+EYE_Y=347       # górny brzeg wycinka
+EYE_W=520       # szerokość
+EYE_H=347       # wysokość
 EYE_OUT_W=1200
 EYE_OUT_H=800
 
@@ -54,7 +56,9 @@ if [ "$(dim pixelWidth "$SRC")" != "$SRC_W" ] || [ "$(dim pixelHeight "$SRC")" !
   echo "Oryginał nie ma ${SRC_W} × ${SRC_H}" >&2
   exit 1
 fi
-if [ $((EYE_W * 2)) -ne $((EYE_H * 3)) ]; then
+# 3:2 z tolerancją poniżej 1 px wysokości (|2W − 3H| ≤ 2).
+RATIO_DIFF=$((EYE_W * 2 - EYE_H * 3))
+if [ "${RATIO_DIFF#-}" -gt 2 ]; then
   echo "Wycinek oka nie ma proporcji 3:2" >&2
   exit 1
 fi
