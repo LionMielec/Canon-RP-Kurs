@@ -35,12 +35,13 @@ PORTRAIT_H=896
 # od strony okna). Głowa jest lekko obrócona w prawo: czubek nosa leży
 # na prawo od środka między oczami, oko po lewej jest szersze i widać
 # po jego stronie więcej policzka. Prostokąt obejmuje całe oko z brwią
-# i marginesem; brew jest w środku szerokości, oko po prawej go nie
-# obejmuje. Proporcja 3:2.
-EYE_X=860       # lewy brzeg wycinka
-EYE_Y=400       # górny brzeg wycinka
-EYE_W=360       # szerokość
-EYE_H=240       # wysokość
+# i marginesem; środek prostokąta (1040, 520) leży na brwi i oku.
+# 600 × 400 → 1200 × 800 to powiększenie 2 razy; przy tej szerokości
+# w kadrze jest też dalsze oko i nos. Proporcja 3:2.
+EYE_X=740       # lewy brzeg wycinka
+EYE_Y=320       # górny brzeg wycinka
+EYE_W=600       # szerokość
+EYE_H=400       # wysokość
 EYE_OUT_W=1200
 EYE_OUT_H=800
 
