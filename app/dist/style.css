@@ -14,3 +14,9 @@
 .camera-marker::before{content:"";position:absolute;inset:-10%;border-radius:50%;background:radial-gradient(ellipse,transparent 56%,#e9a8d800 60%,#e9a8d8 65%,#f6e2ee 68%,#e9a8d8 71%,#e9a8d800 77%);filter:blur(1px) drop-shadow(0 1px 2px #382343);opacity:1}
 .camera-marker--direction{display:flex;align-items:center;justify-content:center;color:var(--pink);font-size:clamp(16px,4vw,22px);font-weight:600;line-height:1;text-shadow:0 1px 2px #382343,0 0 4px #382343}
 .camera-marker--direction::before{content:none}
+.lesson-card .label{color:var(--violet)}
+.lesson-card h2{margin-bottom:6px}
+.lesson-card .lesson-time{font-size:.8125rem;color:var(--muted);margin:0 0 18px}
+.step-title:has(+.step-subtitle){margin-bottom:10px}
+.step-subtitle{font-size:1.5rem;line-height:1.2;margin:0 0 20px;overflow-wrap:anywhere}
+@media(max-width:360px){.step-subtitle{font-size:1.35rem}}

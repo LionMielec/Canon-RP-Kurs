@@ -139,7 +139,9 @@
     const page = pages[index];
     const previous = pages[index - 1];
     const next = pages[index + 1];
-    const link = item => `#lekcja-${lesson.id}/${item.key}`;
+    // Pierwszy ekran lekcji: duży napis to tytuł lekcji, „Cel lekcji” jest podtytułem.
+    const isIntro = page.kind === 'intro';
+    const link = item =>`#lekcja-${lesson.id}/${item.key}`;
     const position = page.kind === 'step'
       ? `Krok ${lesson.steps.findIndex(step => step.id === page.id) + 1} z ${lesson.steps.length}`
       : ({ intro: 'Cel', exercise: 'Ćwiczenie', reflection: 'Porównanie', help: 'Pomoc', summary: 'Podsumowanie' })[page.kind];
@@ -149,11 +151,12 @@
     app.innerHTML = `<article data-lesson="${lesson.code}" data-section-id="${escape(page.id || page.key)}">
       ${origin ? `<a class="back-bar" href="${origin.href}">← Wróć do lekcji ${origin.lesson} · ${escape(origin.title)}</a>` : ''}
       <a class="crumb" href="#">← Spis lekcji</a>
-      <p class="lesson-name">${escape(lesson.title)}</p>
+      ${isIntro ? '' : `<p class="lesson-name">${escape(lesson.title)}</p>`}
       <div class="lesson-meta"><span>Lekcja ${lesson.id} · ${escape(lesson.duration)}</span><span>${position}</span></div>
       <div class="track" role="progressbar" aria-label="Miejsce w lekcji" aria-valuemin="0" aria-valuemax="${pages.length}" aria-valuenow="${index + 1}"><span style="width:${(index + 1) / pages.length * 100}%"></span></div>
       <p class="eyebrow">${escape(lesson.category.toUpperCase())}</p>
-      <h1 class="step-title step-heading" tabindex="-1">${escape(page.title)}</h1>
+      <h1 class="step-title step-heading" tabindex="-1">${escape(isIntro ? lesson.title : page.title)}</h1>
+      ${isIntro ? `<h2 class="step-subtitle">${escape(page.title)}</h2>` : ''}
       ${contentMarkup(lesson, page)}
       <nav class="footer-actions" aria-label="Przechodzenie przez lekcję">
         ${previous ? `<a class="secondary" href="${link(previous)}">← Wstecz</a>` : ''}
