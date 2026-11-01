@@ -183,4 +183,11 @@ Wcześniejsze sekcje są historyczne; role według D-047.
 ## OTWARTE PO 22.10.2026
 - [x] Odświeżanie kursu na iPhonie — wariant A (D-087): audyt serwera, wybór programu, instalacja, test na iPhonie. — D-088, 30.10.2026
 - [ ] L1-07: sprawdzenie na aparacie (lista w docs/L1-07_ZRODLA_INSTRUKCJA.md).
-- [ ] L1-08 „Chcę mieć więcej rzeczy ostrych” — od zakresu (brama 1).
+- [x] L1-08 „Chcę mieć więcej rzeczy ostrych” — od zakresu (brama 1). — D-092
+
+## OTWARTE PO 01.11.2026
+- [ ] Audyt tylko do odczytu: porównanie każdej informacji z lekcji 1–8 z zapisanymi źródłami (prośba właściciela z 01.11.2026) — kiedy właściciel zdecyduje.
+- [ ] Pełne potwierdzenie D-088: ikona kursu na iPhonie pokazuje lekcję 9 bez ponownego dodawania.
+- [ ] iPhone Ani: Tailscale, przyjęcie zaproszenia (wygasa około 16.11.2026), VPN On Demand, ikona; test na iPhonie 17 Pro Max.
+- [ ] L1-09 do sprawdzenia na aparacie: lista w docs/L1-09_ZRODLA_INSTRUKCJA.md.
+- [ ] Bez zmian: L1-07 i L1-08 na aparacie; etapy 3–4 sprawdzania (L1-04–L1-06) i poprawka po nich; stara wersja L1-01 i L1-02 na ChatGPT Sites; co jeszcze może dać serwer; ewentualne rozszerzenie D-056 na rodzinę; stałe wczytywanie klucza administratora SSH na Macu.

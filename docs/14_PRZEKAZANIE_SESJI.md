@@ -317,3 +317,24 @@ Nowa rozmowa w projekcie claude.ai (D-068). Claude w czacie czyta całą aktywn�
 
 ### Start następnej sesji
 Nowa rozmowa w projekcie claude.ai (D-068). Claude w czacie czyta całą aktywną dokumentację. Następny cel: do decyzji właściciela; według programu w docs/12_PROGRAM_POZIOMU_1.md kolejna jest L1-09 „Robię prosty portret”.
+
+## HANDOFF 01.11.2026 — L1-09 „Robię prosty portret”
+
+### Wykonane
+- Zakres (D-093), źródła z instrukcji Canon (docs/L1-09_ZRODLA_INSTRUKCJA.md), tekst i karta (D-094), sprawdzenie ze źródłami i poprawki (D-095), portret V01 z Higgsfield, wycinek oka i schemat V02 odebrane (D-096), wdrożenie w aplikacji, odbiór właściciela w lokalnym podglądzie, scalenie wip/l1-09 do main i wgranie na serwer (D-097).
+
+### Uwagi
+- Higgsfield: wytrenowana postać Ani to „Chic Urban Serenity”. Najlepszy wynik: Nano Banana Pro z elementem „Chic Urban Serenity-1” i zdjęciem twarzy Ani jako wzorcem (media 95da5ce1-f3ac-4bc0-81a7-f5046fdaf970), około 2 kredyty za obraz. Soul 2.0 dawał sztuczny wygląd.
+- Claude w czacie nie otwiera obrazów z serwera Higgsfield; przegląd przez lekkie kopie w review/ (D-053).
+- Portret i wycinek oka: production/l1-09/prepare_l1_09_v01.sh; oryginał lokalnie w production/l1-09/renders/. Schemat V02: proporcje z rachunku w karcie L1-09.
+- Właściciel zgodził się na publiczny wizerunek Ani w materiałach kursu (D-094).
+
+### Otwarte
+- Audyt tylko do odczytu: porównanie każdej informacji z lekcji 1–8 z zapisanymi źródłami (prośba właściciela z 01.11.2026) — kiedy właściciel zdecyduje.
+- Pełne potwierdzenie D-088: ikona kursu na iPhonie pokazuje lekcję 9 bez ponownego dodawania.
+- iPhone Ani: Tailscale, przyjęcie zaproszenia (wygasa około 16.11.2026), VPN On Demand, ikona; test na iPhonie 17 Pro Max.
+- L1-09 do sprawdzenia na aparacie: lista w docs/L1-09_ZRODLA_INSTRUKCJA.md.
+- Bez zmian: L1-07 i L1-08 na aparacie; etapy 3–4 sprawdzania (L1-04–L1-06) i poprawka po nich; stara wersja L1-01 i L1-02 na ChatGPT Sites; co jeszcze może dać serwer; ewentualne rozszerzenie D-056 na rodzinę; stałe wczytywanie klucza administratora SSH na Macu.
+
+### Start następnej sesji
+Nowa rozmowa w projekcie claude.ai (D-068). Claude w czacie czyta całą aktywną dokumentację. Następny cel: do decyzji właściciela; według programu L1-10 „Zatrzymuję ruch na zdjęciu”, ewentualnie najpierw audyt źródeł lekcji 1–8.
