@@ -104,5 +104,14 @@ Ten plik jest rejestrem materiałów wizualnych przypisanych do konkretnych lekc
 | L1-08-V02 | Schemat z góry: prostokąt „aparat”, trzy przedmioty w szeregu (0,8 / 1,0 / 1,2 m), panele „F1.8” i „F8”; jasne pole pokazuje zasięg ostrości wokół środkowego przedmiotu — przy F1.8 krótki (tylko środkowy), przy F8 długi (wszystkie trzy), za punktem ostrości sięga nieco dalej niż przed nim; kolory ze stylu aplikacji (S05) | schemat SVG | własny schemat | WŁASNE | `assets/lessons/l1-08/l1-08-v02-pas-ostrosci.svg` | `APPROVED (D-091)` |
 | L1-08-V03 | Karta przed ćwiczeniem: „F1.8 → F4.0 → F8 → porównaj przód i tył” | komponent UI | bez osobnego pliku, jak L1-07-V04 | — | komponent aplikacji | `APPROVED (D-092)` |
 
+## L1-09 — Robię prosty portret
+
+| ID | Zastosowanie | Typ | Źródło / brak | Pochodzenie | Docelowa ścieżka | Status |
+|---|---|---|---|---|---|---|
+| L1-09-V01 | Portret kobiety (twarz Ani) przy oknie: światło z boku, druga strona twarzy w delikatnym cieniu, głowa lekko obrócona, bliższe oko ostre, tło miękko rozmyte jak przy F2.8 (S01); cały kadr 1200×896 | obraz generowany | Higgsfield, model Nano Banana Pro; element „Chic Urban Serenity-1” (wytrenowana postać Ani) i zdjęcie twarzy Ani jako wzorzec (media 95da5ce1-f3ac-4bc0-81a7-f5046fdaf970); generacja a62de71e-2c9e-4ece-b480-e0f8ac68cc67, 01.11.2026, 2400×1792; plik ze skryptu `production/l1-09/prepare_l1_09_v01.sh` | GENEROWANE (Higgsfield, 01.11.2026) — wizerunek Ani, zgoda na publiczne użycie (D-094); licencja do potwierdzenia przed komercjalizacją (jak D-071) | `assets/lessons/l1-09/l1-09-v01-portret.jpg` | `APPROVED (D-095)` |
+| L1-09-V01 (wycinek oka) | Wycinek bliższego oka z tego samego obrazu, pod portretem (S01): 520×347 z oryginału → 1200×800, powiększenie około 2,3 razy; bez dalszego oka, bok nosa dopuszczony | wycinek | ten sam oryginał co portret; skrypt `production/l1-09/prepare_l1_09_v01.sh` | GENEROWANE (Higgsfield, 01.11.2026) — jak portret | `assets/lessons/l1-09/l1-09-v01-oko.jpg` | `APPROVED (D-096)` |
+| L1-09-V02 | Schemat z góry w dwóch panelach, jeden pod drugim: „F1.8” i „F2.8”; aparat, głowa około 1 m od aparatu, lekko obrócona; nos, bliższe oko, dalsze oko, ucho; jasne pole zasięgu ostrości przez bliższe oko; elementy poza polem jaśniejsze, jak L1-08-V02; proporcje z rachunku w karcie L1-09 (S04) | schemat SVG | własny schemat, `production/l1-09/v02/` | WŁASNE | `assets/lessons/l1-09/l1-09-v02-blizsze-oko.svg` | `APPROVED (D-096)` |
+| L1-09-V03 | Karta przed ćwiczeniem: „okno z boku → F2.8 → punkt na bliższym oku → zdjęcie → jedna zmiana → powiększ oko” (koniec S06) | komponent UI | bez osobnego pliku, jak L1-08-V03 | — | komponent aplikacji | `APPROVAL_PENDING` — odbiór w aplikacji (brama 3, D-096) |
+
 ## Następny wpis
 Kolejne assety dopisywać przy opracowywaniu następnej lekcji. Nie tworzyć osobnego, równoległego rejestru.

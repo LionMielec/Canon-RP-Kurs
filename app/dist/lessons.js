@@ -2470,5 +2470,317 @@ window.CANON_LESSONS = [
         ]
       }
     ]
+  },
+  {
+    "id": 9,
+    "code": "L1-09",
+    "title": "Robię prosty portret",
+    "category": "Fotografuję osobę",
+    "duration": "Około 20 minut",
+    "intro": {
+      "title": "Cel lekcji",
+      "body": "Po tej lekcji:\n- zrobisz portret osoby przy oknie, łącząc to, co już umiesz: światło, rozmyte tło i punkt ostrości,\n- postawisz punkt ostrości na oku osoby,\n- zrobisz trzy portrety i wybierzesz ten, na którym oko jest ostre.\n\nGłówny nawyk:\n\n**gdy fotografuję osobę, punkt ostrości stawiam na jej bliższym oku.**\n\n**Punkt startowy**\n\nAparat jest w trybie **Av**, a znacznik na skali jasności stoi przy **0** — tak jak po [[L1-08|poprzedniej lekcji]].\n\nPoproś kogoś bliskiego, żeby spokojnie usiadł na krześle przy oknie. Za tą osobą powinno być jak najwięcej wolnego miejsca — ściana albo drugi koniec pokoju daleko z tyłu.\n\nĆwicz w dzień, gdy do okna nie świeci bezpośrednie słońce."
+    },
+    "steps": [
+      {
+        "id": "L1-09-S01",
+        "title": "Najpierw zobacz, o co chodzi",
+        "mediaPlacement": "after",
+        "body": "Kurs pokazuje portret kobiety przy oknie. Światło pada z boku, więc jedna strona twarzy jest jaśniejsza. Tło jest miękkie i nie odciąga uwagi. Oko bliższe aparatowi jest ostre — w powiększeniu widać pojedyncze rzęsy.\n\nDo tego zdjęcia nie potrzeba niczego nowego. Światło z boku znasz z lekcji 6, rozmyte tło z lekcji 7, punkt ostrości z lekcji 4. Nowe jest tylko jedno: **gdzie postawić punkt ostrości.**\n\nTło może być miękkie jak kocyk. Oczy na portrecie wolimy jednak wyraźne."
+      },
+      {
+        "id": "L1-09-S02",
+        "title": "Posadź osobę przy oknie",
+        "mediaPlacement": "after",
+        "blocks": [
+          {
+            "text": "1. Ustaw krzesło tak, żeby okno było z boku osoby — jak [[L1-06-S03|światło z boku]] w lekcji 6.\n   → Jedna strona twarzy jest jaśniejsza, druga w delikatnym cieniu."
+          },
+          {
+            "asset": "L1-06-V02",
+            "frame": 0
+          },
+          {
+            "text": "2. Sprawdź, co jest za osobą. Im dalej tło, tym bardziej się rozmyje — tak jak w [[L1-07|lekcji 7]]."
+          }
+        ]
+      },
+      {
+        "id": "L1-09-S03",
+        "title": "Ustaw F2.8",
+        "mediaPlacement": "after",
+        "blocks": [
+          {
+            "text": "1. Naciśnij spust do połowy i spójrz na liczbę przy F na dole ekranu."
+          },
+          {
+            "asset": "L1-07-V03",
+            "frame": 0
+          },
+          {
+            "text": "2. Obracaj **główne pokrętło**, aż zobaczysz **F2.8**. Od F1.8 to kilka kroków w stronę większych liczb, tak jak w [[L1-08-S04|lekcji 8]]."
+          },
+          {
+            "asset": "L1-02-V04",
+            "frame": 0
+          },
+          {
+            "text": "Dlaczego nie F1.8? Twarz nie jest płaska: nos jest bliżej aparatu, uszy dalej. Przy F1.8 zasięg ostrości jest bardzo krótki — czasem ostre jest samo oko, a nos już nie. Wystarczy, że osoba lekko się poruszy, i ostrość ucieka. F2.8 daje trochę zapasu, a tło nadal jest rozmyte."
+          }
+        ]
+      },
+      {
+        "id": "L1-09-S04",
+        "title": "Postaw punkt ostrości na bliższym oku",
+        "mediaPlacement": "after",
+        "blocks": [
+          {
+            "text": "1. Poproś osobę, żeby lekko obróciła głowę w Twoją stronę albo spojrzała prosto w aparat.\n2. Dotknij ekranu na oku, które jest **bliżej aparatu**, tak jak w kroku [[L1-04-S05|Przesuń punkt ostrości na wybrany przedmiot]].\n   → Punkt ostrości przesuwa się na oko.\n\nDlaczego bliższe? Gdy głowa jest lekko obrócona, jedno oko jest bliżej, a drugie dalej. Przy F2.8 dalsze oko może wyjść trochę mniej ostre — i to jest w porządku. Ostre bliższe oko to prosta zasada, którą stosuje wielu fotografów. Gdy osoba patrzy prosto w aparat, oba oczy są tak samo daleko — wybierz którekolwiek."
+          },
+          {
+            "asset": "L1-09-V02",
+            "frame": 0
+          }
+        ]
+      },
+      {
+        "id": "L1-09-S05",
+        "title": "Ustaw ostrość i zrób zdjęcie",
+        "mediaPlacement": "after",
+        "body": "1. Naciśnij spust do połowy.\n   → Punkt ostrości na oku robi się **zielony**.\n2. Poproś osobę, żeby się nie ruszała, i spokojnie dociśnij spust do końca.\n\nJeśli osoba pochyli się do przodu albo do tyłu, ostrość ucieka. Wtedy ustaw ją jeszcze raz."
+      },
+      {
+        "id": "L1-09-S06",
+        "title": "Sprawdź oko",
+        "mediaPlacement": "after",
+        "blocks": [
+          {
+            "text": "Naciśnij **przycisk odtwarzania** i powiększ oko, tak jak w [[L1-02-S04|lekcji 2]]."
+          },
+          {
+            "asset": "L1-02-V03",
+            "frame": 0
+          },
+          {
+            "text": "Oko jest ostre, gdy widzisz pojedyncze rzęsy i wyraźny brzeg kolorowej części oka.\n\nUmiesz już ustawić osobę przy oknie, wybrać F2.8 i trafić ostrością w oko.\n\n**Teraz przejdźmy do ćwiczenia.**"
+          },
+          {
+            "asset": "L1-09-V03"
+          }
+        ]
+      }
+    ],
+    "exercise": {
+      "title": "Trzy portrety, jedna zmiana naraz",
+      "blocks": [
+        {
+          "text": "Za każdym razem: F2.8, punkt ostrości na bliższym oku, spust do połowy, zielony punkt, zdjęcie.\n\n**Portret 1 — punkt wyjścia**\n\nOkno z boku osoby, tło jak najdalej. Zrób zdjęcie.\n\n**Portret 2 — zmień jedną rzecz**\n\nWybierz **jedną** z trzech zmian:\n- **ustawienie osoby** — niech obróci się trochę bardziej do okna albo od okna,\n- **tło** — przesuńcie krzesło tak, żeby tło było dalej albo spokojniejsze,\n- **kadr** — obróć aparat do zdjęcia pionowego, jak w [[L1-03|lekcji 3]].\n\nZrób zdjęcie.\n\n**Portret 3 — jeszcze jedna zmiana**\n\nZostaw to, co pomogło. Wybierz inną z trzech zmian i zrób zdjęcie.\n\n**Porównaj**\n\nObejrzyj trzy portrety po kolei. Na każdym powiększ bliższe oko."
+        },
+        {
+          "asset": "L1-02-V03",
+          "frame": 0
+        },
+        {
+          "text": "Sprawdź:\n- Na którym portrecie oko jest najostrzejsze?\n- Na którym tło najmniej odciąga uwagę?\n- Która zmiana najbardziej pomogła?\n\nDokończ zdanie:\n\n**„Najlepszy jest portret …, bo zmieniłam … i oko jest …”**"
+        }
+      ]
+    },
+    "help": {
+      "id": "L1-09-POMOC",
+      "title": "Jeśli coś nie działa",
+      "blocks": [
+        {
+          "text": "**Ostry jest nos albo włosy, a oko nie.**  \nPunkt ostrości nie był na oku albo osoba się poruszyła. Dotknij oka jeszcze raz, poproś o chwilę bezruchu i zrób kolejne zdjęcie.\n\n**Ostre jest tło, a twarz nie.**  \nPunkt ostrości był na tle. Dotknij ekranu na oku i spróbuj jeszcze raz.\n\n**Zamiast małego punktu widzę dużą ramkę na twarzy.**  \nAparat sam wybiera, co ma być ostre. Ustaw jeden punkt ostrości, tak jak w kroku [[L1-04-S04|Ustaw jeden punkt ostrości]]."
+        },
+        {
+          "asset": "L1-04-V17",
+          "frame": 0
+        },
+        {
+          "text": "**Dalsze oko jest trochę mniej ostre.**  \nTo normalne przy F2.8. Jeśli chcesz mieć ostre oba, poproś osobę, żeby spojrzała prosto w aparat, albo ustaw F4.0, jak w [[L1-08|lekcji 8]].\n\n**Jedna strona twarzy jest bardzo ciemna.**  \nOsoba siedzi za blisko okna. Odsuńcie krzesło trochę dalej od okna.\n\n**Całe zdjęcie jest rozmazane, także oko.**  \nTo poruszenie. Trzymaj łokcie przy ciele albo oprzyj się o ścianę, trzymaj aparat tak jak w [[L1-01-S03|lekcji 1]] i naciśnij spust spokojnie.\n\n**Na dole ekranu miga jedna z liczb.**  \nGdy miga 30\", przejdź w jaśniejsze miejsce. Gdy miga 1/4000, przejdź w cień."
+        }
+      ]
+    },
+    "summary": [
+      {
+        "title": "Na koniec lekcji",
+        "body": "- Sprawdź, że znacznik stoi przy 0.\n- Zostaw aparat w trybie **Av**."
+      },
+      {
+        "title": "Kiedy lekcja jest ukończona?",
+        "body": "Lekcja jest ukończona, jeżeli potrafisz:\n- posadzić osobę bokiem do okna i ustawić F2.8,\n- postawić punkt ostrości na bliższym oku,\n- zrobić trzy portrety, zmieniając za każdym razem tylko jedną rzecz,\n- wskazać portret z ostrym okiem i powiedzieć, która zmiana pomogła."
+      },
+      {
+        "title": "Co zapamiętać",
+        "body": "**W portrecie ostre ma być oko — to bliższe aparatowi.**"
+      }
+    ],
+    "assets": [
+      {
+        "id": "L1-09-V01",
+        "step": "L1-09-S01",
+        "title": "Portret przy oknie",
+        "note": "Higgsfield, wizerunek Ani (D-094, D-095); wycinek oka z tego samego obrazu (D-096). Pliki ze skryptu production/l1-09/prepare_l1_09_v01.sh.",
+        "frames": [
+          {
+            "target": "./assets/lessons/l1-09/l1-09-v01-portret.jpg",
+            "title": "Portret przy oknie",
+            "width": 1200,
+            "height": 896,
+            "alt": "Kobieta siedzi przy oknie. Światło pada z boku, jedna strona twarzy jest jaśniejsza, tło za nią jest miękko rozmyte"
+          },
+          {
+            "target": "./assets/lessons/l1-09/l1-09-v01-oko.jpg",
+            "title": "Bliższe oko w powiększeniu",
+            "width": 1200,
+            "height": 800,
+            "alt": "Powiększone oko z tego samego portretu: widać pojedyncze rzęsy i wyraźny brzeg kolorowej części oka"
+          }
+        ]
+      },
+      {
+        "id": "L1-09-V02",
+        "step": "L1-09-S04",
+        "title": "Bliższe oko i zasięg ostrości przy F1.8 i przy F2.8",
+        "note": "Schemat własny SVG (D-096); plik bez zmian z production/l1-09/v02.",
+        "frames": [
+          {
+            "target": "./assets/lessons/l1-09/l1-09-v02-blizsze-oko.svg",
+            "title": "Bliższe oko i zasięg ostrości przy F1.8 i przy F2.8",
+            "width": 800,
+            "height": 640,
+            "alt": "Widok z góry: aparat i lekko obrócona głowa osoby. Przy F1.8 zasięg ostrości obejmuje bliższe oko, a nos jest już poza nim. Przy F2.8 nos i oba oczy są w zasięgu ostrości, uszy poza nim"
+          }
+        ]
+      },
+      {
+        "id": "L1-09-V03",
+        "step": "L1-09-S06",
+        "title": "Karta przed ćwiczeniem",
+        "target": "komponent aplikacji",
+        "kind": "card",
+        "body": "**okno z boku → F2.8 → punkt na bliższym oku → zdjęcie → jedna zmiana → powiększ oko**"
+      },
+      {
+        "id": "L1-06-V02",
+        "step": "L1-09-S02",
+        "title": "Gdzie stanąć: światło z boku",
+        "note": "Ten sam plik co L1-06-V02 (drugi kadr).",
+        "frames": [
+          {
+            "target": "./assets/lessons/l1-06/l1-06-v02-schemat-2.svg",
+            "title": "Gdzie stanąć: światło z boku",
+            "width": 800,
+            "height": 640,
+            "alt": "Widok z góry: okno, przedmiot i miejsce 2 z boku przedmiotu"
+          }
+        ]
+      },
+      {
+        "id": "L1-07-V03",
+        "step": "L1-09-S03",
+        "title": "Liczba przy F i skala jasności",
+        "note": "Ten sam plik co L1-07-V03. Rysunek z instrukcji Canon (D-056); plik lokalny, do podmiany. Bez pliku aplikacja pokazuje jawne miejsce na brakujący materiał.",
+        "localOnly": true,
+        "frames": [
+          {
+            "target": "./assets/lessons/l1-07/l1-07-v03-liczba-f-canon.png",
+            "title": "Liczba przy F i skala jasności",
+            "width": 1365,
+            "height": 173,
+            "alt": "Dolny pasek ekranu: liczba F5.6 i obok skala jasności"
+          }
+        ]
+      },
+      {
+        "id": "L1-02-V04",
+        "step": "L1-09-S03",
+        "title": "Główne pokrętło",
+        "note": "Ten sam plik i oznaczenie co L1-02-V04 (drugi kadr).",
+        "source": "fbe2fd62-e8ab-465b-b340-b6d0b4458622.jpg",
+        "frames": [
+          {
+            "target": "./assets/lessons/l1-02/l1-02-main-dial.jpg",
+            "title": "Główne pokrętło — obróć",
+            "width": 450,
+            "height": 370,
+            "markers": [
+              {
+                "x": 61.0,
+                "y": 62.5,
+                "width": 48,
+                "height": 23,
+                "kind": "halo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "L1-04-V08",
+        "step": "L1-09-S05",
+        "title": "Zielony punkt ostrości — ostrość ustawiona",
+        "note": "Ten sam plik co L1-04-V08. Rysunek z instrukcji Canon (D-056); plik lokalny, do podmiany. Bez pliku aplikacja pokazuje jawne miejsce na brakujący materiał.",
+        "localOnly": true,
+        "frames": [
+          {
+            "target": "./assets/lessons/l1-04/l1-04-v08-zielony-punkt-canon.png",
+            "title": "Zielony punkt ostrości — ostrość ustawiona",
+            "width": 1298,
+            "height": 866,
+            "alt": "Ekran aparatu z zielonym punktem ostrości na przedmiocie"
+          }
+        ]
+      },
+      {
+        "id": "L1-02-V03",
+        "step": "L1-09-S06",
+        "title": "Przycisk odtwarzania",
+        "note": "Ten sam plik i oznaczenie co L1-02-V03 (pierwszy kadr). Także w ćwiczeniu, przy „Porównaj”.",
+        "source": "57652b89-ae48-4cd1-b998-e883aee8aa1f.jpg",
+        "frames": [
+          {
+            "target": "./assets/lessons/l1-02/l1-02-v03-playback-button.jpg",
+            "title": "Przycisk odtwarzania — naciśnij",
+            "width": 500,
+            "height": 500,
+            "markers": [
+              {
+                "x": 47.0,
+                "y": 80.5,
+                "width": 16,
+                "height": 17,
+                "kind": "halo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "L1-04-V17",
+        "step": "L1-09-POMOC",
+        "title": "Ramka ostrości na twarzy",
+        "note": "Ten sam plik i oznaczenie co L1-04-V17. Rysunek z instrukcji Canon (D-056); plik lokalny, do podmiany. Bez pliku aplikacja pokazuje jawne miejsce na brakujący materiał.",
+        "localOnly": true,
+        "frames": [
+          {
+            "target": "./assets/lessons/l1-04/l1-04-v17-ramka-na-twarzy-canon.png",
+            "title": "Ramka ostrości na twarzy",
+            "width": 1302,
+            "height": 868,
+            "alt": "Ekran aparatu: ramka ostrości wokół twarzy osoby stojącej na tle kwiatów",
+            "markers": [
+              {
+                "x": 66.0,
+                "y": 39.0,
+                "width": 24,
+                "height": 36,
+                "kind": "halo"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 ];

@@ -1056,3 +1056,12 @@ Zatwierdzone 01.11.2026. Uzupełnia D-094.
 - Nowa nazwa w słowniku: dalsze oko.
 
 Zasada: **każde zdanie ma źródło albo jest oznaczone jako wniosek.**
+
+## D-096 — L1-09: materiały odebrane, wdrożenie w aplikacji
+Zatwierdzone 01.11.2026. Uzupełnia D-095.
+
+- Schemat V02 (dwa panele F1.8 i F2.8, jeden pod drugim, z podpisami „nos” i „ucho”; elementy poza zasięgiem ostrości jaśniejsze, jak w L1-08-V02) odebrany przez właściciela 01.11.2026.
+- Wycinek bliższego oka V01 (520×347 z oryginału, powiększenie około 2,3 razy; bez dalszego oka, bok nosa dopuszczony) odebrany przez właściciela 01.11.2026.
+- Lekcja L1-09 wdrożona w aplikacji na gałęzi wip/l1-09; odbiór właściciela w lokalnym podglądzie (brama 3) — do wykonania.
+
+Zasada: **materiały odebrane, lekcja czeka na odbiór w aplikacji.**

@@ -1,6 +1,6 @@
 # L1-09 — karta wizualno-produkcyjna
 
-Aktualne statusy materiałów: docs/16_ASSET_MANIFEST.md (D-074).
+Aktualne statusy materiałów: docs/16_ASSET_MANIFEST.md (D-074). Statusy poniżej są historyczne.
 
 Stan: 01.11.2026. Dokument produkcyjny; zgodnie z D-048 jego treść nie jest widoczna w kursie.
 
