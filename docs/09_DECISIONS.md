@@ -1065,3 +1065,13 @@ Zatwierdzone 01.11.2026. Uzupełnia D-095.
 - Lekcja L1-09 wdrożona w aplikacji na gałęzi wip/l1-09; odbiór właściciela w lokalnym podglądzie (brama 3) — do wykonania.
 
 Zasada: **materiały odebrane, lekcja czeka na odbiór w aplikacji.**
+
+## D-097 — L1-09: odbiór w aplikacji i publikacja
+Zatwierdzone 01.11.2026. Uzupełnia D-096.
+
+- Lekcja L1-09 odebrana przez właściciela w lokalnym podglądzie 01.11.2026 (brama 3), razem z kartą V03.
+- Karta przed ćwiczeniem zaczyna się wielką literą: „Okno z boku → F2.8 → punkt na bliższym oku → zdjęcie → jedna zmiana → powiększ oko”.
+- Gałąź wip/l1-09 scalona do main; kurs z lekcją 9 wgrany na serwer skryptem production/hosting/deploy.sh (D-082).
+- Do sprawdzenia na aparacie: lista w docs/L1-09_ZRODLA_INSTRUKCJA.md (zwłaszcza dotyk w Av, zapis „F2.8”, czy przy jednym punkcie aparat nie przenosi ostrości sam na twarz, wielkość punktu ostrości w stosunku do oka).
+
+Zasada: **odebrane, scalone, na serwerze.**

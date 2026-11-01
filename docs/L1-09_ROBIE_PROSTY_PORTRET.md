@@ -1,7 +1,7 @@
 # L1-09 — Robię prosty portret
 
 **Poziom 1 · Fotografuję osobę**
-**Status:** TEKST ZATWIERDZONY — 01.11.2026 (D-094); MATERIAŁY DO PRZYGOTOWANIA; DO SPRAWDZENIA NA APARACIE
+**Status:** ODEBRANA W APLIKACJI — 01.11.2026 (D-097); DO SPRAWDZENIA NA APARACIE
 **Czas:** około 20 minut
 
 ## Cel lekcji

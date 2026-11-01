@@ -2659,7 +2659,7 @@ window.CANON_LESSONS = [
         "title": "Karta przed ćwiczeniem",
         "target": "komponent aplikacji",
         "kind": "card",
-        "body": "**okno z boku → F2.8 → punkt na bliższym oku → zdjęcie → jedna zmiana → powiększ oko**"
+        "body": "**Okno z boku → F2.8 → punkt na bliższym oku → zdjęcie → jedna zmiana → powiększ oko**"
       },
       {
         "id": "L1-06-V02",
