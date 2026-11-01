@@ -61,5 +61,6 @@ Nowa nazwa trafia do tej tabeli, zanim zostanie użyta w lekcji.
 | To, co Ania fotografuje w portrecie | osoba | nadana, lekcja L1-09 | — |
 | Zdjęcie osoby, na którym najważniejsza jest twarz | portret | pojęcie, lekcja L1-09 | — |
 | Oko osoby, które jest bliżej aparatu | bliższe oko | nadana, lekcja L1-09 | „oko, które jest bliżej aparatu” |
+| Oko osoby, które jest dalej od aparatu | dalsze oko | nadana, lekcja L1-09 | — |
 
 Napisy z menu aparatu zapisujemy dokładnie tak, jak na ekranie — także wtedy, gdy zawierają słowa, których sami nie używamy (np. „Wyśw. punktu AF”).

@@ -145,9 +145,6 @@ Punkt ostrości nie był na oku albo osoba się poruszyła. Dotknij oka jeszcze 
 **Ostre jest tło, a twarz nie.**
 Punkt ostrości był na tle. Dotknij ekranu na oku i spróbuj jeszcze raz.
 
-**Punkt ostrości jest większy niż oko.**
-Postaw go tak, żeby oko było w jego środku.
-
 **Zamiast małego punktu widzę dużą ramkę na twarzy.**
 Aparat sam wybiera, co ma być ostre. Ustaw jeden punkt ostrości, tak jak w kroku [[L1-04-S04|Ustaw jeden punkt ostrości]].
 
@@ -158,7 +155,7 @@ To normalne przy F2.8. Jeśli chcesz mieć ostre oba, poproś osobę, żeby spoj
 Osoba siedzi za blisko okna. Odsuńcie krzesło trochę dalej od okna.
 
 **Całe zdjęcie jest rozmazane, także oko.**
-To poruszenie. Oprzyj łokcie o stół albo kolana, trzymaj aparat tak jak w [[L1-01-S03|lekcji 1]] i naciśnij spust spokojnie.
+To poruszenie. Trzymaj łokcie przy ciele albo oprzyj się o ścianę, trzymaj aparat tak jak w [[L1-01-S03|lekcji 1]] i naciśnij spust spokojnie.
 
 **Na dole ekranu miga jedna z liczb.**
 Gdy miga 30", przejdź w jaśniejsze miejsce. Gdy miga 1/4000, przejdź w cień.
@@ -199,6 +196,8 @@ Zewnętrzne źródła do części fotograficznej:
 1. Canon U.S.A. — Camera Settings for Stunning Portraits: do portretu przysłona mniej więcej F2.8–F5.6, nie za mała liczba; przy F2.8–F4 i lekko obróconej osobie oko dalsze od obiektywu może nie być ostre; tryb Av. Źródło: https://www.usa.canon.com/learning/training-articles/training-articles-list/camera-settings-for-stunning-portraits
 2. Canon Asia SNAPSHOT — A Quick Way to Create Mesmerizing Portraits: It's All in the Eyes: ostrość na oku bliższym obiektywowi jako zasada ogólna, nie bezwzględna. Źródło: https://snapshot.asia.canon/en/article/a-quick-way-to-create-mesmerizing-portraits-its-all-in-the-eyes
 3. Canon Europe — Sharper photos: oprzeć się, łokcie przy ciele, spust łagodnie. Źródło: https://canon-europe.com/canon-club/sharper-photos
+4. Canon (pomoc techniczna) — How do I prevent camera shake?: łokcie przy ciele, oparcie o ścianę lub stół, lekki nacisk spustu. Źródło: https://sg.canon/en/support/8201598100
+5. Nikon School UK — Shooting with Window Light: blisko okna mocny kontrast między jasną stroną a cieniem, dalej od okna równiej. Źródło: https://nikonschool.co.uk/hints-and-tips/shooting-with-window-light
 
 Układ lekcji, ćwiczenie „trzy portrety, jedna zmiana naraz”, ćwiczenie bez bezpośredniego słońca, kryterium „pojedyncze rzęsy i wyraźny brzeg kolorowej części oka” oraz zdanie z humorem (dokument 03) są autorską konstrukcją dydaktyczną projektu.
 
@@ -206,5 +205,6 @@ Układ lekcji, ćwiczenie „trzy portrety, jedna zmiana naraz”, ćwiczenie be
 - zakres zgodny z D-093: SPRAWDZONY,
 - Av, odległość tła a rozmycie, ostrość na twarzy, dotyk przesuwa punkt ostrości, zielony punkt, migające „30"” i „1/4000”, „F4.0”: ZWERYFIKOWANE W INSTRUKCJI CANON (PL i EN, s. 77, 100–101, 193–194),
 - F2.8 do portretu, bliższe oko: ZWERYFIKOWANE W ŹRÓDŁACH CANON (punkty 1–2 wyżej); instrukcja tego nie podaje,
+- „Twarz nie jest płaska… przy F1.8 nos bywa nieostry” (krok S03): WNIOSEK z Canon U.S.A., Canon UK „Depth of field” i rachunku zasięgu ostrości (karta L1-09, V02),
 - zapis „F2.8” na ekranie, dotyk w Av, czy przy jednym punkcie aparat nie przenosi ostrości sam na twarz, wielkość punktu ostrości w stosunku do oka: DO SPRAWDZENIA NA APARACIE,
 - materiały wizualne: DO PRZYGOTOWANIA I ODBIORU (karta L1-09).

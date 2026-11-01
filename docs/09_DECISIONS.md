@@ -1045,3 +1045,14 @@ Zatwierdzone 01.11.2026. Realizuje D-093.
 - Karta na stronie głównej: „Fotografuję osobę”, około 20 minut.
 
 Zasada: **ostre oko — to bliższe aparatowi.**
+
+## D-095 — L1-09: portret V01 odebrany, poprawki po sprawdzeniu źródeł
+Zatwierdzone 01.11.2026. Uzupełnia D-094.
+
+- V01: portret odebrany przez właściciela 01.11.2026 — Higgsfield, Nano Banana Pro, element „Chic Urban Serenity-1” (wytrenowana postać Ani) i zdjęcie twarzy Ani jako wzorzec. Wcześniejsze próby na Soul 2.0 odrzucone (wygląd sztuczny).
+- Tekst: w pomocy „łokcie o stół albo kolana” zastąpione zaleceniem ze źródeł Canon (łokcie przy ciele, oparcie o ścianę); pozycja „Punkt ostrości jest większy niż oko” usunięta do czasu sprawdzenia na aparacie — brak źródła.
+- V02: dwa panele F1.8 i F2.8, głowa około 1 m od aparatu, proporcje z rachunku w karcie L1-09; bez liczb na schemacie.
+- Źródła pomocnicze do części fotograficznej: rzetelne szkoły fotografii (np. Nikon School UK) są dopuszczalne obok źródeł Canon, gdy pomagają uczyć (zgoda właściciela).
+- Nowa nazwa w słowniku: dalsze oko.
+
+Zasada: **każde zdanie ma źródło albo jest oznaczone jako wniosek.**

@@ -35,9 +35,11 @@ Karta na stronie głównej: FOTOGRAFUJĘ OSOBĘ · OKOŁO 20 MINUT.
 
 | ID | Krok | Co dokładnie pokazuje | Źródło | Pochodzenie | Plik docelowy | Status |
 |---|---|---|---|---|---|---|
-| L1-09-V01 | S01 | Portret kobiety (twarz Ani) siedzącej przy oknie; światło z okna z boku, druga strona twarzy w delikatnym cieniu; głowa lekko obrócona; bliższe oko ostre, dalsze nieco mniej; tło pokoju daleko, miękko rozmyte jak przy F2.8 i obiektywie 50 mm; bez napisów i marek; naturalnie, nie jak z sesji modowej; poziomo 4:3. Pod spodem wycinek z powiększonym bliższym okiem z tego samego obrazu (bez osobnego generowania) | Higgsfield | GENEROWANE (Higgsfield) — wizerunek Ani, zgoda na publiczne użycie (D-094); licencja do potwierdzenia przed komercjalizacją (jak D-071) | `assets/lessons/l1-09/l1-09-v01-portret.jpg`, `l1-09-v01-oko.jpg` | `TO_DESIGN` |
-| L1-09-V02 | S04 | Schemat z góry: prosty prostokąt „aparat”, głowa lekko obrócona, podpisy „bliższe oko” i „dalsze oko”; jasne pole zasięgu ostrości przy F2.8 przechodzi przez bliższe oko, dalsze oko na jego skraju; bez szczegółów wyglądu aparatu; styl i kolory jak L1-08-V02 | schemat SVG | WŁASNE | `assets/lessons/l1-09/l1-09-v02-blizsze-oko.svg` | `TO_DESIGN` |
+| L1-09-V01 | S01 | Portret kobiety (twarz Ani) siedzącej przy oknie; światło z okna z boku, druga strona twarzy w delikatnym cieniu; głowa lekko obrócona; bliższe oko ostre, dalsze nieco mniej; tło pokoju daleko, miękko rozmyte jak przy F2.8 i obiektywie 50 mm; bez napisów i marek; naturalnie, nie jak z sesji modowej; poziomo 4:3. Pod spodem wycinek z powiększonym bliższym okiem z tego samego obrazu (bez osobnego generowania) | Higgsfield, model Nano Banana Pro; element „Chic Urban Serenity-1” (wytrenowana postać Ani) i zdjęcie twarzy Ani jako wzorzec (media 95da5ce1-f3ac-4bc0-81a7-f5046fdaf970); generacja a62de71e-2c9e-4ece-b480-e0f8ac68cc67, 01.11.2026, 2400×1792 | GENEROWANE (Higgsfield) — wizerunek Ani, zgoda na publiczne użycie (D-094); licencja do potwierdzenia przed komercjalizacją (jak D-071) | `assets/lessons/l1-09/l1-09-v01-portret.jpg`, `l1-09-v01-oko.jpg` | portret `APPROVED (D-095)`; wycinek oka `TO_PREPARE` |
+| L1-09-V02 | S04 | Schemat z góry w dwóch panelach obok siebie: „F1.8” i „F2.8”. W każdym: prosty prostokąt „aparat”, głowa osoby około 1 m od aparatu, obrócona lekko (około 20°); zaznaczone: nos, bliższe oko, dalsze oko, ucho. Jasne pole „zasięg ostrości” przechodzi przez bliższe oko, prostopadle do osi aparatu. F1.8: pole wąskie — czubek nosa tuż przed jego przednią granicą (poza polem), dalsze oko na tylnej granicy. F2.8: pole szersze — nos i oba oczy w polu, ucho poza nim. Pole sięga prawie tyle samo przed bliższym okiem co za nim. Bez liczb w centymetrach na schemacie; podpisy tylko: „aparat”, „F1.8”, „F2.8”, „zasięg ostrości”, „bliższe oko”, „dalsze oko”. Styl i kolory jak L1-08-V02. | schemat SVG | WŁASNE | `assets/lessons/l1-09/l1-09-v02-blizsze-oko.svg` | `TO_DESIGN` |
 | L1-09-V03 | przed ćwiczeniem | Karta „okno z boku → F2.8 → punkt na bliższym oku → zdjęcie → jedna zmiana → powiększ oko” | komponent aplikacji, jak L1-08-V03 | — | — | `TO_DESIGN` |
+
+**Rachunek do V02 (wniosek projektu, nie zdanie ze źródła).** Zasięg ostrości dla obiektywu 50 mm z odległości 1 m, przy krążku rozmycia 0,03 mm (pełna klatka): F1.8 — od około 2,1 cm przed do około 2,2 cm za punktem ostrości (razem około 4,3 cm); F2.8 — od około 3,3 cm przed do około 3,5 cm za (razem około 6,7 cm). Układ głowy przyjęty do schematu, względem bliższego oka: czubek nosa około 2,5 cm przed, dalsze oko około 2,2 cm za (rozstaw oczu około 6,3 cm, głowa obrócona o około 20°), ucho około 9 cm za. Zasada, że zasięg ostrości jest ograniczony i rośnie z liczbą przy F: Canon UK „Depth of field”, Canon U.S.A. „Camera Settings for Stunning Portraits”.
 
 Materiały z wcześniejszych lekcji użyte w L1-09 (bez nowych plików):
 - S02, podpunkt 1: schemat z pozycją „z boku” — `assets/lessons/l1-06/l1-06-v02-schemat-2.svg` (L1-06-V02).
@@ -60,8 +62,11 @@ Materiały z wcześniejszych lekcji użyte w L1-09 (bez nowych plików):
 | Dotknięcie ekranu przesuwa punkt ostrości | instrukcja PL/EN, s. 193 (L1-04) |
 | Zielony punkt po ustawieniu ostrości | instrukcja PL/EN, s. 194 (L1-04) |
 | Duża ramka na twarzy, gdy aparat sam wybiera miejsce ostrości | instrukcja PL/EN, s. 188, 191 (L1-04) |
-| Oprzeć łokcie, spust spokojnie | Canon Europe, „Sharper photos”, https://canon-europe.com/canon-club/sharper-photos; instrukcja PL/EN, s. 54 |
 | Miga 30" — za ciemno; miga 1/4000 — za jasno | instrukcja PL/EN, s. 101 |
+| Łokcie przy ciele, oparcie o ścianę, spust spokojnie | Canon (pomoc techniczna), „How do I prevent camera shake?”, https://sg.canon/en/support/8201598100; Canon Europe, „Sharper photos” |
+| Za blisko okna — za mocny cień; dalej od okna równiej | Nikon School UK, „Shooting with Window Light”, https://nikonschool.co.uk/hints-and-tips/shooting-with-window-light |
+| Twarz nie jest płaska; przy F1.8 nos bywa nieostry, F2.8 daje zapas | wniosek: Canon U.S.A. (jw.), Canon UK „Depth of field”, rachunek do V02 |
+| Gdy osoba patrzy prosto w aparat, oba oczy są tak samo daleko | wniosek geometryczny projektu |
 
 Szczegóły: `docs/L1-09_ZRODLA_INSTRUKCJA.md`.
 
