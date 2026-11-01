@@ -338,3 +338,8 @@ Nowa rozmowa w projekcie claude.ai (D-068). Claude w czacie czyta całą aktywn�
 
 ### Start następnej sesji
 Nowa rozmowa w projekcie claude.ai (D-068). Claude w czacie czyta całą aktywną dokumentację. Następny cel: do decyzji właściciela; według programu L1-10 „Zatrzymuję ruch na zdjęciu”, ewentualnie najpierw audyt źródeł lekcji 1–8.
+
+## HANDOFF 01.11.2026 (uzupełnienie) — nagłówki
+- Na prośbę właściciela: czytelniejsze nagłówki w spisie lekcji i na pierwszym ekranie lekcji (D-098); odebrane, scalone, na serwerze.
+- Nowa karta w spisie lekcji (od L1-10) ma układ jak karty 01–09 po D-098.
+- Start następnej sesji bez zmian: nowa rozmowa (D-068); L1-10 albo audyt źródeł lekcji 1–8 — do decyzji właściciela.

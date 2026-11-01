@@ -141,7 +141,7 @@
     const next = pages[index + 1];
     // Pierwszy ekran lekcji: duży napis to tytuł lekcji, „Cel lekcji” jest podtytułem.
     const isIntro = page.kind === 'intro';
-    const link = item =>`#lekcja-${lesson.id}/${item.key}`;
+    const link = item => `#lekcja-${lesson.id}/${item.key}`;
     const position = page.kind === 'step'
       ? `Krok ${lesson.steps.findIndex(step => step.id === page.id) + 1} z ${lesson.steps.length}`
       : ({ intro: 'Cel', exercise: 'Ćwiczenie', reflection: 'Porównanie', help: 'Pomoc', summary: 'Podsumowanie' })[page.kind];

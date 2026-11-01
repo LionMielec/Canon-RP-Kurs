@@ -65,6 +65,7 @@ Warstwę wizualną projektujemy równolegle z treścią każdej lekcji, począws
 - Odbiór zmiany odbywa się na podstawie faktycznego wyglądu i działania aplikacji, a nie wyłącznie raportu technicznego.
 - Ten sam element aparatu lub ekranu ma w całym kursie jedną nazwę (D-063) — nazwy według `docs/24_SLOWNIK_NAZW.md` (D-065).
 - Każdy napis, ikona lub widok ekranu, do którego odsyła tekst, jest pokazany na obrazie bezpośrednio przy tym podpunkcie (D-064).
+- Karta lekcji w spisie: temat, tytuł i czas są osobno (temat w fiolecie nad tytułem, czas szarą linijką pod nim); pierwszy ekran lekcji ma tytuł lekcji jako duży napis, a „Cel lekcji” jako podtytuł (D-098).
 
 ## 11. Weryfikacja merytoryczna kolejnych lekcji
 Podstawą są zatwierdzone źródła projektu: oficjalne instrukcje Canon EOS RP, materiały dotyczące używanego obiektywu, rzeczywisty aparat Ani, rzeczywiste menu i zatwierdzone materiały edukacyjne.

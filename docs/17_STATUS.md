@@ -109,5 +109,6 @@ Szczegóły w handoffie 30.10.2026 (L1-08).
 - L1-09 „Robię prosty portret” odebrana, w main i na serwerze (D-093–D-097).
 - Pierwszy materiał z twarzą Ani (Higgsfield, Nano Banana Pro); zgoda właściciela na publiczny wizerunek (D-094).
 - Następny cel: do decyzji właściciela (według programu L1-10; ewentualnie audyt źródeł lekcji 1–8).
+- Czytelniejsze nagłówki w spisie lekcji i na pierwszym ekranie lekcji (D-098), na serwerze.
 
 Szczegóły w handoffie 01.11.2026 (L1-09).

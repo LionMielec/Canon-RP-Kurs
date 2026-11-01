@@ -1075,3 +1075,13 @@ Zatwierdzone 01.11.2026. Uzupełnia D-096.
 - Do sprawdzenia na aparacie: lista w docs/L1-09_ZRODLA_INSTRUKCJA.md (zwłaszcza dotyk w Av, zapis „F2.8”, czy przy jednym punkcie aparat nie przenosi ostrości sam na twarz, wielkość punktu ostrości w stosunku do oka).
 
 Zasada: **odebrane, scalone, na serwerze.**
+
+## D-098 — Czytelniejsze nagłówki: spis lekcji i pierwszy ekran lekcji
+Zatwierdzone 01.11.2026.
+
+- Karty w spisie lekcji: temat osobno, małe wielkie litery w kolorze fioletu; tytuł bez zmian; pod tytułem osobna szara linijka z czasem.
+- Pierwszy ekran każdej lekcji: duży napis to tytuł lekcji, „Cel lekcji” jest podtytułem; mała linijka z tytułem lekcji ukryta tylko na tym ekranie. Pozostałe ekrany bez zmian.
+- Wspólny mechanizm dla wszystkich lekcji (index.html, app.js, style.css); każda nowa lekcja dostaje ten układ bez wyjątków.
+- Odebrane przez właściciela na zrzutach „przed i po” 01.11.2026; scalone do main i wgrane na serwer skryptem production/hosting/deploy.sh (D-082).
+
+Zasada: **najpierw widać, czego lekcja uczy.**
